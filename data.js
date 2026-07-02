@@ -47,587 +47,476 @@ const TEXT = {
   source_text:    { ar: "معطيات جديدة حول ملف تتبعه DS24 منذ أسابيع وتفاصيل لم تكشف بعد حول الجهات المعنية بالموضوع...",
                     fr: "Nouveaux éléments sur un dossier suivi par DS24 depuis des semaines, avec des détails encore non révélés...",
                     en: "New details on a story DS24 has been tracking for weeks, with information not yet made public..." },
-  no_results:     { ar: "لا توجد نتائج مطابقة", fr: "Aucun résultat trouvé", en: "No matching results" }
+  no_results:     { ar: "لا توجد نتائج مطابقة", fr: "Aucun résultat trouvé", en: "No matching results" },
+  source_label:   { ar: "المصدر", fr: "Source", en: "Source" },
+  read_full:      { ar: "قراءة الخبر كاملا لدى المصدر", fr: "Lire l'article complet chez la source", en: "Read the full story at the source" }
 };
 
 /*
   Each article has:
-  id, category (slug), img,
+  id, category (slug), img, source_name, source_url,
   time: {ar,fr,en}  -> relative time label
   ar/fr/en: { title, excerpt, body }  (body = array of paragraphs)
+
+  Content below is DS24's own paraphrased summary of real, publicly reported
+  stories about Morocco, each credited and linked to the original outlet.
 */
 const ARTICLES = [
   // ---------------- POLITIQUE ----------------
   {
     id: 1, category: "politique",
     img: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800&q=80",
-    time: { ar: "قبل 30 دقيقة", fr: "il y a 30 minutes", en: "30 minutes ago" },
-    ar: { title: "اجتماع لمناقشة مشروع قانون جديد يتعلق بالإصلاح الإداري",
-      excerpt: "نقاش موسع بين الفرق البرلمانية حول بنود المشروع قبل التصويت عليه.",
+    source_name: "Hespress",
+    source_url: "https://www.hespress.com/%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D8%B9%D9%88%D8%AF%D8%A9-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88-1767388.html",
+    time: { ar: "قبل أسبوع", fr: "il y a une semaine", en: "a week ago" },
+    ar: { title: "الحكومة تعلن التخلي نهائيا عن التوقيت الصيفي بعد نهاية الصيف",
+      excerpt: "قرار حكومي بالعودة إلى التوقيت القانوني بشكل دائم انطلاقا من نهاية الموسم الصيفي الحالي.",
       body: [
-        "عقدت اللجان المعنية اجتماعا موسعا لمناقشة تفاصيل مشروع القانون الذي يهدف إلى تبسيط المساطر الإدارية وتقريب الخدمات من المواطنين.",
-        "وشدد المتدخلون على ضرورة إشراك مختلف الفاعلين في صياغة النص النهائي، بما يضمن انسجامه مع الأهداف التنموية المعلنة.",
-        "ومن المرتقب أن يُعرض المشروع على التصويت خلال الجلسة العامة المقبلة بعد استكمال المشاورات مع الهيئات المهنية المعنية."
+        "أعلنت الحكومة عزمها التخلي نهائيا عن نظام التوقيت الصيفي (الساعة الإضافية) والعودة بشكل دائم إلى التوقيت القانوني للمملكة، وذلك ابتداء من نهاية صيف 2026.",
+        "وأثار القرار نقاشا واسعا بين مؤيد يرى فيه استجابة لمطلب مجتمعي قديم، ومتحفظين من فاعلين اقتصاديين يخشون تأثيره على التنسيق مع الشركاء الأوروبيين.",
+        "ويأتي الإعلان في سياق سياسي متزامن مع الاستعداد للاستحقاقات الانتخابية المقبلة."
       ]},
-    fr: { title: "Réunion sur un nouveau projet de loi relatif à la réforme administrative",
-      excerpt: "Large débat entre les groupes parlementaires sur les dispositions du texte avant son vote.",
+    fr: { title: "Le gouvernement annonce l'abandon définitif de l'heure d'été",
+      excerpt: "Retour permanent à l'heure légale du Royaume dès la fin de la saison estivale en cours.",
       body: [
-        "Les commissions concernées ont tenu une réunion élargie pour examiner les détails du projet de loi visant à simplifier les procédures administratives.",
-        "Les intervenants ont souligné la nécessité d'associer les différents acteurs à la rédaction du texte final.",
-        "Le projet devrait être soumis au vote lors de la prochaine séance plénière après finalisation des concertations avec les instances professionnelles."
+        "Le gouvernement a annoncé son intention d'abandonner définitivement le système de l'heure d'été et de revenir de façon permanente à l'heure légale du Royaume, à partir de la fin de l'été 2026.",
+        "La décision a suscité un large débat entre partisans y voyant une réponse à une demande sociale ancienne, et acteurs économiques inquiets de son impact sur la coordination avec les partenaires européens.",
+        "L'annonce intervient dans un contexte politique marqué par la préparation des prochaines échéances électorales."
       ]},
-    en: { title: "Meeting held on new bill related to administrative reform",
-      excerpt: "Broad debate among parliamentary groups on the bill's provisions ahead of the vote.",
+    en: { title: "Government announces permanent end to daylight saving time",
+      excerpt: "A permanent return to the Kingdom's standard time starting at the end of the current summer season.",
       body: [
-        "Relevant committees held an expanded meeting to discuss the details of a bill aimed at simplifying administrative procedures for citizens.",
-        "Participants stressed the need to involve various stakeholders in drafting the final text to align it with development goals.",
-        "The bill is expected to go to a vote in the next plenary session once consultations with professional bodies are complete."
+        "The government announced plans to permanently abandon daylight saving time and return to Morocco's standard time for good, starting at the end of summer 2026.",
+        "The decision sparked wide debate, with supporters calling it a response to a long-standing public demand, while some business figures worry about its effect on coordination with European partners.",
+        "The announcement comes against a political backdrop shaped by preparations for upcoming elections."
       ]}
   },
   {
     id: 2, category: "politique",
     img: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80",
-    time: { ar: "قبل ساعة", fr: "il y a 1 heure", en: "1 hour ago" },
-    ar: { title: "تصريحات رسمية حول محاور المرحلة المقبلة في السياسة الخارجية",
-      excerpt: "توضيحات بخصوص أولويات التعاون الدولي خلال الأشهر القادمة.",
+    source_name: "Hespress",
+    source_url: "https://www.hespress.com/",
+    time: { ar: "قبل 3 أيام", fr: "il y a 3 jours", en: "3 days ago" },
+    ar: { title: "استفسارات عاجلة لوزارة الداخلية بشأن تضارب المصالح في جهتين كبريين",
+      excerpt: "مراسلات رسمية إلى مسؤولين ترابيين بالدار البيضاء-سطات والرباط-سلا-القنيطرة حول ملفات محلية حساسة.",
       body: [
-        "أكدت مصادر رسمية أن المرحلة المقبلة ستشهد تعزيزا للشراكات الاقتصادية والدبلوماسية مع عدد من الدول الشريكة.",
-        "وأوضحت المصادر ذاتها أن الأولوية ستُمنح لملفات التعاون الاقتصادي والأمني، إلى جانب مواصلة الانخراط في المبادرات الإقليمية والدولية."
+        "وجّهت المصالح المركزية بوزارة الداخلية استفسارات عاجلة إلى مسؤولين ترابيين في عدد من عمالات وأقاليم المملكة، بدءا بجهتي الدار البيضاء-سطات والرباط-سلا-القنيطرة.",
+        "وتتعلق الاستفسارات بأسباب تفاقم حالات تضارب المصالح داخل بعض الجماعات الترابية، واستمرار تأثير شبكات مستشارين خاصين في تدبير الشأن المحلي.",
+        "وتندرج الخطوة ضمن مساع أوسع لتعزيز الحكامة الترابية ومحاربة اختلالات التدبير المحلي."
       ]},
-    fr: { title: "Déclarations officielles sur les priorités de la politique étrangère",
-      excerpt: "Précisions sur les priorités de la coopération internationale pour les prochains mois.",
+    fr: { title: "Le ministère de l'Intérieur exige des explications sur des conflits d'intérêts locaux",
+      excerpt: "Des courriers officiels envoyés à des responsables territoriaux de Casablanca-Settat et Rabat-Salé-Kénitra sur des dossiers sensibles.",
       body: [
-        "Des sources officielles ont affirmé que la période à venir verra un renforcement des partenariats économiques et diplomatiques avec plusieurs pays partenaires.",
-        "Les mêmes sources ont précisé que la priorité sera accordée aux dossiers de coopération économique et sécuritaire, en plus de la poursuite de l'engagement dans les initiatives régionales."
+        "Les services centraux du ministère de l'Intérieur ont adressé des demandes urgentes à des responsables territoriaux dans plusieurs provinces du Royaume, à commencer par les régions de Casablanca-Settat et Rabat-Salé-Kénitra.",
+        "Ces demandes portent sur l'aggravation de cas de conflits d'intérêts au sein de certaines collectivités territoriales, et sur l'influence persistante de réseaux de conseillers privés dans la gestion des affaires locales.",
+        "Cette démarche s'inscrit dans un effort plus large de renforcement de la gouvernance territoriale."
       ]},
-    en: { title: "Official statements on upcoming foreign policy priorities",
-      excerpt: "Clarifications on international cooperation priorities for the coming months.",
+    en: { title: "Interior Ministry demands answers over local conflicts of interest",
+      excerpt: "Official letters sent to territorial officials in Casablanca-Settat and Rabat-Salé-Kénitra over sensitive local matters.",
       body: [
-        "Official sources confirmed that the coming period will see strengthened economic and diplomatic partnerships with several partner countries.",
-        "The same sources noted that priority will go to economic and security cooperation files, alongside continued engagement in regional and international initiatives."
-      ]}
-  },
-  {
-    id: 3, category: "politique",
-    img: "https://images.unsplash.com/photo-1591189863430-ab87e120f312?w=800&q=80",
-    time: { ar: "قبل ساعتين", fr: "il y a 2 heures", en: "2 hours ago" },
-    ar: { title: "لقاء تنسيقي بين ممثلي الأحزاب حول قضايا التنمية المحلية",
-      excerpt: "بحث سبل تعزيز التنسيق بين مختلف الفاعلين السياسيين على المستوى المحلي.",
-      body: [
-        "جمع لقاء تنسيقي ممثلين عن عدة أحزاب سياسية لمناقشة أوراش التنمية المحلية وسبل تسريع تنفيذها.",
-        "وتم التأكيد خلال اللقاء على أهمية العمل التشاركي بين مختلف الفاعلين لضمان استفادة الساكنة من البرامج المبرمجة."
-      ]},
-    fr: { title: "Réunion de coordination entre représentants des partis sur le développement local",
-      excerpt: "Recherche de moyens pour renforcer la coordination entre acteurs politiques locaux.",
-      body: [
-        "Une réunion de coordination a rassemblé des représentants de plusieurs partis politiques pour discuter des chantiers de développement local.",
-        "Les participants ont souligné l'importance du travail participatif entre les différents acteurs pour garantir les bénéfices des programmes engagés."
-      ]},
-    en: { title: "Coordination meeting between party representatives on local development",
-      excerpt: "Exploring ways to strengthen coordination among local political actors.",
-      body: [
-        "A coordination meeting brought together representatives from several political parties to discuss local development projects and how to accelerate them.",
-        "Participants emphasized the importance of collaborative work among stakeholders to ensure residents benefit from planned programs."
+        "The Interior Ministry's central departments sent urgent inquiries to territorial officials in several provinces, starting with the Casablanca-Settat and Rabat-Salé-Kénitra regions.",
+        "The inquiries concern worsening conflict-of-interest cases within some local councils, and the continued influence of private advisory networks over local governance.",
+        "The move is part of a broader push to strengthen territorial governance and address local management shortcomings."
       ]}
   },
 
   // ---------------- ECONOMIE ----------------
   {
+    id: 3, category: "economie",
+    img: "https://images.unsplash.com/photo-1544376798-89aa6b82c6dd?w=800&q=80",
+    source_name: "Hespress",
+    source_url: "https://www.hespress.com/%D9%87%D8%A8%D9%88%D8%B7-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A-%D9%8A%D9%86%D8%B9%D8%B4-%D8%A2%D9%85%D8%A7%D9%84-%D8%A7%D9%86%D8%AE%D9%81%D8%A7%D8%B6-%D8%A3%D8%B3-1760896.html",
+    time: { ar: "قبل 3 أسابيع", fr: "il y a 3 semaines", en: "3 weeks ago" },
+    ar: { title: "تقلبات أسعار النفط العالمية تنعش آمال المغاربة في وقود أرخص",
+      excerpt: "خبراء اقتصاديون يتوقعون انعكاس تراجع الأسعار العالمية على المحطات المغربية خلال التحيينات القادمة.",
+      body: [
+        "توقع خبراء اقتصاديون مغاربة أن تنعكس التقلبات الأخيرة في أسعار النفط العالمية على أسعار المحروقات بالمحطات الوطنية، مع كل تحيين نصف شهري للأسعار.",
+        "وأوضح الخبير الاقتصادي إدريس الفينة أن أسعار المحروقات مرتبطة بشكل وثيق بما يقع في السوق الدولية، مشيرا إلى تراجع لافت في أسعار خامي برنت وغرب تكساس.",
+        "ويترقب المستهلكون المغاربة أثر هذا التراجع على جيوبهم في التحيين المقبل للأسعار."
+      ]},
+    fr: { title: "Les fluctuations du pétrole mondial nourrissent l'espoir d'un carburant moins cher",
+      excerpt: "Des économistes anticipent une répercussion de la baisse des prix mondiaux sur les stations marocaines.",
+      body: [
+        "Des économistes marocains anticipent que les récentes fluctuations des prix pétroliers mondiaux se répercuteront sur les prix des carburants dans les stations nationales, lors des prochaines actualisations bimensuelles.",
+        "L'économiste Idriss Elfina a souligné que les prix des hydrocarbures restent étroitement liés à l'évolution du marché international, notant un recul notable des cours du Brent et du WTI.",
+        "Les consommateurs marocains attendent de voir l'effet de cette baisse sur leur budget lors de la prochaine actualisation des prix."
+      ]},
+    en: { title: "Global oil price swings fuel hopes of cheaper fuel in Morocco",
+      excerpt: "Economists expect the drop in world prices to filter through to Moroccan pumps in coming price updates.",
+      body: [
+        "Moroccan economists expect recent swings in global oil prices to feed through to fuel prices at national pumps at the next bi-monthly price update.",
+        "Economist Idriss Elfina noted that fuel prices remain closely tied to international market movements, pointing to a notable drop in Brent and WTI crude prices.",
+        "Moroccan consumers are waiting to see how much of that drop reaches their wallets at the next price adjustment."
+      ]}
+  },
+  {
     id: 4, category: "economie",
-    img: "https://images.unsplash.com/photo-1543165796-5426273eaab3?w=800&q=80",
-    time: { ar: "قبل 45 دقيقة", fr: "il y a 45 minutes", en: "45 minutes ago" },
-    ar: { title: "افتتاح معرض صناعي بمشاركة عشرات الشركات الناشئة",
-      excerpt: "فعالية تجمع فاعلين اقتصاديين لعرض مشاريع ومنتجات محلية أمام مستثمرين محتملين.",
+    img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+    source_name: "Maroc Medias (revue de presse)",
+    source_url: "https://www.marocmedias.com/162084/%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%87%D8%AA%D9%85%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%81-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-15-%D9%8A%D9%88%D9%86%D9%8A/",
+    time: { ar: "قبل أسبوعين", fr: "il y a deux semaines", en: "two weeks ago" },
+    ar: { title: "الحكومة تعلن تسارع النمو الاقتصادي نحو 5.2 بالمائة سنة 2026",
+      excerpt: "بايتاس يكشف تحسن مؤشرات النمو والمداخيل الجمركية وسط توقعات متفائلة من خبراء اقتصاديين.",
       body: [
-        "احتضنت العاصمة الاقتصادية فعالية صناعية جمعت عشرات الشركات الناشئة لعرض منتجاتها وحلولها التقنية أمام مستثمرين ومهنيين.",
-        "وأتاح المعرض فرصة للتواصل المباشر بين حاملي المشاريع والجهات الممولة، في أفق تسريع وتيرة تمويل المقاولات الصغرى والمتوسطة.",
-        "ونظمت على هامش الفعالية ورشات تكوينية حول ريادة الأعمال والتحول الرقمي."
+        "أكد الناطق الرسمي باسم الحكومة، مصطفى بايتاس، أن النمو الاقتصادي انتقل من 4.4 بالمائة سنة 2024 إلى 4.9 بالمائة سنة 2025، مع توقعات بأن يناهز 5.2 بالمائة خلال 2026.",
+        "ومن جهته، رأى الخبير الاقتصادي محمد جدري أن بلوغ نمو يتراوح بين 5.2 و5.3 بالمائة أصبح واردا، مدفوعا بأداء جيد للقطاعات غير الفلاحية.",
+        "كما سجلت المداخيل الجمركية ارتفاعا بنسبة 7.9 بالمائة عند متم شهر ماي مقارنة بالفترة نفسها من السنة الماضية، لتتجاوز 42 مليار درهم."
       ]},
-    fr: { title: "Ouverture d'un salon industriel avec la participation de dizaines de start-up",
-      excerpt: "Un événement réunissant des acteurs économiques pour présenter des projets locaux à des investisseurs.",
+    fr: { title: "Le gouvernement annonce une accélération de la croissance à 5,2% en 2026",
+      excerpt: "Baitas annonce l'amélioration des indicateurs de croissance et des recettes douanières, selon des économistes optimistes.",
       body: [
-        "La capitale économique a accueilli un événement industriel réunissant des dizaines de start-up venues présenter leurs produits et solutions technologiques.",
-        "Le salon a permis des échanges directs entre porteurs de projets et bailleurs de fonds, dans la perspective d'accélérer le financement des PME.",
-        "Des ateliers de formation sur l'entrepreneuriat et la transformation numérique ont été organisés en marge de l'événement."
+        "Le porte-parole du gouvernement, Mustapha Baitas, a affirmé que la croissance économique est passée de 4,4% en 2024 à 4,9% en 2025, avec des prévisions avoisinant 5,2% pour 2026.",
+        "L'économiste Mohamed Jadri estime qu'une croissance de 5,2 à 5,3% est désormais envisageable, portée par de bonnes performances des secteurs non agricoles.",
+        "Les recettes douanières ont par ailleurs progressé de 7,9% à fin mai par rapport à la même période l'an dernier, dépassant 42 milliards de dirhams."
       ]},
-    en: { title: "Industrial fair opens with dozens of startups participating",
-      excerpt: "An event bringing together economic actors to showcase local projects to potential investors.",
+    en: { title: "Government announces economic growth accelerating to 5.2% in 2026",
+      excerpt: "Officials cite improving growth and customs revenue figures, with economists sounding optimistic.",
       body: [
-        "The economic capital hosted an industrial event bringing together dozens of startups to showcase their products and tech solutions to investors and professionals.",
-        "The fair enabled direct exchanges between project holders and funding bodies, aiming to speed up financing for small and medium enterprises.",
-        "Training workshops on entrepreneurship and digital transformation were held alongside the event."
-      ]}
-  },
-  {
-    id: 5, category: "economie",
-    img: "https://images.unsplash.com/photo-1554774853-b415df9eeb92?w=800&q=80",
-    time: { ar: "قبل ساعة", fr: "il y a 1 heure", en: "1 hour ago" },
-    ar: { title: "نمو ملحوظ في عدد من القطاعات الإنتاجية خلال الفصل الأخير",
-      excerpt: "بيانات حديثة تشير إلى تحسن مؤشرات الإنتاج مقارنة بالفترة نفسها من العام الماضي.",
-      body: [
-        "أظهرت بيانات اقتصادية حديثة تسجيل نمو ملحوظ في عدد من القطاعات الإنتاجية خلال الفصل الأخير مقارنة بالفترة نفسها من العام الماضي.",
-        "ويعزو محللون هذا التحسن إلى انتعاش الطلب الداخلي وتحسن ظروف التصدير نحو عدد من الأسواق الشريكة."
-      ]},
-    fr: { title: "Croissance notable dans plusieurs secteurs productifs au dernier trimestre",
-      excerpt: "De nouvelles données montrent une amélioration des indicateurs de production sur un an.",
-      body: [
-        "De récentes données économiques font état d'une croissance notable dans plusieurs secteurs productifs au cours du dernier trimestre.",
-        "Des analystes attribuent cette amélioration à la reprise de la demande intérieure et à de meilleures conditions d'exportation vers plusieurs marchés partenaires."
-      ]},
-    en: { title: "Notable growth in several production sectors last quarter",
-      excerpt: "New data shows improved production indicators compared to the same period last year.",
-      body: [
-        "Recent economic data shows notable growth in several production sectors during the last quarter compared to the same period last year.",
-        "Analysts attribute the improvement to a recovery in domestic demand and better export conditions to several partner markets."
-      ]}
-  },
-  {
-    id: 6, category: "economie",
-    img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
-    time: { ar: "قبل 3 ساعات", fr: "il y a 3 heures", en: "3 hours ago" },
-    ar: { title: "توقيع اتفاقيات شراكة لدعم المقاولات الصغرى والمتوسطة",
-      excerpt: "برامج تمويل ومواكبة جديدة موجهة للمقاولين الشباب في عدد من الجهات.",
-      body: [
-        "تم توقيع اتفاقيات شراكة جديدة تهدف إلى تعزيز آليات تمويل ومواكبة المقاولات الصغرى والمتوسطة في عدد من الجهات.",
-        "وتتضمن الاتفاقيات برامج تكوين وتأطير موجهة للمقاولين الشباب، إلى جانب تسهيلات في الولوج إلى القروض البنكية."
-      ]},
-    fr: { title: "Signature d'accords de partenariat pour soutenir les PME",
-      excerpt: "Nouveaux programmes de financement et d'accompagnement pour les jeunes entrepreneurs.",
-      body: [
-        "De nouveaux accords de partenariat ont été signés pour renforcer les mécanismes de financement et d'accompagnement des PME dans plusieurs régions.",
-        "Ces accords incluent des programmes de formation destinés aux jeunes entrepreneurs, ainsi que des facilités d'accès aux crédits bancaires."
-      ]},
-    en: { title: "Partnership agreements signed to support small and medium businesses",
-      excerpt: "New funding and mentoring programs targeting young entrepreneurs across several regions.",
-      body: [
-        "New partnership agreements have been signed to strengthen funding and support mechanisms for small and medium enterprises in several regions.",
-        "The agreements include training programs for young entrepreneurs, along with easier access to bank loans."
+        "Government spokesperson Mustapha Baitas said economic growth rose from 4.4% in 2024 to 4.9% in 2025, with projections of nearly 5.2% for 2026.",
+        "Economist Mohamed Jadri said growth of 5.2 to 5.3% now looks achievable, driven by strong performance in non-agricultural sectors.",
+        "Customs revenue also rose 7.9% by the end of May compared with the same period last year, topping 42 billion dirhams."
       ]}
   },
 
   // ---------------- SOCIETE ----------------
   {
-    id: 7, category: "societe",
-    img: "https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=800&q=80",
-    time: { ar: "قبل 20 دقيقة", fr: "il y a 20 minutes", en: "20 minutes ago" },
-    ar: { title: "مبادرة جديدة لدعم الفئات ذات الاحتياجات الخاصة",
-      excerpt: "برنامج يهدف إلى تسهيل الولوج إلى الخدمات الأساسية لفائدة الفئات المعنية.",
+    id: 5, category: "societe",
+    img: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80",
+    source_name: "The Voice",
+    source_url: "https://thevoice.ma/%D8%AD%D9%88%D8%A7%D8%AF%D8%AB-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1-%D8%AA%D8%AE%D9%84%D9%81-42-%D9%82%D8%AA%D9%8A%D9%84%D8%A7-%D9%882990-%D8%AC%D8%B1%D9%8A%D8%AD%D8%A7-%D8%AE%D9%84%D8%A7%D9%84-%D8%A3%D8%B3/",
+    time: { ar: "قبل يومين", fr: "il y a 2 jours", en: "2 days ago" },
+    ar: { title: "حوادث السير تخلف 42 قتيلا وقرابة 3000 جريح خلال أسبوع واحد",
+      excerpt: "حصيلة ثقيلة داخل المناطق الحضرية تعيد النقاش حول السلامة الطرقية إلى الواجهة.",
       body: [
-        "أطلقت جمعيات محلية مبادرة جديدة تهدف إلى تسهيل ولوج الأشخاص ذوي الاحتياجات الخاصة إلى الخدمات الأساسية.",
-        "ويشمل البرنامج تجهيز فضاءات عمومية وتقديم دعم لوجستي ونفسي للأسر المعنية."
+        "لقي 42 شخصا مصرعهم وأصيب 2990 آخرون بجروح، من بينها 131 إصابة بليغة، في 2184 حادثة سير سجلت داخل المناطق الحضرية خلال أسبوع واحد فقط.",
+        "وتعيد هذه الحصيلة الثقيلة النقاش العمومي حول فعالية إجراءات السلامة الطرقية المعتمدة، وسط دعوات متكررة لتشديد الرقابة والعقوبات."
       ]},
-    fr: { title: "Nouvelle initiative pour soutenir les personnes à besoins spécifiques",
-      excerpt: "Un programme visant à faciliter l'accès aux services essentiels.",
+    fr: { title: "Les accidents de la route font 42 morts et près de 3000 blessés en une semaine",
+      excerpt: "Un bilan lourd en zones urbaines relance le débat sur la sécurité routière.",
       body: [
-        "Des associations locales ont lancé une nouvelle initiative visant à faciliter l'accès des personnes à besoins spécifiques aux services essentiels.",
-        "Le programme comprend l'aménagement d'espaces publics et un accompagnement logistique et psychologique pour les familles concernées."
+        "42 personnes ont perdu la vie et 2990 autres ont été blessées, dont 131 grièvement, dans 2184 accidents de la circulation recensés en zones urbaines en une seule semaine.",
+        "Ce lourd bilan relance le débat public sur l'efficacité des mesures de sécurité routière, avec des appels récurrents à un renforcement des contrôles et des sanctions."
       ]},
-    en: { title: "New initiative to support people with special needs",
-      excerpt: "A program aimed at easing access to essential services for those affected.",
+    en: { title: "Traffic accidents kill 42, injure nearly 3,000 in a single week",
+      excerpt: "A heavy urban toll reignites public debate over road safety measures.",
       body: [
-        "Local associations have launched a new initiative to ease access to essential services for people with special needs.",
-        "The program includes adapting public spaces and providing logistical and psychological support to affected families."
+        "42 people were killed and 2,990 others injured, 131 of them seriously, in 2,184 traffic accidents recorded in urban areas over a single week.",
+        "The heavy toll has reignited public debate over the effectiveness of road safety measures, with renewed calls for tighter enforcement and penalties."
       ]}
   },
   {
-    id: 8, category: "societe",
-    img: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
-    time: { ar: "قبل ساعة", fr: "il y a 1 heure", en: "1 hour ago" },
-    ar: { title: "حملة توعوية حول أهمية الفحص الطبي المبكر",
-      excerpt: "مختصون يشددون على دور الفحوصات الدورية في الوقاية من الأمراض المزمنة.",
+    id: 6, category: "societe",
+    img: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
+    source_name: "Hespress",
+    source_url: "https://www.hespress.com/",
+    time: { ar: "قبل 5 أيام", fr: "il y a 5 jours", en: "5 days ago" },
+    ar: { title: "توصية بإلغاء سقف السن في امتحان ولوج مهنة المحاماة",
+      excerpt: "مجلس المنافسة يقترح رفع تحديد سن 45 سنة أسوة بتجارب دولية مقارنة.",
       body: [
-        "انطلقت حملة توعوية بمشاركة أطباء ومختصين للتحسيس بأهمية الفحص الطبي المبكر في الوقاية من الأمراض المزمنة.",
-        "وتشمل الحملة قوافل طبية مجانية في عدد من الأحياء الشعبية، إلى جانب لقاءات تحسيسية موجهة للتلاميذ."
+        "أوصى مجلس المنافسة بإلغاء تسقيف سن اجتياز امتحان الولوج إلى مهنة المحاماة، المحدد حاليا في 45 سنة، بعد أشهر من النقاش داخل المهنة.",
+        "وتستند التوصية إلى عدد من التجارب الدولية المقارنة، من بينها فرنسا وألمانيا وإيطاليا، التي لا تعتمد سقفا زمنيا أقصى لولوج المهنة."
       ]},
-    fr: { title: "Campagne de sensibilisation sur l'importance du dépistage précoce",
-      excerpt: "Des experts insistent sur le rôle des examens réguliers dans la prévention des maladies chroniques.",
+    fr: { title: "Recommandation de supprimer la limite d'âge pour l'examen d'avocat",
+      excerpt: "Le Conseil de la concurrence propose de lever le plafond de 45 ans, en s'inspirant d'expériences internationales.",
       body: [
-        "Une campagne de sensibilisation a été lancée avec la participation de médecins pour souligner l'importance du dépistage précoce.",
-        "La campagne comprend des caravanes médicales gratuites dans plusieurs quartiers, ainsi que des rencontres de sensibilisation destinées aux élèves."
+        "Le Conseil de la concurrence a recommandé de supprimer le plafond d'âge de 45 ans actuellement imposé pour se présenter à l'examen d'accès à la profession d'avocat, après des mois de débat au sein de la profession.",
+        "Cette recommandation s'appuie sur plusieurs expériences internationales comparables, dont la France, l'Allemagne et l'Italie, qui n'imposent pas de limite d'âge maximale pour accéder à la profession."
       ]},
-    en: { title: "Awareness campaign on the importance of early medical screening",
-      excerpt: "Experts stress the role of regular check-ups in preventing chronic illness.",
+    en: { title: "Recommendation to scrap age cap on bar exam eligibility",
+      excerpt: "Competition Council proposes lifting the 45-year age limit, citing comparable international practices.",
       body: [
-        "An awareness campaign has been launched with doctors and specialists to highlight the importance of early screening in preventing chronic diseases.",
-        "The campaign includes free medical caravans in several neighborhoods, along with awareness sessions for students."
-      ]}
-  },
-  {
-    id: 9, category: "societe",
-    img: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
-    time: { ar: "قبل ساعتين", fr: "il y a 2 heures", en: "2 hours ago" },
-    ar: { title: "لقاء تنسيقي بين فاعلين محليين لتطوير الخدمات الاجتماعية",
-      excerpt: "بحث آليات تحسين جودة الخدمات المقدمة للمواطنين في عدد من الأحياء.",
-      body: [
-        "نظم لقاء تنسيقي بين فاعلين جمعويين ومسؤولين محليين لبحث سبل تطوير الخدمات الاجتماعية الموجهة للساكنة.",
-        "وتم الاتفاق على وضع خارطة طريق مشتركة لتحسين جودة الخدمات في عدد من الأحياء ذات الأولوية."
-      ]},
-    fr: { title: "Réunion de coordination pour développer les services sociaux",
-      excerpt: "Recherche de moyens pour améliorer la qualité des services rendus aux citoyens.",
-      body: [
-        "Une réunion de coordination a réuni des associations et des responsables locaux pour discuter du développement des services sociaux.",
-        "Les participants ont convenu d'une feuille de route commune pour améliorer la qualité des services dans plusieurs quartiers prioritaires."
-      ]},
-    en: { title: "Coordination meeting held to develop social services",
-      excerpt: "Exploring ways to improve the quality of services provided to residents.",
-      body: [
-        "A coordination meeting brought together associations and local officials to discuss developing social services for residents.",
-        "Participants agreed on a shared roadmap to improve service quality in several priority neighborhoods."
+        "Morocco's Competition Council has recommended scrapping the current 45-year age cap for taking the bar exam, following months of debate within the legal profession.",
+        "The recommendation draws on comparable practices in countries such as France, Germany, and Italy, which impose no maximum age limit for entering the legal profession."
       ]}
   },
 
   // ---------------- SPORT ----------------
   {
-    id: 10, category: "sport",
+    id: 7, category: "sport",
     img: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800&q=80",
-    time: { ar: "قبل ساعة", fr: "il y a 1 heure", en: "1 hour ago" },
-    ar: { title: "منتخب المغرب يواصل تحضيراته استعدادا للمواجهات القادمة",
-      excerpt: "حصة تدريبية مكثفة ضمن برنامج الإعداد الذي يشرف عليه الطاقم الفني.",
+    source_name: "اللجنة الوطنية الأولمبية المغربية (CNOM)",
+    source_url: "https://www.cnom.org.ma/index.php/ar/kas-alalm-fifa-2026-almntkhb-almghrby-ytahl-aly-thmn-alnhayy",
+    time: { ar: "قبل يومين", fr: "il y a 2 jours", en: "2 days ago" },
+    ar: { title: "المغرب يقصي هولندا بركلات الترجيح ويبلغ ثمن نهائي المونديال",
+      excerpt: "أسود الأطلس يتأهلون بفوز مثير 3-2 بعد تعادل 1-1 في الوقتين الأصلي والإضافي.",
       body: [
-        "واصل المنتخب الوطني حصصه التدريبية استعدادا للمواجهات المقبلة، وسط أجواء تنافسية بين اللاعبين المستدعين.",
-        "وركز الطاقم الفني خلال الحصة الأخيرة على الجوانب التكتيكية واللياقة البدنية العالية."
+        "تأهل المنتخب الوطني المغربي إلى ثمن نهائي كأس العالم 2026 عقب فوزه على هولندا بركلات الترجيح 3-2، بعد تعادل الفريقين 1-1 في الوقتين الأصلي والإضافي.",
+        "وأدرك المدافع عيسى ديوب هدف التعادل المغربي برأسية في الوقت المحتسب بدل الضائع، قبل أن يحسم إسماعيل الصيباري المباراة لصالح 'أسود الأطلس' في الركلات الترجيحية.",
+        "ويحافظ المنتخب المغربي بهذا التأهل على سجله دون هزيمة منذ انطلاق البطولة، بعد إنهاء دور المجموعات في المركز الثاني."
       ]},
-    fr: { title: "L'équipe nationale poursuit sa préparation avant les prochaines échéances",
-      excerpt: "Séance d'entraînement intensive dans le cadre du programme de préparation.",
+    fr: { title: "Le Maroc élimine les Pays-Bas aux tirs au but et file en 8es de finale",
+      excerpt: "Les Lions de l'Atlas se qualifient après une victoire 3-2 aux tirs au but, suite à un match nul 1-1.",
       body: [
-        "La sélection nationale a poursuivi ses séances d'entraînement en vue des prochaines échéances, dans une ambiance compétitive entre les joueurs convoqués.",
-        "Le staff technique s'est concentré lors de la dernière séance sur les aspects tactiques et la condition physique."
+        "L'équipe nationale marocaine s'est qualifiée pour les huitièmes de finale de la Coupe du monde 2026 en battant les Pays-Bas 3-2 aux tirs au but, après un score de 1-1 à l'issue des prolongations.",
+        "Le défenseur Issa Diop avait égalisé de la tête dans le temps additionnel, avant qu'Ismael Saibari ne scelle la qualification marocaine lors de la séance de tirs au but.",
+        "Grâce à cette qualification, le Maroc reste invaincu depuis le début du tournoi, après avoir terminé deuxième de son groupe."
       ]},
-    en: { title: "National team continues preparations ahead of upcoming matches",
-      excerpt: "Intensive training session as part of the coaching staff's preparation program.",
+    en: { title: "Morocco eliminates Netherlands on penalties, reaches World Cup round of 16",
+      excerpt: "The Atlas Lions advance after a thrilling 3-2 shootout win following a 1-1 draw.",
       body: [
-        "The national team continued its training sessions ahead of upcoming matches, in a competitive atmosphere among called-up players.",
-        "The coaching staff focused the last session on tactical aspects and high-level physical fitness."
+        "Morocco's national team qualified for the World Cup 2026 round of 16 by beating the Netherlands 3-2 on penalties, after the match finished 1-1 following extra time.",
+        "Defender Issa Diop headed in Morocco's equalizer in stoppage time, before Ismael Saibari sealed Morocco's win in the penalty shootout.",
+        "The result keeps Morocco unbeaten since the tournament began, after finishing second in their group."
       ]}
   },
   {
-    id: 11, category: "sport",
+    id: 8, category: "sport",
     img: "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=800&q=80",
-    time: { ar: "قبل ساعتين", fr: "il y a 2 heures", en: "2 hours ago" },
-    ar: { title: "نتائج مباريات اليوم في البطولة الاحترافية",
-      excerpt: "ملخص لأبرز النتائج والأحداث التي ميزت الجولة الأخيرة من البطولة.",
+    source_name: "Hespress",
+    source_url: "https://www.hespress.com/%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%A3%D9%85%D8%A7%D9%85-%D9%83%D9%86%D8%AF%D8%A7-%D8%A8%D8%B0%D9%83%D8%B1%D9%8A%D8%A7%D8%AA-%D9%82%D8%B7%D8%B1-%D9%88%D9%87%D8%B0%D9%87-%D8%A3%D9%88%D8%B1%D8%A7%D9%82-%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1-%D8%A5%D9%84%D9%89-%D8%B1%D8%A8%D8%B9-%D8%A7-1770071.html",
+    time: { ar: "قبل يوم", fr: "il y a un jour", en: "1 day ago" },
+    ar: { title: "المغرب يواجه كندا السبت في هيوستن.. ولارام تسير جسرا جويا للمشجعين",
+      excerpt: "موعد قوي لبلوغ ربع النهائي، مع تنظيم رحلات خاصة لدعم 'أسود الأطلس' في أمريكا.",
       body: [
-        "عرفت الجولة الأخيرة من البطولة الاحترافية عدة مباريات مثيرة انتهت بنتائج متقاربة بين الفرق المتنافسة.",
-        "وشهدت اللقاءات حضورا جماهيريا لافتا في مختلف الملاعب."
+        "يلتقي المنتخب المغربي نظيره الكندي يوم السبت 4 يوليوز في ملعب هيوستن، ضمن دور ثمن نهائي كأس العالم 2026، سعيا لبلوغ ربع النهائي.",
+        "وأعلنت الخطوط الملكية المغربية برمجة رحلات إضافية لتسهيل تنقل المشجعين المغاربة إلى الولايات المتحدة لمؤازرة الفريق الوطني في هذه المواجهة الحاسمة.",
+        "ويملك المنتخب المغربي سجلا إيجابيا أمام كندا في المواجهات الرسمية والودية السابقة بين الفريقين."
       ]},
-    fr: { title: "Résultats des matches du jour en championnat professionnel",
-      excerpt: "Résumé des principaux résultats de la dernière journée du championnat.",
+    fr: { title: "Le Maroc affronte le Canada samedi à Houston, avec un pont aérien pour les supporters",
+      excerpt: "Un rendez-vous décisif pour les quarts de finale, avec des vols spéciaux organisés pour les supporters.",
       body: [
-        "La dernière journée du championnat professionnel a connu plusieurs matches disputés, avec des résultats serrés entre les équipes.",
-        "Les rencontres ont enregistré une affluence notable dans les différents stades."
+        "L'équipe nationale marocaine affronte le Canada samedi 4 juillet au stade de Houston, en huitièmes de finale de la Coupe du monde 2026, avec l'ambition d'atteindre les quarts.",
+        "La Royal Air Maroc a annoncé la programmation de vols supplémentaires pour faciliter le déplacement des supporters marocains aux États-Unis pour ce match décisif.",
+        "Le Maroc affiche un bilan favorable face au Canada lors de leurs précédentes confrontations, officielles comme amicales."
       ]},
-    en: { title: "Today's match results in the professional league",
-      excerpt: "A summary of the top results and events from the latest matchday.",
+    en: { title: "Morocco faces Canada Saturday in Houston, with extra flights laid on for fans",
+      excerpt: "A decisive fixture for a quarterfinal berth, with special flights arranged for traveling supporters.",
       body: [
-        "The latest matchday in the professional league featured several exciting games that ended with close results between competing teams.",
-        "The matches saw a notable turnout of fans across various stadiums."
-      ]}
-  },
-  {
-    id: 12, category: "sport",
-    img: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&q=80",
-    time: { ar: "قبل 4 ساعات", fr: "il y a 4 heures", en: "4 hours ago" },
-    ar: { title: "استعدادات مكثفة للأندية الوطنية قبل انطلاق المنافسات القارية",
-      excerpt: "برامج تدريبية خاصة تستهدف رفع الجاهزية البدنية والفنية للاعبين.",
-      body: [
-        "تكثف الأندية الوطنية استعداداتها قبيل انطلاق المنافسات القارية، عبر برامج تدريبية خاصة ومباريات ودية تحضيرية.",
-        "وتراهن الإدارات الفنية على تعزيز الصفوف بعناصر جديدة لرفع مستوى المنافسة."
-      ]},
-    fr: { title: "Préparation intensive des clubs nationaux avant les compétitions continentales",
-      excerpt: "Programmes d'entraînement spéciaux pour améliorer la forme physique et technique des joueurs.",
-      body: [
-        "Les clubs nationaux intensifient leur préparation avant le début des compétitions continentales, via des programmes spéciaux et des matches amicaux.",
-        "Les staffs techniques misent sur le renforcement de l'effectif avec de nouveaux éléments pour élever le niveau de compétitivité."
-      ]},
-    en: { title: "National clubs step up preparations ahead of continental competitions",
-      excerpt: "Special training programs aim to boost players' physical and technical readiness.",
-      body: [
-        "National clubs are intensifying preparations ahead of continental competitions through special training programs and friendly matches.",
-        "Technical staff are counting on new signings to strengthen the squad and raise the level of competitiveness."
+        "Morocco's national team faces Canada on Saturday, July 4, at Houston Stadium in the World Cup 2026 round of 16, aiming to reach the quarterfinals.",
+        "Royal Air Maroc announced additional flights to make it easier for Moroccan fans to travel to the United States for this decisive match.",
+        "Morocco holds a favorable record against Canada across their previous official and friendly meetings."
       ]}
   },
 
   // ---------------- REGIONS ----------------
   {
-    id: 13, category: "regions",
-    img: "https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=800&q=80",
-    time: { ar: "قبل ساعتين", fr: "il y a 2 heures", en: "2 hours ago" },
-    ar: { title: "تقرير: ارتفاع ملحوظ في عدد الوافدين السياحيين خلال الموسم الحالي",
-      excerpt: "أرقام إيجابية تعكس جاذبية عدد من الوجهات السياحية داخل المملكة.",
+    id: 9, category: "regions",
+    img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+    source_name: "Hespress",
+    source_url: "https://www.hespress.com/%D9%82%D9%85%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7-%D8%AA%D9%81%D9%83%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%A6%D9%85-%D8%A7%D9%84%D8%B1-1758722.html",
+    time: { ar: "قبل 3 أسابيع", fr: "il y a 3 semaines", en: "3 weeks ago" },
+    ar: { title: "قمة تقنية عالمية بثلاث مدن مغربية حول 'التوائم الرقمية' للتنمية الترابية",
+      excerpt: "الرباط والقنيطرة وسطات تحتضن أشغال قمة دولية حول توظيف التكنولوجيا في التخطيط الترابي.",
       body: [
-        "أفاد تقرير حديث بتسجيل ارتفاع ملحوظ في عدد الوافدين السياحيين خلال الموسم الحالي مقارنة بالموسم الماضي.",
-        "ويعزو مهنيو القطاع هذا التحسن إلى تنوع العروض السياحية وتحسن جودة الخدمات المقدمة للزوار."
+        "احتضنت الرباط ثم القنيطرة وسطات أشغال قمة عالمية حول تكنولوجيا 'التوائم الرقمية'، بمشاركة مسؤولين حكوميين وخبراء دوليين وشركات تكنولوجية كبرى.",
+        "وتهدف القمة إلى بحث سبل توظيف هذه التقنية في نمذجة الأنظمة الترابية الحية، بما يساعد على استباق أزمات من قبيل الإجهاد المائي والتغير المناخي.",
+        "وتوزع برنامج القمة على أربعة أيام بمشاركة جامعات مغربية ومنظمات دولية متخصصة."
       ]},
-    fr: { title: "Rapport : hausse notable du nombre de touristes cette saison",
-      excerpt: "Des chiffres positifs qui reflètent l'attractivité de plusieurs destinations du Royaume.",
+    fr: { title: "Un sommet technologique mondial dans trois villes marocaines sur les 'jumeaux numériques'",
+      excerpt: "Rabat, Kénitra et Settat accueillent un sommet international sur la technologie au service du développement territorial.",
       body: [
-        "Un rapport récent fait état d'une hausse notable du nombre de touristes durant la saison actuelle par rapport à la saison précédente.",
-        "Les professionnels du secteur attribuent cette amélioration à la diversité de l'offre touristique et à la meilleure qualité des services proposés."
+        "Rabat, puis Kénitra et Settat ont accueilli les travaux d'un sommet mondial consacré à la technologie des 'jumeaux numériques', réunissant responsables gouvernementaux, experts internationaux et grandes entreprises technologiques.",
+        "Le sommet vise à explorer l'usage de cette technologie pour modéliser les systèmes territoriaux vivants, afin d'anticiper des crises comme le stress hydrique et le changement climatique.",
+        "Le programme s'est étalé sur quatre jours, avec la participation d'universités marocaines et d'organisations internationales spécialisées."
       ]},
-    en: { title: "Report: notable rise in tourist arrivals this season",
-      excerpt: "Positive figures reflecting the appeal of several destinations across the Kingdom.",
+    en: { title: "Global tech summit across three Moroccan cities on 'digital twins' for regional development",
+      excerpt: "Rabat, Kenitra, and Settat host an international summit on using technology for territorial planning.",
       body: [
-        "A recent report shows a notable rise in tourist arrivals this season compared to last season.",
-        "Industry professionals attribute the improvement to a diversified tourism offering and better quality of services for visitors."
+        "Rabat, followed by Kenitra and Settat, hosted a global summit on 'digital twin' technology, bringing together government officials, international experts, and major tech companies.",
+        "The summit aims to explore using the technology to model living territorial systems, helping to anticipate crises such as water stress and climate change.",
+        "The four-day program included the participation of Moroccan universities and specialized international organizations."
       ]}
   },
   {
-    id: 14, category: "regions",
-    img: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
-    time: { ar: "قبل 3 ساعات", fr: "il y a 3 heures", en: "3 hours ago" },
-    ar: { title: "مشاريع تنموية جديدة تعزز البنية التحتية في عدد من الجهات",
-      excerpt: "استثمارات موجهة لتحسين شبكات الطرق والتجهيزات العمومية.",
+    id: 10, category: "regions",
+    img: "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=800&q=80",
+    source_name: "Kech24",
+    source_url: "https://kech24.com/%D8%A3%D9%88%D8%B1%D8%A7%D8%B4-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%83%D8%A8%D8%B1%D9%89-%D9%84%D8%AA%D8%A3%D9%87%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%88%D8%B1-%D8%A7%D9%84%D8%AD%D8%B6%D8%B1%D9%8A%D8%A9-%D8%A8%D9%85%D8%B1%D8%A7%D9%83%D8%B4-%D9%88%D9%83%D8%B4%D9%8024-%D8%AA%D9%83%D8%B4%D9%81-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84.html",
+    time: { ar: "قبل 6 أيام", fr: "il y a 6 jours", en: "6 days ago" },
+    ar: { title: "عمدة مراكش تعقد لقاء تنسيقيا حول تنظيم ساحة جامع الفنا",
+      excerpt: "اجتماع موسع مع الباعة وممارسي فن 'الحلقة' لمتابعة تنفيذ مخطط تأهيل الفضاء التراثي.",
       body: [
-        "تم الإعلان عن إطلاق مشاريع تنموية جديدة تروم تعزيز البنية التحتية في عدد من الجهات.",
-        "وتشمل المشاريع توسيع شبكات الطرق وتجهيز فضاءات عمومية جديدة لفائدة الساكنة المحلية."
+        "عقدت فاطمة الزهراء المنصوري، عمدة مدينة مراكش، اجتماعا تنسيقيا موسعا مع ممثلي مختلف الأنشطة المهنية والفنية بساحة جامع الفنا.",
+        "وشارك في اللقاء باعة المأكولات وممارسو فن 'الحلقة'، لمتابعة المراحل الأخيرة من تنفيذ مخطط تنظيم الساحة والحفاظ على طابعها التراثي.",
+        "وتندرج هذه الخطوة ضمن برنامج أوسع لتأهيل المحاور الحضرية بمراكش، يشمل أيضا مشاريع لتوسيع مواقف السيارات بالمدينة القديمة."
       ]},
-    fr: { title: "Nouveaux projets de développement pour renforcer les infrastructures régionales",
-      excerpt: "Des investissements destinés à améliorer les réseaux routiers et les équipements publics.",
+    fr: { title: "La maire de Marrakech tient une réunion sur l'organisation de la place Jemaa el-Fna",
+      excerpt: "Rencontre élargie avec les vendeurs et artistes de la 'halqa' pour suivre le plan d'aménagement du site historique.",
       body: [
-        "De nouveaux projets de développement visant à renforcer les infrastructures dans plusieurs régions ont été annoncés.",
-        "Ces projets incluent l'extension des réseaux routiers et l'aménagement de nouveaux espaces publics pour la population locale."
+        "Fatima Zahra Mansouri, maire de Marrakech, a tenu une réunion de coordination élargie avec les représentants des différentes activités professionnelles et artistiques de la place Jemaa el-Fna.",
+        "Vendeurs de mets traditionnels et artistes de la 'halqa' ont participé à la rencontre, pour suivre les dernières étapes du plan d'organisation de la place et la préservation de son caractère patrimonial.",
+        "Cette démarche s'inscrit dans un programme plus large de réaménagement des axes urbains de Marrakech, incluant aussi des projets d'extension de parkings dans la médina."
       ]},
-    en: { title: "New development projects to boost regional infrastructure",
-      excerpt: "Investments aimed at improving road networks and public facilities.",
+    en: { title: "Marrakech mayor holds coordination meeting on Jemaa el-Fna square",
+      excerpt: "A broad meeting with food vendors and traditional performers to follow up on the heritage site's organization plan.",
       body: [
-        "New development projects aimed at strengthening infrastructure in several regions have been announced.",
-        "The projects include expanding road networks and building new public facilities for local residents."
-      ]}
-  },
-  {
-    id: 15, category: "regions",
-    img: "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&q=80",
-    time: { ar: "قبل 5 ساعات", fr: "il y a 5 heures", en: "5 hours ago" },
-    ar: { title: "جولة ميدانية في أحد الأسواق التقليدية بأحد الجهات",
-      excerpt: "لمحة عن النشاط التجاري المحلي وأهم المنتجات المعروضة.",
-      body: [
-        "نظمت جولة ميدانية في أحد الأسواق التقليدية للوقوف على واقع النشاط التجاري المحلي والمنتجات الحرفية المعروضة.",
-        "وأبرزت الجولة أهمية هذه الأسواق في الحفاظ على التراث المحلي ودعم اقتصاد الأسر."
-      ]},
-    fr: { title: "Visite de terrain dans un marché traditionnel régional",
-      excerpt: "Aperçu de l'activité commerciale locale et des principaux produits proposés.",
-      body: [
-        "Une visite de terrain a été organisée dans un marché traditionnel pour observer l'activité commerciale locale et les produits artisanaux.",
-        "La visite a mis en lumière l'importance de ces marchés pour préserver le patrimoine local et soutenir l'économie des familles."
-      ]},
-    en: { title: "Field visit to a traditional regional market",
-      excerpt: "A look at local commercial activity and the main goods on offer.",
-      body: [
-        "A field visit was organized to a traditional market to observe local commercial activity and handcrafted products on display.",
-        "The visit highlighted the importance of these markets in preserving local heritage and supporting household economies."
+        "Marrakech mayor Fatima Zahra Mansouri held an expanded coordination meeting with representatives of the various professional and artistic activities on Jemaa el-Fna square.",
+        "Food vendors and traditional 'halqa' performers took part in the meeting to follow the final stages of the square's organization plan and the preservation of its heritage character.",
+        "The move is part of a wider program to upgrade Marrakech's urban thoroughfares, which also includes projects to expand parking in the old medina."
       ]}
   },
 
   // ---------------- CULTURE ----------------
   {
-    id: 16, category: "culture",
+    id: 11, category: "culture",
     img: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=800&q=80",
-    time: { ar: "قبل ساعة", fr: "il y a 1 heure", en: "1 hour ago" },
-    ar: { title: "فعالية ثقافية تجمع فنانين من مختلف الجهات",
-      excerpt: "برنامج فني متنوع يتضمن عروضا موسيقية ومعارض تشكيلية.",
+    source_name: "Hespress",
+    source_url: "https://www.hespress.com/%D8%AA%D9%86%D9%88%D8%B9-%D8%AB%D9%82%D8%A7%D9%81%D9%8A-%D9%8A%D9%81%D8%AA%D8%AA%D8%AD-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D9%83%D9%86%D8%A7%D9%88%D8%A9-1767916.html",
+    time: { ar: "قبل أسبوع", fr: "il y a une semaine", en: "a week ago" },
+    ar: { title: "التنوع الثقافي يفتتح مهرجان كناوة بالصويرة",
+      excerpt: "دورة جديدة من المهرجان الموسيقي تجمع فنانين من مختلف الآفاق حول تراث كناوة العريق.",
       body: [
-        "احتضنت إحدى القاعات فعالية ثقافية جمعت فنانين من مختلف الجهات في برنامج فني متنوع.",
-        "وتضمنت الفعالية عروضا موسيقية حية ومعرضا للفنون التشكيلية استقطب عددا من الزوار."
+        "انطلقت بمدينة الصويرة فعاليات دورة جديدة من مهرجان كناوة وموسيقى العالم، بحلة تحتفي بالتنوع الثقافي وتراث كناوة الروحي.",
+        "ويجمع برنامج المهرجان بين فناني كناوة المغاربة وموسيقيين من ثقافات مختلفة، في عروض حية تتوزع على عدة منصات بالمدينة الساحلية.",
+        "ويعد هذا المهرجان من أبرز التظاهرات الصيفية التي تستقطب زوارا من داخل المغرب وخارجه."
       ]},
-    fr: { title: "Événement culturel réunissant des artistes de différentes régions",
-      excerpt: "Un programme artistique varié incluant concerts et expositions.",
+    fr: { title: "La diversité culturelle à l'honneur à l'ouverture du festival Gnaoua à Essaouira",
+      excerpt: "Une nouvelle édition du festival musical réunit des artistes d'horizons variés autour du patrimoine gnaoua.",
       body: [
-        "Une salle a accueilli un événement culturel réunissant des artistes de différentes régions dans un programme varié.",
-        "L'événement a inclus des concerts en direct et une exposition d'arts plastiques qui a attiré de nombreux visiteurs."
+        "Essaouira a accueilli l'ouverture d'une nouvelle édition du Festival Gnaoua et Musiques du Monde, placée sous le signe de la diversité culturelle et du patrimoine spirituel gnaoua.",
+        "La programmation réunit des artistes gnaoua marocains et des musiciens d'horizons variés, dans des concerts répartis sur plusieurs scènes de la ville côtière.",
+        "Ce festival compte parmi les rendez-vous estivaux majeurs, attirant des visiteurs du Maroc et de l'étranger."
       ]},
-    en: { title: "Cultural event brings together artists from different regions",
-      excerpt: "A varied artistic program featuring live music and visual art exhibitions.",
+    en: { title: "Cultural diversity opens Gnaoua Festival in Essaouira",
+      excerpt: "A new edition of the music festival brings together artists from varied backgrounds around Gnaoua heritage.",
       body: [
-        "A venue hosted a cultural event bringing together artists from different regions in a varied artistic program.",
-        "The event included live music performances and a visual arts exhibition that attracted many visitors."
+        "Essaouira hosted the opening of a new edition of the Gnaoua World Music Festival, celebrating cultural diversity and Gnaoua's spiritual heritage.",
+        "The lineup brings together Moroccan Gnaoua artists and musicians from varied backgrounds, in live shows spread across several stages in the coastal city.",
+        "The festival ranks among the major summer events, drawing visitors from Morocco and abroad."
       ]}
   },
   {
-    id: 17, category: "culture",
-    img: "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&q=80",
-    time: { ar: "قبل 3 ساعات", fr: "il y a 3 heures", en: "3 hours ago" },
-    ar: { title: "إصدار جديد لكاتب مغربي يثير اهتمام القراء",
-      excerpt: "عمل أدبي جديد يتناول قضايا اجتماعية معاصرة بأسلوب سردي مميز.",
+    id: 12, category: "culture",
+    img: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80",
+    source_name: "Hespress",
+    source_url: "https://www.hespress.com/%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7-%D8%AA%D8%B3%D8%AA%D8%B9%D8%AF-%D9%84%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D9%85%D9%88%D8%A7%D8%B2%D9%8A%D9%86-2026-1762722.html",
+    time: { ar: "قبل أسبوعين", fr: "il y a deux semaines", en: "two weeks ago" },
+    ar: { title: "مهرجان موازين يختتم دورته الـ21 بين الرباط وسلا",
+      excerpt: "تسعة أيام من العروض المجانية جمعت نجوما عربا وعالميين مع الاحتفاء بالمواهب المغربية.",
       body: [
-        "صدر مؤخرا عمل أدبي جديد لكاتب مغربي يتناول قضايا اجتماعية معاصرة بأسلوب سردي لافت.",
-        "ولقي الإصدار إقبالا من القراء منذ أيام صدوره الأولى في المعارض المتخصصة."
+        "اختتمت العاصمة الرباط، رفقة مدينة سلا، فعاليات الدورة الحادية والعشرين من مهرجان 'موازين.. إيقاعات العالم'، بعد تسعة أيام من العروض الفنية المجانية.",
+        "وجمع البرنامج بين كبار نجوم الأغنية العربية وأسماء بارزة في الساحة الموسيقية العالمية، إلى جانب فنانين يمثلون الموسيقى الإفريقية والأمازيغية.",
+        "وحرصت إدارة المهرجان على إفساح المجال للمواهب المغربية الصاعدة إلى جانب الأسماء اللامعة."
       ]},
-    fr: { title: "Nouvelle publication d'un écrivain marocain suscite l'intérêt des lecteurs",
-      excerpt: "Une œuvre littéraire abordant des questions sociales contemporaines avec un style narratif distinctif.",
+    fr: { title: "Le festival Mawazine clôture sa 21e édition entre Rabat et Salé",
+      excerpt: "Neuf jours de concerts gratuits ont réuni des stars arabes et internationales, avec une place pour les talents marocains.",
       body: [
-        "Une nouvelle œuvre littéraire d'un écrivain marocain vient de paraître, abordant des questions sociales contemporaines avec un style narratif remarquable.",
-        "La publication a suscité l'intérêt des lecteurs dès ses premiers jours dans les salons spécialisés."
+        "Rabat, aux côtés de Salé, a clôturé la 21e édition du festival 'Mawazine, Rythmes du Monde', après neuf jours de concerts gratuits.",
+        "La programmation a réuni de grandes stars de la chanson arabe et des noms marquants de la scène musicale mondiale, aux côtés d'artistes représentant les musiques africaines et amazighes.",
+        "L'organisation du festival a tenu à faire une place aux jeunes talents marocains aux côtés des grandes têtes d'affiche."
       ]},
-    en: { title: "New release by a Moroccan author draws readers' interest",
-      excerpt: "A new literary work exploring contemporary social issues with a distinctive narrative style.",
+    en: { title: "Mawazine Festival wraps 21st edition across Rabat and Salé",
+      excerpt: "Nine days of free concerts brought together Arab and international stars, with room for rising Moroccan talent.",
       body: [
-        "A new literary work by a Moroccan author has just been released, exploring contemporary social issues with a striking narrative style.",
-        "The release has drawn strong reader interest since its debut at specialized book fairs."
-      ]}
-  },
-  {
-    id: 18, category: "culture",
-    img: "https://images.unsplash.com/photo-1489599162946-4c8e0cf7e0e5?w=800&q=80",
-    time: { ar: "قبل 6 ساعات", fr: "il y a 6 heures", en: "6 hours ago" },
-    ar: { title: "مهرجان سينمائي يستعد لاستقبال أعمال من دول عدة",
-      excerpt: "دورة جديدة تتضمن عروضا تنافسية وأخرى موازية لعشاق السينما.",
-      body: [
-        "تستعد دورة جديدة من المهرجان السينمائي لاستقبال أعمال من عدة دول ضمن برنامجها التنافسي والموازي.",
-        "وتشمل الدورة ورشات نقاش مع مخرجين وممثلين، إلى جانب عروض خاصة مفتوحة للجمهور."
-      ]},
-    fr: { title: "Un festival de cinéma se prépare à accueillir des œuvres de plusieurs pays",
-      excerpt: "Une nouvelle édition avec sélection compétitive et section parallèle pour les cinéphiles.",
-      body: [
-        "Une nouvelle édition du festival de cinéma se prépare à accueillir des œuvres de plusieurs pays dans ses sections compétitive et parallèle.",
-        "L'édition comprendra des rencontres avec des réalisateurs et acteurs, ainsi que des projections spéciales ouvertes au public."
-      ]},
-    en: { title: "Film festival prepares to welcome entries from several countries",
-      excerpt: "A new edition featuring a competitive lineup and a parallel section for film lovers.",
-      body: [
-        "A new edition of the film festival is preparing to welcome entries from several countries in its competitive and parallel sections.",
-        "The edition will include talks with directors and actors, along with special screenings open to the public."
+        "Rabat, together with Salé, closed out the 21st edition of the Mawazine Rhythms of the World Festival after nine days of free concerts.",
+        "The lineup brought together major Arab music stars and prominent names from the global music scene, alongside artists representing African and Amazigh music.",
+        "Festival organizers made a point of giving rising Moroccan talent a place alongside the headline acts."
       ]}
   },
 
   // ---------------- SANTE ----------------
   {
-    id: 19, category: "sante",
-    img: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
-    time: { ar: "قبل ساعة", fr: "il y a 1 heure", en: "1 hour ago" },
-    ar: { title: "حملة توعوية حول أهمية الفحص الطبي المبكر",
-      excerpt: "مختصون يوصون بإجراء فحوصات دورية للوقاية من الأمراض المزمنة.",
-      body: [
-        "أطلق مختصون في الصحة العمومية حملة توعوية للتحسيس بأهمية إجراء الفحوصات الطبية الدورية.",
-        "وأكدت الحملة أن الكشف المبكر يساهم في تقليص المضاعفات المرتبطة بالأمراض المزمنة."
-      ]},
-    fr: { title: "Campagne de sensibilisation sur l'importance du dépistage précoce",
-      excerpt: "Des spécialistes recommandent des examens réguliers pour prévenir les maladies chroniques.",
-      body: [
-        "Des spécialistes de la santé publique ont lancé une campagne pour sensibiliser à l'importance des examens médicaux réguliers.",
-        "La campagne souligne que le dépistage précoce contribue à réduire les complications liées aux maladies chroniques."
-      ]},
-    en: { title: "Awareness campaign on the importance of early screening",
-      excerpt: "Specialists recommend regular check-ups to prevent chronic diseases.",
-      body: [
-        "Public health specialists have launched a campaign to raise awareness about the importance of regular medical check-ups.",
-        "The campaign notes that early detection helps reduce complications linked to chronic diseases."
-      ]}
-  },
-  {
-    id: 20, category: "sante",
+    id: 13, category: "sante",
     img: "https://images.unsplash.com/photo-1584634731339-252c581abfc5?w=800&q=80",
-    time: { ar: "قبل ساعتين", fr: "il y a 2 heures", en: "2 hours ago" },
-    ar: { title: "توصيات صحية مع اقتراب فصل الشتاء",
-      excerpt: "نصائح للوقاية من نزلات البرد الموسمية والحفاظ على المناعة.",
+    source_name: "Hespress",
+    source_url: "https://www.hespress.com/%D9%85%D9%88%D8%AC%D8%A9-%D8%A7%D9%84%D8%AD%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%AA%D8%B3%D8%AA%D9%86%D9%81%D8%B1-%D8%A7%D9%84%D8%A3%D8%B7%D8%A8%D8%A7%D8%A1-%D9%88%D8%AF%D8%B9-1768512.html",
+    time: { ar: "قبل 4 أيام", fr: "il y a 4 jours", en: "4 days ago" },
+    ar: { title: "موجة حر تستنفر الأطباء ودعوات لحماية الأطفال والمسنين",
+      excerpt: "نشرة إنذارية برتقالية تتوقع درجات حرارة بين 38 و45 درجة في عدد من أقاليم المملكة.",
       body: [
-        "أصدر مختصون توصيات صحية مع اقتراب فصل الشتاء للوقاية من نزلات البرد الموسمية.",
-        "وشملت التوصيات ضرورة التغذية المتوازنة وممارسة النشاط البدني للحفاظ على مناعة الجسم."
+        "دعا أطباء إلى الالتزام بإجراءات وقائية صارمة لمواجهة موجة حر عرفتها المملكة، محذرين من مضاعفات صحية خطيرة قد تطال الأطفال والمسنين وذوي الأمراض المزمنة.",
+        "وكانت المديرية العامة للأرصاد الجوية قد أصدرت نشرة إنذارية من مستوى يقظة برتقالي، توقعت فيها درجات حرارة تتراوح بين 38 و45 درجة مئوية في عدد من الأقاليم.",
+        "ونبه مختصون إلى أهمية استعمال الكريمات الواقية وتجنب التعرض المباشر للشمس، خصوصا بالنسبة للرضع وكبار السن."
       ]},
-    fr: { title: "Recommandations de santé à l'approche de l'hiver",
-      excerpt: "Conseils pour prévenir les rhumes saisonniers et renforcer l'immunité.",
+    fr: { title: "Une vague de chaleur mobilise les médecins, appels à protéger enfants et seniors",
+      excerpt: "Un bulletin d'alerte orange prévoit des températures entre 38 et 45°C dans plusieurs provinces.",
       body: [
-        "Des spécialistes ont émis des recommandations de santé à l'approche de l'hiver pour prévenir les rhumes saisonniers.",
-        "Les recommandations incluent une alimentation équilibrée et une activité physique régulière pour renforcer l'immunité."
+        "Des médecins ont appelé à respecter des mesures de prévention strictes face à une vague de chaleur touchant le Royaume, mettant en garde contre des complications de santé graves pouvant toucher enfants, seniors et malades chroniques.",
+        "La Direction générale de la météorologie avait émis un bulletin d'alerte orange, prévoyant des températures comprises entre 38 et 45°C dans plusieurs provinces.",
+        "Les spécialistes ont insisté sur l'importance d'utiliser des crèmes solaires et d'éviter l'exposition directe au soleil, en particulier pour les nourrissons et les personnes âgées."
       ]},
-    en: { title: "Health recommendations as winter approaches",
-      excerpt: "Tips to prevent seasonal colds and maintain immunity.",
+    en: { title: "Heat wave puts doctors on alert, calls to protect children and the elderly",
+      excerpt: "An orange weather alert forecasts temperatures between 38 and 45°C in several provinces.",
       body: [
-        "Specialists have issued health recommendations as winter approaches to help prevent seasonal colds.",
-        "The recommendations include balanced nutrition and regular physical activity to maintain immunity."
+        "Doctors called for strict preventive measures amid a heat wave affecting the Kingdom, warning of serious health complications that could affect children, the elderly, and people with chronic illnesses.",
+        "Morocco's national weather service had issued an orange-level alert, forecasting temperatures between 38 and 45°C in several provinces.",
+        "Specialists stressed the importance of using sunscreen and avoiding direct sun exposure, particularly for infants and the elderly."
       ]}
   },
   {
-    id: 21, category: "sante",
-    img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
-    time: { ar: "قبل 4 ساعات", fr: "il y a 4 heures", en: "4 hours ago" },
-    ar: { title: "افتتاح وحدة طبية جديدة لتعزيز العرض الصحي المحلي",
-      excerpt: "تجهيزات حديثة تهدف إلى تحسين جودة الخدمات المقدمة للمرضى.",
+    id: 14, category: "sante",
+    img: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+    source_name: "وزارة الصحة والحماية الاجتماعية (عبر ExpressTV)",
+    source_url: "https://www.expresstv.ma/en-vedette/125474/",
+    time: { ar: "في وقت سابق من هذا العام", fr: "plus tôt cette année", en: "earlier this year" },
+    ar: { title: "المغرب يجدد التزامه بحماية صحة الأطفال عبر التلقيح المجاني",
+      excerpt: "وزارة الصحة تؤكد استمرار البرنامج الوطني للتمنيع الذي يغطي مجانا اثني عشر مرضا.",
       body: [
-        "تم افتتاح وحدة طبية جديدة مجهزة بأحدث التقنيات لتعزيز العرض الصحي على المستوى المحلي.",
-        "وتهدف الوحدة إلى تقريب الخدمات الطبية المتخصصة من الساكنة وتقليص آجال المواعيد."
+        "أكدت وزارة الصحة والحماية الاجتماعية أن التلقيح يشكل ركيزة أساسية للرعاية الصحية الأولية وحقا جوهريا لحماية الأطفال، في إطار الاحتفاء بالأسبوع العالمي للتلقيح.",
+        "ويواصل البرنامج الوطني للتمنيع جهوده لتحقيق تغطية تلقيحية مثلى، عبر ضمان مجانية اللقاحات وتوفيرها بانتظام للوقاية من اثني عشر مرضا.",
+        "ودعت الوزارة الأسر ومهنيي الصحة إلى مواصلة التعبئة لإنجاح هذا البرنامج الوطني."
       ]},
-    fr: { title: "Ouverture d'une nouvelle unité médicale pour renforcer l'offre de soins locale",
-      excerpt: "Des équipements modernes visant à améliorer la qualité des services pour les patients.",
+    fr: { title: "Le Maroc réaffirme son engagement pour la santé infantile via la vaccination gratuite",
+      excerpt: "Le ministère de la Santé confirme la poursuite du programme national de vaccination couvrant douze maladies.",
       body: [
-        "Une nouvelle unité médicale équipée des technologies les plus récentes a été inaugurée pour renforcer l'offre de soins locale.",
-        "L'unité vise à rapprocher les services médicaux spécialisés de la population et à réduire les délais de rendez-vous."
+        "Le ministère de la Santé et de la Protection sociale a affirmé que la vaccination constitue un pilier essentiel des soins de santé primaires, à l'occasion de la Semaine mondiale de la vaccination.",
+        "Le Programme national d'immunisation poursuit ses efforts pour une couverture vaccinale optimale, en garantissant la gratuité et la disponibilité régulière des vaccins contre douze maladies.",
+        "Le ministère a appelé les familles et les professionnels de santé à poursuivre leur mobilisation pour la réussite de ce programme national."
       ]},
-    en: { title: "New medical unit opens to boost local healthcare provision",
-      excerpt: "Modern equipment aimed at improving the quality of patient services.",
+    en: { title: "Morocco reaffirms commitment to child health through free vaccination",
+      excerpt: "The Health Ministry confirms its national immunization program continues to cover twelve diseases at no cost.",
       body: [
-        "A new medical unit equipped with the latest technology has opened to strengthen local healthcare provision.",
-        "The unit aims to bring specialized medical services closer to residents and reduce appointment wait times."
+        "Morocco's Health and Social Protection Ministry said vaccination remains a core pillar of primary healthcare, marking World Immunization Week.",
+        "The National Immunization Program continues working toward optimal vaccine coverage, ensuring vaccines against twelve diseases remain free and consistently available.",
+        "The ministry called on families and health professionals to keep up their engagement to ensure the program's success."
       ]}
   },
 
   // ---------------- TECH ----------------
   {
-    id: 22, category: "tech",
-    img: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80",
-    time: { ar: "قبل 3 ساعات", fr: "il y a 3 heures", en: "3 hours ago" },
-    ar: { title: "ورشة عمل حول التحول الرقمي في القطاعات الخدماتية",
-      excerpt: "نقاش حول سبل تسريع رقمنة الخدمات الموجهة للمواطنين والمقاولات.",
-      body: [
-        "نظمت ورشة عمل خصصت لمناقشة سبل تسريع التحول الرقمي في القطاعات الخدماتية.",
-        "وتطرق المشاركون إلى أهمية تبسيط المساطر الرقمية وتوسيع نطاق الخدمات الإلكترونية الموجهة للمواطنين والمقاولات."
-      ]},
-    fr: { title: "Atelier sur la transformation numérique des secteurs de services",
-      excerpt: "Discussion sur les moyens d'accélérer la numérisation des services publics et privés.",
-      body: [
-        "Un atelier a été organisé pour discuter des moyens d'accélérer la transformation numérique dans les secteurs de services.",
-        "Les participants ont abordé l'importance de simplifier les procédures numériques et d'élargir les services électroniques destinés aux citoyens et aux entreprises."
-      ]},
-    en: { title: "Workshop held on digital transformation in service sectors",
-      excerpt: "Discussion on ways to accelerate digitization of services for citizens and businesses.",
-      body: [
-        "A workshop was held to discuss ways to accelerate digital transformation across service sectors.",
-        "Participants addressed the importance of simplifying digital procedures and expanding e-services for citizens and businesses."
-      ]}
-  },
-  {
-    id: 23, category: "tech",
-    img: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
-    time: { ar: "قبل 5 ساعات", fr: "il y a 5 heures", en: "5 hours ago" },
-    ar: { title: "إطلاق منصة رقمية جديدة لتسهيل الولوج إلى الخدمات العمومية",
-      excerpt: "أداة إلكترونية تروم تبسيط المساطر الإدارية للمستخدمين.",
-      body: [
-        "تم الإعلان عن إطلاق منصة رقمية جديدة تهدف إلى تسهيل ولوج المواطنين إلى الخدمات العمومية عن بعد.",
-        "وتتيح المنصة إنجاز عدد من المساطر الإدارية إلكترونيا دون الحاجة إلى التنقل."
-      ]},
-    fr: { title: "Lancement d'une nouvelle plateforme numérique pour les services publics",
-      excerpt: "Un outil électronique visant à simplifier les démarches administratives.",
-      body: [
-        "Le lancement d'une nouvelle plateforme numérique visant à faciliter l'accès des citoyens aux services publics à distance a été annoncé.",
-        "La plateforme permet d'effectuer plusieurs démarches administratives en ligne sans déplacement."
-      ]},
-    en: { title: "New digital platform launched for public services",
-      excerpt: "An online tool aiming to simplify administrative procedures for users.",
-      body: [
-        "A new digital platform has been launched to make it easier for citizens to access public services remotely.",
-        "The platform allows several administrative procedures to be completed online without the need to travel."
-      ]}
-  },
-  {
-    id: 24, category: "tech",
+    id: 15, category: "tech",
     img: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
-    time: { ar: "أمس", fr: "hier", en: "yesterday" },
-    ar: { title: "فعالية تقنية تسلط الضوء على تطبيقات الذكاء الاصطناعي",
-      excerpt: "عروض ونقاشات حول استخدامات الذكاء الاصطناعي في قطاعات متعددة.",
+    source_name: "Maroc Medias (revue de presse)",
+    source_url: "https://www.marocmedias.com/162084/%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%87%D8%AA%D9%85%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%81-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-15-%D9%8A%D9%88%D9%86%D9%8A/",
+    time: { ar: "قبل أسبوعين", fr: "il y a deux semaines", en: "two weeks ago" },
+    ar: { title: "مشروع قانون جديد للإدارة الرقمية يتضمن مقتضيات خاصة بالذكاء الاصطناعي",
+      excerpt: "الوزيرة المنتدبة للانتقال الرقمي تعلن عن النص وسط دينامية تكنولوجية متسارعة ودعم دولي.",
       body: [
-        "احتضنت فعالية تقنية عروضا ونقاشات حول تطبيقات الذكاء الاصطناعي في قطاعات الصحة والتعليم والصناعة.",
-        "وأبرز المتدخلون الفرص التي يتيحها الذكاء الاصطناعي في تحسين الإنتاجية، مع التنبيه إلى ضرورة مواكبة هذا التحول بأطر تنظيمية ملائمة."
+        "أعلنت الوزيرة المنتدبة المكلفة بالانتقال الرقمي، أمل الفلاح السغروشني، عن إعداد مشروع قانون يتعلق بالإدارة الرقمية يتضمن مقتضيات خاصة بالذكاء الاصطناعي.",
+        "وتندرج هذه الخطوة ضمن سلسلة مبادرات لتعزيز الابتكار الرقمي، من بينها معهد 'الجزري روت'، وتنظيم هاكاثون وطني للذكاء الاصطناعي، ومبادرة 'RallyIA Future Lab' بمرزوكة.",
+        "وفي السياق ذاته، وافق البنك الدولي على برنامجين بقيمة إجمالية 650 مليون دولار لدعم التحول الرقمي وتعزيز الصمود المناخي بالمغرب."
       ]},
-    fr: { title: "Un événement technologique met en lumière les applications de l'IA",
-      excerpt: "Présentations et débats sur les usages de l'intelligence artificielle dans plusieurs secteurs.",
+    fr: { title: "Un nouveau projet de loi sur l'administration numérique intègre des dispositions sur l'IA",
+      excerpt: "La ministre déléguée à la Transition numérique annonce le texte dans une dynamique technologique soutenue par des bailleurs internationaux.",
       body: [
-        "Un événement technologique a proposé des présentations et débats sur les applications de l'intelligence artificielle dans la santé, l'éducation et l'industrie.",
-        "Les intervenants ont souligné les opportunités offertes par l'IA pour améliorer la productivité, tout en appelant à un cadre réglementaire adapté."
+        "La ministre déléguée chargée de la Transition numérique, Amal Elfallah Seghrouchni, a annoncé la préparation d'un projet de loi sur l'administration numérique comportant des dispositions dédiées à l'intelligence artificielle.",
+        "Cette initiative s'inscrit dans une série de mesures visant à renforcer l'innovation numérique, dont l'institut 'Jazari Root', un hackathon national dédié à l'IA, et l'initiative 'RallyIA Future Lab' à Merzouga.",
+        "Dans le même temps, la Banque mondiale a approuvé deux programmes totalisant 650 millions de dollars pour soutenir la transformation numérique et la résilience climatique du Maroc."
       ]},
-    en: { title: "Tech event highlights AI applications",
-      excerpt: "Talks and discussions on the use of artificial intelligence across multiple sectors.",
+    en: { title: "New digital administration bill includes AI-specific provisions",
+      excerpt: "Digital transition minister unveils the bill amid fast-moving tech initiatives and international funding support.",
       body: [
-        "A technology event featured talks and discussions on AI applications in healthcare, education, and industry.",
-        "Speakers highlighted the opportunities AI offers for improving productivity, while calling for appropriate regulatory frameworks to accompany this shift."
+        "Morocco's deputy minister for digital transition, Amal Elfallah Seghrouchni, announced a new digital administration bill that includes provisions specific to artificial intelligence.",
+        "The move is part of a series of initiatives to boost digital innovation, including the 'Jazari Root' institute, a national AI hackathon, and the 'RallyIA Future Lab' initiative in Merzouga.",
+        "Separately, the World Bank approved two programs worth a combined $650 million to support Morocco's digital transformation and climate resilience."
+      ]}
+  },
+  {
+    id: 16, category: "tech",
+    img: "https://images.unsplash.com/photo-1517976487492-5750f3195933?w=800&q=80",
+    source_name: "Bawaba Press",
+    source_url: "https://bawabapress.com/article/843",
+    time: { ar: "منذ مطلع السنة", fr: "depuis le début de l'année", en: "since earlier this year" },
+    ar: { title: "المغرب يطلق خارطة طريق 'الذكاء الاصطناعي صنع في المغرب' وشبكة معاهد الجزري",
+      excerpt: "إحداث معهد 'جزري روت' كنواة لشبكة وطنية تربط البحث العلمي بالابتكار الصناعي.",
+      body: [
+        "أطلق المغرب خارطة طريق للذكاء الاصطناعي تحت شعار 'صنع في المغرب'، معلنا في الوقت نفسه عن إحداث معهد 'جزري روت' كنواة مؤسسة لشبكة وطنية من مراكز التميز.",
+        "ولا يقتصر المشروع على البحث الأكاديمي، بل يسعى لربط البحث العلمي بالابتكار الصناعي ودعم الشركات الناشئة ورقمنة المقاولات الصغرى والمتوسطة.",
+        "ويهدف المخطط أيضا إلى استقطاب الكفاءات المغربية داخل الوطن وخارجه، ضمن رؤية تستهدف تحقيق مداخيل إضافية بفضل الذكاء الاصطناعي بحلول 2030."
+      ]},
+    fr: { title: "Le Maroc lance sa feuille de route 'IA Made in Morocco' et son réseau d'instituts Jazari",
+      excerpt: "Création de l'institut 'Jazari Root', noyau d'un réseau national reliant recherche scientifique et innovation industrielle.",
+      body: [
+        "Le Maroc a lancé une feuille de route pour l'intelligence artificielle baptisée 'IA Made in Morocco', annonçant simultanément la création de l'institut 'Jazari Root' comme noyau fondateur d'un réseau national de centres d'excellence.",
+        "Le projet ne se limite pas à la recherche académique : il vise à relier recherche scientifique et innovation industrielle, à soutenir les start-up et à accompagner la numérisation des PME.",
+        "Le plan ambitionne aussi d'attirer les talents marocains, au pays comme à l'étranger, dans une vision misant sur des revenus additionnels grâce à l'IA d'ici 2030."
+      ]},
+    en: { title: "Morocco launches 'AI Made in Morocco' roadmap and Jazari institute network",
+      excerpt: "The 'Jazari Root' institute is created as the founding hub of a national network linking research to industry.",
+      body: [
+        "Morocco launched an artificial intelligence roadmap branded 'AI Made in Morocco', simultaneously announcing the creation of the 'Jazari Root' institute as the founding hub of a national network of excellence centers.",
+        "The project goes beyond academic research, aiming to connect scientific research with industrial innovation, support startups, and back the digitization of small and medium businesses.",
+        "The plan also aims to attract Moroccan talent at home and abroad, as part of a vision targeting additional revenue from AI by 2030."
       ]}
   }
 ];

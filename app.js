@@ -225,7 +225,7 @@ function articleCard(article, opts = {}) {
       <img src="${article.img}" alt="">
       <div>
         <h4>${content.title}</h4>
-        <div class="meta">${catName(article.category)} · ${article.time[lang]}</div>
+        <div class="meta">${catName(article.category)} · ${article.time[lang]} · ${t("source_label")}: ${article.source_name}</div>
         ${opts.excerpt !== false ? `<div class="excerpt">${content.excerpt}</div>` : ""}
       </div>
     </a>`;
@@ -261,9 +261,10 @@ function renderHome() {
   window.__rerenderPage = renderHome;
   renderChrome("home");
   const lang = getLang();
-  const featured = [ARTICLES[3], ARTICLES[12], ARTICLES[9]]; // economie, regions, sport
+  const byId = (id) => ARTICLES.find(a => a.id === id);
+  const featured = [byId(7), byId(9), byId(4)]; // sport win, regions tech summit, economy growth
   const latest = ARTICLES.slice(0, 4);
-  const photos = [ARTICLES[14], ARTICLES[16]];
+  const photos = [byId(10), byId(11)];
 
   document.getElementById("pageContent").innerHTML = `
     <div class="grid">
@@ -374,6 +375,10 @@ function renderArticle() {
           <img src="${article.img}" alt="" style="width:100%; border-radius:12px; margin-bottom:20px; box-shadow:var(--shadow);">
           <div class="detail-body">
             ${content.body.map(p => `<p style="margin-bottom:14px; line-height:1.9; font-size:15.5px;">${p}</p>`).join("")}
+          </div>
+          <div style="margin-top:22px; padding:14px 16px; border-radius:10px; background:var(--paper); border:1px solid var(--line); font-size:13.5px; color:var(--ink-soft);">
+            ${t("source_label")}: <strong style="color:var(--ink);">${article.source_name}</strong> —
+            <a href="${article.source_url}" target="_blank" rel="noopener noreferrer" style="color:var(--green-mid); font-weight:600;">${t("read_full")} ↗</a>
           </div>
         </article>
 
