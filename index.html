@@ -1,12 +1,469 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar" dir="rtl">
 <head>
-  <title>DS24 - Morocco News</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DS24 | كل أخبار المغرب في مكان واحد</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green-deep:#0B5C3B;
+    --green-mid:#12734A;
+    --green-bright:#1E9E63;
+    --gold:#C9A34E;
+    --paper:#FBFBF9;
+    --ink:#132420;
+    --ink-soft:#4B5F58;
+    --line:#DCE7E1;
+    --card-bg:#FFFFFF;
+    --shadow: 0 2px 14px rgba(11,92,59,0.08);
+  }
+  [data-theme="dark"]{
+    --paper:#0E1613;
+    --ink:#EDF3F0;
+    --ink-soft:#9FB3AC;
+    --line:#1E2E28;
+    --card-bg:#141F1B;
+    --shadow: 0 2px 14px rgba(0,0,0,0.4);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:'IBM Plex Sans Arabic', sans-serif;
+    background:var(--paper);
+    color:var(--ink);
+    transition:background .3s ease, color .3s ease;
+  }
+  h1,h2,h3,.brand{font-family:'Cairo', sans-serif;}
+  a{color:inherit; text-decoration:none;}
+  img{max-width:100%; display:block;}
+
+  /* Utility bar */
+  .util-bar{
+    background:var(--green-deep);
+    color:#fff;
+    font-size:13px;
+  }
+  .util-inner{
+    max-width:1200px; margin:0 auto; padding:8px 20px;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .util-left{display:flex; gap:14px; align-items:center;}
+  .util-left a{opacity:.85; transition:opacity .2s;}
+  .util-left a:hover{opacity:1;}
+  .util-right{display:flex; gap:10px; align-items:center;}
+  .lang-btn{
+    border:1px solid rgba(255,255,255,.35);
+    border-radius:6px; padding:3px 10px; font-size:12px;
+    background:transparent; color:#fff; cursor:pointer;
+  }
+  .lang-btn.active{background:#fff; color:var(--green-deep); font-weight:600;}
+  .theme-toggle{
+    background:transparent; border:none; color:#fff; cursor:pointer;
+    font-size:16px; display:flex; align-items:center;
+  }
+
+  /* Header */
+  header.main{
+    background:var(--card-bg);
+    border-bottom:3px solid var(--green-mid);
+  }
+  .header-inner{
+    max-width:1200px; margin:0 auto; padding:18px 20px;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .brand{
+    font-size:34px; font-weight:800; color:var(--green-deep);
+    display:flex; align-items:baseline; gap:6px;
+  }
+  .brand span{color:var(--gold); font-size:16px; font-weight:600;}
+  .search-box{
+    display:flex; align-items:center; gap:8px;
+    border:1px solid var(--line); border-radius:8px; padding:8px 14px;
+    color:var(--ink-soft); font-size:13px;
+  }
+
+  /* Nav */
+  nav.main-nav{
+    background:var(--green-deep);
+  }
+  .nav-inner{
+    max-width:1200px; margin:0 auto; padding:0 20px;
+    display:flex; gap:26px; overflow-x:auto;
+  }
+  .nav-inner a{
+    color:#EAF3EE; font-size:14.5px; font-weight:600;
+    padding:13px 2px; white-space:nowrap; border-bottom:3px solid transparent;
+    transition:border-color .2s, color .2s;
+  }
+  .nav-inner a:hover, .nav-inner a.active{
+    color:#fff; border-bottom-color:var(--gold);
+  }
+
+  /* Ticker */
+  .ticker{
+    background:var(--green-bright);
+    color:#fff; font-size:13px; font-weight:600;
+    display:flex; align-items:center; gap:10px;
+    padding:7px 20px;
+  }
+  .ticker .badge{
+    background:var(--gold); color:var(--green-deep);
+    padding:2px 10px; border-radius:5px; font-size:11.5px;
+    flex-shrink:0;
+  }
+  .ticker-track{
+    overflow:hidden; white-space:nowrap; flex:1;
+  }
+  .ticker-content{
+    display:inline-block; padding-right:100%;
+    animation:scroll-rtl 28s linear infinite;
+  }
+  @keyframes scroll-rtl{
+    0%{transform:translateX(100%);}
+    100%{transform:translateX(-100%);}
+  }
+
+  /* Layout */
+  .container{max-width:1200px; margin:0 auto; padding:26px 20px;}
+  .grid{
+    display:grid;
+    grid-template-columns:2.1fr 1fr;
+    gap:26px;
+  }
+  @media(max-width:860px){ .grid{grid-template-columns:1fr;} }
+
+  /* Hero slider */
+  .hero{
+    position:relative; border-radius:14px; overflow:hidden;
+    box-shadow:var(--shadow);
+    background:var(--card-bg);
+  }
+  .hero-slide{position:relative; aspect-ratio:16/9;}
+  .hero-slide img{width:100%; height:100%; object-fit:cover;}
+  .hero-caption{
+    position:absolute; inset-inline:0; bottom:0;
+    background:linear-gradient(0deg, rgba(11,36,26,.92), rgba(11,36,26,0));
+    padding:50px 24px 20px;
+  }
+  .hero-caption .tag{
+    display:inline-block; background:var(--green-bright); color:#fff;
+    font-size:12px; font-weight:700; padding:3px 12px; border-radius:5px; margin-bottom:10px;
+  }
+  .hero-caption h2{color:#fff; font-size:23px; line-height:1.5;}
+  .hero-nav{
+    position:absolute; top:50%; transform:translateY(-50%);
+    width:38px; height:38px; border-radius:50%;
+    background:rgba(255,255,255,.85); color:var(--green-deep);
+    display:flex; align-items:center; justify-content:center;
+    cursor:pointer; font-size:18px; font-weight:700; border:none;
+  }
+  .hero-nav.prev{left:14px;}
+  .hero-nav.next{right:14px;}
+  .hero-dots{
+    position:absolute; bottom:16px; left:24px; display:flex; gap:6px;
+  }
+  .hero-dots span{
+    width:7px; height:7px; border-radius:50%; background:rgba(255,255,255,.5);
+    cursor:pointer;
+  }
+  .hero-dots span.active{background:var(--gold); width:20px; border-radius:4px;}
+
+  /* Section title */
+  .section-title{
+    display:flex; align-items:center; gap:10px;
+    margin:30px 0 16px;
+  }
+  .section-title h3{font-size:19px; color:var(--green-deep);}
+  .section-title::after{
+    content:''; flex:1; height:1px; background:var(--line);
+  }
+
+  /* Article cards */
+  .article-list{display:flex; flex-direction:column; gap:16px;}
+  .article-row{
+    display:flex; gap:14px; background:var(--card-bg);
+    border-radius:10px; padding:12px; box-shadow:var(--shadow);
+  }
+  .article-row img{
+    width:120px; height:88px; object-fit:cover; border-radius:8px; flex-shrink:0;
+  }
+  .article-row h4{font-size:15.5px; line-height:1.5; margin-bottom:6px;}
+  .article-row .meta{font-size:12px; color:var(--ink-soft);}
+
+  /* Sidebar */
+  .side-card{
+    background:var(--card-bg); border-radius:12px; padding:18px;
+    box-shadow:var(--shadow); margin-bottom:22px;
+  }
+  .side-card h3{
+    font-size:16px; color:var(--green-deep); margin-bottom:14px;
+    padding-bottom:10px; border-bottom:2px solid var(--line);
+  }
+  .side-item{
+    display:flex; gap:10px; padding:10px 0; border-bottom:1px dashed var(--line);
+    font-size:14px;
+  }
+  .side-item:last-child{border-bottom:none;}
+  .side-item .time{
+    color:var(--gold); font-weight:700; font-size:12.5px; flex-shrink:0; width:44px;
+  }
+
+  .grid-2col{
+    display:grid; grid-template-columns:1fr 1fr; gap:14px;
+  }
+  .thumb-card{
+    background:var(--card-bg); border-radius:10px; overflow:hidden; box-shadow:var(--shadow);
+  }
+  .thumb-card img{aspect-ratio:4/3; object-fit:cover;}
+  .thumb-card .cap{padding:10px; font-size:13.5px; line-height:1.5;}
+
+  footer{
+    background:var(--green-deep); color:#EAF3EE; margin-top:40px;
+  }
+  .footer-inner{
+    max-width:1200px; margin:0 auto; padding:36px 20px 20px;
+    display:grid; grid-template-columns:repeat(4,1fr); gap:24px;
+  }
+  @media(max-width:700px){ .footer-inner{grid-template-columns:1fr 1fr;} }
+  .footer-inner h5{font-size:15px; margin-bottom:12px; color:#fff;}
+  .footer-inner a{display:block; font-size:13.5px; opacity:.8; margin-bottom:8px;}
+  .footer-inner a:hover{opacity:1;}
+  .footer-bottom{
+    text-align:center; font-size:12.5px; padding:16px; opacity:.75;
+    border-top:1px solid rgba(255,255,255,.15);
+  }
+</style>
 </head>
 <body>
-  <h1>DS24</h1>
-  <p>Your source for news related to Morocco.</p>
-  <script src="script.js"></script>
+
+<div class="util-bar">
+  <div class="util-inner">
+    <div class="util-left">
+      <a href="#" aria-label="Facebook">📘</a>
+      <a href="#" aria-label="Instagram">📷</a>
+      <a href="#" aria-label="X">✖️</a>
+      <a href="#" aria-label="YouTube">▶️</a>
+    </div>
+    <div class="util-right">
+      <button class="theme-toggle" id="themeToggle" title="تبديل المظهر">🌙</button>
+      <button class="lang-btn active" data-lang="ar">AR</button>
+      <button class="lang-btn" data-lang="fr">FR</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+  </div>
+</div>
+
+<header class="main">
+  <div class="header-inner">
+    <div class="brand">DS24 <span>إخبارية</span></div>
+    <div class="search-box">🔍 <span>ابحث في DS24...</span></div>
+  </div>
+</header>
+
+<nav class="main-nav">
+  <div class="nav-inner">
+    <a href="#" class="active">الرئيسية</a>
+    <a href="#">سياسة</a>
+    <a href="#">اقتصاد</a>
+    <a href="#">مجتمع</a>
+    <a href="#">رياضة</a>
+    <a href="#">جهات</a>
+    <a href="#">ثقافة وفن</a>
+    <a href="#">صحة</a>
+    <a href="#">تكنولوجيا</a>
+  </div>
+</nav>
+
+<div class="ticker">
+  <span class="badge">عاجل</span>
+  <div class="ticker-track">
+    <div class="ticker-content">
+      متابعة حية لأبرز مستجدات اليوم في المغرب • تحديثات مستمرة على مدار الساعة • تابعوا آخر الأخبار عبر منصة DS24
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="grid">
+    <!-- MAIN COLUMN -->
+    <div>
+      <div class="hero" id="hero">
+        <div class="hero-slide" data-index="0">
+          <img src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1000&q=80" alt="">
+          <div class="hero-caption">
+            <span class="tag">مجتمع</span>
+            <h2>مشاريع تنموية جديدة تعزز البنية التحتية في عدد من الجهات</h2>
+          </div>
+        </div>
+        <button class="hero-nav prev" onclick="changeSlide(-1)">‹</button>
+        <button class="hero-nav next" onclick="changeSlide(1)">›</button>
+        <div class="hero-dots" id="heroDots"></div>
+      </div>
+
+      <div class="section-title"><h3>آخر الأخبار</h3></div>
+      <div class="article-list">
+        <div class="article-row">
+          <img src="https://images.unsplash.com/photo-1543165796-5426273eaab3?w=300&q=80" alt="">
+          <div>
+            <h4>افتتاح معرض صناعي بمشاركة عشرات الشركات الناشئة</h4>
+            <div class="meta">اقتصاد · قبل 45 دقيقة</div>
+          </div>
+        </div>
+        <div class="article-row">
+          <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=300&q=80" alt="">
+          <div>
+            <h4>منتخب المغرب يواصل تحضيراته استعدادا للمواجهات القادمة</h4>
+            <div class="meta">رياضة · قبل ساعة</div>
+          </div>
+        </div>
+        <div class="article-row">
+          <img src="https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=300&q=80" alt="">
+          <div>
+            <h4>تقرير: ارتفاع ملحوظ في عدد الوافدين السياحيين خلال الموسم الحالي</h4>
+            <div class="meta">سياحة · قبل ساعتين</div>
+          </div>
+        </div>
+        <div class="article-row">
+          <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=300&q=80" alt="">
+          <div>
+            <h4>ورشة عمل حول التحول الرقمي في القطاعات الخدماتية</h4>
+            <div class="meta">تكنولوجيا · قبل 3 ساعات</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-title"><h3>صور وفيديو</h3></div>
+      <div class="grid-2col">
+        <div class="thumb-card">
+          <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?w=500&q=80" alt="">
+          <div class="cap">جولة في أحد الأسواق التقليدية بأحد الجهات</div>
+        </div>
+        <div class="thumb-card">
+          <img src="https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=500&q=80" alt="">
+          <div class="cap">فعالية ثقافية تجمع فنانين من مختلف الجهات</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside>
+      <div class="side-card">
+        <h3>الأكثر قراءة</h3>
+        <div class="side-item"><span class="time">10:20</span><span>تفاصيل حول القرارات الأخيرة الصادرة عن القطاع المعني</span></div>
+        <div class="side-item"><span class="time">09:50</span><span>مصادر تكشف مستجدات ملف يشغل الرأي العام</span></div>
+        <div class="side-item"><span class="time">09:15</span><span>إطلاق مبادرة جديدة لدعم الفئات ذات الاحتياجات الخاصة</span></div>
+        <div class="side-item"><span class="time">08:40</span><span>توقعات الطقس ليوم غد في مختلف المناطق</span></div>
+        <div class="side-item"><span class="time">08:05</span><span>لقاء تنسيقي بين فاعلين محليين لتطوير الخدمات</span></div>
+      </div>
+
+      <div class="side-card">
+        <h3>مصدر مطلع</h3>
+        <div class="side-item"><span>معطيات جديدة حول ملف تتبعه DS24 منذ أسابيع وتفاصيل لم تكشف بعد حول الجهات المعنية بالموضوع...</span></div>
+      </div>
+
+      <div class="side-card">
+        <h3>وسوم شائعة</h3>
+        <div style="display:flex; flex-wrap:wrap; gap:8px;">
+          <a href="#" style="background:var(--paper); border:1px solid var(--line); padding:6px 12px; border-radius:20px; font-size:12.5px;">#المغرب</a>
+          <a href="#" style="background:var(--paper); border:1px solid var(--line); padding:6px 12px; border-radius:20px; font-size:12.5px;">#اقتصاد</a>
+          <a href="#" style="background:var(--paper); border:1px solid var(--line); padding:6px 12px; border-radius:20px; font-size:12.5px;">#رياضة</a>
+          <a href="#" style="background:var(--paper); border:1px solid var(--line); padding:6px 12px; border-radius:20px; font-size:12.5px;">#جهات</a>
+          <a href="#" style="background:var(--paper); border:1px solid var(--line); padding:6px 12px; border-radius:20px; font-size:12.5px;">#مجتمع</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <h5>DS24</h5>
+      <a href="#">من نحن</a>
+      <a href="#">اتصل بنا</a>
+      <a href="#">فريق التحرير</a>
+    </div>
+    <div>
+      <h5>أقسام</h5>
+      <a href="#">سياسة</a>
+      <a href="#">اقتصاد</a>
+      <a href="#">رياضة</a>
+    </div>
+    <div>
+      <h5>خدمات</h5>
+      <a href="#">النشرة الإخبارية</a>
+      <a href="#">تطبيق الجوال</a>
+      <a href="#">الإعلانات</a>
+    </div>
+    <div>
+      <h5>تابعونا</h5>
+      <a href="#">فيسبوك</a>
+      <a href="#">إنستغرام</a>
+      <a href="#">إكس (تويتر)</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 DS24 — جميع الحقوق محفوظة</div>
+</footer>
+
+<script>
+  // Theme toggle
+  const themeToggle = document.getElementById('themeToggle');
+  themeToggle.addEventListener('click', () => {
+    const root = document.documentElement;
+    const isDark = root.getAttribute('data-theme') === 'dark';
+    root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+    themeToggle.textContent = isDark ? '🌙' : '☀️';
+  });
+
+  // Language buttons (visual state only — hook up real i18n later)
+  document.querySelectorAll('.lang-btn').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      document.querySelectorAll('.lang-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+
+  // Simple hero slider
+  const slides = [
+    {
+      img:"https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1000&q=80",
+      tag:"مجتمع",
+      title:"مشاريع تنموية جديدة تعزز البنية التحتية في عدد من الجهات"
+    },
+    {
+      img:"https://images.unsplash.com/photo-1554774853-b415df9eeb92?w=1000&q=80",
+      tag:"اقتصاد",
+      title:"نمو ملحوظ في عدد من القطاعات الإنتاجية خلال الفصل الأخير"
+    },
+    {
+      img:"https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1000&q=80",
+      tag:"رياضة",
+      title:"استعدادات مكثفة للأندية الوطنية قبل انطلاق المنافسات القادمة"
+    }
+  ];
+  let current = 0;
+  const heroEl = document.getElementById('hero');
+  const dotsEl = document.getElementById('heroDots');
+
+  function renderHero(){
+    const s = slides[current];
+    heroEl.querySelector('.hero-slide').innerHTML = `
+      <img src="${s.img}" alt="">
+      <div class="hero-caption">
+        <span class="tag">${s.tag}</span>
+        <h2>${s.title}</h2>
+      </div>`;
+    dotsEl.innerHTML = slides.map((_,i)=>`<span class="${i===current?'active':''}" onclick="goToSlide(${i})"></span>`).join('');
+  }
+  function changeSlide(dir){
+    current = (current + dir + slides.length) % slides.length;
+    renderHero();
+  }
+  function goToSlide(i){ current = i; renderHero(); }
+  renderHero();
+  setInterval(()=>changeSlide(1), 6000);
+</script>
+
 </body>
 </html>
