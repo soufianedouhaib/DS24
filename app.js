@@ -66,11 +66,38 @@ function renderChrome(activeKey) {
     <div class="header-inner">
       <a class="brand" href="index.html">DS24 <span>${t("brand_tag")}</span></a>
       <div class="search-box">
-        <span>🔍</span>
+        <button type="button" id="searchIconBtn" aria-label="search">🔍</button>
         <input type="text" id="searchInput" placeholder="${t("search_ph")}" autocomplete="off">
         <div class="search-results" id="searchResults"></div>
       </div>
     </div>`;
+
+  // Bind search directly to the freshly created elements (belt-and-suspenders
+  // alongside the document-level delegation below).
+  const searchInput = document.getElementById("searchInput");
+  const searchIconBtn = document.getElementById("searchIconBtn");
+  if (searchInput) {
+    searchInput.addEventListener("input", (e) => runSearch(e.target.value));
+    searchInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        const first = document.querySelector("#searchResults a");
+        if (first) location.href = first.getAttribute("href");
+      }
+    });
+    searchInput.addEventListener("focus", () => {
+      if (searchInput.value.trim()) runSearch(searchInput.value);
+    });
+  }
+  if (searchIconBtn) {
+    searchIconBtn.addEventListener("click", () => {
+      if (searchInput.value.trim()) {
+        runSearch(searchInput.value);
+        const first = document.querySelector("#searchResults a");
+        if (first) { location.href = first.getAttribute("href"); return; }
+      }
+      searchInput.focus();
+    });
+  }
 
   const navLinks = [`<a href="index.html" class="${activeKey==='home'?'active':''}">${t("home")}</a>`]
     .concat(CATEGORY_ORDER.map(slug =>
@@ -168,7 +195,10 @@ function runSearch(query) {
   const lang = getLang();
   const matches = ARTICLES.filter(a => {
     const c = a[lang] || a.ar;
-    return c.title.toLowerCase().includes(q) || c.excerpt.toLowerCase().includes(q);
+    const cat = catName(a.category).toLowerCase();
+    return c.title.toLowerCase().includes(q)
+        || c.excerpt.toLowerCase().includes(q)
+        || cat.includes(q);
   }).slice(0, 6);
 
   box.innerHTML = matches.length
