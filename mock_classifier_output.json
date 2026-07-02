@@ -1,0 +1,4 @@
+{
+  "Validated_Document_Type": "KYC Form",
+  "Detected_Fields_List": "full_name, date_of_birth, nationality, national_id_number, passport_number, passport_expiry, gender, marital_status, mobile_number, email_address, residential_address, po_box, employer_name, job_title, monthly_income, income_source, employment_type, years_employed, account_purpose, expected_monthly_volume, countries_transacted, signature_date, witness_name, document_reference"
+}

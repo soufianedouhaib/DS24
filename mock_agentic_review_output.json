@@ -1,0 +1,9 @@
+{
+  "Validation_Status": "Fail",
+  "Issues_List": [
+    "1. Field 'mobile_number': Formatted as '+971501234567' — missing hyphen separators. Original was '+971-50-123-4567'. Confirm preferred format.",
+    "2. Field 'account_purpose': Ampersand (&) was stripped during normalization — 'Business Transactions Savings' should be 'Business Transactions & Savings'.",
+    "3. Field 'expected_monthly_volume': Range notation 'AED 50000 - 100000' lost comma formatting — original was 'AED 50,000 - 100,000'. Confirm numeric format for downstream CRM.",
+    "4. Field 'countries_transacted': Comma separators removed — 'UAE Saudi Arabia UK' should remain 'UAE, Saudi Arabia, UK' for list parsing."
+  ]
+}

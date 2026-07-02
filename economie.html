@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DS24 | كل أخبار المغرب في مكان واحد</title>
+<title>اقتصاد | DS24</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -36,9 +36,9 @@
 
 <nav class="main-nav">
   <div class="nav-inner">
-    <a href="index.html" class="active">الرئيسية</a>
+    <a href="index.html">الرئيسية</a>
     <a href="politique.html">سياسة</a>
-    <a href="economie.html">اقتصاد</a>
+    <a href="economie.html" class="active">اقتصاد</a>
     <a href="societe.html">مجتمع</a>
     <a href="sport.html">رياضة</a>
     <a href="regions.html">جهات</a>
@@ -58,68 +58,59 @@
 </div>
 
 <div class="container">
-  <div class="grid">
-    <!-- MAIN COLUMN -->
-    <div>
-      <div class="hero" id="hero">
-        <div class="hero-slide" data-index="0">
-          <img src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1000&q=80" alt="">
-          <div class="hero-caption">
-            <span class="tag">مجتمع</span>
-            <h2>مشاريع تنموية جديدة تعزز البنية التحتية في عدد من الجهات</h2>
-          </div>
-        </div>
-        <button class="hero-nav prev" onclick="changeSlide(-1)">‹</button>
-        <button class="hero-nav next" onclick="changeSlide(1)">›</button>
-        <div class="hero-dots" id="heroDots"></div>
-      </div>
+  <div class="breadcrumb"><a href="index.html">الرئيسية</a> / اقتصاد</div>
 
-      <div class="section-title"><h3>آخر الأخبار</h3></div>
+  <div class="category-banner">
+    <h1>اقتصاد</h1>
+    <span class="count">4 مقالات</span>
+  </div>
+
+  <div class="grid">
+    <div>
+      <div class="section-title"><h3>أحدث مقالات اقتصاد</h3></div>
       <div class="article-list">
-        <a class="article-row" href="economie.html">
+        <a class="article-row" href="#">
           <img src="https://images.unsplash.com/photo-1543165796-5426273eaab3?w=300&q=80" alt="">
           <div>
             <h4>افتتاح معرض صناعي بمشاركة عشرات الشركات الناشئة</h4>
-            <div class="meta">اقتصاد · قبل 45 دقيقة</div>
+            <div class="meta">قبل 45 دقيقة</div>
+            <div class="excerpt">فعالية تجمع فاعلين اقتصاديين لعرض مشاريع ومنتجات محلية أمام مستثمرين محتملين.</div>
           </div>
         </a>
-        <a class="article-row" href="sport.html">
-          <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=300&q=80" alt="">
+        <a class="article-row" href="#">
+          <img src="https://images.unsplash.com/photo-1554774853-b415df9eeb92?w=300&q=80" alt="">
           <div>
-            <h4>منتخب المغرب يواصل تحضيراته استعدادا للمواجهات القادمة</h4>
-            <div class="meta">رياضة · قبل ساعة</div>
+            <h4>نمو ملحوظ في عدد من القطاعات الإنتاجية خلال الفصل الأخير</h4>
+            <div class="meta">قبل ساعة</div>
+            <div class="excerpt">بيانات حديثة تشير إلى تحسن مؤشرات الإنتاج مقارنة بالفترة نفسها من العام الماضي.</div>
           </div>
         </a>
-        <a class="article-row" href="regions.html">
-          <img src="https://images.unsplash.com/photo-1524850011238-e3d235c7d4c9?w=300&q=80" alt="">
+        <a class="article-row" href="#">
+          <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=300&q=80" alt="">
           <div>
-            <h4>تقرير: ارتفاع ملحوظ في عدد الوافدين السياحيين خلال الموسم الحالي</h4>
-            <div class="meta">جهات · قبل ساعتين</div>
+            <h4>توقيع اتفاقيات شراكة لدعم المقاولات الصغرى والمتوسطة</h4>
+            <div class="meta">قبل 3 ساعات</div>
+            <div class="excerpt">برامج تمويل ومواكبة جديدة موجهة للمقاولين الشباب في عدد من الجهات.</div>
           </div>
         </a>
-        <a class="article-row" href="tech.html">
-          <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=300&q=80" alt="">
+        <a class="article-row" href="#">
+          <img src="https://images.unsplash.com/photo-1601599963565-b7f49deb2027?w=300&q=80" alt="">
           <div>
-            <h4>ورشة عمل حول التحول الرقمي في القطاعات الخدماتية</h4>
-            <div class="meta">تكنولوجيا · قبل 3 ساعات</div>
+            <h4>تقرير حول تطور حركة الاستثمار في القطاع اللوجستي</h4>
+            <div class="meta">أمس</div>
+            <div class="excerpt">ارتفاع في عدد المشاريع اللوجستية الكبرى المبرمجة خلال السنوات القادمة.</div>
           </div>
         </a>
       </div>
 
-      <div class="section-title"><h3>صور وفيديو</h3></div>
-      <div class="grid-2col">
-        <div class="thumb-card">
-          <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?w=500&q=80" alt="">
-          <div class="cap">جولة في أحد الأسواق التقليدية بأحد الجهات</div>
-        </div>
-        <div class="thumb-card">
-          <img src="https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=500&q=80" alt="">
-          <div class="cap">فعالية ثقافية تجمع فنانين من مختلف الجهات</div>
-        </div>
+      <div class="pagination">
+        <span class="current">1</span>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">التالي ‹</a>
       </div>
     </div>
 
-    <!-- SIDEBAR -->
     <aside>
       <div class="side-card">
         <h3>الأكثر قراءة</h3>
@@ -127,12 +118,6 @@
         <div class="side-item"><span class="time">09:50</span><span>مصادر تكشف مستجدات ملف يشغل الرأي العام</span></div>
         <div class="side-item"><span class="time">09:15</span><span>إطلاق مبادرة جديدة لدعم الفئات ذات الاحتياجات الخاصة</span></div>
         <div class="side-item"><span class="time">08:40</span><span>توقعات الطقس ليوم غد في مختلف المناطق</span></div>
-        <div class="side-item"><span class="time">08:05</span><span>لقاء تنسيقي بين فاعلين محليين لتطوير الخدمات</span></div>
-      </div>
-
-      <div class="side-card">
-        <h3>مصدر مطلع</h3>
-        <div class="side-item"><span>معطيات جديدة حول ملف تتبعه DS24 منذ أسابيع وتفاصيل لم تكشف بعد حول الجهات المعنية بالموضوع...</span></div>
       </div>
 
       <div class="side-card">
@@ -142,7 +127,6 @@
           <a href="economie.html" style="background:var(--paper); border:1px solid var(--line); padding:6px 12px; border-radius:20px; font-size:12.5px;">#اقتصاد</a>
           <a href="sport.html" style="background:var(--paper); border:1px solid var(--line); padding:6px 12px; border-radius:20px; font-size:12.5px;">#رياضة</a>
           <a href="regions.html" style="background:var(--paper); border:1px solid var(--line); padding:6px 12px; border-radius:20px; font-size:12.5px;">#جهات</a>
-          <a href="societe.html" style="background:var(--paper); border:1px solid var(--line); padding:6px 12px; border-radius:20px; font-size:12.5px;">#مجتمع</a>
         </div>
       </div>
     </aside>
@@ -180,32 +164,5 @@
 </footer>
 
 <script src="script.js"></script>
-<script>
-  // Hero slider (homepage only)
-  const slides = [
-    { img:"https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1000&q=80", tag:"مجتمع", title:"مشاريع تنموية جديدة تعزز البنية التحتية في عدد من الجهات" },
-    { img:"https://images.unsplash.com/photo-1554774853-b415df9eeb92?w=1000&q=80", tag:"اقتصاد", title:"نمو ملحوظ في عدد من القطاعات الإنتاجية خلال الفصل الأخير" },
-    { img:"https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1000&q=80", tag:"رياضة", title:"استعدادات مكثفة للأندية الوطنية قبل انطلاق المنافسات القادمة" }
-  ];
-  let current = 0;
-  const heroEl = document.getElementById('hero');
-  const dotsEl = document.getElementById('heroDots');
-
-  function renderHero(){
-    const s = slides[current];
-    heroEl.querySelector('.hero-slide').innerHTML = `
-      <img src="${s.img}" alt="">
-      <div class="hero-caption">
-        <span class="tag">${s.tag}</span>
-        <h2>${s.title}</h2>
-      </div>`;
-    dotsEl.innerHTML = slides.map((_,i)=>`<span class="${i===current?'active':''}" onclick="goToSlide(${i})"></span>`).join('');
-  }
-  function changeSlide(dir){ current = (current + dir + slides.length) % slides.length; renderHero(); }
-  function goToSlide(i){ current = i; renderHero(); }
-  renderHero();
-  setInterval(()=>changeSlide(1), 6000);
-</script>
-
 </body>
 </html>
