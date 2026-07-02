@@ -125,6 +125,13 @@ nav.main-nav{background:var(--green-deep);}
 .thumb-card img{aspect-ratio:4/3; object-fit:cover;}
 .thumb-card .cap{padding:10px; font-size:13.5px; line-height:1.5;}
 
+.tag-chip{background:var(--paper); border:1px solid var(--line); padding:6px 12px; border-radius:20px; font-size:12.5px;}
+.side-item a{color:var(--ink); font-weight:500;}
+.side-item a:hover{color:var(--green-mid);}
+
+html[dir="ltr"] body{font-family:'IBM Plex Sans', Arial, sans-serif;}
+html[dir="ltr"] h1,html[dir="ltr"] h2,html[dir="ltr"] h3,html[dir="ltr"] .brand{font-family:'Poppins', sans-serif;}
+
 footer{background:var(--green-deep); color:#EAF3EE; margin-top:40px;}
 .footer-inner{max-width:1200px; margin:0 auto; padding:36px 20px 20px; display:grid; grid-template-columns:repeat(4,1fr); gap:24px;}
 @media(max-width:700px){ .footer-inner{grid-template-columns:1fr 1fr;} }
