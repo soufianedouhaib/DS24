@@ -46,7 +46,8 @@ const TEXT = {
   source_title:   { ar: "مصدر مطلع", fr: "Source proche du dossier", en: "Inside Source" },
   source_text:    { ar: "معطيات جديدة حول ملف تتبعه DS24 منذ أسابيع وتفاصيل لم تكشف بعد حول الجهات المعنية بالموضوع...",
                     fr: "Nouveaux éléments sur un dossier suivi par DS24 depuis des semaines, avec des détails encore non révélés...",
-                    en: "New details on a story DS24 has been tracking for weeks, with information not yet made public..." }
+                    en: "New details on a story DS24 has been tracking for weeks, with information not yet made public..." },
+  no_results:     { ar: "لا توجد نتائج مطابقة", fr: "Aucun résultat trouvé", en: "No matching results" }
 };
 
 /*

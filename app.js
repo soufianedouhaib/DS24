@@ -1,10 +1,30 @@
 /* ============ DS24 APP ENGINE ============ */
 
+let __memLang = "ar";
+let __memTheme = "light";
+
+function safeGet(key, fallback) {
+  try {
+    const v = localStorage.getItem(key);
+    return v === null ? fallback : v;
+  } catch (e) {
+    return key === "ds24-lang" ? __memLang : __memTheme;
+  }
+}
+function safeSet(key, value) {
+  try {
+    localStorage.setItem(key, value);
+  } catch (e) {
+    if (key === "ds24-lang") __memLang = value;
+    if (key === "ds24-theme") __memTheme = value;
+  }
+}
+
 function getLang() {
-  return localStorage.getItem("ds24-lang") || "ar";
+  return safeGet("ds24-lang", "ar");
 }
 function setLang(lang) {
-  localStorage.setItem("ds24-lang", lang);
+  safeSet("ds24-lang", lang);
 }
 function t(key) {
   const lang = getLang();
@@ -45,7 +65,11 @@ function renderChrome(activeKey) {
   document.getElementById("siteHeader").innerHTML = `
     <div class="header-inner">
       <a class="brand" href="index.html">DS24 <span>${t("brand_tag")}</span></a>
-      <div class="search-box">🔍 <span>${t("search_ph")}</span></div>
+      <div class="search-box">
+        <span>🔍</span>
+        <input type="text" id="searchInput" placeholder="${t("search_ph")}" autocomplete="off">
+        <div class="search-results" id="searchResults"></div>
+      </div>
     </div>`;
 
   const navLinks = [`<a href="index.html" class="${activeKey==='home'?'active':''}">${t("home")}</a>`]
@@ -89,18 +113,18 @@ function renderChrome(activeKey) {
 
   // theme toggle restore state
   const themeBtn = document.getElementById("themeToggle");
-  if (localStorage.getItem("ds24-theme") === "dark") {
+  if (safeGet("ds24-theme", "light") === "dark") {
     document.documentElement.setAttribute("data-theme", "dark");
     themeBtn.textContent = "☀️";
   }
 }
 
-/* Event delegation so buttons keep working even after chrome re-renders */
+/* Event delegation so buttons/search keep working even after chrome re-renders */
 document.addEventListener("click", (e) => {
   const langBtn = e.target.closest(".lang-btn");
   if (langBtn) {
     setLang(langBtn.dataset.lang);
-    location.reload();
+    rerenderCurrentPage();
     return;
   }
   const themeBtn = e.target.closest("#themeToggle");
@@ -108,9 +132,59 @@ document.addEventListener("click", (e) => {
     const isDark = document.documentElement.getAttribute("data-theme") === "dark";
     document.documentElement.setAttribute("data-theme", isDark ? "light" : "dark");
     themeBtn.textContent = isDark ? "🌙" : "☀️";
-    localStorage.setItem("ds24-theme", isDark ? "light" : "dark");
+    safeSet("ds24-theme", isDark ? "light" : "dark");
+    return;
+  }
+  // clicking outside the search box closes the results dropdown
+  if (!e.target.closest(".search-box")) {
+    const results = document.getElementById("searchResults");
+    if (results) results.classList.remove("show");
   }
 });
+
+document.addEventListener("input", (e) => {
+  if (e.target.id === "searchInput") {
+    runSearch(e.target.value);
+  }
+});
+document.addEventListener("keydown", (e) => {
+  if (e.target.id === "searchInput" && e.key === "Enter") {
+    const first = document.querySelector("#searchResults a");
+    if (first) location.href = first.getAttribute("href");
+  }
+});
+document.addEventListener("focusin", (e) => {
+  if (e.target.id === "searchInput" && e.target.value.trim()) {
+    runSearch(e.target.value);
+  }
+});
+
+function runSearch(query) {
+  const box = document.getElementById("searchResults");
+  if (!box) return;
+  const q = query.trim().toLowerCase();
+  if (!q) { box.classList.remove("show"); box.innerHTML = ""; return; }
+
+  const lang = getLang();
+  const matches = ARTICLES.filter(a => {
+    const c = a[lang] || a.ar;
+    return c.title.toLowerCase().includes(q) || c.excerpt.toLowerCase().includes(q);
+  }).slice(0, 6);
+
+  box.innerHTML = matches.length
+    ? matches.map(a => `<a href="article.html?id=${a.id}">${(a[lang]||a.ar).title} <span style="opacity:.6;font-size:11px;">· ${catName(a.category)}</span></a>`).join("")
+    : `<div style="padding:12px; font-size:13px; color:var(--ink-soft);">${t("no_results")}</div>`;
+  box.classList.add("show");
+}
+
+/* Re-render whichever page is currently loaded (used after a language switch) */
+function rerenderCurrentPage() {
+  if (typeof window.__rerenderPage === "function") {
+    window.__rerenderPage();
+  } else {
+    location.reload();
+  }
+}
 
 /* ---------- helpers ---------- */
 function articleCard(article, opts = {}) {
@@ -154,6 +228,7 @@ function sidebarHTML(excludeId) {
 
 /* ---------- PAGE: HOME ---------- */
 function renderHome() {
+  window.__rerenderPage = renderHome;
   renderChrome("home");
   const lang = getLang();
   const featured = [ARTICLES[3], ARTICLES[12], ARTICLES[9]]; // economie, regions, sport
@@ -216,6 +291,7 @@ function goToSlide(i) { window.__heroIndex = i; renderHeroSlide(); }
 
 /* ---------- PAGE: CATEGORY ---------- */
 function renderCategory(slug) {
+  window.__rerenderPage = () => renderCategory(slug);
   renderChrome(slug);
   const items = ARTICLES.filter(a => a.category === slug);
 
@@ -242,6 +318,7 @@ function renderCategory(slug) {
 
 /* ---------- PAGE: ARTICLE DETAIL ---------- */
 function renderArticle() {
+  window.__rerenderPage = renderArticle;
   const params = new URLSearchParams(location.search);
   const id = parseInt(params.get("id"), 10);
   const article = ARTICLES.find(a => a.id === id) || ARTICLES[0];
