@@ -233,7 +233,8 @@ function articleCard(article, opts = {}) {
 
 function sidebarHTML(excludeId) {
   const lang = getLang();
-  const mostRead = ARTICLES.slice(0, 5);
+  const mostReadIds = [82, 77, 85, 78, 74];
+  const mostRead = mostReadIds.map(id => ARTICLES.find(a => a.id === id)).filter(Boolean);
   const tagSlugs = ["politique","economie","sport","regions","tech"];
   return `
     <div class="side-card">
@@ -262,9 +263,10 @@ function renderHome() {
   renderChrome("home");
   const lang = getLang();
   const byId = (id) => ARTICLES.find(a => a.id === id);
-  const featured = [byId(7), byId(9), byId(4)]; // sport win, regions tech summit, economy growth
-  const latest = ARTICLES.slice(0, 4);
-  const photos = [byId(10), byId(11)];
+  // Featured hero + "latest" list now prioritize the most recently added, most current stories
+  const featured = [byId(82), byId(87), byId(78)]; // Al Hoceima arrest (minutes ago), city celebrations, meat prices
+  const latest = [byId(82), byId(77), byId(78), byId(74), byId(85), byId(69)];
+  const photos = [byId(87), byId(88)];
 
   document.getElementById("pageContent").innerHTML = `
     <div class="grid">
