@@ -1007,5 +1007,46 @@ ARTICLES.push(
       "Thousands of fans gather in the square to watch matches on giant screens in a festive atmosphere."
     ]
   }
+},
+{
+  "id": 89,
+  "category": "culture",
+  "img": "https://lematin.ma/sites/default/files/styles/detail_image/public/2026-03/jouj-rwah-poster.jpg",
+  "source_name": "Le Matin",
+  "source_url": "https://lematin.ma/",
+  "time": { "ar": "منذ أشهر", "fr": "il y a plusieurs mois", "en": "several months ago" },
+  "ar": {
+    "title": "'جوج رواح': كيف تحولت كوميديا 'تبادل الأرواح' إلى ظاهرة شباك التذاكر بالمغرب سنة 2026",
+    "excerpt": "الفيلم الأول للمخرج علاء أقعبون يتصدر شباك التذاكر الوطني بعد عيد الفطر متفوقا على إنتاجات عالمية كبرى.",
+    "body": [
+      "حقق فيلم 'جوج رواح' (روحين)، أول عمل روائي طويل للمخرج علاء أقعبون، نجاحا لافتا في شباك التذاكر المغربي بعد طرحه في دور العرض بمناسبة عيد الفطر 2026.",
+      "يحكي الفيلم قصة جعفر وفنيدة، عروسين يقبلان على تجربة علمية بحثا عن حل لتغطية تكاليف الزواج، قبل أن يتسبب خلل تقني في تبادل روحيهما، ليجدا نفسيهما مجبرين على العيش في جسد الآخر أسبوعا كاملا قبل موعد الزفاف.",
+      "وقاد بطولة الفيلم كل من أيوب أبو النصر وفدوى الطالب، إلى جانب مجموعة من الأسماء المعروفة في الكوميديا المغربية مثل روية ونبيل منصوري وحميدة.",
+      "وسبق طرح الفيلم حملة تسويقية لافتة، حين بادر الممثلان الرئيسيان إلى تبديل صورتيهما الشخصيتين على إنستغرام دون أي توضيح، وهو ما أثار فضول المتابعين قبل أن يتضح أن الأمر كان جزءا من الترويج لموضوع الفيلم.",
+      "وبحسب معطيات المركز السينمائي المغربي، تصدر الفيلم شباك التذاكر الوطني خلال فترة ما بعد رمضان، متفوقا على عدد من الإنتاجات الأجنبية الكبرى، في مؤشر يعكس إقبالا متزايدا للجمهور المغربي على القصص المحلية المعالجة بلغته اليومية."
+    ]
+  },
+  "fr": {
+    "title": "'Jouj Rwah' : comment une comédie d'échange de corps est devenue le phénomène du box-office marocain 2026",
+    "excerpt": "Le premier long métrage du réalisateur Alaa Akaâboune caracole en tête du box-office national après l'Aïd, devançant de grosses productions étrangères.",
+    "body": [
+      "Le film 'Jouj Rwah' ('Deux âmes'), premier long métrage du réalisateur Alaa Akaâboune, a connu un succès notable au box-office marocain après sa sortie en salles à l'occasion de l'Aïd al-Fitr 2026.",
+      "Le film raconte l'histoire de Jaafar et Fanida, un couple de fiancés qui accepte de participer à une expérience scientifique pour financer leur mariage, avant qu'un problème technique n'échange leurs âmes, les obligeant à vivre l'un dans le corps de l'autre pendant une semaine avant leurs noces.",
+      "Le film est porté par Ayoub Abounassar et Fadoua Taleb, aux côtés d'un ensemble d'acteurs connus de la comédie marocaine, dont Raouia, Nabil Manssouri et Hmimssa.",
+      "La sortie a été précédée d'une campagne marketing remarquée : les deux acteurs principaux ont échangé leurs photos de profil sur Instagram sans explication, suscitant la curiosité du public avant que l'astuce ne soit révélée comme un teaser lié au thème du film.",
+      "Selon les données du Centre cinématographique marocain, le film a pris la tête du box-office national durant la période post-Ramadan, devançant plusieurs grandes productions étrangères, signe d'un intérêt croissant du public marocain pour des récits locaux racontés dans sa langue du quotidien."
+    ]
+  },
+  "en": {
+    "title": "'Jouj Rwah': how a body-swap comedy became Morocco's box office sensation of 2026",
+    "excerpt": "Director Alaa Akaâboune's debut feature tops the national box office after Eid, outperforming major foreign releases.",
+    "body": [
+      "The comedy 'Jouj Rwah' ('Two Souls'), the debut feature from director Alaa Akaâboune, became a notable box office success in Morocco following its release around the Eid al-Fitr holiday in 2026.",
+      "The film follows Jaafar and Fanida, an engaged couple who agree to take part in a scientific experiment to help cover wedding costs, only for a technical glitch to swap their souls, forcing each to live in the other's body for a week before their wedding.",
+      "The cast is led by Ayoub Abounassar and Fadoua Taleb, alongside well-known names in Moroccan comedy including Raouia, Nabil Manssouri, and Hmimssa.",
+      "The release was preceded by a notable marketing stunt: the two lead actors swapped profile pictures on Instagram without explanation, stirring public curiosity before it was revealed as a teaser tied to the film's body-swap plot.",
+      "According to figures from the Centre Cinématographique Marocain, the film topped the national box office in the post-Ramadan period, outperforming several major foreign releases — a sign, industry watchers say, of growing local audience appetite for homegrown stories told in everyday language."
+    ]
+  }
 }
 );

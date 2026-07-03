@@ -64,7 +64,7 @@ function renderChrome(activeKey) {
 
   document.getElementById("siteHeader").innerHTML = `
     <div class="header-inner">
-      <a class="brand" href="index.html"><img src="logo-horizontal.svg" alt="DS24" style="height:44px; display:block;"></a>
+      <a class="brand" href="index.html"><img src="logo-horizontal-reveal.gif" alt="DS24" style="height:44px; display:block;"></a>
       <div class="search-box">
         <button type="button" id="searchIconBtn" aria-label="search">🔍</button>
         <input type="text" id="searchInput" placeholder="${t("search_ph")}" autocomplete="off">
@@ -264,7 +264,7 @@ function renderHome() {
   const lang = getLang();
   const byId = (id) => ARTICLES.find(a => a.id === id);
   // Featured hero + "latest" list now prioritize the most recently added, most current stories
-  const featured = [byId(82), byId(87), byId(78)]; // Al Hoceima arrest (minutes ago), city celebrations, meat prices
+  const featured = [byId(89), byId(82), byId(87)]; // Jouj Rwah box office story leads, then recent news
   const latest = [byId(82), byId(77), byId(78), byId(74), byId(85), byId(69)];
   const photos = [byId(87), byId(88)];
 
