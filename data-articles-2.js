@@ -3,7 +3,7 @@ ARTICLES.push(
 {
   "id": 31,
   "category": "societe",
-  "img": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article31/800/450",
   "source_name": "Akhbarona",
   "source_url": "https://www.akhbarona.com/",
   "time": {
@@ -39,7 +39,7 @@ ARTICLES.push(
 {
   "id": 32,
   "category": "societe",
-  "img": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article32/800/450",
   "source_name": "Akhbarona",
   "source_url": "https://www.akhbarona.com/",
   "time": {
@@ -75,7 +75,7 @@ ARTICLES.push(
 {
   "id": 33,
   "category": "societe",
-  "img": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article33/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/",
   "time": {
@@ -111,7 +111,7 @@ ARTICLES.push(
 {
   "id": 34,
   "category": "societe",
-  "img": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article34/800/450",
   "source_name": "The Voice",
   "source_url": "https://thevoice.ma/",
   "time": {
@@ -147,7 +147,7 @@ ARTICLES.push(
 {
   "id": 35,
   "category": "societe",
-  "img": "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article35/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/",
   "time": {
@@ -183,7 +183,7 @@ ARTICLES.push(
 {
   "id": 36,
   "category": "societe",
-  "img": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article36/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/",
   "time": {
@@ -219,7 +219,7 @@ ARTICLES.push(
 {
   "id": 37,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article37/800/450",
   "source_name": "Akhbarona",
   "source_url": "https://www.akhbarona.com/",
   "time": {
@@ -255,7 +255,7 @@ ARTICLES.push(
 {
   "id": 38,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article38/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/",
   "time": {
@@ -291,7 +291,7 @@ ARTICLES.push(
 {
   "id": 39,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article39/800/450",
   "source_name": "Barlamane",
   "source_url": "https://www.barlamane.com/",
   "time": {
@@ -327,7 +327,7 @@ ARTICLES.push(
 {
   "id": 40,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1522778034537-20a2486be803?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article40/800/450",
   "source_name": "Akhbarona",
   "source_url": "https://www.akhbarona.com/",
   "time": {
@@ -363,7 +363,7 @@ ARTICLES.push(
 {
   "id": 41,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article41/800/450",
   "source_name": "Hespress (عبر X)",
   "source_url": "https://x.com/hespress",
   "time": {
@@ -399,7 +399,7 @@ ARTICLES.push(
 {
   "id": 42,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article42/800/450",
   "source_name": "Vetogate",
   "source_url": "https://www.vetogate.com/5684417",
   "time": {
@@ -435,7 +435,7 @@ ARTICLES.push(
 {
   "id": 43,
   "category": "regions",
-  "img": "https://images.unsplash.com/photo-1517400508447-f8dd518b86db?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article43/800/450",
   "source_name": "Detafour",
   "source_url": "https://detafour.com/",
   "time": {
@@ -471,7 +471,7 @@ ARTICLES.push(
 {
   "id": 44,
   "category": "regions",
-  "img": "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article44/800/450",
   "source_name": "Kech24",
   "source_url": "https://kech24.com/",
   "time": {
@@ -507,7 +507,7 @@ ARTICLES.push(
 {
   "id": 45,
   "category": "regions",
-  "img": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article45/800/450",
   "source_name": "Kech24",
   "source_url": "https://kech24.com/",
   "time": {
@@ -543,7 +543,7 @@ ARTICLES.push(
 {
   "id": 46,
   "category": "regions",
-  "img": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article46/800/450",
   "source_name": "Maroc.ma",
   "source_url": "https://www.maroc.ma/ar",
   "time": {
@@ -579,7 +579,7 @@ ARTICLES.push(
 {
   "id": 47,
   "category": "regions",
-  "img": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article47/800/450",
   "source_name": "Le360",
   "source_url": "https://ar.le360.ma/",
   "time": {
@@ -615,7 +615,7 @@ ARTICLES.push(
 {
   "id": 48,
   "category": "regions",
-  "img": "https://images.unsplash.com/photo-1503007163792-a627a41cb6c0?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article48/800/450",
   "source_name": "Le360",
   "source_url": "https://ar.le360.ma/",
   "time": {
@@ -651,7 +651,7 @@ ARTICLES.push(
 {
   "id": 49,
   "category": "culture",
-  "img": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article49/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/art-et-culture",
   "time": {
@@ -687,7 +687,7 @@ ARTICLES.push(
 {
   "id": 50,
   "category": "culture",
-  "img": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article50/800/450",
   "source_name": "Maspero",
   "source_url": "https://www.maspero.eg/art-and-culture/",
   "time": {
@@ -723,7 +723,7 @@ ARTICLES.push(
 {
   "id": 51,
   "category": "culture",
-  "img": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article51/800/450",
   "source_name": "Maspero",
   "source_url": "https://www.maspero.eg/art-and-culture/",
   "time": {
@@ -759,7 +759,7 @@ ARTICLES.push(
 {
   "id": 52,
   "category": "culture",
-  "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article52/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/art-et-culture",
   "time": {
@@ -795,7 +795,7 @@ ARTICLES.push(
 {
   "id": 53,
   "category": "culture",
-  "img": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article53/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/art-et-culture",
   "time": {
@@ -831,7 +831,7 @@ ARTICLES.push(
 {
   "id": 54,
   "category": "culture",
-  "img": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article54/800/450",
   "source_name": "Ahdath Info",
   "source_url": "https://www.ahdath.info/",
   "time": {
@@ -867,7 +867,7 @@ ARTICLES.push(
 {
   "id": 55,
   "category": "sante",
-  "img": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article55/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D9%84%D8%A7-%D9%8A%D9%88%D8%AC%D8%AF-%D8%AD%D9%84-%D8%B3%D8%AD%D8%B1%D9%8A-%D9%84%D8%B3%D8%AF-%D8%AE%D8%B5%D8%A7%D8%B5-%D8%A7%D9%84%D9%85-1633208.html",
   "time": {
@@ -903,7 +903,7 @@ ARTICLES.push(
 {
   "id": 56,
   "category": "sante",
-  "img": "https://images.unsplash.com/photo-1550831107-1553da8c8464?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article56/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/",
   "time": {
@@ -939,7 +939,7 @@ ARTICLES.push(
 {
   "id": 57,
   "category": "sante",
-  "img": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article57/800/450",
   "source_name": "Sahha.ma",
   "source_url": "https://sahha.ma/en/articles/calendrier-vaccinal-enfant-maroc-2026",
   "time": {
@@ -975,7 +975,7 @@ ARTICLES.push(
 {
   "id": 58,
   "category": "tech",
-  "img": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article58/800/450",
   "source_name": "Wikipedia (استراتيجية المغرب الرقمي)",
   "source_url": "https://ar.wikipedia.org/wiki/%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8_%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A",
   "time": {
@@ -1011,7 +1011,7 @@ ARTICLES.push(
 {
   "id": 59,
   "category": "tech",
-  "img": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article59/800/450",
   "source_name": "Wikipedia (استراتيجية المغرب الرقمي)",
   "source_url": "https://ar.wikipedia.org/wiki/%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8_%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A",
   "time": {
@@ -1047,7 +1047,7 @@ ARTICLES.push(
 {
   "id": 60,
   "category": "tech",
-  "img": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article60/800/450",
   "source_name": "Wikipedia (استراتيجية المغرب الرقمي)",
   "source_url": "https://ar.wikipedia.org/wiki/%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8_%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A",
   "time": {

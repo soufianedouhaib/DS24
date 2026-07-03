@@ -3,7 +3,7 @@ ARTICLES.push(
 {
   "id": 1,
   "category": "politique",
-  "img": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article1/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D8%A7%D9%84%D8%B9%D9%88%D8%AF%D8%A9-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88-1767388.html",
   "time": {
@@ -42,7 +42,7 @@ ARTICLES.push(
 {
   "id": 2,
   "category": "politique",
-  "img": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article2/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/",
   "time": {
@@ -81,7 +81,7 @@ ARTICLES.push(
 {
   "id": 3,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1544376798-89aa6b82c6dd?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article3/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/%D9%87%D8%A8%D9%88%D8%B7-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A-%D9%8A%D9%86%D8%B9%D8%B4-%D8%A2%D9%85%D8%A7%D9%84-%D8%A7%D9%86%D8%AE%D9%81%D8%A7%D8%B6-%D8%A3%D8%B3-1760896.html",
   "time": {
@@ -120,7 +120,7 @@ ARTICLES.push(
 {
   "id": 4,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article4/800/450",
   "source_name": "Maroc Medias (revue de presse)",
   "source_url": "https://www.marocmedias.com/162084/%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%87%D8%AA%D9%85%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%81-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-15-%D9%8A%D9%88%D9%86%D9%8A/",
   "time": {
@@ -159,7 +159,7 @@ ARTICLES.push(
 {
   "id": 5,
   "category": "societe",
-  "img": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article5/800/450",
   "source_name": "The Voice",
   "source_url": "https://thevoice.ma/%D8%AD%D9%88%D8%A7%D8%AF%D8%AB-%D8%A7%D9%84%D8%B3%D9%8A%D8%B1-%D8%AA%D8%AE%D9%84%D9%81-42-%D9%82%D8%AA%D9%8A%D9%84%D8%A7-%D9%882990-%D8%AC%D8%B1%D9%8A%D8%AD%D8%A7-%D8%AE%D9%84%D8%A7%D9%84-%D8%A3%D8%B3/",
   "time": {
@@ -195,7 +195,7 @@ ARTICLES.push(
 {
   "id": 6,
   "category": "societe",
-  "img": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article6/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/",
   "time": {
@@ -231,7 +231,7 @@ ARTICLES.push(
 {
   "id": 7,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article7/800/450",
   "source_name": "اللجنة الوطنية الأولمبية المغربية (CNOM)",
   "source_url": "https://www.cnom.org.ma/index.php/ar/kas-alalm-fifa-2026-almntkhb-almghrby-ytahl-aly-thmn-alnhayy",
   "time": {
@@ -270,7 +270,7 @@ ARTICLES.push(
 {
   "id": 8,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article8/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%A3%D9%85%D8%A7%D9%85-%D9%83%D9%86%D8%AF%D8%A7-%D8%A8%D8%B0%D9%83%D8%B1%D9%8A%D8%A7%D8%AA-%D9%82%D8%B7%D8%B1-%D9%88%D9%87%D8%B0%D9%87-%D8%A3%D9%88%D8%B1%D8%A7%D9%82-%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1-%D8%A5%D9%84%D9%89-%D8%B1%D8%A8%D8%B9-%D8%A7-1770071.html",
   "time": {
@@ -309,7 +309,7 @@ ARTICLES.push(
 {
   "id": 9,
   "category": "regions",
-  "img": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article9/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/%D9%82%D9%85%D8%A9-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7-%D8%AA%D9%81%D9%83%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%A6%D9%85-%D8%A7%D9%84%D8%B1-1758722.html",
   "time": {
@@ -348,7 +348,7 @@ ARTICLES.push(
 {
   "id": 10,
   "category": "regions",
-  "img": "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article10/800/450",
   "source_name": "Kech24",
   "source_url": "https://kech24.com/%D8%A3%D9%88%D8%B1%D8%A7%D8%B4-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%83%D8%A8%D8%B1%D9%89-%D9%84%D8%AA%D8%A3%D9%87%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%88%D8%B1-%D8%A7%D9%84%D8%AD%D8%B6%D8%B1%D9%8A%D8%A9-%D8%A8%D9%85%D8%B1%D8%A7%D9%83%D8%B4-%D9%88%D9%83%D8%B4%D9%8024-%D8%AA%D9%83%D8%B4%D9%81-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84.html",
   "time": {
@@ -387,7 +387,7 @@ ARTICLES.push(
 {
   "id": 11,
   "category": "culture",
-  "img": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article11/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/%D8%AA%D9%86%D9%88%D8%B9-%D8%AB%D9%82%D8%A7%D9%81%D9%8A-%D9%8A%D9%81%D8%AA%D8%AA%D8%AD-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D9%83%D9%86%D8%A7%D9%88%D8%A9-1767916.html",
   "time": {
@@ -426,7 +426,7 @@ ARTICLES.push(
 {
   "id": 12,
   "category": "culture",
-  "img": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article12/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7-%D8%AA%D8%B3%D8%AA%D8%B9%D8%AF-%D9%84%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D9%85%D9%88%D8%A7%D8%B2%D9%8A%D9%86-2026-1762722.html",
   "time": {
@@ -465,7 +465,7 @@ ARTICLES.push(
 {
   "id": 13,
   "category": "sante",
-  "img": "https://images.unsplash.com/photo-1584634731339-252c581abfc5?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article13/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/%D9%85%D9%88%D8%AC%D8%A9-%D8%A7%D9%84%D8%AD%D8%B1-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%AA%D8%B3%D8%AA%D9%86%D9%81%D8%B1-%D8%A7%D9%84%D8%A3%D8%B7%D8%A8%D8%A7%D8%A1-%D9%88%D8%AF%D8%B9-1768512.html",
   "time": {
@@ -504,7 +504,7 @@ ARTICLES.push(
 {
   "id": 14,
   "category": "sante",
-  "img": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article14/800/450",
   "source_name": "وزارة الصحة والحماية الاجتماعية (عبر ExpressTV)",
   "source_url": "https://www.expresstv.ma/en-vedette/125474/",
   "time": {
@@ -543,7 +543,7 @@ ARTICLES.push(
 {
   "id": 15,
   "category": "tech",
-  "img": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article15/800/450",
   "source_name": "Maroc Medias (revue de presse)",
   "source_url": "https://www.marocmedias.com/162084/%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%87%D8%AA%D9%85%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%81-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-15-%D9%8A%D9%88%D9%86%D9%8A/",
   "time": {
@@ -582,7 +582,7 @@ ARTICLES.push(
 {
   "id": 16,
   "category": "tech",
-  "img": "https://images.unsplash.com/photo-1517976487492-5750f3195933?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article16/800/450",
   "source_name": "Bawaba Press",
   "source_url": "https://bawabapress.com/article/843",
   "time": {
@@ -621,7 +621,7 @@ ARTICLES.push(
 {
   "id": 17,
   "category": "politique",
-  "img": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article17/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/politique",
   "time": {
@@ -657,7 +657,7 @@ ARTICLES.push(
 {
   "id": 18,
   "category": "politique",
-  "img": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article18/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/politique",
   "time": {
@@ -693,7 +693,7 @@ ARTICLES.push(
 {
   "id": 19,
   "category": "politique",
-  "img": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article19/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/politique",
   "time": {
@@ -729,7 +729,7 @@ ARTICLES.push(
 {
   "id": 20,
   "category": "politique",
-  "img": "https://images.unsplash.com/photo-1591189863430-ab87e120f312?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article20/800/450",
   "source_name": "Yabiladi",
   "source_url": "https://ar.yabiladi.com/articles/categorie/21/%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9.html",
   "time": {
@@ -765,7 +765,7 @@ ARTICLES.push(
 {
   "id": 21,
   "category": "politique",
-  "img": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article21/800/450",
   "source_name": "Akhbarona",
   "source_url": "https://www.akhbarona.com/",
   "time": {
@@ -801,7 +801,7 @@ ARTICLES.push(
 {
   "id": 22,
   "category": "politique",
-  "img": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article22/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/politique",
   "time": {
@@ -837,7 +837,7 @@ ARTICLES.push(
 {
   "id": 23,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article23/800/450",
   "source_name": "Assahifa",
   "source_url": "https://www.assahifa.com/category/economie/",
   "time": {
@@ -873,7 +873,7 @@ ARTICLES.push(
 {
   "id": 24,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article24/800/450",
   "source_name": "Assahifa",
   "source_url": "https://www.assahifa.com/category/economie/",
   "time": {
@@ -909,7 +909,7 @@ ARTICLES.push(
 {
   "id": 25,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1558959357-3b0e5aac6c2e?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article25/800/450",
   "source_name": "Assahifa",
   "source_url": "https://www.assahifa.com/category/economie/",
   "time": {
@@ -945,7 +945,7 @@ ARTICLES.push(
 {
   "id": 26,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1591033594798-33227a05780d?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article26/800/450",
   "source_name": "Assahifa",
   "source_url": "https://www.assahifa.com/category/economie/",
   "time": {
@@ -981,7 +981,7 @@ ARTICLES.push(
 {
   "id": 27,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article27/800/450",
   "source_name": "Assahifa",
   "source_url": "https://www.assahifa.com/category/economie/",
   "time": {
@@ -1017,7 +1017,7 @@ ARTICLES.push(
 {
   "id": 28,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1554469384-e58fac16e23a?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article28/800/450",
   "source_name": "Assahifa",
   "source_url": "https://www.assahifa.com/category/economie/",
   "time": {
@@ -1053,7 +1053,7 @@ ARTICLES.push(
 {
   "id": 29,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article29/800/450",
   "source_name": "Le360",
   "source_url": "https://ar.le360.ma/economie/7OPA3T533ZDJZD565TBIQSKO6E/",
   "time": {
@@ -1089,7 +1089,7 @@ ARTICLES.push(
 {
   "id": 30,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article30/800/450",
   "source_name": "Assahifa",
   "source_url": "https://www.assahifa.com/category/economie/",
   "time": {

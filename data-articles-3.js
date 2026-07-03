@@ -3,7 +3,7 @@ ARTICLES.push(
 {
   "id": 61,
   "category": "tech",
-  "img": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article61/800/450",
   "source_name": "Wikipedia (استراتيجية المغرب الرقمي)",
   "source_url": "https://ar.wikipedia.org/wiki/%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8_%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A",
   "time": {
@@ -39,7 +39,7 @@ ARTICLES.push(
 {
   "id": 62,
   "category": "politique",
-  "img": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article62/800/450",
   "source_name": "Hespress (عبر Maroc Medias)",
   "source_url": "https://www.marocmedias.com/162621/%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%87%D8%AA%D9%85%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%81-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-%D9%84%D9%8A%D9%88%D9%85-02/",
   "time": {
@@ -75,7 +75,7 @@ ARTICLES.push(
 {
   "id": 63,
   "category": "politique",
-  "img": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article63/800/450",
   "source_name": "Maroc Medias (عن مدار21)",
   "source_url": "https://www.marocmedias.com/162621/%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%87%D8%AA%D9%85%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%81-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-%D9%84%D9%8A%D9%88%D9%85-02/",
   "time": {
@@ -111,7 +111,7 @@ ARTICLES.push(
 {
   "id": 64,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article64/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/%D9%85%D8%AF%D9%8A%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B6%D8%B1%D8%A7%D8%A6%D8%A8-%D8%AA%D8%B0%D9%83%D8%B1-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AC%D8%AF%D8%A7%D8%AA-1770562.html",
   "time": {
@@ -147,7 +147,7 @@ ARTICLES.push(
 {
   "id": 65,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article65/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D8%AC%D9%86%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D8%B4%D8%B1-1771037.html",
   "time": {
@@ -183,7 +183,7 @@ ARTICLES.push(
 {
   "id": 66,
   "category": "societe",
-  "img": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article66/800/450",
   "source_name": "Le360 (عبر Maroc Medias)",
   "source_url": "https://www.marocmedias.com/162621/%D8%A3%D8%A8%D8%B1%D8%B2-%D8%A7%D9%87%D8%AA%D9%85%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%81-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9-%D9%84%D9%8A%D9%88%D9%85-02/",
   "time": {
@@ -219,7 +219,7 @@ ARTICLES.push(
 {
   "id": 67,
   "category": "societe",
-  "img": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article67/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/economie",
   "time": {
@@ -255,7 +255,7 @@ ARTICLES.push(
 {
   "id": 68,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article68/800/450",
   "source_name": "Hespress",
   "source_url": "https://www.hespress.com/economie",
   "time": {
@@ -291,7 +291,7 @@ ARTICLES.push(
 {
   "id": 69,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article69/800/450",
   "source_name": "Almountakhab",
   "source_url": "https://www.almountakhab.com/",
   "time": {
@@ -327,7 +327,7 @@ ARTICLES.push(
 {
   "id": 70,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article70/800/450",
   "source_name": "Almountakhab",
   "source_url": "https://www.almountakhab.com/",
   "time": {
@@ -363,7 +363,7 @@ ARTICLES.push(
 {
   "id": 71,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article71/800/450",
   "source_name": "Almountakhab",
   "source_url": "https://www.almountakhab.com/",
   "time": {
@@ -399,7 +399,7 @@ ARTICLES.push(
 {
   "id": 72,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1522778034537-20a2486be803?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article72/800/450",
   "source_name": "Almountakhab",
   "source_url": "https://www.almountakhab.com/",
   "time": {
@@ -435,7 +435,7 @@ ARTICLES.push(
 {
   "id": 73,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article73/800/450",
   "source_name": "Almountakhab",
   "source_url": "https://www.almountakhab.com/",
   "time": {
@@ -471,7 +471,7 @@ ARTICLES.push(
 {
   "id": 74,
   "category": "politique",
-  "img": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article74/800/450",
   "source_name": "Le360",
   "source_url": "https://ar.le360.ma/",
   "time": {
@@ -507,7 +507,7 @@ ARTICLES.push(
 {
   "id": 75,
   "category": "politique",
-  "img": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article75/800/450",
   "source_name": "Akhbarona",
   "source_url": "https://www.akhbarona.com/",
   "time": {
@@ -543,7 +543,7 @@ ARTICLES.push(
 {
   "id": 76,
   "category": "politique",
-  "img": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article76/800/450",
   "source_name": "Akhbarona",
   "source_url": "https://www.akhbarona.com/",
   "time": {
@@ -579,7 +579,7 @@ ARTICLES.push(
 {
   "id": 77,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article77/800/450",
   "source_name": "Le360",
   "source_url": "https://ar.le360.ma/",
   "time": {
@@ -615,7 +615,7 @@ ARTICLES.push(
 {
   "id": 78,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article78/800/450",
   "source_name": "Le360",
   "source_url": "https://ar.le360.ma/",
   "time": {
@@ -651,7 +651,7 @@ ARTICLES.push(
 {
   "id": 79,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article79/800/450",
   "source_name": "Le360",
   "source_url": "https://ar.le360.ma/",
   "time": {
@@ -687,7 +687,7 @@ ARTICLES.push(
 {
   "id": 80,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article80/800/450",
   "source_name": "Akhbarona",
   "source_url": "https://www.akhbarona.com/",
   "time": {
@@ -723,7 +723,7 @@ ARTICLES.push(
 {
   "id": 81,
   "category": "economie",
-  "img": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article81/800/450",
   "source_name": "ChoufTV",
   "source_url": "https://chouftv.ma/",
   "time": {
@@ -759,7 +759,7 @@ ARTICLES.push(
 {
   "id": 82,
   "category": "societe",
-  "img": "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article82/800/450",
   "source_name": "Le360",
   "source_url": "https://ar.le360.ma/",
   "time": {
@@ -795,7 +795,7 @@ ARTICLES.push(
 {
   "id": 83,
   "category": "societe",
-  "img": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article83/800/450",
   "source_name": "Le360",
   "source_url": "https://ar.le360.ma/",
   "time": {
@@ -831,7 +831,7 @@ ARTICLES.push(
 {
   "id": 84,
   "category": "societe",
-  "img": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article84/800/450",
   "source_name": "ChoufTV",
   "source_url": "https://chouftv.ma/",
   "time": {
@@ -867,7 +867,7 @@ ARTICLES.push(
 {
   "id": 85,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article85/800/450",
   "source_name": "ChoufTV",
   "source_url": "https://chouftv.ma/",
   "time": {
@@ -903,7 +903,7 @@ ARTICLES.push(
 {
   "id": 86,
   "category": "sport",
-  "img": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article86/800/450",
   "source_name": "Akhbarona",
   "source_url": "https://www.akhbarona.com/",
   "time": {
@@ -939,7 +939,7 @@ ARTICLES.push(
 {
   "id": 87,
   "category": "regions",
-  "img": "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article87/800/450",
   "source_name": "Le360",
   "source_url": "https://ar.le360.ma/",
   "time": {
@@ -975,7 +975,7 @@ ARTICLES.push(
 {
   "id": 88,
   "category": "regions",
-  "img": "https://images.unsplash.com/photo-1517400508447-f8dd518b86db?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article88/800/450",
   "source_name": "ChoufTV",
   "source_url": "https://chouftv.ma/",
   "time": {
@@ -1011,7 +1011,7 @@ ARTICLES.push(
 {
   "id": 89,
   "category": "culture",
-  "img": "https://images.unsplash.com/photo-1489599162946-4c8e0cf7e0e5?w=800&q=80",
+  "img": "https://picsum.photos/seed/ds24article89/800/450",
   "source_name": "Le Matin",
   "source_url": "https://lematin.ma/",
   "time": { "ar": "منذ أشهر", "fr": "il y a plusieurs mois", "en": "several months ago" },
