@@ -113,9 +113,9 @@ function renderChrome(activeKey) {
     <div class="footer-inner">
       <div>
         <h5>DS24</h5>
-        <a href="#">${t("about")}</a>
-        <a href="#">${t("contact")}</a>
-        <a href="#">${t("editorial")}</a>
+        <a href="about.html">${t("about")}</a>
+        <a href="contact.html">${t("contact")}</a>
+        <a href="team.html">${t("editorial")}</a>
       </div>
       <div>
         <h5>${t("sections")}</h5>
@@ -347,7 +347,45 @@ function renderCategory(slug) {
     </div>`;
 }
 
-/* ---------- PAGE: ARTICLE DETAIL ---------- */
+/* ---------- PAGE: STATIC (About / Contact / Team) ---------- */
+function renderAbout() {
+  window.__rerenderPage = renderAbout;
+  renderChrome("about");
+  document.getElementById("pageContent").innerHTML = `
+    <div class="breadcrumb"><a href="index.html">${t("home")}</a> / ${t("about_title")}</div>
+    <div class="side-card">
+      <h3>${t("about_title")}</h3>
+      <p style="line-height:1.9; font-size:15px; margin-bottom:20px;">${t("about_body")}</p>
+      <h3>${t("about_mission")}</h3>
+      <p style="line-height:1.9; font-size:15px;">${t("about_mission_body")}</p>
+    </div>`;
+}
+
+function renderContact() {
+  window.__rerenderPage = renderContact;
+  renderChrome("contact");
+  document.getElementById("pageContent").innerHTML = `
+    <div class="breadcrumb"><a href="index.html">${t("home")}</a> / ${t("contact_title")}</div>
+    <div class="side-card">
+      <h3>${t("contact_title")}</h3>
+      <p style="line-height:1.9; font-size:15px; margin-bottom:20px;">${t("contact_body")}</p>
+      <div style="display:flex; align-items:center; gap:10px; font-size:15px;">
+        <span style="font-weight:700; color:var(--green-deep);">${t("contact_email_label")}:</span>
+        <a href="mailto:support@ds24.com" style="color:var(--green-mid); font-weight:600;">support@ds24.com</a>
+      </div>
+    </div>`;
+}
+
+function renderTeam() {
+  window.__rerenderPage = renderTeam;
+  renderChrome("team");
+  document.getElementById("pageContent").innerHTML = `
+    <div class="breadcrumb"><a href="index.html">${t("home")}</a> / ${t("team_title")}</div>
+    <div class="side-card">
+      <h3>${t("team_title")}</h3>
+      <p style="line-height:1.9; font-size:15px;">${t("team_body")}</p>
+    </div>`;
+}
 function renderArticle() {
   window.__rerenderPage = renderArticle;
   const params = new URLSearchParams(location.search);
