@@ -64,7 +64,7 @@ function renderChrome(activeKey) {
 
   document.getElementById("siteHeader").innerHTML = `
     <div class="header-inner">
-      <a class="brand" href="index.html">DS24 <span>${t("brand_tag")}</span></a>
+      <a class="brand" href="index.html"><img src="logo-horizontal.svg" alt="DS24" style="height:44px; display:block;"></a>
       <div class="search-box">
         <button type="button" id="searchIconBtn" aria-label="search">🔍</button>
         <input type="text" id="searchInput" placeholder="${t("search_ph")}" autocomplete="off">

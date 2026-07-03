@@ -43,7 +43,7 @@ img{max-width:100%; display:block;}
 /* Header */
 header.main{background:var(--card-bg); border-bottom:3px solid var(--green-mid);}
 .header-inner{max-width:1200px; margin:0 auto; padding:18px 20px; display:flex; align-items:center; justify-content:space-between;}
-.brand{font-size:34px; font-weight:800; color:var(--green-deep); display:flex; align-items:baseline; gap:6px;}
+.brand{font-size:34px; font-weight:800; color:var(--green-deep); display:flex; align-items:center; gap:6px;}
 .brand span{color:var(--gold); font-size:16px; font-weight:600;}
 
 /* Nav */
