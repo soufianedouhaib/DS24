@@ -264,9 +264,9 @@ function renderHome() {
   const lang = getLang();
   const byId = (id) => ARTICLES.find(a => a.id === id);
   // Featured hero + "latest" list now prioritize the most recently added, most current stories
-  const featured = [byId(89), byId(82), byId(87)]; // Jouj Rwah box office story leads, then recent news
-  const latest = [byId(82), byId(77), byId(78), byId(74), byId(85), byId(69)];
-  const photos = [byId(87), byId(88)];
+  const featured = [byId(94), byId(98), byId(96)]; // dam water surge (hours ago), Bayern/Saibari gesture, lawyers strike
+  const latest = [byId(94), byId(90), byId(96), byId(99), byId(93), byId(89)];
+  const photos = [byId(100), byId(87)];
 
   document.getElementById("pageContent").innerHTML = `
     <div class="grid">
@@ -429,4 +429,13 @@ function renderArticle() {
       </div>
       <aside>${sidebarHTML(article.id)}</aside>
     </div>`;
+}
+
+/* ---------- PWA: register service worker for offline support & installability ---------- */
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("service-worker.js").catch(() => {
+      // Fails silently on file:// or unsupported setups; site still works normally without it.
+    });
+  });
 }
