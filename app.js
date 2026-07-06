@@ -326,7 +326,7 @@ function goToSlide(i) { window.__heroIndex = i; renderHeroSlide(); }
 function renderCategory(slug) {
   window.__rerenderPage = () => renderCategory(slug);
   renderChrome(slug);
-  const items = ARTICLES.filter(a => a.category === slug);
+  const items = ARTICLES.filter(a => a.category === slug).sort((a, b) => b.id - a.id);
 
   document.getElementById("pageContent").innerHTML = `
     <div class="breadcrumb"><a href="index.html">${t("home")}</a> / ${catName(slug)}</div>
@@ -396,7 +396,7 @@ function renderArticle() {
   renderChrome(article.category);
   const lang = getLang();
   const content = article[lang] || article.ar;
-  const related = ARTICLES.filter(a => a.category === article.category && a.id !== article.id).slice(0, 3);
+  const related = ARTICLES.filter(a => a.category === article.category && a.id !== article.id).sort((a, b) => b.id - a.id).slice(0, 3);
 
   document.title = `${content.title} | DS24`;
 
