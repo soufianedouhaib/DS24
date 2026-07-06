@@ -111,6 +111,7 @@ nav.main-nav{background:var(--green-deep);}
 }
 .pagination a:hover{border-color:var(--green-mid); color:var(--green-deep);}
 .pagination .current{background:var(--green-deep); color:#fff; border-color:var(--green-deep);}
+.pagination .disabled{opacity:0.4; cursor:default;}
 
 /* Sidebar */
 .side-card{background:var(--card-bg); border-radius:12px; padding:18px; box-shadow:var(--shadow); margin-bottom:22px;}
