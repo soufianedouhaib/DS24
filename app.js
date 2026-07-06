@@ -323,10 +323,30 @@ function changeSlide(dir) {
 function goToSlide(i) { window.__heroIndex = i; renderHeroSlide(); }
 
 /* ---------- PAGE: CATEGORY ---------- */
+const PAGE_SIZE = 8;
+
 function renderCategory(slug) {
   window.__rerenderPage = () => renderCategory(slug);
   renderChrome(slug);
   const items = ARTICLES.filter(a => a.category === slug).sort((a, b) => b.id - a.id);
+
+  const totalPages = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
+  const params = new URLSearchParams(location.search);
+  let page = parseInt(params.get("page"), 10) || 1;
+  page = Math.min(Math.max(page, 1), totalPages);
+
+  const pageItems = items.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+
+  const pageLink = (n) => `${slug}.html?page=${n}`;
+  let paginationHTML = "";
+  for (let n = 1; n <= totalPages; n++) {
+    paginationHTML += n === page
+      ? `<span class="current">${n}</span>`
+      : `<a href="${pageLink(n)}">${n}</a>`;
+  }
+  const nextHTML = page < totalPages
+    ? `<a href="${pageLink(page + 1)}">${t("next")}</a>`
+    : `<span class="disabled">${t("next")}</span>`;
 
   document.getElementById("pageContent").innerHTML = `
     <div class="breadcrumb"><a href="index.html">${t("home")}</a> / ${catName(slug)}</div>
@@ -337,12 +357,9 @@ function renderCategory(slug) {
     <div class="grid">
       <div>
         <div class="section-title"><h3>${t("latest_in")} ${catName(slug)}</h3></div>
-        <div class="article-list">${items.map(a => articleCard(a)).join("")}</div>
+        <div class="article-list">${pageItems.map(a => articleCard(a)).join("")}</div>
         <div class="pagination">
-          <span class="current">1</span>
-          <a href="#">2</a>
-          <a href="#">3</a>
-          <a href="#">${t("next")}</a>
+          ${totalPages > 1 ? paginationHTML + nextHTML : ""}
         </div>
       </div>
       <aside>${sidebarHTML()}</aside>
