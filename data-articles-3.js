@@ -1625,4 +1625,239 @@ ARTICLES.push(
     "en": "The headline reports an alert forecasting high temperatures and strong thunderstorms in several regions of the kingdom."
   }
 }
+,
+{
+  "id": 125,
+  "category": "World",
+  "image": "https://picsum.photos/800/450",
+  "time": "منذ قليل",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%b2%d9%84%d8%b2%d8%a7%d9%84-%d9%82%d9%88%d9%8a-%d9%81%d9%8a-%d9%83%d9%88%d9%84%d9%88%d9%85%d8%a8%d9%8a%d8%a7-%d9%88%d8%a7%d9%84%d8%a5%d9%83%d9%88%d8%a7%d8%af%d9%88%d8%b1-1790185.html",
+  "title": {
+    "ar": "هزة أرضية قوية تضرب كولومبيا والإكوادور",
+    "fr": "Un fort séisme secoue la Colombie et l’Équateur",
+    "en": "Strong earthquake hits Colombia and Ecuador"
+  },
+  "summary": {
+    "ar": "أفاد العنوان بوقوع زلزال قوي في كولومبيا والإكوادور.",
+    "fr": "Le titre fait état d’un puissant séisme en Colombie et en Équateur.",
+    "en": "The headline reports a strong earthquake in Colombia and Ecuador."
+  }
+},
+{
+  "id": 126,
+  "category": "Economy",
+  "image": "https://picsum.photos/800/450",
+  "time": "منذ قليل",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%ac%d9%85%d8%a7%d8%b1%d9%83-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-%d8%aa%d8%aa%d8%b9%d9%82%d8%a8-%d8%aa%d9%87%d8%b1%d9%8a%d8%a8-370-%d9%85%d9%84%d9%8a%d9%88%d9%86-%d8%af-1790154.html",
+  "title": {
+    "ar": "الجمارك المغربية تلاحق تهريبا بقيمة 370 مليون دولار عبر فواتير صينية وماليزية",
+    "fr": "Les douanes marocaines traquent une fraude de 370 millions de dollars liée à des factures chinoises et malaisiennes",
+    "en": "Moroccan customs pursue alleged 370 million dollar smuggling through Chinese and Malaysian invoices"
+  },
+  "summary": {
+    "ar": "يتحدث العنوان عن تعقب الجمارك المغربية لعمليات تهريب مرتبطة بفواتير صينية وماليزية بقيمة 370 مليون دولار.",
+    "fr": "Le titre évoque une action des douanes marocaines visant des opérations liées à des factures chinoises et malaisiennes pour 370 millions de dollars.",
+    "en": "The headline says Moroccan customs are tracking smuggling linked to Chinese and Malaysian invoices worth 370 million dollars."
+  }
+},
+{
+  "id": 135,
+  "category": "Economy",
+  "image": "https://picsum.photos/800/450",
+  "time": "منذ قليل",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%ae%d8%a8%d8%b1%d8%a7%d8%a1-%d9%8a%d9%86%d8%a7%d9%82%d8%b4%d9%88%d9%86-%d8%ad%d8%af%d9%88%d8%af-%d8%a5%d9%84%d8%b2%d8%a7%d9%85%d9%8a%d8%a9-%d9%85%d8%b0%d9%83%d8%b1%d8%a9-%d8%a5%d8%b9%d8%af%d8%a7-1788515.html",
+  "title": {
+    "ar": "خبراء يبحثون مدى إلزامية مذكرة إعداد مشروع قانون مالية 2027",
+    "fr": "Des experts débattent du caractère obligatoire de la note préparatoire au projet de loi de finances 2027",
+    "en": "Experts discuss how binding the preparatory note for the 2027 finance bill is"
+  },
+  "summary": {
+    "ar": "يتناول العنوان نقاش خبراء حول حدود إلزامية مذكرة إعداد مشروع قانون المالية لسنة 2027.",
+    "fr": "Le titre porte sur un débat d’experts autour de la portée obligatoire de la note préparant le projet de loi de finances 2027.",
+    "en": "The headline concerns experts debating the binding scope of the preparatory note for the 2027 finance bill."
+  }
+},
+{
+  "id": 136,
+  "category": "Economy",
+  "image": "https://picsum.photos/800/450",
+  "time": "منذ قليل",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%a7%d8%aa%d8%ad%d8%a7%d8%af-%d8%a7%d9%84%d8%b9%d8%a7%d9%85-%d9%84%d9%84%d9%85%d9%82%d8%a7%d9%88%d9%84%d8%a7%d8%aa-%d9%8a%d9%82%d9%8a%d9%91%d9%85-%d8%aa%d8%af%d8%a7%d8%b9%d9%8a%d8%a7-1789675.html",
+  "title": {
+    "ar": "اتحاد المقاولات يقيّم آثار الرسوم الأمريكية على صادرات المغرب",
+    "fr": "La CGEM évalue les effets des droits américains sur les exportations marocaines",
+    "en": "Business federation assesses effects of U.S. tariffs on Moroccan exports"
+  },
+  "summary": {
+    "ar": "يشير العنوان إلى تقييم الاتحاد العام للمقاولات لتداعيات الرسوم الأمريكية على الصادرات المغربية.",
+    "fr": "Le titre indique que la Confédération générale des entreprises évalue l’impact des droits américains sur les exportations du Maroc.",
+    "en": "The headline says the business federation is assessing the impact of U.S. tariffs on Morocco’s exports."
+  }
+},
+{
+  "id": 137,
+  "category": "Economy",
+  "image": "https://picsum.photos/800/450",
+  "time": "منذ قليل",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%b9%d9%88%d8%af%d8%a9-%d8%a7%d9%84%d8%ac%d8%a7%d9%84%d9%8a%d8%a9-%d8%aa%d8%b9%d8%b2%d8%b2-%d9%86%d8%b4%d8%a7%d8%b7-%d8%b3%d9%88%d9%82-%d8%a7%d9%84%d8%b5%d8%b1%d9%81-%d8%a8%d8%a7%d9%84%d9%85%d8%ba-1788015.html",
+  "title": {
+    "ar": "عودة الجالية تنشط سوق الصرف في المغرب وسط هيمنة اليورو",
+    "fr": "Le retour de la diaspora stimule le marché des changes au Maroc sous domination de l’euro",
+    "en": "Diaspora return boosts Morocco’s currency exchange market amid euro dominance"
+  },
+  "summary": {
+    "ar": "يفيد العنوان بأن عودة الجالية تعزز نشاط سوق الصرف بالمغرب مع حضور قوي لليورو.",
+    "fr": "Le titre rapporte que le retour de la diaspora renforce l’activité du marché des changes au Maroc, avec une forte présence de l’euro.",
+    "en": "The headline reports that the diaspora’s return is strengthening Morocco’s exchange market, with the euro dominant."
+  }
+},
+{
+  "id": 138,
+  "category": "Economy",
+  "image": "https://picsum.photos/800/450",
+  "time": "منذ قليل",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a8%d8%b9%d8%af-%d8%a3%d8%b3%d8%a7%d8%a8%d9%8a%d8%b9-%d9%85%d9%86-%d8%a7%d9%84%d8%b1%d9%83%d9%88%d8%af-%d9%88%d8%a7%d9%84%d8%ae%d8%b3%d8%a7%d8%a6%d8%b1-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9-1788317.html",
+  "title": {
+    "ar": "أسعار البيض تعود للارتفاع في المغرب بعد أسابيع من الركود والخسائر",
+    "fr": "Les prix des œufs repartent à la hausse au Maroc après des semaines de stagnation et de pertes",
+    "en": "Egg prices rise again in Morocco after weeks of stagnation and losses"
+  },
+  "summary": {
+    "ar": "يتحدث العنوان عن عودة أسعار البيض إلى الارتفاع بالمغرب بعد أسابيع من الركود والخسائر المالية.",
+    "fr": "Le titre évoque une nouvelle hausse des prix des œufs au Maroc après des semaines de stagnation et de pertes financières.",
+    "en": "The headline says egg prices in Morocco are rising again after weeks of stagnation and financial losses."
+  }
+},
+{
+  "id": 139,
+  "category": "World",
+  "image": "https://picsum.photos/800/450",
+  "time": "منذ قليل",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%88%d9%86-%d9%8a%d8%aa%d9%82%d9%88%d9%89-%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d8%b1%d8%a8%d8%a7%d8%b7-%d9%88%d8%b3%d8%a7%d9%86%d8%aa%d9%8a%d8%a7%d8%ba%d9%88-1789253.html",
+  "title": {
+    "ar": "التعاون بين الرباط وسانتياغو يزداد قوة",
+    "fr": "La coopération entre Rabat et Santiago se renforce",
+    "en": "Cooperation between Rabat and Santiago grows stronger"
+  },
+  "summary": {
+    "ar": "يشير العنوان إلى تقوية التعاون بين الرباط وسانتياغو.",
+    "fr": "Le titre indique un renforcement de la coopération entre Rabat et Santiago.",
+    "en": "The headline points to stronger cooperation between Rabat and Santiago."
+  }
+},
+{
+  "id": 140,
+  "category": "Society",
+  "image": "https://picsum.photos/800/450",
+  "time": "منذ قليل",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d9%82%d9%88%d9%8a-%d9%86%d9%82%d9%84-%d9%88%d8%aa%d8%ad%d9%84%d9%8a%d8%a9-%d9%85%d9%8a%d8%a7%d9%87-%d8%a7%d9%84%d8%a8%d8%ad%d8%b1-1788715.html",
+  "title": {
+    "ar": "المغرب يعزز نقل مياه البحر وتحليتها",
+    "fr": "Le Maroc renforce le transport et le dessalement de l’eau de mer",
+    "en": "Morocco strengthens seawater transport and desalination"
+  },
+  "summary": {
+    "ar": "يتناول العنوان تعزيز المغرب لعمليات نقل مياه البحر وتحليتها.",
+    "fr": "Le titre porte sur le renforcement par le Maroc du transport et du dessalement de l’eau de mer.",
+    "en": "The headline concerns Morocco strengthening seawater transport and desalination."
+  }
+},
+{
+  "id": 141,
+  "category": "Economy",
+  "image": "https://picsum.photos/800/450",
+  "time": "منذ قليل",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-%d8%b7%d9%81%d9%8a%d9%81-%d9%84%d9%84%d8%af%d8%b1%d9%87%d9%85-%d8%a8%d8%b3%d9%88%d9%82-%d8%a7%d9%84%d8%b5%d8%b1%d9%81-1789175.html",
+  "title": {
+    "ar": "الدرهم يسجل ارتفاعا طفيفا في سوق الصرف",
+    "fr": "Le dirham enregistre une légère hausse sur le marché des changes",
+    "en": "The dirham posts a slight rise in the exchange market"
+  },
+  "summary": {
+    "ar": "يشير العنوان إلى ارتفاع محدود لقيمة الدرهم في سوق الصرف.",
+    "fr": "Le titre indique une progression limitée du dirham sur le marché des changes.",
+    "en": "The headline indicates a modest increase for the dirham in the exchange market."
+  }
+},
+{
+  "id": 142,
+  "category": "Society",
+  "image": "https://picsum.photos/800/450",
+  "time": "منذ قليل",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d8%ad%d8%aa%d9%82%d8%a7%d9%86-%d8%a7%d9%84%d9%86%d9%82%d9%84-%d8%a7%d9%84%d8%ad%d8%b6%d8%b1%d9%8a-%d9%8a%d8%b9%d9%8a%d8%af-%d9%85%d8%b7%d9%84%d8%a8-%d8%aa%d9%82%d9%86%d9%8a%d9%86-%d8%a7%d9%84-1789017.html",
+  "title": {
+    "ar": "توتر النقل الحضري يعيد مطلب تقنين التطبيقات الذكية في المغرب",
+    "fr": "Les tensions du transport urbain relancent l’appel à encadrer les applications intelligentes au Maroc",
+    "en": "Urban transport tensions revive calls to regulate smart apps in Morocco"
+  },
+  "summary": {
+    "ar": "يفيد العنوان بأن احتقان النقل الحضري أعاد إلى الواجهة مطلب تقنين التطبيقات الذكية بالمغرب.",
+    "fr": "Le titre rapporte que les tensions du transport urbain remettent en avant la demande d’encadrement des applications intelligentes au Maroc.",
+    "en": "The headline reports that urban transport tensions have brought back calls to regulate smart apps in Morocco."
+  }
+},
+{
+  "id": 144,
+  "category": "Sports",
+  "image": "https://picsum.photos/800/450",
+  "time": "منذ قليل",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d8%b9%d9%88%d8%af-%d9%85%d9%86-%d8%a3%d9%88%d8%b1%d9%8a%d8%ba%d9%88%d9%86-%d8%a8%d9%85%d9%8a%d8%af%d8%a7%d9%84%d9%8a%d8%aa%d9%8a%d9%86-1790028.html",
+  "title": {
+    "ar": "المغرب يعود من أوريغون بميداليتين",
+    "fr": "Le Maroc revient de l’Oregon avec deux médailles",
+    "en": "Morocco returns from Oregon with two medals"
+  },
+  "summary": {
+    "ar": "يفيد العنوان بحصول المغرب على ميداليتين في أوريغون.",
+    "fr": "Le titre indique que le Maroc a obtenu deux médailles en Oregon.",
+    "en": "The headline says Morocco came away from Oregon with two medals."
+  }
+},
+{
+  "id": 145,
+  "category": "World",
+  "image": "https://picsum.photos/800/450",
+  "time": "منذ قليل",
+  "source": "Akhbarona",
+  "url": "https://www.akhbarona.com/world/430575.html",
+  "title": {
+    "ar": "موجات الحر والجفاف تضغط على موارد المياه في النمسا",
+    "fr": "Les vagues de chaleur et la sécheresse mettent sous pression les ressources en eau en Autriche",
+    "en": "Heatwaves and drought strain water resources in Austria"
+  },
+  "summary": {
+    "ar": "يتحدث العنوان عن ضغط موجات الحر والجفاف على موارد المياه في النمسا مع تحذيرات من نقص محلي.",
+    "fr": "Le titre évoque la pression exercée par les vagues de chaleur et la sécheresse sur les ressources hydriques en Autriche, avec des alertes sur des pénuries locales.",
+    "en": "The headline says heatwaves and drought are pressuring Austria’s water resources, with warnings of local shortages."
+  }
+},
+{
+  "id": 147,
+  "category": "Education",
+  "image": "https://picsum.photos/800/450",
+  "time": "منذ قليل",
+  "source": "Akhbarona",
+  "url": "https://www.akhbarona.com/education/430585.html",
+  "title": {
+    "ar": "43 في المائة من خريجي الجامعات بالمغرب يعملون في وظائف لا تناسب شهاداتهم",
+    "fr": "43 % des diplômés universitaires au Maroc occupent des emplois inadéquats à leurs diplômes",
+    "en": "43 percent of university graduates in Morocco work in jobs that do not match their degrees"
+  },
+  "summary": {
+    "ar": "يفيد العنوان بأن 43 في المائة من خريجي الجامعات بالمغرب يوجدون في وظائف لا تلائم شهاداتهم.",
+    "fr": "Le titre rapporte que 43 % des diplômés universitaires au Maroc occupent des postes qui ne correspondent pas à leurs diplômes.",
+    "en": "The headline reports that 43 percent of university graduates in Morocco hold jobs that do not fit their qualifications."
+  }
+}
 );
