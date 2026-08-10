@@ -1203,4 +1203,137 @@ ARTICLES.push(
   "en": { "title": "Robbie Williams headlines Jazzablanca festival's 19th edition opening night", "excerpt": "The British global star delivers a standout set of his greatest hits in Casablanca.",
     "body": ["British global star Robbie Williams headlined Thursday evening's opening night of the 19th edition of the Jazzablanca festival in Casablanca.", "The artist thrilled the crowd with a selection of his best-known hits, kicking off the festival in style."] }
 }
+,
+{
+  "id": 101,
+  "title_ar": "منتجو الإسمنت يشيدون بمسار التعافي في القطاع",
+  "title_fr": "Les producteurs de ciment saluent la trajectoire de reprise du secteur",
+  "title_en": "Cement producers welcome the sector's recovery path",
+  "category": "Economy",
+  "image": "https://picsum.photos/800/450",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%85%d9%86%d8%aa%d8%ac%d9%88-%d8%a7%d9%84%d8%a5%d8%b3%d9%85%d9%86%d8%aa-%d9%8a%d8%ab%d9%85%d9%86%d9%88%d9%86-%d9%85%d8%b3%d8%a7%d8%b1-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%81%d9%8a-1790165.html",
+  "time": "منذ قليل"
+},
+{
+  "id": 102,
+  "title_ar": "سبتة المحتلة ترفع مستوى التأهب عبر تعزيزات أمنية وإلغاء إجازات عسكرية",
+  "title_fr": "Ceuta occupée relève l'alerte avec des renforts sécuritaires et l'annulation de congés militaires",
+  "title_en": "Occupied Ceuta raises alert with security reinforcements and cancelled military leave",
+  "category": "Politics",
+  "image": "https://picsum.photos/800/450",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%85%d8%af%d9%8a%d9%86%d8%a9-%d8%b3%d8%a8%d8%aa%d8%a9-%d8%a7%d9%84%d9%85%d8%ad%d8%aa%d9%84%d8%a9-%d8%aa%d8%b1%d9%81%d8%b9-%d8%a7%d9%84%d8%aa%d8%a3%d9%87%d8%a8-%d8%a8%d8%aa%d8%b9%d8%b2%d9%8a%d8%b2-1790120.html",
+  "time": "منذ قليل"
+},
+{
+  "id": 103,
+  "title_ar": "المغرب ينتظر زخات رعدية وتساقط البرد",
+  "title_fr": "Le Maroc se prépare à des averses orageuses et à de la grêle",
+  "title_en": "Morocco braces for thunderstorms and hail",
+  "category": "Society",
+  "image": "https://picsum.photos/800/450",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d8%aa%d8%b1%d9%82%d8%a8-%d8%b2%d8%ae%d8%a7%d8%aa-%d8%b1%d8%b9%d8%af%d9%8a%d8%a9-%d9%88%d8%a8%d8%b1%d9%8e%d8%af-1790126.html",
+  "time": "منذ قليل"
+},
+{
+  "id": 104,
+  "title_ar": "اتحادات كروية قارية تتهم فيفا بخرق الثقة",
+  "title_fr": "Des confédérations continentales de football accusent la FIFA d'avoir rompu la confiance",
+  "title_en": "Continental football bodies accuse FIFA of breaching trust",
+  "category": "Sport",
+  "image": "https://picsum.photos/800/450",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d8%aa%d8%ad%d8%a7%d8%af%d8%a7%d8%aa-%d9%83%d8%b1%d9%88%d9%8a%d8%a9-%d9%82%d8%a7%d8%b1%d9%8a%d8%a9-%d9%81%d9%8a%d9%81%d8%a7-%d9%8a%d9%82%d9%88%d9%85-%d8%a8%d8%ae%d8%b1%d9%82-%d8%a7%d9%84-1790097.html",
+  "time": "منذ قليل"
+},
+{
+  "id": 105,
+  "title_ar": "المغرب يستضيف كأس إفريقيا لأقل من 17 سنة",
+  "title_fr": "Le Maroc accueille la Coupe d'Afrique des moins de 17 ans",
+  "title_en": "Morocco hosts the U17 Africa Cup",
+  "category": "Sport",
+  "image": "https://picsum.photos/800/450",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d8%ad%d8%aa%d8%b6%d9%86-%d9%83%d8%a3%d8%b3-%d8%a5%d9%81%d8%b1%d9%8a%d9%82%d9%8a%d8%a7-u17-1790132.html",
+  "time": "منذ قليل"
+},
+{
+  "id": 106,
+  "title_ar": "الضرائب ترصد شبكات للاتجار بالشركات وتفويتات مشبوهة لمقاولات",
+  "title_fr": "Le fisc repère des réseaux de commerce de sociétés et des cessions suspectes d'entreprises",
+  "title_en": "Tax authorities detect company-trading networks and suspicious business transfers",
+  "category": "Economy",
+  "image": "https://picsum.photos/800/450",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%b6%d8%b1%d8%a7%d8%a6%d8%a8-%d8%aa%d8%b1%d8%b5%d8%af-%d8%b4%d8%a8%d9%83%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%aa%d8%a7%d8%ac%d8%b1%d8%a9-%d8%a8%d8%a7%d9%84%d8%b4%d8%b1%d9%83%d8%a7%d8%aa-1789229.html",
+  "time": "منذ قليل"
+},
+{
+  "id": 107,
+  "title_ar": "المغرب الفاسي يقيم معسكرا تدريبيا في أكادير",
+  "title_fr": "Le Maghreb de Fès installe son camp d'entraînement à Agadir",
+  "title_en": "Maghreb de Fès sets up a training camp in Agadir",
+  "category": "Sport",
+  "image": "https://picsum.photos/800/450",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%a7%d9%84%d9%81%d8%a7%d8%b3%d9%8a-%d9%8a%d8%b9%d8%b3%d9%83%d8%b1-%d8%a8%d9%85%d8%af%d9%8a%d9%86%d8%a9-%d8%a3%d9%83%d8%a7%d8%af%d9%8a%d8%b1-1790055.html",
+  "time": "منذ قليل"
+},
+{
+  "id": 108,
+  "title_ar": "وزير العدل يدعو إلى عودة القاصرين المغاربة ويحمل إسبانيا المسؤولية",
+  "title_fr": "Le ministre de la Justice demande le retour des mineurs marocains et tient l'Espagne pour responsable",
+  "title_en": "Justice minister calls for Moroccan minors' return and holds Spain responsible",
+  "category": "Politics",
+  "image": "https://picsum.photos/800/450",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%88%d8%b2%d9%8a%d8%b1-%d8%a7%d9%84%d8%b9%d8%af%d9%84-%d9%8a%d8%b7%d8%a7%d9%84%d8%a8-%d8%a8%d8%b9%d9%88%d8%af%d8%a9-%d8%a7%d9%84%d9%82%d8%a7%d8%b5%d8%b1%d9%8a%d9%86-%d8%a7%d9%84%d9%85%d8%ba%d8%a7-1790103.html",
+  "time": "منذ قليل"
+},
+{
+  "id": 109,
+  "title_ar": "دعم كولومبيا لمغربية الصحراء يعزز الفرص الاقتصادية في الفضاء الأطلسي",
+  "title_fr": "Le soutien colombien à la marocanité du Sahara renforce les perspectives économiques atlantiques",
+  "title_en": "Colombia's support for Moroccan sovereignty over the Sahara strengthens Atlantic economic opportunities",
+  "category": "Politics",
+  "image": "https://picsum.photos/800/450",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%af%d8%b9%d9%85-%d9%83%d9%88%d9%84%d9%88%d9%85%d8%a8%d9%8a%d8%a7-%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-%d8%a7%d9%84%d8%b5%d8%ad%d8%b1%d8%a7%d8%a1-%d9%8a%d8%b9%d8%b2%d8%b2-%d8%a7%d9%84%d9%81-1789753.html",
+  "time": "منذ قليل"
+},
+{
+  "id": 110,
+  "title_ar": "اليابان تؤكد تقديم الإغاثة لكوماموتو المتضررة من الزلزال",
+  "title_fr": "Le Japon confirme l'aide à Kumamoto touchée par le séisme",
+  "title_en": "Japan confirms relief for earthquake-hit Kumamoto",
+  "category": "World",
+  "image": "https://picsum.photos/800/450",
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d9%8a%d8%a7%d8%a8%d8%a7%d9%86-%d8%aa%d8%a4%d9%83%d8%af-%d8%a5%d8%ba%d8%a7%d8%ab%d8%a9-%d9%83%d9%88%d9%85%d8%a7%d9%85%d9%88%d8%aa%d9%88-%d8%a7%d9%84%d9%85%d9%86%d9%83%d9%88%d8%a8%d8%a9-1790052.html",
+  "time": "منذ قليل"
+},
+{
+  "id": 111,
+  "title_ar": "تعيينات جديدة في مناصب المسؤولية بالأمن الوطني",
+  "title_fr": "De nouvelles nominations à des postes de responsabilité au sein de la Sûreté nationale",
+  "title_en": "New appointments made to senior posts in national security",
+  "category": "Society",
+  "image": "https://picsum.photos/800/450",
+  "source": "Akhbarona",
+  "url": "https://www.akhbarona.com/national/430571.html",
+  "time": "منذ قليل"
+},
+{
+  "id": 112,
+  "title_ar": "دراسة تحدد هدفا جينيا واعدا قد يعزز فعالية علاج أحد أخطر أورام الدماغ",
+  "title_fr": "Une étude identifie une cible génétique prometteuse pouvant améliorer le traitement d'une tumeur cérébrale grave",
+  "title_en": "Study identifies a promising gene target that may improve treatment for a dangerous brain tumor",
+  "category": "Health",
+  "image": "https://picsum.photos/800/450",
+  "source": "Akhbarona",
+  "url": "https://www.akhbarona.com/health/430579.html",
+  "time": "منذ قليل"
+}
 );
