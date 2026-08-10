@@ -1336,4 +1336,293 @@ ARTICLES.push(
   "url": "https://www.akhbarona.com/health/430579.html",
   "time": "منذ قليل"
 }
+,
+{
+  "id": 113,
+  "category": "society",
+  "image": "https://picsum.photos/800/450",
+  "source": {
+    "name": "Hespress",
+    "url": "https://www.hespress.com/%d8%b3%d8%a7%d8%b9%d8%a7%d8%aa-%d8%b9%d9%85%d9%84-%d8%a7%d9%84%d8%a3%d9%85%d9%86-%d8%a7%d9%84%d8%ae%d8%a7%d8%b5-1790155.html"
+  },
+  "time": {
+    "ar": "منذ قليل",
+    "fr": "il y a peu",
+    "en": "a short time ago"
+  },
+  "title": {
+    "ar": "نقاش حول ساعات عمل العاملين في الأمن الخاص",
+    "fr": "Débat autour des horaires de travail dans la sécurité privée",
+    "en": "Debate over working hours in private security"
+  },
+  "summary": {
+    "ar": "يتناول الخبر موضوع ساعات العمل في قطاع الأمن الخاص دون إضافة تفاصيل غير واردة في العنوان.",
+    "fr": "L’article porte sur les horaires de travail dans le secteur de la sécurité privée, sans ajouter d’éléments non mentionnés dans le titre.",
+    "en": "The report addresses working hours in the private security sector without adding details beyond the headline."
+  }
+},
+{
+  "id": 114,
+  "category": "economy",
+  "image": "https://picsum.photos/800/450",
+  "source": {
+    "name": "Hespress",
+    "url": "https://www.hespress.com/%d9%85%d9%86%d8%aa%d8%ac%d9%88-%d8%a7%d9%84%d8%a5%d8%b3%d9%85%d9%86%d8%aa-%d9%8a%d8%ab%d9%85%d9%86%d9%88%d9%86-%d9%85%d8%b3%d8%a7%d8%b1-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%81%d9%8a-1790165.html"
+  },
+  "time": {
+    "ar": "منذ قليل",
+    "fr": "il y a peu",
+    "en": "a short time ago"
+  },
+  "title": {
+    "ar": "منتجو الإسمنت يرحبون بمؤشرات التعافي في القطاع",
+    "fr": "Les producteurs de ciment saluent une trajectoire de reprise",
+    "en": "Cement producers welcome signs of recovery"
+  },
+  "summary": {
+    "ar": "يركز الخبر على تثمين منتجي الإسمنت لمسار التعافي كما ورد في العنوان.",
+    "fr": "Le sujet met l’accent sur l’appréciation des producteurs de ciment concernant la reprise évoquée dans le titre.",
+    "en": "The item focuses on cement producers’ positive view of the recovery path mentioned in the headline."
+  }
+},
+{
+  "id": 115,
+  "category": "politics",
+  "image": "https://picsum.photos/800/450",
+  "source": {
+    "name": "Hespress",
+    "url": "https://www.hespress.com/%d9%85%d8%af%d9%8a%d9%86%d8%a9-%d8%b3%d8%a8%d8%aa%d8%a9-%d8%a7%d9%84%d9%85%d8%ad%d8%aa%d9%84%d8%a9-%d8%aa%d8%b1%d9%81%d8%b9-%d8%a7%d9%84%d8%aa%d8%a3%d9%87%d8%a8-%d8%a8%d8%aa%d8%b9%d8%b2%d9%8a%d8%b2-1790120.html"
+  },
+  "time": {
+    "ar": "منذ قليل",
+    "fr": "il y a peu",
+    "en": "a short time ago"
+  },
+  "title": {
+    "ar": "سبتة ترفع مستوى التأهب بتدابير أمنية وإلغاء عطلات عسكرية",
+    "fr": "Ceuta renforce l’alerte avec des mesures sécuritaires et l’annulation de congés militaires",
+    "en": "Ceuta raises alert level with security reinforcements and canceled military leave"
+  },
+  "summary": {
+    "ar": "يفيد العنوان بأن مدينة سبتة رفعت حالة التأهب عبر تعزيزات أمنية وإلغاء الإجازات العسكرية.",
+    "fr": "Le titre indique que Ceuta a relevé son niveau d’alerte par des renforts de sécurité et l’annulation de congés militaires.",
+    "en": "The headline states that Ceuta raised its alert level through security reinforcements and the cancellation of military leave."
+  }
+},
+{
+  "id": 116,
+  "category": "weather",
+  "image": "https://picsum.photos/800/450",
+  "source": {
+    "name": "Hespress",
+    "url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d8%aa%d8%b1%d9%82%d8%a8-%d8%b2%d8%ae%d8%a7%d8%aa-%d8%b1%d8%b9%d8%af%d9%8a%d8%a9-%d9%88%d8%a8%d8%b1%d9%8e%d8%af-1790126.html"
+  },
+  "time": {
+    "ar": "منذ قليل",
+    "fr": "il y a peu",
+    "en": "a short time ago"
+  },
+  "title": {
+    "ar": "توقع زخات رعدية مصحوبة بالبرد في المغرب",
+    "fr": "Des averses orageuses accompagnées de grêle sont attendues au Maroc",
+    "en": "Thunder showers with hail expected in Morocco"
+  },
+  "summary": {
+    "ar": "ينقل الخبر توقعات بحدوث زخات رعدية وبرد في المغرب كما ورد في العنوان.",
+    "fr": "L’information rapporte des prévisions d’averses orageuses et de grêle au Maroc, conformément au titre.",
+    "en": "The item reports forecasts of thunder showers and hail in Morocco as stated in the headline."
+  }
+},
+{
+  "id": 117,
+  "category": "sports",
+  "image": "https://picsum.photos/800/450",
+  "source": {
+    "name": "Hespress",
+    "url": "https://www.hespress.com/%d8%a7%d8%aa%d8%ad%d8%a7%d8%af%d8%a7%d8%aa-%d9%83%d8%b1%d9%88%d9%8a%d8%a9-%d9%82%d8%a7%d8%b1%d9%8a%d8%a9-%d9%81%d9%8a%d9%81%d8%a7-%d9%8a%d9%82%d9%88%d9%85-%d8%a8%d8%ae%d8%b1%d9%82-%d8%a7%d9%84-1790097.html"
+  },
+  "time": {
+    "ar": "منذ قليل",
+    "fr": "il y a peu",
+    "en": "a short time ago"
+  },
+  "title": {
+    "ar": "اتحادات كروية قارية تتهم فيفا بالإخلال بالثقة",
+    "fr": "Des confédérations continentales de football accusent la FIFA de rompre la confiance",
+    "en": "Continental football bodies accuse FIFA of breaching trust"
+  },
+  "summary": {
+    "ar": "يعكس الخبر موقف اتحادات كروية قارية تقول إن فيفا أخلت بالثقة.",
+    "fr": "Le sujet reprend la position de confédérations continentales affirmant que la FIFA a rompu la confiance.",
+    "en": "The report reflects the position of continental football bodies saying FIFA breached trust."
+  }
+},
+{
+  "id": 118,
+  "category": "sports",
+  "image": "https://picsum.photos/800/450",
+  "source": {
+    "name": "Hespress",
+    "url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d8%ad%d8%aa%d8%b6%d9%86-%d9%83%d8%a3%d8%b3-%d8%a5%d9%81%d8%b1%d9%8a%d9%82%d9%8a%d8%a7-u17-1790132.html"
+  },
+  "time": {
+    "ar": "منذ قليل",
+    "fr": "il y a peu",
+    "en": "a short time ago"
+  },
+  "title": {
+    "ar": "المغرب يستضيف كأس إفريقيا لأقل من 17 سنة",
+    "fr": "Le Maroc accueille la Coupe d’Afrique des moins de 17 ans",
+    "en": "Morocco hosts the Africa U17 Cup"
+  },
+  "summary": {
+    "ar": "يفيد العنوان بأن المغرب سيكون بلدا مضيفا لكأس إفريقيا U17.",
+    "fr": "Le titre indique que le Maroc accueillera la Coupe d’Afrique U17.",
+    "en": "The headline states that Morocco will host the U17 Africa Cup."
+  }
+},
+{
+  "id": 119,
+  "category": "economy",
+  "image": "https://picsum.photos/800/450",
+  "source": {
+    "name": "Hespress",
+    "url": "https://www.hespress.com/%d8%a7%d9%84%d8%b6%d8%b1%d8%a7%d8%a6%d8%a8-%d8%aa%d8%b1%d8%b5%d8%af-%d8%b4%d8%a8%d9%83%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%aa%d8%a7%d8%ac%d8%b1%d8%a9-%d8%a8%d8%a7%d9%84%d8%b4%d8%b1%d9%83%d8%a7%d8%aa-1789229.html"
+  },
+  "time": {
+    "ar": "منذ قليل",
+    "fr": "il y a peu",
+    "en": "a short time ago"
+  },
+  "title": {
+    "ar": "مصالح الضرائب ترصد شبكات لتداول الشركات وتفويتات مشبوهة لمقاولات",
+    "fr": "Le fisc repère des réseaux de cession d’entreprises et des transferts suspects",
+    "en": "Tax authorities detect company-trading networks and suspicious business transfers"
+  },
+  "summary": {
+    "ar": "يتحدث العنوان عن رصد ضريبي لشبكات متاجرة بالشركات وتفويتات مشبوهة لمقاولات.",
+    "fr": "Le titre évoque la détection par l’administration fiscale de réseaux de négoce d’entreprises et de transferts suspects.",
+    "en": "The headline refers to tax authorities detecting company-trading networks and suspicious business transfers."
+  }
+},
+{
+  "id": 120,
+  "category": "sports",
+  "image": "https://picsum.photos/800/450",
+  "source": {
+    "name": "Hespress",
+    "url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%a7%d9%84%d9%81%d8%a7%d8%b3%d9%8a-%d9%8a%d8%b9%d8%b3%d9%83%d8%b1-%d8%a8%d9%85%d8%af%d9%8a%d9%86%d8%a9-%d8%a3%d9%83%d8%a7%d8%af%d9%8a%d8%b1-1790055.html"
+  },
+  "time": {
+    "ar": "منذ قليل",
+    "fr": "il y a peu",
+    "en": "a short time ago"
+  },
+  "title": {
+    "ar": "المغرب الفاسي يقيم معسكرا تدريبيا في أكادير",
+    "fr": "Le Maghreb de Fès installe son stage à Agadir",
+    "en": "Maghreb de Fès holds a training camp in Agadir"
+  },
+  "summary": {
+    "ar": "يفيد العنوان بأن نادي المغرب الفاسي اختار مدينة أكادير لإقامة معسكره.",
+    "fr": "Le titre indique que le club du Maghreb de Fès a choisi Agadir pour son stage.",
+    "en": "The headline states that Maghreb de Fès chose Agadir for its camp."
+  }
+},
+{
+  "id": 121,
+  "category": "politics",
+  "image": "https://picsum.photos/800/450",
+  "source": {
+    "name": "Hespress",
+    "url": "https://www.hespress.com/%d9%88%d8%b2%d9%8a%d8%b1-%d8%a7%d9%84%d8%b9%d8%af%d9%84-%d9%8a%d8%b7%d8%a7%d9%84%d8%a8-%d8%a8%d8%b9%d9%88%d8%af%d8%a9-%d8%a7%d9%84%d9%82%d8%a7%d8%b5%d8%b1%d9%8a%d9%86-%d8%a7%d9%84%d9%85%d8%ba%d8%a7-1790103.html"
+  },
+  "time": {
+    "ar": "منذ قليل",
+    "fr": "il y a peu",
+    "en": "a short time ago"
+  },
+  "title": {
+    "ar": "وزير العدل يدعو إلى عودة القاصرين المغاربة ويحمل إسبانيا المسؤولية",
+    "fr": "Le ministre de la Justice réclame le retour des mineurs marocains et met en cause l’Espagne",
+    "en": "Justice minister calls for Moroccan minors’ return and holds Spain responsible"
+  },
+  "summary": {
+    "ar": "ينقل العنوان مطالبة وزير العدل بعودة القاصرين المغاربة وتحميله إسبانيا المسؤولية.",
+    "fr": "Le titre rapporte que le ministre de la Justice demande le retour des mineurs marocains et tient l’Espagne pour responsable.",
+    "en": "The headline reports that the justice minister called for Moroccan minors to return and held Spain responsible."
+  }
+},
+{
+  "id": 122,
+  "category": "politics",
+  "image": "https://picsum.photos/800/450",
+  "source": {
+    "name": "Hespress",
+    "url": "https://www.hespress.com/%d8%af%d8%b9%d9%85-%d9%83%d9%88%d9%84%d9%88%d9%85%d8%a8%d9%8a%d8%a7-%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-%d8%a7%d9%84%d8%b5%d8%ad%d8%b1%d8%a7%d8%a1-%d9%8a%d8%b9%d8%b2%d8%b2-%d8%a7%d9%84%d9%81-1789753.html"
+  },
+  "time": {
+    "ar": "منذ قليل",
+    "fr": "il y a peu",
+    "en": "a short time ago"
+  },
+  "title": {
+    "ar": "دعم كولومبيا لمغربية الصحراء يفتح آفاقا اقتصادية أطلسية",
+    "fr": "Le soutien de la Colombie à la marocanité du Sahara renforce les perspectives économiques atlantiques",
+    "en": "Colombia’s support for Moroccan sovereignty over the Sahara boosts Atlantic economic prospects"
+  },
+  "summary": {
+    "ar": "يربط العنوان بين دعم كولومبيا لمغربية الصحراء وتعزيز الفرص الاقتصادية في الفضاء الأطلسي.",
+    "fr": "Le titre relie le soutien de la Colombie à la marocanité du Sahara au renforcement des opportunités économiques dans l’espace atlantique.",
+    "en": "The headline links Colombia’s support for Moroccan sovereignty over the Sahara with stronger economic opportunities in the Atlantic space."
+  }
+},
+{
+  "id": 123,
+  "category": "sports",
+  "image": "https://picsum.photos/800/450",
+  "source": {
+    "name": "Hespress",
+    "url": "https://www.hespress.com/%d9%83%d8%a7%d9%86-%d8%a7%d9%84%d8%b3%d9%8a%d8%af%d8%a7%d8%aa-%d8%ad%d9%85%d8%a7%d8%b3%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-1790049.html"
+  },
+  "time": {
+    "ar": "منذ قليل",
+    "fr": "il y a peu",
+    "en": "a short time ago"
+  },
+  "title": {
+    "ar": "كأس إفريقيا للسيدات يثير الحماس في المغرب",
+    "fr": "La CAN féminine suscite l’enthousiasme au Maroc",
+    "en": "Women’s Africa Cup sparks excitement in Morocco"
+  },
+  "summary": {
+    "ar": "يشير العنوان إلى أجواء حماسية في المغرب مرتبطة بكأس إفريقيا للسيدات.",
+    "fr": "Le titre évoque une ambiance enthousiaste au Maroc autour de la Coupe d’Afrique féminine.",
+    "en": "The headline points to excitement in Morocco around the Women’s Africa Cup."
+  }
+},
+{
+  "id": 124,
+  "category": "society",
+  "image": "https://picsum.photos/800/450",
+  "source": {
+    "name": "Akhbarona",
+    "url": "https://www.akhbarona.com/national/430570.html"
+  },
+  "time": {
+    "ar": "منذ قليل",
+    "fr": "il y a peu",
+    "en": "a short time ago"
+  },
+  "title": {
+    "ar": "نشرة إنذارية تتوقع حرارة تصل إلى 47 درجة وزخات رعدية قوية",
+    "fr": "Un bulletin d’alerte annonce jusqu’à 47 degrés et de fortes averses orageuses",
+    "en": "Weather alert forecasts temperatures up to 47°C and strong thunderstorms"
+  },
+  "summary": {
+    "ar": "يفيد العنوان بصدور نشرة إنذارية تتوقع حرارة مرتفعة وزخات رعدية قوية بعدد من مناطق المملكة.",
+    "fr": "Le titre signale un bulletin d’alerte prévoyant une forte chaleur et des averses orageuses dans plusieurs régions du Royaume.",
+    "en": "The headline reports an alert forecasting high temperatures and strong thunderstorms in several regions of the kingdom."
+  }
+}
 );
