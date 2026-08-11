@@ -233,8 +233,10 @@ function articleCard(article, opts = {}) {
 
 function sidebarHTML(excludeId) {
   const lang = getLang();
-  const mostReadIds = [82, 77, 85, 78, 74];
-  const mostRead = mostReadIds.map(id => ARTICLES.find(a => a.id === id)).filter(Boolean);
+  const mostRead = ARTICLES.slice()
+    .sort((a, b) => b.id - a.id)
+    .filter(a => a.id !== excludeId)
+    .slice(0, 5);
   const tagSlugs = ["politique","economie","sport","regions","tech"];
   return `
     <div class="side-card">
@@ -264,9 +266,12 @@ function renderHome() {
   const lang = getLang();
   const byId = (id) => ARTICLES.find(a => a.id === id);
   // Featured hero + "latest" list now prioritize the most recently added, most current stories
-  const featured = [byId(94), byId(98), byId(96)]; // dam water surge (hours ago), Bayern/Saibari gesture, lawyers strike
-  const latest = [byId(94), byId(90), byId(96), byId(99), byId(93), byId(89)];
-  const photos = [byId(100), byId(87)];
+  // Always pulls the genuinely newest articles (highest IDs) — no manual curation needed,
+  // stays correct automatically as new articles are added.
+  const sortedNewest = ARTICLES.slice().sort((a, b) => b.id - a.id);
+  const featured = sortedNewest.slice(0, 3);
+  const latest = sortedNewest.slice(3, 9);
+  const photos = sortedNewest.slice(9, 11);
 
   document.getElementById("pageContent").innerHTML = `
     <div class="grid">
