@@ -1385,4 +1385,6 @@ ARTICLES.push(
   "en": { "title": "Raja Club Athletic picks webook.com as official ticketing partner", "excerpt": "A new agreement aims to make it easier for fans to buy match tickets.",
     "body": ["Raja Club Athletic announced it has chosen the webook.com platform as the official partner for managing ticket sales for its matches.", "The partnership aims to make it easier for fans to access tickets through a modern, secure digital platform."] }
 }
+,
+
 );
