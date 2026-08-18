@@ -1728,4 +1728,192 @@ ARTICLES.push(
     "text": "According to Hespress, a new decree regulating drug prices has come into force in Morocco, amid divisions among the country’s pharmacists, as the headline notes. The differing views focus on how the measure may affect patients’ access to treatment and the financial situation of pharmacies."
   }
 }
+,
+{
+  "id": 134,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%87%d9%88%d9%84%d9%8a%d8%aa%d9%8a-%d9%8a%d8%b9%d8%b2%d8%b2-%d8%b5%d9%81%d9%88%d9%81-%d8%a3%d9%85%d9%84-%d8%aa%d9%8a%d8%b2%d9%86%d9%8a%d8%aa-1793592.html",
+  "title_ar": "\"هوليتي\" يعزز صفوف أمل تيزنيت",
+  "title_fr": "\"Houliti\" renforce l’effectif d’Amal Tiznit",
+  "title_en": "\"Houliti\" strengthens Amal Tiznit squad",
+  "lead_ar": "أفاد موقع هسبريس بأن اللاعب هوليتي ينضم إلى فريق أمل تيزنيت، في صفقة تعزز تركيبة النادي التقنية والبشرية قبل الاستحقاقات الكروية المقبلة.",
+  "lead_fr": "Le site Hespress indique que le joueur Houliti rejoint le club Amal Tiznit, apportant un renfort supplémentaire à l’effectif en vue des prochaines échéances sportives.",
+  "lead_en": "According to Hespress, player Houliti has joined Amal Tiznit, providing additional reinforcement to the squad ahead of upcoming football commitments."
+},
+{
+  "id": 135,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d9%82%d8%b6%d8%a7%d8%a1-%d8%a7%d9%84%d8%b3%d9%88%d8%b1%d9%8a-%d9%8a%d9%86%d8%b7%d9%82-%d8%a8%d8%a5%d8%b9%d8%af%d8%a7%d9%85-%d8%a7%d8%a8%d9%86-%d8%b9%d9%85-%d8%a8%d8%b4%d8%a7%d8%b1-%d8%a7-1793639.html",
+  "title_ar": "القضاء السوري ينطق بإعدام ابن عم بشار الأسد",
+  "title_fr": "La justice syrienne prononce la peine de mort contre un cousin de Bachar al-Assad",
+  "title_en": "Syrian judiciary sentences Bashar al-Assad’s cousin to death",
+  "lead_ar": "ذكر موقع هسبريس أن القضاء السوري أصدر حكما بالإعدام في حق ابن عم الرئيس بشار الأسد، في تطور قضائي بارز داخل سوريا.",
+  "lead_fr": "Selon Hespress, la justice syrienne a prononcé la peine capitale à l’encontre d’un cousin du président Bachar al-Assad, marquant un développement judiciaire notable en Syrie.",
+  "lead_en": "Hespress reports that the Syrian judiciary has handed down a death sentence against a cousin of President Bashar al-Assad, marking a significant judicial development in Syria."
+},
+{
+  "id": 136,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%b9%d9%85%d8%a7%d9%84%d8%a7%d8%aa-%d8%aa%d9%88%d9%82%d9%81-%d8%b5%d9%81%d9%82%d8%a7%d8%aa-%d9%85%d8%b3%d8%aa%d8%b9%d8%ac%d9%84%d8%a9-%d9%88%d8%aa%d8%af%d9%82%d9%82-%d9%81%d9%8a-%d8%a7%d9%84-1792448.html",
+  "title_ar": "عمالات توقف \"صفقات مستعجلة\" وتدقق في المبررات ومساطر الإعداد",
+  "title_fr": "Des préfectures suspendent des \"marchés urgents\" et examinent les justifications et procédures",
+  "title_en": "Provincial authorities halt \"urgent contracts\" and scrutinize justifications and procedures",
+  "lead_ar": "أوردت هسبريس أن عددا من العمالات أوقفت صفقات واعتبرتها \"مستعجلة\" ريثما تتم مراجعة المبررات القانونية ومساطر الإعداد المرتبطة بها محليا.",
+  "lead_fr": "D’après Hespress, plusieurs préfectures ont suspendu certains marchés qualifiés d’\"urgents\" en attendant de vérifier les justifications juridiques et les procédures de préparation au niveau local.",
+  "lead_en": "Hespress indicates that several provincial authorities have suspended contracts labeled as \"urgent\" while they review the legal justifications and preparatory procedures at the local level."
+},
+{
+  "id": 137,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-%d8%b3%d8%ad%d8%a8-%d9%82%d8%b1%d8%b9%d8%a9-%d8%af%d9%88%d8%b1%d9%8a-%d8%a3%d8%a8%d8%b7%d8%a7%d9%84-%d8%a2%d8%b3%d9%8a%d8%a7-1793611.html",
+  "title_ar": "نتائج سحب قرعة دوري أبطال آسيا",
+  "title_fr": "Résultats du tirage au sort de la Ligue des champions d’Asie",
+  "title_en": "Results of the AFC Champions League draw",
+  "lead_ar": "استعرض موقع هسبريس نتائج سحب قرعة دوري أبطال آسيا لكرة القدم، وما أسفرت عنه من مجموعات مختلفة للأندية المشاركة في النسخة الحالية.",
+  "lead_fr": "Hespress présente les résultats du tirage au sort de la Ligue des champions d’Asie, détaillant la composition des groupes des clubs engagés dans l’édition en cours.",
+  "lead_en": "Hespress outlines the results of the AFC Champions League draw, detailing how the participating clubs have been distributed across the groups for the current edition."
+},
+{
+  "id": 138,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%af%d9%81%d9%86-%d8%ac%d8%ab%d8%a7%d9%85%d9%8a%d9%86-%d8%a3%d8%ad%d8%af%d8%a7%d8%ab-%d8%b3%d8%a8%d8%aa%d8%a9-%d9%87%d9%84-%d8%aa%d9%85%d9%91%d8%aa-%d8%aa%d8%af%d8%a7%d8%a8%d9%8a%d8%b1-%d8%aa-1793608.html",
+  "title_ar": "دفن جثامين \"أحداث سبتة\" .. هل تمّت تدابير تحديد الهوية وإخبار الأسر؟",
+  "title_fr": "Enterrement des dépouilles des \"événements de Ceuta\" : mesures d’identification et information des familles ?",
+  "title_en": "Burial of victims of the \"Ceuta events\": were identification measures and family notifications completed?",
+  "lead_ar": "تسائل هسبريس في تقريره حول دفن جثامين ضحايا \"أحداث سبتة\"، وما إذا كانت إجراءات تحديد الهوية وإخبار أسر المتوفين قد استوفيت قبل عملية الدفن.",
+  "lead_fr": "Dans son article, Hespress s’interroge sur l’inhumation des victimes des \"événements de Ceuta\" et sur le respect des procédures d’identification et d’information des familles avant l’enterrement.",
+  "lead_en": "In its report, Hespress questions the burial of those who died in the \"Ceuta events\" and whether proper identification procedures and family notifications were completed beforehand."
+},
+{
+  "id": 139,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d8%a5%d9%86%d8%ac%d9%84%d9%8a%d8%b2%d9%8a-%d9%8a%d9%81%d8%aa%d8%ad-%d8%a7%d9%84%d9%85%d9%8a%d9%83%d8%b1%d9%88%d9%81%d9%88%d9%86%d8%a7%d8%aa-1793586.html",
+  "title_ar": "الدوري الإنجليزي يفتح الميكروفونات",
+  "title_fr": "La Premier League ouvre les micros",
+  "title_en": "English Premier League to open live microphones",
+  "lead_ar": "أشار تقرير هسبريس إلى توجه جديد في الدوري الإنجليزي الممتاز يتمثل في فتح الميكروفونات، بما يتيح سماع مزيد من التفاصيل المرتبطة بالمباريات والتحكيم.",
+  "lead_fr": "Hespress signale une nouvelle orientation en Premier League consistant à ouvrir davantage les micros, afin de rendre audibles plus de détails liés aux matches et à l’arbitrage.",
+  "lead_en": "Hespress notes a new direction in the English Premier League involving more open microphones, allowing additional details from matches and officiating to be heard."
+},
+{
+  "id": 140,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%aa%d9%82%d8%aa%d8%b1%d8%ad-%d8%b1%d9%88%d8%a8%d9%88%d8%aa%d8%a7%d8%aa-%d8%a8%d8%b4%d8%b1%d9%8a%d8%a9-%d9%84%d8%af%d9%88%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84-1793602.html",
+  "title_ar": "أمريكا تقترح روبوتات بشرية لدوريات الحدود",
+  "title_fr": "Les États-Unis proposent des robots humanoïdes pour les patrouilles frontalières",
+  "title_en": "US proposes humanoid robots for border patrols",
+  "lead_ar": "بحسب هسبريس، تتجه الولايات المتحدة إلى طرح فكرة استخدام روبوتات بشرية في دوريات مراقبة الحدود، في إطار مقاربة تقنية جديدة لضبط التحركات عبر المعابر.",
+  "lead_fr": "Selon Hespress, les États-Unis envisagent le recours à des robots humanoïdes dans les patrouilles de surveillance des frontières, dans une nouvelle approche technologique du contrôle des passages.",
+  "lead_en": "According to Hespress, the United States is putting forward the idea of using humanoid robots in border patrols as part of a new technological approach to monitoring crossings."
+},
+{
+  "id": 141,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%85%d9%83%d8%aa%d8%a8%d8%a7%d8%aa-%d9%84%d9%84%d9%82%d8%b1%d8%a8-%d8%aa%d8%b2%d9%8a%d9%86-%d8%a7%d9%84%d8%b9%d8%a7%d8%b5%d9%85%d8%a9-%d8%a7%d9%84%d8%b1%d8%a8%d8%a7%d8%b7-1793327.html",
+  "title_ar": "\"مكتبات للقرب\" تزين العاصمة الرباط",
+  "title_fr": "Des \"bibliothèques de proximité\" embellissent la capitale Rabat",
+  "title_en": "\"Neighborhood libraries\" add charm to Morocco’s capital Rabat",
+  "lead_ar": "أفادت هسبريس بأن مبادرة \"مكتبات للقرب\" تسهم في تزيين الفضاءات العمومية بالرباط، وتشجيع القراءة عبر توفير نقاط ثقافية قريبة من الساكنة.",
+  "lead_fr": "Hespress souligne que l’initiative des \"bibliothèques de proximité\" contribue à embellir les espaces publics de Rabat et à encourager la lecture grâce à des lieux culturels accessibles aux habitants.",
+  "lead_en": "Hespress reports that the \"neighborhood libraries\" initiative is enhancing public spaces in Rabat and promoting reading by creating accessible cultural spots for residents."
+},
+{
+  "id": 142,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-%d8%b4%d8%aa%d9%86%d8%a8%d8%b1-2026-%d8%aa%d8%ae%d8%aa%d8%a8%d8%b1-%d8%b2%d8%ae%d9%85-%d8%a7%d9%84%d9%85%d8%b4%d8%a7%d8%b1%d9%83%d8%a9-%d8%a7%d9%84-1793127.html",
+  "title_ar": "انتخابات شتنبر 2026 تختبر زخم المشاركة المرتفعة في الأقاليم الجنوبية",
+  "title_fr": "Les élections de septembre 2026 testeront l’élan de forte participation dans les provinces du Sud",
+  "title_en": "September 2026 elections to test high voter turnout momentum in Morocco’s southern provinces",
+  "lead_ar": "توضح هسبريس أن انتخابات شتنبر 2026 ستشكل اختبارا جديدا لزخم المشاركة السياسية المرتفعة في الأقاليم الجنوبية للمملكة، في سياق دينامية انتخابية متواصلة.",
+  "lead_fr": "Hespress explique que les élections de septembre 2026 constitueront un nouveau test pour la forte dynamique de participation politique dans les provinces du Sud du Maroc.",
+  "lead_en": "Hespress notes that the September 2026 elections will be a fresh test for the strong momentum of political participation in Morocco’s southern provinces."
+},
+{
+  "id": 143,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%88%d9%84%d8%a7%d9%8a%d8%a9-%d8%ab%d8%a7%d9%86%d9%8a%d8%a9-%d9%84%d9%84%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a7%d9%84%d8%b2%d8%a7%d9%85%d8%a8%d9%8a-%d9%87%d9%8a%d8%aa%d8%b4%d9%8a%d9%84%d9%8a%d9%85%d8%a7-1793583.html",
+  "title_ar": "ولاية ثانية للرئيس الزامبي هيتشيليما",
+  "title_fr": "Second mandat pour le président zambien Hichilema",
+  "title_en": "Zambian president Hichilema wins a second term",
+  "lead_ar": "ذكر موقع هسبريس أن الرئيس الزامبي هيتشيليما ظفر بولاية ثانية على رأس بلاده، ما يعيد تأكيد حضوره في المشهد السياسي الإقليمي.",
+  "lead_fr": "Hespress rapporte que le président zambien Hichilema a obtenu un second mandat à la tête du pays, confirmant sa place sur la scène politique régionale.",
+  "lead_en": "Hespress reports that Zambian president Hichilema has secured a second term in office, reaffirming his role on the regional political scene."
+},
+{
+  "id": 144,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%ad%d9%8a-%d9%8a%d8%b1%d9%8a%d8%af-%d8%a7%d9%84%d8%a3%d9%81%d8%b6%d9%84-%d9%81%d9%8a-%d8%aa%d9%8a%d9%81%d9%84%d8%aa-1793575.html",
+  "title_ar": "حي يريد الأفضل في تيفلت",
+  "title_fr": "Un quartier de Tiflet en quête de mieux",
+  "title_en": "A neighborhood in Tiflet seeking better living conditions",
+  "lead_ar": "تسلط هسبريس الضوء على حي بمدينة تيفلت يعبر سكانه عن تطلعهم إلى تحسين أوضاع العيش والخدمات الأساسية داخل المجال الحضري.",
+  "lead_fr": "Hespress met en avant un quartier de la ville de Tiflet dont les habitants aspirent à de meilleures conditions de vie et de services urbains.",
+  "lead_en": "Hespress highlights a neighborhood in the city of Tiflet where residents are expressing a desire for improved living conditions and basic urban services."
+},
+{
+  "id": 145,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%85%d8%b7%d8%a7%d9%84%d8%a8-%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-%d8%a8%d8%a5%d8%ad%d8%af%d8%a7%d8%ab-%d8%b9%d9%85%d8%a7%d9%84%d8%a7%d8%aa-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-1793381.html",
+  "title_ar": "مطالب مغربية بإحداث عمالات جديدة",
+  "title_fr": "Des revendications au Maroc pour la création de nouvelles préfectures",
+  "title_en": "Calls in Morocco for the creation of new provinces (prefectures)",
+  "lead_ar": "يشير تقرير هسبريس إلى بروز مطالب بإحداث عمالات جديدة في بعض المناطق المغربية، ضمن نقاش حول إعادة توزيع الخريطة الإدارية وتحسين تدبير القرب.",
+  "lead_fr": "D’après Hespress, des voix s’élèvent pour réclamer la création de nouvelles préfectures dans certaines régions du Maroc, dans le cadre d’un débat sur la carte administrative.",
+  "lead_en": "Hespress notes rising calls for the establishment of new provincial entities in parts of Morocco, as part of a broader debate on administrative restructuring and local governance."
+},
+{
+  "id": 146,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%85%d8%b1%d9%83%d8%b2-%d8%a7%d9%86%d8%ae%d9%81%d8%a7%d8%b6-%d8%b2%d9%88%d8%ac-%d8%a7%d9%84%d8%af%d9%88%d9%84%d8%a7%d8%b1-%d9%88%d8%a7%d9%84%d8%af%d8%b1%d9%87%d9%85-1793531.html",
+  "title_ar": "مركز: انخفاض زوج الدولار والدرهم",
+  "title_fr": "Centre : baisse de la paire dollar/dirham",
+  "title_en": "Center reports drop in the dollar/dirham pair",
+  "lead_ar": "أبرزت هسبريس معطيات صادرة عن مركز مختص تشير إلى تراجع في سعر زوج الدولار/الدرهم، في سياق تقلبات تعرفها أسواق الصرف الدولية.",
+  "lead_fr": "Hespress relaie des données d’un centre spécialisé signalant une baisse de la paire dollar/dirham, sur fond de fluctuations sur les marchés des changes.",
+  "lead_en": "Hespress relays data from a specialized center indicating a decline in the dollar/dirham exchange pair amid ongoing volatility in currency markets."
+},
+{
+  "id": 147,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%b5%d9%85%d8%a7%d9%8a%d9%85-%d8%aa%d8%ae%d8%aa%d8%a8%d8%b1-%d8%b5%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%84%d8%a7%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-1793295.html",
+  "title_ar": "\"الصمايم\" تختبر صمود الفلاحة المغربية أمام المياه والتكاليف والحرارة",
+  "title_fr": "La période de \"Smayem\" met à l’épreuve la résilience de l’agriculture marocaine face à l’eau, aux coûts et à la chaleur",
+  "title_en": "The \"Smayem\" heatwave tests the resilience of Moroccan agriculture amid water, cost and heat pressures",
+  "lead_ar": "تفيد هسبريس بأن فترة \"الصمايم\" الحارة تضع الفلاحة المغربية أمام تحديات مركبة تتعلق بندرة المياه وارتفاع التكاليف وتأثير موجات الحرارة على الإنتاج.",
+  "lead_fr": "Hespress souligne que la période caniculaire dite \"Smayem\" expose l’agriculture marocaine à des défis combinant rareté de l’eau, hausse des coûts et impact des fortes températures sur la production.",
+  "lead_en": "Hespress explains that the intense \"Smayem\" heat period is challenging Moroccan agriculture with combined pressures from water scarcity, higher costs and extreme temperatures on output."
+},
+{
+  "id": 148,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%b6%d8%ba%d9%88%d8%b7-%d8%aa%d8%b1%d8%a8%d9%83-%d8%b3%d9%88%d9%82-%d8%a7%d9%84%d9%86%d8%ad%d8%a7%d8%b3-%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85%d9%8a%d8%a9-1793523.html",
+  "title_ar": "الضغوط تربك سوق النحاس العالمية",
+  "title_fr": "Des pressions perturbent le marché mondial du cuivre",
+  "title_en": "Pressures unsettle the global copper market",
+  "lead_ar": "أشارت هسبريس إلى موجة ضغوط جديدة تؤثر في سوق النحاس العالمية، مع ما يرافق ذلك من تذبذب في الأسعار وتخوفات لدى الفاعلين الاقتصاديين.",
+  "lead_fr": "Hespress fait état de nouvelles pressions qui secouent le marché mondial du cuivre, provoquant une volatilité des prix et des inquiétudes chez les acteurs économiques.",
+  "lead_en": "Hespress reports that fresh pressures are impacting the global copper market, leading to price volatility and concerns among economic stakeholders."
+},
+{
+  "id": 149,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a8%d9%88%d8%b1%d8%b5%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%b6%d8%a7%d8%a1-%d8%aa%d9%86%d9%87%d9%8a-%d8%ac%d9%84%d8%b3%d8%a9-%d9%85%d8%b1%d8%aa%d9%81%d8%b9%d8%a9-1793415.html",
+  "title_ar": "بورصة البيضاء تنهي جلسة مرتفعة",
+  "title_fr": "La Bourse de Casablanca clôture en hausse",
+  "title_en": "Casablanca Stock Exchange closes on a positive note",
+  "lead_ar": "أفادت هسبريس بأن بورصة الدار البيضاء أنهت إحدى جلساتها على ارتفاع، ما يعكس أداء إيجابيا لعدد من القيم المدرجة في السوق.",
+  "lead_fr": "Hespress indique que la Bourse de Casablanca a terminé l’une de ses séances en territoire positif, traduisant une évolution favorable de plusieurs valeurs cotées.",
+  "lead_en": "Hespress notes that the Casablanca Stock Exchange closed a recent session in positive territory, reflecting an upward performance for several listed stocks."
+},
+{
+  "id": 150,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a3%d8%b7%d8%a8%d8%a7%d8%a1-%d9%8a%d8%ad%d8%aa%d8%ac%d9%88%d9%86-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%86%d8%a9-%d8%a7%d9%84%d8%b5%d8%ad%d9%8a%d8%a9-1793268.html",
+  "title_ar": "أطباء يحتجون على \"الرقمنة الصحية\"",
+  "title_fr": "Des médecins protestent contre la \"numérisation de la santé\"",
+  "title_en": "Doctors protest against \"health digitalization\"",
+  "lead_ar": "تورد هسبريس أن فئة من الأطباء عبّرت عن احتجاجها على مسار \"الرقمنة الصحية\"، مبدية تخوفات من تداعياته على الممارسة المهنية والخدمات الطبية.",
+  "lead_fr": "Hespress rapporte qu’un groupe de médecins manifeste son opposition à la \"numérisation de la santé\", exprimant des craintes quant à ses effets sur la pratique et les services médicaux.",
+  "lead_en": "Hespress states that a group of doctors has voiced protest against the \"digitalization of health services\", raising concerns about its impact on medical practice and care provision."
+}
 );
