@@ -1949,4 +1949,685 @@ ARTICLES.push(
   "summary_fr": "Hespress indique que le marché mondial du cuivre est perturbé par diverses pressions, ce qui se répercute sur les prix et les anticipations des acteurs.",
   "summary_en": "Hespress notes that the global copper market is facing turbulence due to multiple pressures, affecting prices and expectations among market players."
 }
+,
+{
+  "id": 154,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article154/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%b0%d9%83%d8%b1%d8%a9-%d8%aa%d8%b4%d8%b1%d9%91%d8%ad-%d8%ad%d8%b6%d9%88%d8%b1-%d8%b1%d9%82%d9%85-%d9%87%d8%a7%d8%aa%d9%81%d9%8a-%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1%d9%8a-%d9%81%d9%8a-%d8%b9%d9%85-1794152.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مذكرة تشرح حضور رقم هاتفي جزائري في عملية اقتحام سبتة المحتلة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Une note explique la présence d’un numéro algérien dans l’irruption à Ceuta occupée",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Memo explains presence of Algerian phone number in storming of occupied Ceuta",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 156,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article156/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d8%a3%d9%84%d9%82-%d8%a2%d8%af%d9%85-%d8%a8%d8%b1%d9%8a%d8%b3%d9%86%d9%88-%d9%8a%d9%81%d8%b1%d8%ad-%d8%ac%d8%a7%d9%85%d8%b9%d8%a9-%d8%a7%d9%84%d8%ba%d9%88%d9%84%d9%81-1794130.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "تألق آدم بريسنو يفرح جامعة الغولف",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "L’éclat d’Adam Briseno réjouit la Fédération marocaine de golf",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Adam Briseno’s brilliance delights Moroccan Golf Federation",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 157,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article157/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a8%d8%b1%d9%88%d9%83%d8%b3%d9%84-%d8%aa%d8%b1%d9%81%d8%b6-%d8%a7%d9%84%d8%aa%d8%b5%d8%b9%d9%8a%d8%af-%d9%81%d9%8a-%d8%a7%d9%84%d8%b5%d8%ad%d8%b1%d8%a7%d8%a1-1794126.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "بروكسل ترفض التصعيد في الصحراء",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Bruxelles rejette l’escalade au Sahara",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Brussels rejects escalation in the Sahara",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 162,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "regions",
+  "img": "https://picsum.photos/seed/ds24article162/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b2%d8%ae%d8%a7%d8%a8-%d8%b1%d8%b9%d8%af%d9%8a%d8%a9-%d9%85%d8%b1%d8%aa%d9%82%d8%a8%d8%a9-%d9%81%d9%8a-%d8%ac%d9%87%d8%a9-%d8%a7%d9%84%d8%b4%d8%b1%d9%82-1794080.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "زخات رعدية مرتقبة في جهة الشرق",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Des averses orageuses attendues dans la région de l’Oriental",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Thunderstorms expected in Morocco’s Oriental region",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 167,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article167/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%ad%d9%82%d9%8a%d9%82%d8%a9-%d8%a7%d8%ae%d8%aa%d9%81%d8%a7%d8%a1-%d9%85%d8%af%d8%b1%d8%a8-%d8%a8%d8%b1%d9%8a%d8%b7%d8%a7%d9%86%d9%8a-%d8%a8%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-1794042.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "حقيقة اختفاء مدرب بريطاني بالمغرب",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Éclaircissements sur la disparition d’un entraîneur britannique au Maroc",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Clarification over disappearance of British coach in Morocco",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 168,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article168/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%88%d9%82%d8%b9%d8%a7%d8%aa-%d8%b7%d9%82%d8%b3-%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%a3%d8%b1%d8%a8%d8%b9%d8%a7%d8%a1-%d8%a8%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-94-1793993.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "توقعات طقس اليوم الأربعاء بالمغرب",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Prévisions météo de ce mercredi au Maroc",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Weather forecast for Wednesday in Morocco",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 169,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article169/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d9%86%d8%aa%d8%b5%d8%b1-%d9%84%d8%ad%d8%aa%d9%8a%d9%85%d9%8a-%d9%8a%d8%b9%d9%88%d8%af-%d9%84%d9%84%d9%81%d8%aa%d8%ad-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d9%8a-1793991.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "منتصر لحتيمي يعود للفتح الرياضي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Muntasir Lahtimi fait son retour au FUS Rabat",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Muntasir Lahtimi returns to FUS Rabat",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 170,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article170/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d9%85%d8%b1%d8%a7%d8%a8%d8%b7-%d9%8a%d9%86%d8%b6%d9%85-%d8%a5%d9%84%d9%89-%d8%aa%d8%af%d8%b1%d9%8a%d8%a8%d8%a7%d8%aa-%d8%a3%d9%88%d8%aa%d8%b1%d9%8a%d8%ae%d8%aa-1793989.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "أمرابط ينضم إلى تدريبات أوتريخت",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Amrabat rejoint les entraînements d’Utrecht",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Amrabat joins FC Utrecht training sessions",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 171,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article171/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%af%d9%83%d8%a7%d8%aa%d8%b1%d8%a9-%d9%8a%d8%b1%d9%81%d8%b6%d9%88%d9%86-%d8%aa%d8%ac%d9%87%d9%8a%d9%84-%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b9%d8%af%d9%84-1793976.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "دكاترة يرفضون \"تجهيل وزارة العدل\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Des docteurs contestent la \"déqualification\" au ministère de la Justice",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Doctorate holders reject \"downgrading\" within Ministry of Justice",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 172,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article172/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%ad%d8%a7%d9%85%d9%88-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d8%b1%d9%81%d8%b6%d9%88%d9%86-%d9%82%d8%a7%d9%86%d9%88%d9%86-%d8%a7%d9%84%d9%85%d9%87%d9%86%d8%a9-%d9%88%d9%8a%d9%88%d8%a7-1793952.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "محامو المغرب يرفضون قانون المهنة ويواصلون التوقف عن الخدمات",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Les avocats du Maroc rejettent la loi sur la profession et maintiennent la suspension des services",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Moroccan lawyers reject profession law and continue service suspension",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 173,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article173/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ac%d8%a7%d9%86%d9%8a%d8%a9-%d9%84%d8%a7-%d8%aa%d9%88%d9%82%d9%81-%d9%83%d8%a7%d8%b1%d8%af%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ad%d9%85%d8%af%d9%8a%d8%a9-1793940.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "المجانية لا توقف \"كاردينات المحمدية\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La gratuité ne freine pas les \"Cardianat de Mohammédia\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Free entry fails to stop \"Cardianat of Mohammedia\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 174,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article174/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a8%d8%a7%d9%84%d8%a7%d8%b3-%d9%8a%d9%81%d8%a7%d9%88%d8%b6-%d8%aa%d9%88%d8%a7%d8%b1%d9%83%d8%a9-%d9%84%d8%b6%d9%85-%d9%85%d8%ac%d9%86%d9%8a-1793920.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "بالاس يفاوض تواركة لضم مجني",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Palace négocie avec Tawarqat pour recruter Majni",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Palace in talks with Tawarqat to sign Majni",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 175,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article175/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a8%d9%88%d8%b4%d8%aa%d8%a7%d9%88%d9%8a-%d9%8a%d9%81%d8%aa%d8%ae%d8%b1-%d8%a8%d9%86%d9%87%d8%a7%d8%a6%d9%8a-%d9%83%d8%a7%d9%86-%d8%a7%d9%84%d8%b3%d9%8a%d8%af%d8%a7%d8%aa-1793914.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "بوشتاوي يفتخر بنهائي \"كان السيدات\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Boushtaoui fier de la finale de la CAN féminine",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Boushtaoui proud of Women’s AFCON final",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 176,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article176/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d8%af%d9%82%d9%8a%d9%82-%d9%81%d9%8a-%d8%a7%d8%b3%d8%aa%d8%ba%d9%84%d8%a7%d9%84-%d8%b9%d9%82%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d9%88%d9%84%d8%a9-1793910.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "تدقيق في استغلال عقارات الدولة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Audit sur l’exploitation du patrimoine foncier de l’État",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Review launched on use of state‑owned real estate",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 177,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article177/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%ac%d9%84%d8%a9-%d8%a7%d9%84%d8%b4%d8%b1%d8%b7%d8%a9-%d8%aa%d8%b3%d8%aa%d8%b9%d8%b1%d8%b6-%d8%ac%d9%87%d9%88%d8%af-7-%d8%b9%d9%82%d9%88%d8%af-1793906.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مجلة الشرطة تستعرض جهود 7 عقود",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La revue de la police retrace sept décennies d’efforts",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Police magazine showcases seven decades of efforts",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 178,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article178/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%ad%d8%b3%d9%8a%d9%86%d9%8a-%d8%a7%d8%aa%d9%81%d8%a7%d9%82-%d9%85%d9%83%d8%a9-%d9%8a%d8%b9%d9%8a%d8%af-%d8%a7%d9%84%d8%a3%d8%ad%d9%84%d8%a7%d9%81-%d8%a7%d9%84%d8%b9%d8%b3%d9%83-1793894.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الحسيني: \"اتفاق مكة\" يعيد الأحلاف العسكرية إلى واجهة المشهد الدولي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "El Husseini : l’\"Accord de La Mecque\" remet les alliances militaires au premier plan",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "El Husseini: \"Mecca Agreement\" brings military alliances back to global forefront",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 180,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "regions",
+  "img": "https://picsum.photos/seed/ds24article180/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%ad%d9%85%d8%af-%d8%a7%d9%84%d8%b3%d8%b1%d8%ba%d9%8a%d9%86%d9%8a-%d9%81%d9%8a-%d9%82%d8%b1%d8%a7%d8%a1%d8%a9-%d8%a7%d9%84%d9%85%d8%b5%d8%a8%d8%a7%d8%ad%d9%8a-%d8%b4%d9%90%d8%b9%d8%b1-1793882.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "محمد السرغيني في قراءة المصباحي .. شِعر يراوح بين البساطة والعمق",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Mohammed Serghini lu par El Mosbahi : une poésie entre simplicité et profondeur",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Mohammed Serghini through El Mosbahi’s reading: poetry between simplicity and depth",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 181,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article181/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%ac%d8%ab%d8%a7%d9%85%d9%8a%d9%86-%d8%a3%d8%ad%d8%af%d8%a7%d8%ab-%d8%b3%d8%a8%d8%aa%d8%a9-%d8%aa%d8%ab%d9%8a%d8%b1-%d8%a7%d9%84%d8%ac%d8%af%d9%84-%d9%88%d8%ad%d9%82%d9%88%d9%82%d9%8a%d9%88-1793858.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "جثامين \"أحداث سبتة\" تثير الجدل .. وحقوقيون يرفضون المنطق التمييزي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Les dépouilles des \"événements de Ceuta\" suscitent la controverse, des défenseurs des droits humains dénoncent une logique discriminatoire",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Bodies from the \"Ceuta events\" spark controversy as rights activists reject discriminatory approach",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 182,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article182/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b1%d9%83%d9%88%d8%a8-%d8%a7%d9%84%d8%aa%d8%b1%d9%88%d8%aa%d9%8a%d9%86%d9%8a%d8%aa-%d9%8a%d8%b6%d8%b9-%d8%a7%d9%84%d8%b3%d9%84%d8%a7%d9%85%d8%a9-%d8%a7%d9%84%d8%b7%d8%b1%d9%82%d9%8a%d8%a9-1793852.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "ركوب \"التروتينيت\" يضع السلامة الطرقية أمام تحديات عديدة في المغرب",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La trottinette électrique pose de nouveaux défis à la sécurité routière au Maroc",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Electric scooters pose new challenges to road safety in Morocco",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 183,
+  "addedAt": "2026-08-19T13:14:39Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article183/800/450",
+  "source_name": "Akhbarona",
+  "source_url": "https://www.akhbarona.com/politic/431008.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "ظهور الانفصالي \"الطالب علي سالم\" على القنوات الإسبانية.. سقوط مدوٍّ في فخ التناقض السياسي والأخلاقي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "L’apparition du séparatiste \"Taleb Ali Salem\" sur les chaînes espagnoles, une chute retentissante dans le piège des contradictions politiques et morales",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Appearance of separatist \"Taleb Ali Salem\" on Spanish TV seen as glaring political and moral contradiction",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+}
 );
