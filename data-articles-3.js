@@ -1728,4 +1728,225 @@ ARTICLES.push(
     "text": "According to Hespress, a new decree regulating drug prices has come into force in Morocco, amid divisions among the country’s pharmacists, as the headline notes. The differing views focus on how the measure may affect patients’ access to treatment and the financial situation of pharmacies."
   }
 }
+,
+{
+  "id": 134,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d9%82%d8%b6%d8%a7%d8%a1-%d9%8a%d8%ad%d9%82%d9%82-%d9%81%d9%8a-%d8%aa%d8%b2%d9%88%d9%8a%d8%b1-%d9%88%d8%ab%d9%8a%d9%82%d8%a9-%d8%aa%d9%88%d8%b8%d9%8a%d9%81-%d9%85%d9%86%d8%b3%d9%88-1794135.html",
+  "title_ar": "القضاء يحقق في تزوير \"وثيقة توظيف\" منسوبة إلى وزارة العدل",
+  "title_fr": "La justice enquête sur la falsification d’une \"lettre d’embauche\" attribuée au ministère de la Justice",
+  "title_en": "Judiciary investigates forgery of an \"employment document\" attributed to the Ministry of Justice",
+  "summary_ar": "أفادت جريدة هسبريس أن السلطات القضائية فتحت تحقيقاً بخصوص شبهة تزوير وثيقة توظيف نُسبت إلى وزارة العدل، من أجل تحديد ظروف وملابسات هذه القضية والمسؤوليات المحتملة.",
+  "summary_fr": "Selon Hespress, les autorités judiciaires ont ouvert une enquête sur un document d’embauche attribué au ministère de la Justice et suspecté d’être falsifié, afin de clarifier les circonstances et les responsabilités éventuelles.",
+  "summary_en": "According to Hespress, judicial authorities have opened an investigation into a suspected forged employment document attributed to the Ministry of Justice, in order to clarify the circumstances and any potential responsibility."
+},
+{
+  "id": 135,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%ad%d8%a7%d9%83%d9%85-%d8%b3%d8%a8%d8%aa%d8%a9-%d9%8a%d8%ab%d9%8a%d8%b1-%d8%ba%d8%b6%d8%a8-%d8%a7%d9%84%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%d9%83%d9%8a%d9%8a%d9%86-1794108.html",
+  "title_ar": "\"حاكم سبتة\" يثير غضب الاشتراكيين",
+  "title_fr": "Le \"gouverneur de Ceuta\" provoque la colère des socialistes",
+  "title_en": "The \"governor of Ceuta\" sparks the anger of socialists",
+  "summary_ar": "ذكرت هسبريس أن تصريحات أو مواقف منسوبة لما يوصف بـ\"حاكم سبتة\" أثارت غضب الأوساط الاشتراكية، في سياق توتر مرتبط بالمدينة الخاضعة للاحتلال الإسباني.",
+  "summary_fr": "Hespress rapporte que des déclarations ou positions attribuées à celui qui est présenté comme le \"gouverneur de Ceuta\" ont suscité la colère de milieux socialistes, sur fond de tensions autour de l’enclave occupée par l’Espagne.",
+  "summary_en": "Hespress reports that statements or positions attributed to the so‑called \"governor of Ceuta\" have angered socialist circles, amid ongoing tensions surrounding the Spanish‑occupied city."
+},
+{
+  "id": 136,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%85%d8%b3%d8%b1%d8%ad-%d9%85%d8%ad%d9%85%d8%af-%d8%a7%d9%84%d8%ae%d8%a7%d9%85%d8%b3-%d9%8a%d8%ba%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d8%b8%d9%87%d8%b1-%d9%88%d9%8a%d8%ac%d8%af%d8%af-%d8%a7%d9%84%d8%ad-1794117.html",
+  "title_ar": "مسرح محمد الخامس يغير المظهر ويجدد الحراسة بصفقتين جديدتين",
+  "title_fr": "Le théâtre Mohammed V renouvelle son image et la sécurité à travers deux nouveaux contrats",
+  "title_en": "Mohammed V Theatre changes its look and renews security through two new contracts",
+  "summary_ar": "أشارت هسبريس إلى أن مسرح محمد الخامس بالرباط يشهد تجديداً لمظهره الخارجي وتعزيزاً لخدمات الحراسة، وذلك من خلال صفقتين جديدتين تخصان التأهيل والأمن.",
+  "summary_fr": "Hespress indique que le Théâtre Mohammed V à Rabat connaît une rénovation de son apparence ainsi qu’un renforcement des services de sécurité à travers deux nouveaux marchés d’aménagement et de gardiennage.",
+  "summary_en": "Hespress notes that Rabat’s Mohammed V Theatre is undergoing a facelift and a reinforcement of security services through two new contracts covering refurbishment and guarding."
+},
+{
+  "id": 137,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%86%d9%88%d8%a7%d8%b0%d9%8a%d8%a8%d9%88-%d8%a7%d9%84%d9%85%d9%88%d8%b1%d9%8a%d8%aa%d8%a7%d9%86%d9%8a-%d9%8a%d8%b3%d8%aa%d8%b9%d8%af-%d9%81%d9%8a-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-1794090.html",
+  "title_ar": "نواذيبو الموريتاني يستعد في المغرب",
+  "title_fr": "Le FC Nouadhibou (Mauritanie) se prépare au Maroc",
+  "title_en": "Mauritanian club Nouadhibou prepares in Morocco",
+  "summary_ar": "ذكرت هسبريس أن نادي نواذيبو الموريتاني اختار المغرب لإجراء استعداداته، في إطار تحضيراته الرياضية المقبلة.",
+  "summary_fr": "Selon Hespress, le club mauritanien de Nouadhibou a choisi le Maroc comme lieu de préparation dans le cadre de ses échéances sportives à venir.",
+  "summary_en": "According to Hespress, Mauritanian club Nouadhibou has chosen Morocco as a training base as it prepares for upcoming competitions."
+},
+{
+  "id": 138,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%a8%d8%b1%d8%aa%d8%ba%d8%a7%d9%84-%d8%aa%d8%ad%d8%b8%d8%b1-%d8%aa%d8%ba%d8%b7%d9%8a%d8%a9-%d8%a7%d9%84%d9%88%d8%ac%d9%88%d9%87-%d9%81%d9%8a-%d8%a7%d9%84%d9%81%d8%b6%d8%a7%d8%a1%d8%a7-1794093.html",
+  "title_ar": "البرتغال تحظر تغطية الوجوه في الفضاءات العامة",
+  "title_fr": "Le Portugal interdit la dissimulation du visage dans les espaces publics",
+  "title_en": "Portugal bans face covering in public spaces",
+  "summary_ar": "أوردت هسبريس أن البرتغال قررت حظر تغطية الوجوه في الفضاءات العامة، في إطار تشريع يتعلق بضبط الهوية في الأماكن المفتوحة.",
+  "summary_fr": "Hespress indique que le Portugal a décidé d’interdire la dissimulation du visage dans les espaces publics, dans le cadre d’un dispositif législatif lié à l’identification dans les lieux ouverts.",
+  "summary_en": "Hespress reports that Portugal has decided to ban the covering of faces in public spaces, as part of legislation concerning identification in open areas."
+},
+{
+  "id": 139,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%b2%d8%ae%d8%a7%d8%aa-%d8%b1%d8%b9%d8%af%d9%8a%d8%a9-%d9%85%d8%b1%d8%aa%d9%82%d8%a8%d8%a9-%d9%81%d9%8a-%d8%ac%d9%87%d8%a9-%d8%a7%d9%84%d8%b4%d8%b1%d9%82-1794080.html",
+  "title_ar": "زخات رعدية مرتقبة في جهة الشرق",
+  "title_fr": "Des averses orageuses attendues dans la région de l’Oriental",
+  "title_en": "Thunder showers expected in the Oriental region",
+  "summary_ar": "أفادت هسبريس بأن توقعات الأرصاد تشير إلى احتمال هطول زخات مطرية رعدية في جهة الشرق، مع تحذير من الاضطرابات الجوية المحلية.",
+  "summary_fr": "Hespress rapporte que les prévisions météorologiques annoncent des averses orageuses dans la région de l’Oriental, avec mise en garde contre des perturbations locales.",
+  "summary_en": "Hespress states that weather forecasts point to possible thunder showers in Morocco’s Oriental region, with a warning about local atmospheric disturbances."
+},
+{
+  "id": 140,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%87%d9%84-%d9%8a%d9%81%d9%82%d8%af-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%88%d8%b1%d8%ab%d8%a9-%d8%a7%d9%84%d9%85%d9%87%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%ad%d8%b1%d9%81%d9%8a%d8%a9-%d8%a8-1793770.html",
+  "title_ar": "هل يفقد المغرب ورثة المهارات الحرفية برحيل \"المعلمين\" وعزوف الشباب؟",
+  "title_fr": "Le Maroc risque-t-il de perdre les héritiers des métiers artisanaux avec la disparition des \"maâllamine\" et le désintérêt des jeunes ?",
+  "title_en": "Is Morocco losing the heirs of artisanal skills as master craftsmen disappear and youth turn away?",
+  "summary_ar": "تساءلت هسبريس عن مستقبل الحرف التقليدية في المغرب، في ظل رحيل جيل \"المعلمين\" وعزوف فئة من الشباب عن تعلم المهارات الحرفية التي تشكل جزءاً من التراث الوطني.",
+  "summary_fr": "Hespress s’interroge sur l’avenir des métiers artisanaux au Maroc, face à la disparition d’une génération de maîtres artisans et au désintérêt d’une partie de la jeunesse pour ces savoir-faire patrimoniaux.",
+  "summary_en": "Hespress questions the future of Morocco’s traditional crafts, as an older generation of master artisans passes away and many young people show little interest in inheriting these heritage skills."
+},
+{
+  "id": 141,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a3%d9%83%d8%af%d9%8a%d8%b7%d8%a7%d9%84-%d9%81%d9%8a-%d8%a8%d8%b9%d8%af-%d8%ac%d8%af%d9%8a%d8%af-%d9%85%d9%86-%d8%a7%d9%84%d8%aa%d9%88%d8%b3%d8%b9-1794075.html",
+  "title_ar": "\"أكديطال\" في بعد جديد من التوسع",
+  "title_fr": "\"Acdial\" amorce une nouvelle phase d’expansion",
+  "title_en": "\"Acdial\" enters a new phase of expansion",
+  "summary_ar": "أبرزت هسبريس أن مجموعة \"أكديطال\" الصحية تتجه إلى بعد جديد من التوسع، في إشارة إلى دينامية توسع استثماري وخدماتي في القطاع.",
+  "summary_fr": "Hespress souligne que le groupe de santé \"Acdial\" s’engage dans une nouvelle phase d’expansion, marquant une dynamique d’investissement et de développement de l’offre de soins.",
+  "summary_en": "Hespress highlights that the healthcare group \"Acdial\" is moving into a new phase of expansion, signalling a dynamic of investment and service growth in the sector."
+},
+{
+  "id": 142,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%aa%d8%b7%d9%88%d9%8a%d9%82-%d8%ad%d8%b1%d9%8a%d9%82-%d9%87%d8%a7%d8%a6%d9%84-%d8%b9%d9%84%d9%89-%d8%ad%d8%af%d9%88%d8%af-%d8%a8%d9%84%d8%ac%d9%8a%d9%83%d8%a7-%d9%85%d8%b9-%d8%a3%d9%84%d9%85%d8%a7-1794063.html",
+  "title_ar": "تطويق حريق هائل على حدود بلجيكا مع ألمانيا",
+  "title_fr": "Maîtrise d’un vaste incendie à la frontière entre la Belgique et l’Allemagne",
+  "title_en": "Major fire contained on the Belgium–Germany border",
+  "summary_ar": "أفادت هسبريس بأنه جرى تطويق حريق هائل اندلع قرب الحدود بين بلجيكا وألمانيا، بعد مجهودات واسعة للسيطرة على ألسنة اللهب.",
+  "summary_fr": "Hespress indique qu’un important incendie survenu près de la frontière belgo-allemande a été circonscrit, après de larges efforts de lutte contre les flammes.",
+  "summary_en": "Hespress reports that a major blaze near the Belgium–Germany border has been brought under control following extensive firefighting efforts."
+},
+{
+  "id": 143,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%85%d9%86%d8%af%d9%88%d8%a8%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d8%ae%d8%b7%d9%8a%d8%b7-%d8%aa%d8%b9%d9%84%d9%86-%d8%aa%d8%b1%d8%a7%d8%ac%d8%b9-%d8%a7%d9%84%d8%a3%d8%ab%d9%85%d8%a7%d9%86-1794057.html",
+  "title_ar": "مندوبية التخطيط تعلن تراجع الأسعار",
+  "title_fr": "Le Haut-Commissariat au Plan annonce une baisse des prix",
+  "title_en": "Planning commission announces a decline in prices",
+  "summary_ar": "ذكرت هسبريس أن المندوبية السامية للتخطيط أعلنت عن تراجع في مستوى الأسعار، بناءً على أحدث معطياتها الإحصائية حول تطور الكلفة المعيشية.",
+  "summary_fr": "Hespress rapporte que le Haut-Commissariat au Plan a fait état d’un recul des prix, sur la base de ses dernières données statistiques relatives au coût de la vie.",
+  "summary_en": "Hespress states that the High Commission for Planning has reported a decrease in price levels, based on its latest statistical data on living costs."
+},
+{
+  "id": 144,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%aa%d8%b3%d9%88%d9%8a%d9%82-%d8%a7%d9%84%d8%ab%d9%88%d9%85-%d8%a8%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%88%d9%81%d8%b1%d8%a9-%d8%a5%d9%86%d8%aa%d8%a7%d8%ac%d9%8a%d8%a9-%d9%88%d8%aa%d8%ad%d8%b0-1793891.html",
+  "title_ar": "تسويق الثوم بالمغرب .. وفرة إنتاجية وتحذيرات من التحكم في الأسعار",
+  "title_fr": "Commercialisation de l’ail au Maroc : abondance de production et mises en garde contre la maîtrise des prix",
+  "title_en": "Garlic marketing in Morocco: abundant production and warnings over price control",
+  "summary_ar": "أوضحت هسبريس أن سوق الثوم بالمغرب يعرف وفرة في الإنتاج، مقابل تحذيرات من محاولات التحكم في الأسعار وتأثير ذلك على الفلاحين والمستهلكين.",
+  "summary_fr": "Hespress explique que le marché de l’ail au Maroc connaît une abondance de production, tandis que des mises en garde sont émises contre d’éventuelles manœuvres de contrôle des prix et leurs effets sur agriculteurs et consommateurs.",
+  "summary_en": "Hespress notes that Morocco’s garlic market is experiencing abundant production, alongside warnings about possible attempts to control prices and their impact on farmers and consumers."
+},
+{
+  "id": 145,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%a5%d8%b5%d8%a7%d8%a8%d8%a7%d8%aa-%d8%aa%d9%81%d8%b3%d8%ae-%d8%b9%d9%82%d8%af-%d9%85%d9%88%d9%86%d8%a7%d9%83%d9%88-%d9%85%d8%b9-%d8%a8%d9%88%d8%ba%d8%a8%d8%a7-1794044.html",
+  "title_ar": "الإصابات تفسخ عقد موناكو مع بوغبا",
+  "title_fr": "Les blessures entraînent la résiliation du contrat entre Monaco et Pogba",
+  "title_en": "Injuries lead Monaco to terminate Pogba’s contract",
+  "summary_ar": "أشارت هسبريس إلى أن نادي موناكو قرر فسخ عقده مع اللاعب بوغبا بسبب عامل الإصابات، ما أنهى التجربة بين الطرفين قبل استكمالها.",
+  "summary_fr": "Hespress indique que l’AS Monaco a mis fin à son contrat avec le joueur Pogba en raison des blessures, ce qui met un terme à l’aventure liant les deux parties.",
+  "summary_en": "Hespress reports that AS Monaco has decided to end its contract with player Pogba due to injuries, bringing the stint between the two sides to a close."
+},
+{
+  "id": 146,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%af%d8%b1%d9%83%d9%8a-%d8%a7%d9%84%d8%b5%d8%b1%d9%81-%d9%8a%d9%81%d8%ad%d8%b5-%d9%81%d9%88%d8%a7%d8%aa%d9%8a%d8%b1-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%88%d8%aa%d8%ac%d9%87%d9%8a%d8%b2%d8%a7-1793697.html",
+  "title_ar": "\"دركي الصرف\" يفحص فواتير خدمات وتجهيزات رقمية من فرنسا وليتوانيا",
+  "title_fr": "Le \"gendarme du change\" examine des factures de services et d’équipements numériques en provenance de France et de Lituanie",
+  "title_en": "The \"foreign-exchange watchdog\" reviews invoices for digital services and equipment from France and Lithuania",
+  "summary_ar": "أفادت هسبريس بأن ما يوصف بـ\"دركي الصرف\" في المغرب يقوم بفحص فواتير تخص خدمات وتجهيزات رقمية مستوردة من فرنسا وليتوانيا، في إطار مراقبة حركة الأموال والمعاملات الخارجية.",
+  "summary_fr": "Hespress rapporte que le \"gendarme du change\" au Maroc examine des factures liées à des services et équipements numériques importés de France et de Lituanie, dans le cadre du contrôle des flux financiers et des opérations avec l’étranger.",
+  "summary_en": "Hespress states that Morocco’s so‑called \"foreign-exchange watchdog\" is reviewing invoices for digital services and equipment imported from France and Lithuania, as part of oversight of external financial transactions."
+},
+{
+  "id": 147,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%a5%d8%b3%d8%a8%d8%a7%d9%86-%d9%8a%d8%af%d9%81%d8%b9%d9%88%d9%86-890-%d9%85%d9%84%d9%8a%d9%88%d9%86-%d9%8a%d9%88%d8%b1%d9%88-%d9%84%d9%88%d8%a7%d8%b1%d8%af%d8%a7%d8%aa-%d8%a7%d9%84-1793724.html",
+  "title_ar": "الإسبان يدفعون 890 مليون يورو لواردات الخضر والفواكه من المغرب",
+  "title_fr": "Les Espagnols paient 890 millions d’euros pour les importations de fruits et légumes en provenance du Maroc",
+  "title_en": "Spaniards pay €890 million for fruit and vegetable imports from Morocco",
+  "summary_ar": "أبرزت هسبريس أن قيمة واردات إسبانيا من الخضر والفواكه المغربية بلغت 890 مليون يورو، ما يعكس متانة المبادلات الفلاحية بين البلدين.",
+  "summary_fr": "Hespress souligne que les importations espagnoles de fruits et légumes marocains atteignent 890 millions d’euros, illustrant la solidité des échanges agricoles entre les deux pays.",
+  "summary_en": "Hespress highlights that Spanish imports of Moroccan fruit and vegetables have reached €890 million, underscoring the strength of agricultural trade between the two countries."
+},
+{
+  "id": 148,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d8%aa%d9%88%d8%b3%d8%b7-%d8%af%d8%a7%d8%a6%d8%b1%d8%a9-%d8%a7%d9%84%d8%aa%d9%86%d8%a7%d9%81%d8%b3-%d8%a7%d9%84%d8%b1%d9%88-1793744.html",
+  "title_ar": "تقرير: المغرب يتوسط دائرة التنافس الروسي الأوروبي على الغاز الإفريقي",
+  "title_fr": "Rapport : le Maroc au cœur de la compétition russo-européenne autour du gaz africain",
+  "title_en": "Report: Morocco sits at the center of Russian–European competition over African gas",
+  "summary_ar": "أشارت هسبريس إلى تقرير يضع المغرب في موقع وسط ضمن دائرة التنافس بين روسيا وأوروبا حول الغاز الإفريقي، بالنظر إلى موقعه ومسارات الطاقة المرتبطة به.",
+  "summary_fr": "Hespress évoque un rapport qui place le Maroc au centre de la compétition entre la Russie et l’Europe pour le gaz africain, compte tenu de sa position et des corridors énergétiques liés au royaume.",
+  "summary_en": "Hespress refers to a report placing Morocco at the heart of Russian–European competition over African gas, in light of the country’s position and its related energy corridors."
+},
+{
+  "id": 149,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%aa%d8%af%d8%a7%d9%88%d9%84%d8%a7%d8%aa-%d8%a8%d9%88%d8%b1%d8%b5%d8%a9-%d8%a7%d9%84%d8%af%d8%a7%d8%b1-%d8%a7%d9%84%d8%a8%d9%8a%d8%b6%d8%a7%d8%a1-%d8%ae%d8%b6%d8%b1%d8%a7%d8%a1-3-1793903.html",
+  "title_ar": "تداولات بورصة الدار البيضاء خضراء",
+  "title_fr": "La Bourse de Casablanca clôture dans le vert",
+  "title_en": "Casablanca Stock Exchange ends trading in positive territory",
+  "summary_ar": "ذكرت هسبريس أن مؤشرات بورصة الدار البيضاء سجلت أداءً إيجابياً، لتنهي جلسة التداول في المنطقة الخضراء.",
+  "summary_fr": "Hespress signale que les indices de la Bourse de Casablanca ont affiché une évolution positive, clôturant la séance dans le vert.",
+  "summary_en": "Hespress reports that indices on the Casablanca Stock Exchange posted positive performances, closing the trading session in the green."
+},
+{
+  "id": 150,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%88%d9%86-%d9%8a%d8%b2%d9%8a%d8%af-%d8%aa%d9%82%d8%a7%d8%b1%d8%a8-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%88%d8%a8%d8%a7%d9%83%d8%b3%d8%aa%d8%a7%d9%86-1793644.html",
+  "title_ar": "التعاون يزيد تقارب المغرب وباكستان",
+  "title_fr": "La coopération renforce le rapprochement entre le Maroc et le Pakistan",
+  "title_en": "Cooperation strengthens rapprochement between Morocco and Pakistan",
+  "summary_ar": "أوردت هسبريس أن علاقات التعاون بين المغرب وباكستان تشهد دينامية متزايدة، ما يساهم في تعميق التقارب بين البلدين.",
+  "summary_fr": "Hespress indique que la coopération entre le Maroc et le Pakistan connaît une dynamique croissante, contribuant à un rapprochement plus étroit entre les deux États.",
+  "summary_en": "Hespress notes that cooperation between Morocco and Pakistan is gaining momentum, helping to deepen ties between the two countries."
+},
+{
+  "id": 151,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%85%d8%b1%d9%83%d8%b2-%d8%a7%d9%86%d8%ae%d9%81%d8%a7%d8%b6-%d8%b2%d9%88%d8%ac-%d8%a7%d9%84%d8%af%d9%88%d9%84%d8%a7%d8%b1-%d9%88%d8%a7%d9%84%d8%af%d8%b1%d9%87%d9%85-1793531.html",
+  "title_ar": "مركز: انخفاض زوج الدولار والدرهم",
+  "title_fr": "Un centre signale une baisse de la paire dollar/dirham",
+  "title_en": "Center reports decline in the dollar–dirham pair",
+  "summary_ar": "أشارت هسبريس إلى أن مركزاً متخصصاً رصد انخفاضاً في سعر زوج الدولار مقابل الدرهم، مع متابعة تحركات سوق الصرف الوطنية.",
+  "summary_fr": "Hespress rapporte qu’un centre spécialisé a constaté une baisse de la paire dollar/dirham, dans le cadre du suivi de l’évolution du marché des changes au Maroc.",
+  "summary_en": "Hespress states that a specialized center has observed a decline in the dollar–dirham exchange pair, as part of monitoring developments on Morocco’s FX market."
+},
+{
+  "id": 152,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%b5%d9%85%d8%a7%d9%8a%d9%85-%d8%aa%d8%ae%d8%aa%d8%a8%d8%b1-%d8%b5%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%84%d8%a7%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-1793295.html",
+  "title_ar": "\"الصمايم\" تختبر صمود الفلاحة المغربية أمام المياه والتكاليف والحرارة",
+  "title_fr": "La période des \"smaïm\" met à l’épreuve la résilience de l’agriculture marocaine face à l’eau, aux coûts et à la chaleur",
+  "title_en": "The \"smaïm\" heat period tests the resilience of Moroccan agriculture amid water stress, costs and high temperatures",
+  "summary_ar": "تناولت هسبريس تأثير فترة \"الصمايم\" الحارة على الفلاحة المغربية، وما تطرحه من تحديات مرتبطة بشح المياه وارتفاع التكاليف وموجات الحرارة.",
+  "summary_fr": "Hespress décrit comment la période de forte chaleur dite des \"smaïm\" met sous pression l’agriculture marocaine, entre stress hydrique, hausse des coûts et vagues de chaleur.",
+  "summary_en": "Hespress discusses how the intense \"smaïm\" heat period is pressuring Moroccan agriculture, amid water scarcity, rising input costs and repeated heat waves."
+},
+{
+  "id": 153,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%b6%d8%ba%d9%88%d8%b7-%d8%aa%d8%b1%d8%a8%d9%83-%d8%b3%d9%88%d9%82-%d8%a7%d9%84%d9%86%d8%ad%d8%a7%d8%b3-%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85%d9%8a%d8%a9-1793523.html",
+  "title_ar": "الضغوط تربك سوق النحاس العالمية",
+  "title_fr": "Des pressions perturbent le marché mondial du cuivre",
+  "title_en": "Pressures unsettle the global copper market",
+  "summary_ar": "أوضحت هسبريس أن السوق العالمية للنحاس تشهد اضطراباً بفعل ضغوط مختلفة، ما ينعكس على الأسعار وتوقعات الفاعلين.",
+  "summary_fr": "Hespress indique que le marché mondial du cuivre est perturbé par diverses pressions, ce qui se répercute sur les prix et les anticipations des acteurs.",
+  "summary_en": "Hespress notes that the global copper market is facing turbulence due to multiple pressures, affecting prices and expectations among market players."
+}
 );
