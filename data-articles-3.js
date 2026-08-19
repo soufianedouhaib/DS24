@@ -2,6 +2,7 @@
 ARTICLES.push(
 {
   "id": 61,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "tech",
   "img": "https://picsum.photos/seed/ds24article61/800/450",
   "source_name": "Wikipedia (استراتيجية المغرب الرقمي)",
@@ -38,6 +39,7 @@ ARTICLES.push(
 },
 {
   "id": 62,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article62/800/450",
   "source_name": "Hespress (عبر Maroc Medias)",
@@ -74,6 +76,7 @@ ARTICLES.push(
 },
 {
   "id": 63,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article63/800/450",
   "source_name": "Maroc Medias (عن مدار21)",
@@ -110,6 +113,7 @@ ARTICLES.push(
 },
 {
   "id": 64,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article64/800/450",
   "source_name": "Hespress",
@@ -146,6 +150,7 @@ ARTICLES.push(
 },
 {
   "id": 65,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article65/800/450",
   "source_name": "Hespress",
@@ -182,6 +187,7 @@ ARTICLES.push(
 },
 {
   "id": 66,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "societe",
   "img": "https://picsum.photos/seed/ds24article66/800/450",
   "source_name": "Le360 (عبر Maroc Medias)",
@@ -218,6 +224,7 @@ ARTICLES.push(
 },
 {
   "id": 67,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "societe",
   "img": "https://picsum.photos/seed/ds24article67/800/450",
   "source_name": "Hespress",
@@ -254,6 +261,7 @@ ARTICLES.push(
 },
 {
   "id": 68,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sport",
   "img": "https://picsum.photos/seed/ds24article68/800/450",
   "source_name": "Hespress",
@@ -290,6 +298,7 @@ ARTICLES.push(
 },
 {
   "id": 69,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sport",
   "img": "https://picsum.photos/seed/ds24article69/800/450",
   "source_name": "Almountakhab",
@@ -326,6 +335,7 @@ ARTICLES.push(
 },
 {
   "id": 70,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sport",
   "img": "https://picsum.photos/seed/ds24article70/800/450",
   "source_name": "Almountakhab",
@@ -362,6 +372,7 @@ ARTICLES.push(
 },
 {
   "id": 71,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sport",
   "img": "https://picsum.photos/seed/ds24article71/800/450",
   "source_name": "Almountakhab",
@@ -398,6 +409,7 @@ ARTICLES.push(
 },
 {
   "id": 72,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sport",
   "img": "https://picsum.photos/seed/ds24article72/800/450",
   "source_name": "Almountakhab",
@@ -434,6 +446,7 @@ ARTICLES.push(
 },
 {
   "id": 73,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sport",
   "img": "https://picsum.photos/seed/ds24article73/800/450",
   "source_name": "Almountakhab",
@@ -470,6 +483,7 @@ ARTICLES.push(
 },
 {
   "id": 74,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article74/800/450",
   "source_name": "Le360",
@@ -506,6 +520,7 @@ ARTICLES.push(
 },
 {
   "id": 75,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article75/800/450",
   "source_name": "Akhbarona",
@@ -542,6 +557,7 @@ ARTICLES.push(
 },
 {
   "id": 76,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article76/800/450",
   "source_name": "Akhbarona",
@@ -578,6 +594,7 @@ ARTICLES.push(
 },
 {
   "id": 77,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article77/800/450",
   "source_name": "Le360",
@@ -614,6 +631,7 @@ ARTICLES.push(
 },
 {
   "id": 78,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article78/800/450",
   "source_name": "Le360",
@@ -650,6 +668,7 @@ ARTICLES.push(
 },
 {
   "id": 79,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article79/800/450",
   "source_name": "Le360",
@@ -686,6 +705,7 @@ ARTICLES.push(
 },
 {
   "id": 80,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article80/800/450",
   "source_name": "Akhbarona",
@@ -722,6 +742,7 @@ ARTICLES.push(
 },
 {
   "id": 81,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article81/800/450",
   "source_name": "ChoufTV",
@@ -758,6 +779,7 @@ ARTICLES.push(
 },
 {
   "id": 82,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "societe",
   "img": "https://picsum.photos/seed/ds24article82/800/450",
   "source_name": "Le360",
@@ -794,6 +816,7 @@ ARTICLES.push(
 },
 {
   "id": 83,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "societe",
   "img": "https://picsum.photos/seed/ds24article83/800/450",
   "source_name": "Le360",
@@ -830,6 +853,7 @@ ARTICLES.push(
 },
 {
   "id": 84,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "societe",
   "img": "https://picsum.photos/seed/ds24article84/800/450",
   "source_name": "ChoufTV",
@@ -866,6 +890,7 @@ ARTICLES.push(
 },
 {
   "id": 85,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sport",
   "img": "https://picsum.photos/seed/ds24article85/800/450",
   "source_name": "ChoufTV",
@@ -902,6 +927,7 @@ ARTICLES.push(
 },
 {
   "id": 86,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sport",
   "img": "https://picsum.photos/seed/ds24article86/800/450",
   "source_name": "Akhbarona",
@@ -938,6 +964,7 @@ ARTICLES.push(
 },
 {
   "id": 87,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "regions",
   "img": "https://picsum.photos/seed/ds24article87/800/450",
   "source_name": "Le360",
@@ -974,6 +1001,7 @@ ARTICLES.push(
 },
 {
   "id": 88,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "regions",
   "img": "https://picsum.photos/seed/ds24article88/800/450",
   "source_name": "ChoufTV",
@@ -1010,6 +1038,7 @@ ARTICLES.push(
 },
 {
   "id": 89,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "culture",
   "img": "https://picsum.photos/seed/ds24article89/800/450",
   "source_name": "Le Matin",
@@ -1051,6 +1080,7 @@ ARTICLES.push(
 },
 {
   "id": 90,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article90/800/450",
   "source_name": "Hespress",
@@ -1065,6 +1095,7 @@ ARTICLES.push(
 },
 {
   "id": 91,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article91/800/450",
   "source_name": "Le360",
@@ -1079,6 +1110,7 @@ ARTICLES.push(
 },
 {
   "id": 92,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article92/800/450",
   "source_name": "Le360",
@@ -1093,6 +1125,7 @@ ARTICLES.push(
 },
 {
   "id": 93,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article93/800/450",
   "source_name": "Le360",
@@ -1107,6 +1140,7 @@ ARTICLES.push(
 },
 {
   "id": 94,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article94/800/450",
   "source_name": "Le360",
@@ -1121,6 +1155,7 @@ ARTICLES.push(
 },
 {
   "id": 95,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article95/800/450",
   "source_name": "Le360",
@@ -1135,6 +1170,7 @@ ARTICLES.push(
 },
 {
   "id": 96,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "societe",
   "img": "https://picsum.photos/seed/ds24article96/800/450",
   "source_name": "Le360",
@@ -1149,6 +1185,7 @@ ARTICLES.push(
 },
 {
   "id": 97,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "societe",
   "img": "https://picsum.photos/seed/ds24article97/800/450",
   "source_name": "Le360",
@@ -1163,6 +1200,7 @@ ARTICLES.push(
 },
 {
   "id": 98,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sport",
   "img": "https://picsum.photos/seed/ds24article98/800/450",
   "source_name": "Le360",
@@ -1177,6 +1215,7 @@ ARTICLES.push(
 },
 {
   "id": 99,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sport",
   "img": "https://picsum.photos/seed/ds24article99/800/450",
   "source_name": "Le360",
@@ -1191,6 +1230,7 @@ ARTICLES.push(
 },
 {
   "id": 100,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "culture",
   "img": "https://picsum.photos/seed/ds24article100/800/450",
   "source_name": "Le360",
@@ -1205,6 +1245,7 @@ ARTICLES.push(
 },
 {
   "id": 101,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article101/800/450",
   "source_name": "Hespress",
@@ -1219,6 +1260,7 @@ ARTICLES.push(
 },
 {
   "id": 102,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sport",
   "img": "https://picsum.photos/seed/ds24article102/800/450",
   "source_name": "Hespress",
@@ -1233,6 +1275,7 @@ ARTICLES.push(
 },
 {
   "id": 103,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "societe",
   "img": "https://picsum.photos/seed/ds24article103/800/450",
   "source_name": "Hespress",
@@ -1247,6 +1290,7 @@ ARTICLES.push(
 },
 {
   "id": 104,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article104/800/450",
   "source_name": "Hespress",
@@ -1261,6 +1305,7 @@ ARTICLES.push(
 },
 {
   "id": 105,
+  "addedAt": "2026-08-16T14:00:00Z",
   "category": "sante",
   "img": "https://picsum.photos/seed/ds24article105/800/450",
   "source_name": "SEDCO / Kech24",
@@ -1275,6 +1320,7 @@ ARTICLES.push(
 },
 {
   "id": 106,
+  "addedAt": "2026-08-16T19:00:00Z",
   "category": "tech",
   "img": "https://picsum.photos/seed/ds24article106/800/450",
   "source_name": "SEDCO / Kech24",
@@ -1289,6 +1335,7 @@ ARTICLES.push(
 },
 {
   "id": 107,
+  "addedAt": "2026-08-17T10:00:00Z",
   "category": "societe",
   "img": "https://picsum.photos/seed/ds24article107/800/450",
   "source_name": "Hespress",
@@ -1303,6 +1350,7 @@ ARTICLES.push(
 },
 {
   "id": 108,
+  "addedAt": "2026-08-17T20:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article108/800/450",
   "source_name": "Al Arabiya",
@@ -1317,6 +1365,7 @@ ARTICLES.push(
 },
 {
   "id": 109,
+  "addedAt": "2026-08-18T06:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article109/800/450",
   "source_name": "Al Arabiya",
@@ -1331,6 +1380,7 @@ ARTICLES.push(
 },
 {
   "id": 110,
+  "addedAt": "2026-08-18T16:00:00Z",
   "category": "regions",
   "img": "https://picsum.photos/seed/ds24article110/800/450",
   "source_name": "Maroc24",
@@ -1345,6 +1395,7 @@ ARTICLES.push(
 },
 {
   "id": 111,
+  "addedAt": "2026-08-18T22:00:00Z",
   "category": "regions",
   "img": "https://picsum.photos/seed/ds24article111/800/450",
   "source_name": "Maroc24",
@@ -1359,6 +1410,7 @@ ARTICLES.push(
 },
 {
   "id": 112,
+  "addedAt": "2026-08-19T06:00:00Z",
   "category": "culture",
   "img": "https://picsum.photos/seed/ds24article112/800/450",
   "source_name": "Assabah",
@@ -1373,6 +1425,7 @@ ARTICLES.push(
 },
 {
   "id": 113,
+  "addedAt": "2026-08-19T10:00:00Z",
   "category": "sport",
   "img": "https://picsum.photos/seed/ds24article113/800/450",
   "source_name": "Assabah",
@@ -1384,536 +1437,5 @@ ARTICLES.push(
     "body": ["Le Raja Club Athletic a annoncé avoir choisi la plateforme webook.com comme partenaire officiel pour la gestion de la billetterie de ses matches.", "Ce partenariat vise à faciliter l'accès des supporters aux billets via une plateforme numérique moderne et sécurisée."] },
   "en": { "title": "Raja Club Athletic picks webook.com as official ticketing partner", "excerpt": "A new agreement aims to make it easier for fans to buy match tickets.",
     "body": ["Raja Club Athletic announced it has chosen the webook.com platform as the official partner for managing ticket sales for its matches.", "The partnership aims to make it easier for fans to access tickets through a modern, secure digital platform."] }
-}
-,
-
-,
-{
-  "id": 114,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d9%84%d9%83-%d9%8a%d8%ab%d9%85%d9%86-%d9%86%d9%85%d9%88%d8%b0%d8%ac-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%b9-%d8%a7%d9%84%d8%ba%d8%a7%d8%a8%d9%88%d9%86-1793261.html",
-  "ar": {
-    "title": "الملك يثمن نموذج التعاون مع الغابون",
-    "text": "أبرزت صحيفة \"هسبريس\" إشادة الملك محمد السادس بنموذج التعاون القائم بين المغرب والغابون، مؤكدة استمرار الشراكة بين البلدين على أساس المصالح المشتركة. يعكس هذا التنويه الرؤية المغربية لتعزيز العلاقات مع الدول الإفريقية الصديقة، وعلى رأسها الغابون."
-  },
-  "fr": {
-    "title": "Le Roi salue le modèle de coopération avec le Gabon",
-    "text": "Le média Hespress met en avant l’appréciation par le Roi Mohammed VI du modèle de coopération entre le Maroc et le Gabon. Cette mise en valeur traduit la volonté marocaine de consolider un partenariat fondé sur des intérêts communs avec ce pays ami d’Afrique centrale."
-  },
-  "en": {
-    "title": "King praises cooperation model with Gabon",
-    "text": "According to Hespress, King Mohammed VI has highlighted the cooperation model linking Morocco and Gabon. This appreciation reflects Morocco’s approach of strengthening strategic partnerships with friendly African countries, including Gabon."
-  }
-},
-{
-  "id": 115,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%b7%d8%a7%d8%a6%d8%b1%d8%a9-%d8%aa%d8%b5%d8%b7%d8%af%d9%85-%d8%a8%d8%a7%d9%84%d8%a3%d8%b1%d8%b6-%d8%a3%d8%ab%d9%86%d8%a7%d8%a1-%d8%a7%d9%84%d8%a5%d9%82%d9%84%d8%a7%d8%b9-%d9%85%d9%86-%d9%85%d9%8a-1793258.html",
-  "ar": {
-    "title": "طائرة تصطدم بالأرض أثناء الإقلاع من ميونخ",
-    "text": "أفادت جريدة \"هسبريس\" أن طائرة اصطدمت بالأرض خلال مرحلة الإقلاع من مطار ميونخ بألمانيا، ما تسبب في حالة استنفار بالمطار. ويأتي الحادث في سياق نقاش دولي متواصل حول سلامة النقل الجوي وإجراءات المراقبة التقنية للطائرات."
-  },
-  "fr": {
-    "title": "Un avion heurte le sol lors du décollage à Munich",
-    "text": "D’après Hespress, un avion a heurté le sol au moment du décollage à l’aéroport de Munich en Allemagne, provoquant un état d’alerte sur le tarmac. Cet incident intervient alors que la sécurité du transport aérien demeure au centre des préoccupations internationales."
-  },
-  "en": {
-    "title": "Aircraft hits the ground during takeoff from Munich",
-    "text": "Hespress reports that an aircraft struck the ground during takeoff from Munich Airport in Germany, triggering an alert situation at the facility. The incident comes amid ongoing international attention to air transport safety and technical inspections of aircraft."
-  }
-},
-{
-  "id": 116,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%82%d8%b3%d8%af-%d8%aa%d9%86%d8%aa%d8%b8%d8%b1-%d8%a7%d9%84%d8%a3%d9%85%d8%b1-%d8%a8%d9%85%d8%ad%d8%a7%d8%b1%d8%a8%d8%a9-%d8%a5%d8%b3%d8%b1%d8%a7%d8%a6%d9%8a%d9%84-1793212.html",
-  "ar": {
-    "title": "\"قسد\" تنتظر الأمر بمحاربة إسرائيل",
-    "text": "أشارت \"هسبريس\" إلى أن قوات سوريا الديمقراطية \"قسد\" تنتظر صدور أمر بالتحرك عسكريا ضد إسرائيل، وفق ما نقله العنوان. ويعكس هذا المعطى تصاعد التوتر في المنطقة وتشابك الأدوار العسكرية والسياسية في الملف السوري والإقليمي."
-  },
-  "fr": {
-    "title": "Les FDS attendent l’ordre de combattre Israël",
-    "text": "Selon le titre relayé par Hespress, les Forces démocratiques syriennes (FDS) attendraient un ordre pour engager des opérations militaires contre Israël. Cette évolution souligne la montée des tensions régionales et la complexité des rapports de force autour du dossier syrien."
-  },
-  "en": {
-    "title": "SDF reportedly awaiting order to fight Israel",
-    "text": "Hespress headlines indicate that the Syrian Democratic Forces (SDF) are said to be waiting for an order to engage militarily against Israel. This development underlines rising regional tensions and the complex web of military and political actors around the Syrian conflict."
-  }
-},
-{
-  "id": 117,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%ad%d8%a7%d9%84%d8%a9-%d8%a7%d9%84%d8%ac%d9%88%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d8%b3%d8%a8%d9%88%d8%b9%d9%8a%d8%a9-%d9%85%d8%aa%d9%82%d9%84%d8%a8%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d9%85-1793234.html",
-  "ar": {
-    "title": "الحالة الجوية الأسبوعية متقلبة في المغرب .. حرارة خانقة وزخات رعدية",
-    "text": "أبرزت \"هسبريس\" أن الحالة الجوية الأسبوعية بالمغرب تتسم بتقلبات ملحوظة تجمع بين حرارة خانقة وزخات رعدية في عدد من المناطق. وتشير المعطيات المنشورة إلى استمرار أجواء صيفية حارة يختلط فيها ارتفاع درجات الحرارة بفترات من الاضطرابات المحلية."
-  },
-  "fr": {
-    "title": "Une météo hebdomadaire instable au Maroc: chaleur étouffante et averses orageuses",
-    "text": "Hespress signale que la météo de la semaine au Maroc sera marquée par une forte instabilité, combinant chaleur étouffante et averses orageuses dans plusieurs régions. Les informations publiées décrivent la persistance d’un temps estival chaud ponctué d’épisodes orageux locaux."
-  },
-  "en": {
-    "title": "Weekly weather in Morocco: unstable conditions with sweltering heat and thunderstorms",
-    "text": "According to Hespress, Morocco’s weekly weather forecast points to unstable conditions, with sweltering heat and thunderstorm showers in various areas. The published outlook describes a hot summer pattern mixed with occasional local stormy episodes."
-  }
-},
-{
-  "id": 118,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%8a%d9%88%d9%81%d9%86%d8%aa%d9%88%d8%b3-%d9%8a%d8%aa%d8%b1%d8%a7%d8%ac%d8%b9-%d8%b9%d9%86-%d8%b5%d9%81%d9%82%d8%a9-%d9%85%d8%a7%d8%b1%d8%aa%d9%8a%d9%86%d9%8a%d8%b2-1793231.html",
-  "ar": {
-    "title": "يوفنتوس يتراجع عن \"صفقة مارتينيز\"",
-    "text": "أفادت \"هسبريس\" بأن نادي يوفنتوس الإيطالي قرر التراجع عن إتمام \"صفقة مارتينيز\"، كما ورد في العنوان الرياضي. ويأتي هذا المستجد في سياق تحركات الأندية الأوروبية في سوق الانتقالات الصيفية بحثا عن التوازن المالي والتقني."
-  },
-  "fr": {
-    "title": "La Juventus renonce au \"transfert Martinez\"",
-    "text": "D’après Hespress, la Juventus de Turin a fait marche arrière concernant le \"transfert Martinez\", selon le titre de l’article sportif. Ce revirement s’inscrit dans la dynamique des mercatos européens, où les clubs ajustent leurs choix financiers et techniques."
-  },
-  "en": {
-    "title": "Juventus backs out of \"Martinez deal\"",
-    "text": "Hespress reports that Italian club Juventus has stepped back from completing the \"Martinez deal\", as stated in the sports headline. The move fits into a wider European transfer market in which clubs seek to balance sporting ambitions and financial constraints."
-  }
-},
-{
-  "id": 119,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%a5%d9%8a%d8%b1%d8%a7%d8%af%d8%a7%d8%aa-%d8%b3%d8%a8%d8%a7%d9%8a%d8%af%d8%b1%d9%85%d8%a7%d9%86%d9%81%d9%8a-%d8%aa%d8%b5%d8%a7%d8%b9%d8%af-%d8%a8%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%a7%d9%84-1793209.html",
-  "ar": {
-    "title": "إيرادات \"سبايدرمان\" في تصاعد بأمريكا الشمالية",
-    "text": "ذكرت \"هسبريس\" أن إيرادات فيلم \"سبايدرمان\" تشهد تصاعدا ملحوظا في شبابيك التذاكر بأمريكا الشمالية، كما ورد في العنوان الثقافي. ويعكس هذا الأداء التجاري استمرار جاذبية أفلام الأبطال الخارقين لدى جمهور السينما العالمي."
-  },
-  "fr": {
-    "title": "Les recettes de \"Spider-Man\" en hausse en Amérique du Nord",
-    "text": "Selon Hespress, les recettes du film \"Spider-Man\" sont en nette progression en Amérique du Nord, d’après le titre consacré au box-office. Ces chiffres illustrent l’attrait durable du cinéma de super-héros auprès du public international."
-  },
-  "en": {
-    "title": "‘Spider-Man’ box office climbs in North America",
-    "text": "Hespress notes that box office revenues for the film ‘Spider-Man’ are on the rise across North America, as indicated in the entertainment headline. The performance underscores the enduring appeal of superhero franchises for global audiences."
-  }
-},
-{
-  "id": 120,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%aa%d8%ba%d9%8a%d9%8a%d8%b1-%d9%81%d9%8a-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d9%85%d8%ad%d8%b1%d9%88%d9%82%d8%a7%d8%aa-%d8%a8%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-1793237.html",
-  "ar": {
-    "title": "تغيير في أسعار المحروقات بالمغرب",
-    "text": "أبرزت \"هسبريس\" حدوث تغيير في أسعار المحروقات بالمغرب، كما ورد في العنوان الاقتصادي. ويأتي هذا التعديل الجديد في سياق تذبذب أسعار الطاقة عالميا وانعكاساته المباشرة على السوق الوطنية."
-  },
-  "fr": {
-    "title": "Changement des prix des carburants au Maroc",
-    "text": "Hespress signale un changement des prix des carburants au Maroc, d’après le titre de la rubrique économique. Cette variation s’inscrit dans le contexte des fluctuations des cours de l’énergie sur les marchés internationaux et de leurs effets sur le marché national."
-  },
-  "en": {
-    "title": "Fuel prices change in Morocco",
-    "text": "According to Hespress, fuel prices in Morocco have undergone a change, as highlighted in the economic headline. The adjustment comes amid ongoing volatility in global energy markets and its impact on domestic pricing."
-  }
-},
-{
-  "id": 121,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%82%d8%a7%d9%86%d9%88%d9%86-%d8%a7%d9%84%d8%aa%d8%b3%d8%b1%d9%8a%d8%b9-%d8%a7%d9%84%d8%b5%d9%86%d8%a7%d8%b9%d9%8a-%d8%a7%d9%84%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d9%8a-%d9%8a%d8%ae%d8%aa%d8%a8%d8%b1-1792611.html",
-  "ar": {
-    "title": "قانون التسريع الصناعي الأوروبي يختبر الاستثمارات الصينية في المغرب",
-    "text": "أفادت \"هسبريس\" بأن قانون التسريع الصناعي الأوروبي يضع الاستثمارات الصينية في المغرب تحت اختبار جديد، وفق ما يوضحه العنوان الاقتصادي. ويثير هذا التطور أسئلة حول موقع المملكة في سلاسل القيمة العالمية بين الشركاء الأوروبيين والفاعلين الآسيويين."
-  },
-  "fr": {
-    "title": "La loi européenne sur l’accélération industrielle met à l’épreuve les investissements chinois au Maroc",
-    "text": "D’après Hespress, la loi européenne d’accélération industrielle soumet les investissements chinois au Maroc à un nouveau test, comme l’indique le titre. Cette évolution interroge la place du Royaume dans les chaînes de valeur mondiales entre partenaires européens et acteurs asiatiques."
-  },
-  "en": {
-    "title": "EU industrial acceleration law tests Chinese investments in Morocco",
-    "text": "Hespress reports that the European industrial acceleration law is testing Chinese investments in Morocco, according to the economic headline. The development raises questions about Morocco’s position in global value chains between European partners and Asian investors."
-  }
-},
-{
-  "id": 122,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%b1%d8%a6%d9%8a%d8%b3-%d8%b2%d8%a7%d9%85%d8%a8%d9%8a%d8%a7-%d9%87%d9%8a%d8%b4%d9%8a%d9%84%d9%8a%d9%85%d8%a7-%d9%8a%d8%aa%d8%b5%d8%af%d8%b1-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b1%d8%a7%d8%b9-1793203.html",
-  "ar": {
-    "title": "رئيس زامبيا هيشيليما يتصدر الاقتراع",
-    "text": "ذكرت \"هسبريس\" أن رئيس زامبيا هاكايندي هيشيليما يتصدر نتائج الاقتراع في بلاده، وفق ما جاء في العنوان الدولي. ويعكس ذلك استمرار الاهتمام الإعلامي المغربي بمتابعة التحولات السياسية في القارة الإفريقية."
-  },
-  "fr": {
-    "title": "Le président zambien Hichilema arrive en tête du scrutin",
-    "text": "Selon Hespress, le président zambien Hakainde Hichilema arrive en tête du scrutin dans son pays, comme l’indique le titre. Cette information s’inscrit dans le suivi par la presse marocaine de l’actualité politique en Afrique."
-  },
-  "en": {
-    "title": "Zambian President Hichilema leads in vote",
-    "text": "Hespress notes that Zambian President Hakainde Hichilema is leading in the vote in his country, according to the international headline. The coverage reflects Moroccan media’s interest in political developments across Africa."
-  }
-},
-{
-  "id": 123,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%ad%d9%81%d9%8a%d8%af-%d8%af%d9%88%d8%ba%d9%88%d9%84-%d8%a7%d9%84%d9%81%d8%b1%d9%86%d8%b3%d9%8a%d9%88%d9%86-%d9%8a%d8%b1%d9%81%d8%b6%d9%88%d9%86-%d8%aa%d8%b3%d9%84%d9%8a%d8%ad-%d8%a3%d9%88%d9%83-1793206.html",
-  "ar": {
-    "title": "حفيد دوغول: الفرنسيون يرفضون تسليح أوكرانيا",
-    "text": "أوردت \"هسبريس\" تصريحا لحفيد الرئيس الفرنسي الراحل شارل دوغول مفاده أن الفرنسيين يرفضون تسليح أوكرانيا، وفق ما جاء في العنوان السياسي. ويأتي هذا الموقف في خضم نقاش واسع بفرنسا حول دورها في النزاع الأوكراني."
-  },
-  "fr": {
-    "title": "Petit-fils de De Gaulle : les Français refusent d’armer l’Ukraine",
-    "text": "D’après Hespress, un petit-fils de l’ancien président Charles de Gaulle affirme que les Français refusent de fournir des armes à l’Ukraine, selon le titre de l’article. Cette sortie intervient dans un contexte de débat vif en France sur l’implication dans le conflit ukrainien."
-  },
-  "en": {
-    "title": "De Gaulle’s grandson: French people oppose arming Ukraine",
-    "text": "According to Hespress, a grandson of former French president Charles de Gaulle has stated that the French reject arming Ukraine, as reflected in the political headline. The remark comes amid heated debate in France over its role in the Ukraine conflict."
-  }
-},
-{
-  "id": 124,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%85%d9%86%d8%b9-%d8%a7%d9%84%d8%ac%d9%84%d9%88%d8%b3-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%b9%d8%b4%d8%a8-%d9%8a%d8%b5%d9%85%d8%af-%d9%81%d9%8a-%d8%b3%d9%84%d8%a7-1793010.html",
-  "ar": {
-    "title": "منع الجلوس على العشب يصمد في سلا",
-    "text": "أشارت \"هسبريس\" إلى أن قرار منع الجلوس على العشب لا يزال مطبقا في مدينة سلا، رغم الجدل الذي أثاره وسط المواطنين. ويعكس استمرار هذا الإجراء نقاشا محليا حول تدبير الفضاءات العمومية وحدود استعمالها من طرف الساكنة."
-  },
-  "fr": {
-    "title": "L’interdiction de s’asseoir sur la pelouse se maintient à Salé",
-    "text": "Hespress indique que la décision d’interdire de s’asseoir sur la pelouse demeure en vigueur à Salé, malgré la controverse qu’elle suscite auprès des habitants. Le maintien de cette mesure illustre un débat local sur la gestion des espaces publics et leurs usages."
-  },
-  "en": {
-    "title": "Ban on sitting on grass remains in force in Salé",
-    "text": "According to Hespress, the ban on sitting on grass is still being enforced in the city of Salé, despite public controversy. The measure highlights an ongoing local debate over how public spaces are managed and used by residents."
-  }
-},
-{
-  "id": 125,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%85%d9%86%d8%b8%d9%85%d8%a7%d8%aa-%d8%ad%d9%82%d9%88%d9%82%d9%8a%d8%a9-%d8%aa%d8%b1%d9%81%d8%b6-%d8%a7%d9%84%d8%aa%d9%88%d9%82%d9%8a%d8%aa-%d8%a7%d9%84%d9%85%d9%8a%d8%b3%d8%b1-%d9%88%d8%aa-1793123.html",
-  "ar": {
-    "title": "منظمات حقوقية ترفض \"التوقيت الميسر\" وتترفع عن مجانية التعليم العالي",
-    "text": "ذكرت \"هسبريس\" أن عددا من المنظمات الحقوقية أعلنت رفضها لمبدأ \"التوقيت الميسر\"، مع التعبير عن موقفها الرافض للمساس بمجانية التعليم العالي، وفق ما جاء في العنوان. ويأتي هذا الموقف في إطار النقاش الوطني حول إصلاح منظومة التعليم وتمويلها."
-  },
-  "fr": {
-    "title": "Des organisations de droits humains rejettent le \"calendrier aménagé\" et défendent la gratuité de l’enseignement supérieur",
-    "text": "Selon Hespress, plusieurs organisations de défense des droits humains s’opposent au principe du \"timetable aménagé\" tout en réaffirmant leur attachement à la gratuité de l’enseignement supérieur. Cette position s’inscrit dans le débat national sur la réforme et le financement du système éducatif marocain."
-  },
-  "en": {
-    "title": "Rights groups reject \"facilitated timetable\" and defend free higher education",
-    "text": "Hespress reports that a number of human rights organizations have rejected the idea of a \"facilitated timetable\" while reiterating their stance in favor of free higher education. The position is part of the broader national debate on education reform and its financing in Morocco."
-  }
-},
-{
-  "id": 126,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%aa%d8%b5%d9%86%d9%8a%d9%81-%d9%8a%d8%b6%d8%b9-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%ab%d8%a7%d9%86%d9%8a-%d8%a5%d9%81%d8%b1%d9%8a%d9%82%d9%8a%d8%a7-%d9%81%d9%8a-%d8%aa%d8%ad%d9%88%d9%8a%d9%84-1792552.html",
-  "ar": {
-    "title": "تصنيف يضع المغرب ثاني إفريقيا في تحويل الذكاء إلى ثورة صناعية",
-    "text": "أبرز تقرير نشرته \"هسبريس\" تصنيفا دوليا يضع المغرب في المرتبة الثانية إفريقيا من حيث قدرته على تحويل الذكاء إلى ثورة صناعية، بحسب ما يفيده العنوان. ويعكس هذا التصنيف التقدم الذي تحققه المملكة في استثمار الكفاءات والابتكار لخدمة التنمية الصناعية."
-  },
-  "fr": {
-    "title": "Un classement place le Maroc au 2e rang africain pour la transformation de l’intelligence en révolution industrielle",
-    "text": "D’après Hespress, un classement international situe le Maroc au deuxième rang en Afrique pour sa capacité à transformer l’intelligence en révolution industrielle, selon le titre. Ce résultat met en lumière les avancées du Royaume dans la mobilisation des compétences et de l’innovation au service du développement industriel."
-  },
-  "en": {
-    "title": "Ranking puts Morocco second in Africa for turning intelligence into an industrial revolution",
-    "text": "According to a report highlighted by Hespress, an international ranking places Morocco second in Africa in terms of its ability to turn intelligence into an industrial revolution. The result reflects the country’s progress in harnessing skills and innovation to drive industrial development."
-  }
-},
-{
-  "id": 127,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%aa%d8%af%d9%81%d9%82%d8%a7%d8%aa-%d8%b3%d8%b1%d9%8a%d8%a9-%d8%b9%d8%a8%d8%b1-%d9%87%d8%b1%d9%85%d8%b2-%d8%aa%d9%83%d8%a8%d8%ad-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d9%86%d9%81%d8%b7-1792999.html",
-  "ar": {
-    "title": "\"تدفقات سرية\" عبر هرمز تكبح أسعار النفط العالمية رغم استمرار \"حرب إيران\"",
-    "text": "أفادت \"هسبريس\" بوجود \"تدفقات سرية\" عبر مضيق هرمز تسهم في كبح أسعار النفط العالمية، رغم استمرار ما يوصف في العنوان بـ\"حرب إيران\". ويشير هذا المعطى إلى تعقيدات سوق الطاقة الدولي وتأثير المسارات غير المعلنة على توازن الأسعار."
-  },
-  "fr": {
-    "title": "Des \"flux secrets\" via Hormuz freinent les prix mondiaux du pétrole malgré la poursuite de la \"guerre d’Iran\"",
-    "text": "Selon Hespress, des \"flux secrets\" transitant par le détroit d’Hormuz contribuent à contenir les prix mondiaux du pétrole, en dépit de la poursuite de ce que le titre qualifie de \"guerre d’Iran\". Cette situation illustre la complexité du marché énergétique et le rôle de circuits méconnus dans l’équilibre des cours."
-  },
-  "en": {
-    "title": "‘Secret flows’ through Hormuz curb global oil prices despite ongoing ‘Iran war’",
-    "text": "Hespress reports that ‘secret flows’ through the Strait of Hormuz are helping to curb global oil prices, despite the continuation of what the headline calls the ‘Iran war’. The development highlights the complexity of the energy market and the impact of little-known routes on price balances."
-  }
-},
-{
-  "id": 128,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a-%d8%a7%d9%84%d9%85%d9%88%d8%a7%d9%86%d8%a6-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-%d8%aa%d9%85%d9%83%d9%86-%d9%85%d9%86-1791918.html",
-  "ar": {
-    "title": "تقرير أمريكي يضع المغرب ضمن محاور الالتفاف التجاري الصيني عالميا",
-    "text": "أبرزت \"هسبريس\" تقريرا أمريكيا يشير إلى أن المغرب يدخل ضمن محاور الالتفاف التجاري الصيني على المستوى العالمي، وفق ما ينقله العنوان. ويضع هذا التوصيف الضوء على الدور الجيو اقتصادي للموانئ المغربية في حركة التجارة الدولية."
-  },
-  "fr": {
-    "title": "Un rapport américain place le Maroc parmi les axes du contournement commercial chinois à l’échelle mondiale",
-    "text": "D’après Hespress, un rapport américain estime que le Maroc figure parmi les axes du contournement commercial chinois dans le monde, selon le titre. Cette lecture met en relief le rôle géo-économique des ports marocains dans les flux d’échanges internationaux."
-  },
-  "en": {
-    "title": "US report lists Morocco among hubs of China’s global trade circumvention",
-    "text": "According to Hespress, a US report identifies Morocco as one of the hubs of China’s global trade circumvention, as the headline states. The assessment highlights the geo-economic role of Moroccan ports in international trade flows."
-  }
-},
-{
-  "id": 129,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%87%d9%84-%d9%8a%d8%b0%d9%87%d8%a8-%d9%86%d8%b5%d9%81-%d8%b1%d8%a3%d8%b3%d9%85%d8%a7%d9%84-%d8%b9%d9%85%d8%a7%d9%84%d9%82%d8%a9-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7-1792716.html",
-  "ar": {
-    "title": "هل يذهب نصف رأسمال عمالقة الذكاء الاصطناعي إلى صندوق شعبي؟",
-    "text": "تساءلت \"هسبريس\" في عنوان تحليلي عما إذا كان نصف رأسمال عمالقة الذكاء الاصطناعي يمكن أن يتجه نحو صندوق شعبي. ويعكس السؤال نقاشا متصاعدا عالميا حول آليات تمويل السياسات الاجتماعية من أرباح الشركات التكنولوجية الكبرى."
-  },
-  "fr": {
-    "title": "La moitié du capital des géants de l’IA ira-t-elle à un fonds populaire ?",
-    "text": "Dans un titre à tonalité analytique, Hespress s’interroge sur la possibilité que la moitié du capital des géants de l’intelligence artificielle soit orientée vers un fonds populaire. Cette question renvoie au débat international sur la contribution des grandes entreprises technologiques au financement des politiques sociales."
-  },
-  "en": {
-    "title": "Could half of AI giants’ capital go into a public fund?",
-    "text": "In an analytical headline, Hespress raises the question of whether half of the capital of artificial intelligence giants could be channeled into a public fund. The query reflects growing global debate over how big tech profits might support social policies."
-  }
-},
-{
-  "id": 130,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%aa%d8%b5%d9%86%d9%8a%d9%81-%d8%b9%d8%a7%d9%84%d9%85%d9%8a-%d9%8a%d8%b6%d8%b9-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%a8%d9%8a%d9%86-%d8%a3%d9%81%d8%b6%d9%84-60-%d8%af%d9%88%d9%84%d8%a9-%d9%81-1792443.html",
-  "ar": {
-    "title": "تصنيف عالمي يضع المغرب بين أفضل 60 دولة في \"الحرية الاقتصادية\"",
-    "text": "أفادت \"هسبريس\" بأن تصنيفا عالميا جديدا وضع المغرب ضمن أفضل 60 دولة في مجال \"الحرية الاقتصادية\"، كما ورد في العنوان الاقتصادي. ويشير هذا الترتيب إلى تحسن مؤشرات مناخ الأعمال وجاذبية الاستثمار بالمملكة وفق المعايير المعتمدة في التقرير."
-  },
-  "fr": {
-    "title": "Un classement mondial place le Maroc parmi les 60 meilleurs pays en matière de \"liberté économique\"",
-    "text": "Selon Hespress, un nouveau classement international a inscrit le Maroc parmi les 60 premiers pays en termes de \"liberté économique\". Ce positionnement traduit une évolution des indicateurs liés au climat des affaires et à l’attractivité de l’investissement dans le Royaume, selon les critères du rapport."
-  },
-  "en": {
-    "title": "Global index ranks Morocco among top 60 countries for ‘economic freedom’",
-    "text": "Hespress reports that a new global index has ranked Morocco among the top 60 countries for ‘economic freedom’. The ranking points to improvements in business climate indicators and investment attractiveness in the Kingdom, based on the criteria used in the report."
-  }
-},
-{
-  "id": 131,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%a7%d9%84%d9%8a%d8%a9-%d8%aa%d8%af%d9%82%d9%82-%d9%81%d9%8a-%d8%a7%d9%82%d8%aa%d9%86%d8%a7%d8%a1-1792417.html",
-  "ar": {
-    "title": "هيئة المعلومات المالية تدقق في اقتناء \"مشاريع مفلسة\" بأثمان مرتفعة",
-    "text": "أبرزت \"هسبريس\" أن هيئة المعلومات المالية شرعت في التدقيق بعمليات اقتناء \"مشاريع مفلسة\" بأثمان مرتفعة، وفق ما ينقله العنوان. ويأتي هذا التحرك في إطار تشديد الرقابة على الصفقات التي قد تنطوي على شبهات غسل الأموال أو استغلال ثغرات تنظيمية."
-  },
-  "fr": {
-    "title": "L’Autorité des renseignements financiers examine l’acquisition de \"projets en faillite\" à des prix élevés",
-    "text": "D’après Hespress, l’Autorité des renseignements financiers mène des vérifications concernant l’acquisition de \"projets en faillite\" à des montants jugés élevés. Cette démarche s’inscrit dans le renforcement du contrôle des opérations susceptibles de soulever des soupçons de blanchiment de capitaux ou d’abus des failles réglementaires."
-  },
-  "en": {
-    "title": "Financial Intelligence Authority scrutinizes purchase of ‘bankrupt projects’ at high prices",
-    "text": "According to Hespress, the Financial Intelligence Authority is examining transactions involving the purchase of ‘bankrupt projects’ at high prices. The move fits within tighter oversight of deals that may raise suspicions of money laundering or exploitation of regulatory loopholes."
-  }
-},
-{
-  "id": 132,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%85%d8%a7%d8%b2%d9%8a-%d9%8a%d8%aa%d8%b1%d8%a7%d8%ac%d8%b9-%d8%a8%d9%80024-%d9%81%d9%8a-%d8%a3%d8%b3%d8%a8%d9%88%d8%b9-1792295.html",
-  "ar": {
-    "title": "\"مازي\" يتراجع بـ0,24% في أسبوع",
-    "text": "أفادت \"هسبريس\" بأن مؤشر بورصة الدار البيضاء \"مازي\" سجل تراجعا بنسبة 0,24% خلال أسبوع، كما يوضح العنوان المالي. ويعكس هذا الانخفاض حركة تصحيحية في أداء السوق بعد تداولات شهدت تغيرات على مستوى أسهم عدة قطاعات."
-  },
-  "fr": {
-    "title": "L’indice \"Masi\" recule de 0,24 % en une semaine",
-    "text": "Selon Hespress, l’indice global de la Bourse de Casablanca, le \"Masi\", a enregistré un recul hebdomadaire de 0,24 %, d’après le titre de la rubrique financière. Cette légère baisse traduit un mouvement de correction du marché après des séances marquées par des variations sur plusieurs secteurs cotés."
-  },
-  "en": {
-    "title": "‘Masi’ index down 0.24% in a week",
-    "text": "Hespress reports that the Casablanca Stock Exchange’s ‘Masi’ index fell by 0.24% over the week, according to the financial headline. The decline reflects a corrective movement in the market following trading sessions with fluctuations across several listed sectors."
-  }
-},
-{
-  "id": 133,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%85%d8%b1%d8%b3%d9%88%d9%85-%d9%84%d8%aa%d8%b3%d8%b9%d9%8a%d8%b1-%d8%a7%d9%84%d8%a3%d8%af%d9%88%d9%8a%d8%a9-%d9%8a%d8%af%d8%ae%d9%84-%d8%ad%d9%8a%d8%b2-%d8%a7%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0-1792110.html",
-  "ar": {
-    "title": "مرسوم تسعير الأدوية يدخل حيز التنفيذ وسط انقسام بين صيادلة المغرب",
-    "text": "أشارت \"هسبريس\" إلى أن مرسوما جديدا لتسعير الأدوية دخل حيز التنفيذ في المغرب، في سياق انقسام بين صيادلة المملكة حول مقتضياته، كما يوضح العنوان. ويعكس هذا الانقسام تباين الرؤى بخصوص تأثير المرسوم على ولوج المرضى للعلاج ووضعية الصيدليات."
-  },
-  "fr": {
-    "title": "Le décret de fixation des prix des médicaments entre en vigueur sur fond de division chez les pharmaciens du Maroc",
-    "text": "D’après Hespress, un nouveau décret fixant les prix des médicaments est entré en vigueur au Maroc, alors que les pharmaciens du Royaume demeurent divisés à son sujet. Cette divergence de positions porte notamment sur l’impact du texte sur l’accès des patients aux traitements et sur l’équilibre économique des officines."
-  },
-  "en": {
-    "title": "Drug pricing decree comes into force amid split among Moroccan pharmacists",
-    "text": "According to Hespress, a new decree regulating drug prices has come into force in Morocco, amid divisions among the country’s pharmacists, as the headline notes. The differing views focus on how the measure may affect patients’ access to treatment and the financial situation of pharmacies."
-  }
-}
-,
-{
-  "id": 134,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%87%d9%88%d9%84%d9%8a%d8%aa%d9%8a-%d9%8a%d8%b9%d8%b2%d8%b2-%d8%b5%d9%81%d9%88%d9%81-%d8%a3%d9%85%d9%84-%d8%aa%d9%8a%d8%b2%d9%86%d9%8a%d8%aa-1793592.html",
-  "title_ar": "\"هوليتي\" يعزز صفوف أمل تيزنيت",
-  "title_fr": "\"Houliti\" renforce l’effectif d’Amal Tiznit",
-  "title_en": "\"Houliti\" strengthens Amal Tiznit squad",
-  "lead_ar": "أفاد موقع هسبريس بأن اللاعب هوليتي ينضم إلى فريق أمل تيزنيت، في صفقة تعزز تركيبة النادي التقنية والبشرية قبل الاستحقاقات الكروية المقبلة.",
-  "lead_fr": "Le site Hespress indique que le joueur Houliti rejoint le club Amal Tiznit, apportant un renfort supplémentaire à l’effectif en vue des prochaines échéances sportives.",
-  "lead_en": "According to Hespress, player Houliti has joined Amal Tiznit, providing additional reinforcement to the squad ahead of upcoming football commitments."
-},
-{
-  "id": 135,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%a7%d9%84%d9%82%d8%b6%d8%a7%d8%a1-%d8%a7%d9%84%d8%b3%d9%88%d8%b1%d9%8a-%d9%8a%d9%86%d8%b7%d9%82-%d8%a8%d8%a5%d8%b9%d8%af%d8%a7%d9%85-%d8%a7%d8%a8%d9%86-%d8%b9%d9%85-%d8%a8%d8%b4%d8%a7%d8%b1-%d8%a7-1793639.html",
-  "title_ar": "القضاء السوري ينطق بإعدام ابن عم بشار الأسد",
-  "title_fr": "La justice syrienne prononce la peine de mort contre un cousin de Bachar al-Assad",
-  "title_en": "Syrian judiciary sentences Bashar al-Assad’s cousin to death",
-  "lead_ar": "ذكر موقع هسبريس أن القضاء السوري أصدر حكما بالإعدام في حق ابن عم الرئيس بشار الأسد، في تطور قضائي بارز داخل سوريا.",
-  "lead_fr": "Selon Hespress, la justice syrienne a prononcé la peine capitale à l’encontre d’un cousin du président Bachar al-Assad, marquant un développement judiciaire notable en Syrie.",
-  "lead_en": "Hespress reports that the Syrian judiciary has handed down a death sentence against a cousin of President Bashar al-Assad, marking a significant judicial development in Syria."
-},
-{
-  "id": 136,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%b9%d9%85%d8%a7%d9%84%d8%a7%d8%aa-%d8%aa%d9%88%d9%82%d9%81-%d8%b5%d9%81%d9%82%d8%a7%d8%aa-%d9%85%d8%b3%d8%aa%d8%b9%d8%ac%d9%84%d8%a9-%d9%88%d8%aa%d8%af%d9%82%d9%82-%d9%81%d9%8a-%d8%a7%d9%84-1792448.html",
-  "title_ar": "عمالات توقف \"صفقات مستعجلة\" وتدقق في المبررات ومساطر الإعداد",
-  "title_fr": "Des préfectures suspendent des \"marchés urgents\" et examinent les justifications et procédures",
-  "title_en": "Provincial authorities halt \"urgent contracts\" and scrutinize justifications and procedures",
-  "lead_ar": "أوردت هسبريس أن عددا من العمالات أوقفت صفقات واعتبرتها \"مستعجلة\" ريثما تتم مراجعة المبررات القانونية ومساطر الإعداد المرتبطة بها محليا.",
-  "lead_fr": "D’après Hespress, plusieurs préfectures ont suspendu certains marchés qualifiés d’\"urgents\" en attendant de vérifier les justifications juridiques et les procédures de préparation au niveau local.",
-  "lead_en": "Hespress indicates that several provincial authorities have suspended contracts labeled as \"urgent\" while they review the legal justifications and preparatory procedures at the local level."
-},
-{
-  "id": 137,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-%d8%b3%d8%ad%d8%a8-%d9%82%d8%b1%d8%b9%d8%a9-%d8%af%d9%88%d8%b1%d9%8a-%d8%a3%d8%a8%d8%b7%d8%a7%d9%84-%d8%a2%d8%b3%d9%8a%d8%a7-1793611.html",
-  "title_ar": "نتائج سحب قرعة دوري أبطال آسيا",
-  "title_fr": "Résultats du tirage au sort de la Ligue des champions d’Asie",
-  "title_en": "Results of the AFC Champions League draw",
-  "lead_ar": "استعرض موقع هسبريس نتائج سحب قرعة دوري أبطال آسيا لكرة القدم، وما أسفرت عنه من مجموعات مختلفة للأندية المشاركة في النسخة الحالية.",
-  "lead_fr": "Hespress présente les résultats du tirage au sort de la Ligue des champions d’Asie, détaillant la composition des groupes des clubs engagés dans l’édition en cours.",
-  "lead_en": "Hespress outlines the results of the AFC Champions League draw, detailing how the participating clubs have been distributed across the groups for the current edition."
-},
-{
-  "id": 138,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%af%d9%81%d9%86-%d8%ac%d8%ab%d8%a7%d9%85%d9%8a%d9%86-%d8%a3%d8%ad%d8%af%d8%a7%d8%ab-%d8%b3%d8%a8%d8%aa%d8%a9-%d9%87%d9%84-%d8%aa%d9%85%d9%91%d8%aa-%d8%aa%d8%af%d8%a7%d8%a8%d9%8a%d8%b1-%d8%aa-1793608.html",
-  "title_ar": "دفن جثامين \"أحداث سبتة\" .. هل تمّت تدابير تحديد الهوية وإخبار الأسر؟",
-  "title_fr": "Enterrement des dépouilles des \"événements de Ceuta\" : mesures d’identification et information des familles ?",
-  "title_en": "Burial of victims of the \"Ceuta events\": were identification measures and family notifications completed?",
-  "lead_ar": "تسائل هسبريس في تقريره حول دفن جثامين ضحايا \"أحداث سبتة\"، وما إذا كانت إجراءات تحديد الهوية وإخبار أسر المتوفين قد استوفيت قبل عملية الدفن.",
-  "lead_fr": "Dans son article, Hespress s’interroge sur l’inhumation des victimes des \"événements de Ceuta\" et sur le respect des procédures d’identification et d’information des familles avant l’enterrement.",
-  "lead_en": "In its report, Hespress questions the burial of those who died in the \"Ceuta events\" and whether proper identification procedures and family notifications were completed beforehand."
-},
-{
-  "id": 139,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d8%a5%d9%86%d8%ac%d9%84%d9%8a%d8%b2%d9%8a-%d9%8a%d9%81%d8%aa%d8%ad-%d8%a7%d9%84%d9%85%d9%8a%d9%83%d8%b1%d9%88%d9%81%d9%88%d9%86%d8%a7%d8%aa-1793586.html",
-  "title_ar": "الدوري الإنجليزي يفتح الميكروفونات",
-  "title_fr": "La Premier League ouvre les micros",
-  "title_en": "English Premier League to open live microphones",
-  "lead_ar": "أشار تقرير هسبريس إلى توجه جديد في الدوري الإنجليزي الممتاز يتمثل في فتح الميكروفونات، بما يتيح سماع مزيد من التفاصيل المرتبطة بالمباريات والتحكيم.",
-  "lead_fr": "Hespress signale une nouvelle orientation en Premier League consistant à ouvrir davantage les micros, afin de rendre audibles plus de détails liés aux matches et à l’arbitrage.",
-  "lead_en": "Hespress notes a new direction in the English Premier League involving more open microphones, allowing additional details from matches and officiating to be heard."
-},
-{
-  "id": 140,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%aa%d9%82%d8%aa%d8%b1%d8%ad-%d8%b1%d9%88%d8%a8%d9%88%d8%aa%d8%a7%d8%aa-%d8%a8%d8%b4%d8%b1%d9%8a%d8%a9-%d9%84%d8%af%d9%88%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84-1793602.html",
-  "title_ar": "أمريكا تقترح روبوتات بشرية لدوريات الحدود",
-  "title_fr": "Les États-Unis proposent des robots humanoïdes pour les patrouilles frontalières",
-  "title_en": "US proposes humanoid robots for border patrols",
-  "lead_ar": "بحسب هسبريس، تتجه الولايات المتحدة إلى طرح فكرة استخدام روبوتات بشرية في دوريات مراقبة الحدود، في إطار مقاربة تقنية جديدة لضبط التحركات عبر المعابر.",
-  "lead_fr": "Selon Hespress, les États-Unis envisagent le recours à des robots humanoïdes dans les patrouilles de surveillance des frontières, dans une nouvelle approche technologique du contrôle des passages.",
-  "lead_en": "According to Hespress, the United States is putting forward the idea of using humanoid robots in border patrols as part of a new technological approach to monitoring crossings."
-},
-{
-  "id": 141,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%85%d9%83%d8%aa%d8%a8%d8%a7%d8%aa-%d9%84%d9%84%d9%82%d8%b1%d8%a8-%d8%aa%d8%b2%d9%8a%d9%86-%d8%a7%d9%84%d8%b9%d8%a7%d8%b5%d9%85%d8%a9-%d8%a7%d9%84%d8%b1%d8%a8%d8%a7%d8%b7-1793327.html",
-  "title_ar": "\"مكتبات للقرب\" تزين العاصمة الرباط",
-  "title_fr": "Des \"bibliothèques de proximité\" embellissent la capitale Rabat",
-  "title_en": "\"Neighborhood libraries\" add charm to Morocco’s capital Rabat",
-  "lead_ar": "أفادت هسبريس بأن مبادرة \"مكتبات للقرب\" تسهم في تزيين الفضاءات العمومية بالرباط، وتشجيع القراءة عبر توفير نقاط ثقافية قريبة من الساكنة.",
-  "lead_fr": "Hespress souligne que l’initiative des \"bibliothèques de proximité\" contribue à embellir les espaces publics de Rabat et à encourager la lecture grâce à des lieux culturels accessibles aux habitants.",
-  "lead_en": "Hespress reports that the \"neighborhood libraries\" initiative is enhancing public spaces in Rabat and promoting reading by creating accessible cultural spots for residents."
-},
-{
-  "id": 142,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-%d8%b4%d8%aa%d9%86%d8%a8%d8%b1-2026-%d8%aa%d8%ae%d8%aa%d8%a8%d8%b1-%d8%b2%d8%ae%d9%85-%d8%a7%d9%84%d9%85%d8%b4%d8%a7%d8%b1%d9%83%d8%a9-%d8%a7%d9%84-1793127.html",
-  "title_ar": "انتخابات شتنبر 2026 تختبر زخم المشاركة المرتفعة في الأقاليم الجنوبية",
-  "title_fr": "Les élections de septembre 2026 testeront l’élan de forte participation dans les provinces du Sud",
-  "title_en": "September 2026 elections to test high voter turnout momentum in Morocco’s southern provinces",
-  "lead_ar": "توضح هسبريس أن انتخابات شتنبر 2026 ستشكل اختبارا جديدا لزخم المشاركة السياسية المرتفعة في الأقاليم الجنوبية للمملكة، في سياق دينامية انتخابية متواصلة.",
-  "lead_fr": "Hespress explique que les élections de septembre 2026 constitueront un nouveau test pour la forte dynamique de participation politique dans les provinces du Sud du Maroc.",
-  "lead_en": "Hespress notes that the September 2026 elections will be a fresh test for the strong momentum of political participation in Morocco’s southern provinces."
-},
-{
-  "id": 143,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%88%d9%84%d8%a7%d9%8a%d8%a9-%d8%ab%d8%a7%d9%86%d9%8a%d8%a9-%d9%84%d9%84%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a7%d9%84%d8%b2%d8%a7%d9%85%d8%a8%d9%8a-%d9%87%d9%8a%d8%aa%d8%b4%d9%8a%d9%84%d9%8a%d9%85%d8%a7-1793583.html",
-  "title_ar": "ولاية ثانية للرئيس الزامبي هيتشيليما",
-  "title_fr": "Second mandat pour le président zambien Hichilema",
-  "title_en": "Zambian president Hichilema wins a second term",
-  "lead_ar": "ذكر موقع هسبريس أن الرئيس الزامبي هيتشيليما ظفر بولاية ثانية على رأس بلاده، ما يعيد تأكيد حضوره في المشهد السياسي الإقليمي.",
-  "lead_fr": "Hespress rapporte que le président zambien Hichilema a obtenu un second mandat à la tête du pays, confirmant sa place sur la scène politique régionale.",
-  "lead_en": "Hespress reports that Zambian president Hichilema has secured a second term in office, reaffirming his role on the regional political scene."
-},
-{
-  "id": 144,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%ad%d9%8a-%d9%8a%d8%b1%d9%8a%d8%af-%d8%a7%d9%84%d8%a3%d9%81%d8%b6%d9%84-%d9%81%d9%8a-%d8%aa%d9%8a%d9%81%d9%84%d8%aa-1793575.html",
-  "title_ar": "حي يريد الأفضل في تيفلت",
-  "title_fr": "Un quartier de Tiflet en quête de mieux",
-  "title_en": "A neighborhood in Tiflet seeking better living conditions",
-  "lead_ar": "تسلط هسبريس الضوء على حي بمدينة تيفلت يعبر سكانه عن تطلعهم إلى تحسين أوضاع العيش والخدمات الأساسية داخل المجال الحضري.",
-  "lead_fr": "Hespress met en avant un quartier de la ville de Tiflet dont les habitants aspirent à de meilleures conditions de vie et de services urbains.",
-  "lead_en": "Hespress highlights a neighborhood in the city of Tiflet where residents are expressing a desire for improved living conditions and basic urban services."
-},
-{
-  "id": 145,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%85%d8%b7%d8%a7%d9%84%d8%a8-%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-%d8%a8%d8%a5%d8%ad%d8%af%d8%a7%d8%ab-%d8%b9%d9%85%d8%a7%d9%84%d8%a7%d8%aa-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-1793381.html",
-  "title_ar": "مطالب مغربية بإحداث عمالات جديدة",
-  "title_fr": "Des revendications au Maroc pour la création de nouvelles préfectures",
-  "title_en": "Calls in Morocco for the creation of new provinces (prefectures)",
-  "lead_ar": "يشير تقرير هسبريس إلى بروز مطالب بإحداث عمالات جديدة في بعض المناطق المغربية، ضمن نقاش حول إعادة توزيع الخريطة الإدارية وتحسين تدبير القرب.",
-  "lead_fr": "D’après Hespress, des voix s’élèvent pour réclamer la création de nouvelles préfectures dans certaines régions du Maroc, dans le cadre d’un débat sur la carte administrative.",
-  "lead_en": "Hespress notes rising calls for the establishment of new provincial entities in parts of Morocco, as part of a broader debate on administrative restructuring and local governance."
-},
-{
-  "id": 146,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d9%85%d8%b1%d9%83%d8%b2-%d8%a7%d9%86%d8%ae%d9%81%d8%a7%d8%b6-%d8%b2%d9%88%d8%ac-%d8%a7%d9%84%d8%af%d9%88%d9%84%d8%a7%d8%b1-%d9%88%d8%a7%d9%84%d8%af%d8%b1%d9%87%d9%85-1793531.html",
-  "title_ar": "مركز: انخفاض زوج الدولار والدرهم",
-  "title_fr": "Centre : baisse de la paire dollar/dirham",
-  "title_en": "Center reports drop in the dollar/dirham pair",
-  "lead_ar": "أبرزت هسبريس معطيات صادرة عن مركز مختص تشير إلى تراجع في سعر زوج الدولار/الدرهم، في سياق تقلبات تعرفها أسواق الصرف الدولية.",
-  "lead_fr": "Hespress relaie des données d’un centre spécialisé signalant une baisse de la paire dollar/dirham, sur fond de fluctuations sur les marchés des changes.",
-  "lead_en": "Hespress relays data from a specialized center indicating a decline in the dollar/dirham exchange pair amid ongoing volatility in currency markets."
-},
-{
-  "id": 147,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%b5%d9%85%d8%a7%d9%8a%d9%85-%d8%aa%d8%ae%d8%aa%d8%a8%d8%b1-%d8%b5%d9%85%d9%88%d8%af-%d8%a7%d9%84%d9%81%d9%84%d8%a7%d8%ad%d8%a9-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-1793295.html",
-  "title_ar": "\"الصمايم\" تختبر صمود الفلاحة المغربية أمام المياه والتكاليف والحرارة",
-  "title_fr": "La période de \"Smayem\" met à l’épreuve la résilience de l’agriculture marocaine face à l’eau, aux coûts et à la chaleur",
-  "title_en": "The \"Smayem\" heatwave tests the resilience of Moroccan agriculture amid water, cost and heat pressures",
-  "lead_ar": "تفيد هسبريس بأن فترة \"الصمايم\" الحارة تضع الفلاحة المغربية أمام تحديات مركبة تتعلق بندرة المياه وارتفاع التكاليف وتأثير موجات الحرارة على الإنتاج.",
-  "lead_fr": "Hespress souligne que la période caniculaire dite \"Smayem\" expose l’agriculture marocaine à des défis combinant rareté de l’eau, hausse des coûts et impact des fortes températures sur la production.",
-  "lead_en": "Hespress explains that the intense \"Smayem\" heat period is challenging Moroccan agriculture with combined pressures from water scarcity, higher costs and extreme temperatures on output."
-},
-{
-  "id": 148,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%b6%d8%ba%d9%88%d8%b7-%d8%aa%d8%b1%d8%a8%d9%83-%d8%b3%d9%88%d9%82-%d8%a7%d9%84%d9%86%d8%ad%d8%a7%d8%b3-%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85%d9%8a%d8%a9-1793523.html",
-  "title_ar": "الضغوط تربك سوق النحاس العالمية",
-  "title_fr": "Des pressions perturbent le marché mondial du cuivre",
-  "title_en": "Pressures unsettle the global copper market",
-  "lead_ar": "أشارت هسبريس إلى موجة ضغوط جديدة تؤثر في سوق النحاس العالمية، مع ما يرافق ذلك من تذبذب في الأسعار وتخوفات لدى الفاعلين الاقتصاديين.",
-  "lead_fr": "Hespress fait état de nouvelles pressions qui secouent le marché mondial du cuivre, provoquant une volatilité des prix et des inquiétudes chez les acteurs économiques.",
-  "lead_en": "Hespress reports that fresh pressures are impacting the global copper market, leading to price volatility and concerns among economic stakeholders."
-},
-{
-  "id": 149,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%a8%d9%88%d8%b1%d8%b5%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%b6%d8%a7%d8%a1-%d8%aa%d9%86%d9%87%d9%8a-%d8%ac%d9%84%d8%b3%d8%a9-%d9%85%d8%b1%d8%aa%d9%81%d8%b9%d8%a9-1793415.html",
-  "title_ar": "بورصة البيضاء تنهي جلسة مرتفعة",
-  "title_fr": "La Bourse de Casablanca clôture en hausse",
-  "title_en": "Casablanca Stock Exchange closes on a positive note",
-  "lead_ar": "أفادت هسبريس بأن بورصة الدار البيضاء أنهت إحدى جلساتها على ارتفاع، ما يعكس أداء إيجابيا لعدد من القيم المدرجة في السوق.",
-  "lead_fr": "Hespress indique que la Bourse de Casablanca a terminé l’une de ses séances en territoire positif, traduisant une évolution favorable de plusieurs valeurs cotées.",
-  "lead_en": "Hespress notes that the Casablanca Stock Exchange closed a recent session in positive territory, reflecting an upward performance for several listed stocks."
-},
-{
-  "id": 150,
-  "source": "Hespress",
-  "url": "https://www.hespress.com/%d8%a3%d8%b7%d8%a8%d8%a7%d8%a1-%d9%8a%d8%ad%d8%aa%d8%ac%d9%88%d9%86-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%b1%d9%82%d9%85%d9%86%d8%a9-%d8%a7%d9%84%d8%b5%d8%ad%d9%8a%d8%a9-1793268.html",
-  "title_ar": "أطباء يحتجون على \"الرقمنة الصحية\"",
-  "title_fr": "Des médecins protestent contre la \"numérisation de la santé\"",
-  "title_en": "Doctors protest against \"health digitalization\"",
-  "lead_ar": "تورد هسبريس أن فئة من الأطباء عبّرت عن احتجاجها على مسار \"الرقمنة الصحية\"، مبدية تخوفات من تداعياته على الممارسة المهنية والخدمات الطبية.",
-  "lead_fr": "Hespress rapporte qu’un groupe de médecins manifeste son opposition à la \"numérisation de la santé\", exprimant des craintes quant à ses effets sur la pratique et les services médicaux.",
-  "lead_en": "Hespress states that a group of doctors has voiced protest against the \"digitalization of health services\", raising concerns about its impact on medical practice and care provision."
 }
 );

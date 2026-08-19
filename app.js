@@ -373,11 +373,34 @@ function renderCategory(slug) {
     </div>`;
 }
 
-/* ---------- PAGE: RECENTLY ADDED (all categories, newest first) ---------- */
+/* ---------- PAGE: RECENTLY ADDED (last 72 hours only, across all categories) ---------- */
 function renderRecent() {
   window.__rerenderPage = renderRecent;
   renderChrome("recent");
-  const items = ARTICLES.slice().sort((a, b) => b.id - a.id);
+
+  const SEVENTY_TWO_HOURS_MS = 72 * 60 * 60 * 1000;
+  const now = Date.now();
+
+  const items = ARTICLES
+    .filter(a => a.addedAt && (now - new Date(a.addedAt).getTime()) <= SEVENTY_TWO_HOURS_MS)
+    .sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt));
+
+  if (items.length === 0) {
+    document.getElementById("pageContent").innerHTML = `
+      <div class="breadcrumb"><a href="index.html">${t("home")}</a> / ${t("recent")}</div>
+      <div class="category-banner">
+        <h1>${t("recent")}</h1>
+        <span class="count">0 ${t("articles_count")}</span>
+      </div>
+      <div class="grid">
+        <div>
+          <div class="section-title"><h3>${t("recent")}</h3></div>
+          <p style="padding:30px; text-align:center; color:var(--ink-soft);">${t("no_recent")}</p>
+        </div>
+        <aside>${sidebarHTML()}</aside>
+      </div>`;
+    return;
+  }
 
   const totalPages = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
   const params = new URLSearchParams(location.search);

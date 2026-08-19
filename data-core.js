@@ -60,6 +60,11 @@ const TEXT = {
     "fr": "Récemment ajoutés",
     "en": "Recently Added"
   },
+  "no_recent": {
+    "ar": "لا توجد مقالات أضيفت خلال آخر 72 ساعة",
+    "fr": "Aucun article ajouté au cours des dernières 72 heures",
+    "en": "No articles added in the last 72 hours"
+  },
   "search_ph": {
     "ar": "ابحث في DS24...",
     "fr": "Rechercher sur DS24...",

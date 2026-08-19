@@ -2,6 +2,7 @@
 ARTICLES.push(
 {
   "id": 1,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article1/800/450",
   "source_name": "Hespress",
@@ -41,6 +42,7 @@ ARTICLES.push(
 },
 {
   "id": 2,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article2/800/450",
   "source_name": "Hespress",
@@ -80,6 +82,7 @@ ARTICLES.push(
 },
 {
   "id": 3,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article3/800/450",
   "source_name": "Hespress",
@@ -119,6 +122,7 @@ ARTICLES.push(
 },
 {
   "id": 4,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article4/800/450",
   "source_name": "Maroc Medias (revue de presse)",
@@ -158,6 +162,7 @@ ARTICLES.push(
 },
 {
   "id": 5,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "societe",
   "img": "https://picsum.photos/seed/ds24article5/800/450",
   "source_name": "The Voice",
@@ -194,6 +199,7 @@ ARTICLES.push(
 },
 {
   "id": 6,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "societe",
   "img": "https://picsum.photos/seed/ds24article6/800/450",
   "source_name": "Hespress",
@@ -230,6 +236,7 @@ ARTICLES.push(
 },
 {
   "id": 7,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sport",
   "img": "https://picsum.photos/seed/ds24article7/800/450",
   "source_name": "اللجنة الوطنية الأولمبية المغربية (CNOM)",
@@ -269,6 +276,7 @@ ARTICLES.push(
 },
 {
   "id": 8,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sport",
   "img": "https://picsum.photos/seed/ds24article8/800/450",
   "source_name": "Hespress",
@@ -308,6 +316,7 @@ ARTICLES.push(
 },
 {
   "id": 9,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "regions",
   "img": "https://picsum.photos/seed/ds24article9/800/450",
   "source_name": "Hespress",
@@ -347,6 +356,7 @@ ARTICLES.push(
 },
 {
   "id": 10,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "regions",
   "img": "https://picsum.photos/seed/ds24article10/800/450",
   "source_name": "Kech24",
@@ -386,6 +396,7 @@ ARTICLES.push(
 },
 {
   "id": 11,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "culture",
   "img": "https://picsum.photos/seed/ds24article11/800/450",
   "source_name": "Hespress",
@@ -425,6 +436,7 @@ ARTICLES.push(
 },
 {
   "id": 12,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "culture",
   "img": "https://picsum.photos/seed/ds24article12/800/450",
   "source_name": "Hespress",
@@ -464,6 +476,7 @@ ARTICLES.push(
 },
 {
   "id": 13,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sante",
   "img": "https://picsum.photos/seed/ds24article13/800/450",
   "source_name": "Hespress",
@@ -503,6 +516,7 @@ ARTICLES.push(
 },
 {
   "id": 14,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "sante",
   "img": "https://picsum.photos/seed/ds24article14/800/450",
   "source_name": "وزارة الصحة والحماية الاجتماعية (عبر ExpressTV)",
@@ -542,6 +556,7 @@ ARTICLES.push(
 },
 {
   "id": 15,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "tech",
   "img": "https://picsum.photos/seed/ds24article15/800/450",
   "source_name": "Maroc Medias (revue de presse)",
@@ -581,6 +596,7 @@ ARTICLES.push(
 },
 {
   "id": 16,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "tech",
   "img": "https://picsum.photos/seed/ds24article16/800/450",
   "source_name": "Bawaba Press",
@@ -620,6 +636,7 @@ ARTICLES.push(
 },
 {
   "id": 17,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article17/800/450",
   "source_name": "Hespress",
@@ -656,6 +673,7 @@ ARTICLES.push(
 },
 {
   "id": 18,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article18/800/450",
   "source_name": "Hespress",
@@ -692,6 +710,7 @@ ARTICLES.push(
 },
 {
   "id": 19,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article19/800/450",
   "source_name": "Hespress",
@@ -728,6 +747,7 @@ ARTICLES.push(
 },
 {
   "id": 20,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article20/800/450",
   "source_name": "Yabiladi",
@@ -764,6 +784,7 @@ ARTICLES.push(
 },
 {
   "id": 21,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article21/800/450",
   "source_name": "Akhbarona",
@@ -800,6 +821,7 @@ ARTICLES.push(
 },
 {
   "id": 22,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "politique",
   "img": "https://picsum.photos/seed/ds24article22/800/450",
   "source_name": "Hespress",
@@ -836,6 +858,7 @@ ARTICLES.push(
 },
 {
   "id": 23,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article23/800/450",
   "source_name": "Assahifa",
@@ -872,6 +895,7 @@ ARTICLES.push(
 },
 {
   "id": 24,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article24/800/450",
   "source_name": "Assahifa",
@@ -908,6 +932,7 @@ ARTICLES.push(
 },
 {
   "id": 25,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article25/800/450",
   "source_name": "Assahifa",
@@ -944,6 +969,7 @@ ARTICLES.push(
 },
 {
   "id": 26,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article26/800/450",
   "source_name": "Assahifa",
@@ -980,6 +1006,7 @@ ARTICLES.push(
 },
 {
   "id": 27,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article27/800/450",
   "source_name": "Assahifa",
@@ -1016,6 +1043,7 @@ ARTICLES.push(
 },
 {
   "id": 28,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article28/800/450",
   "source_name": "Assahifa",
@@ -1052,6 +1080,7 @@ ARTICLES.push(
 },
 {
   "id": 29,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article29/800/450",
   "source_name": "Le360",
@@ -1088,6 +1117,7 @@ ARTICLES.push(
 },
 {
   "id": 30,
+  "addedAt": "2026-06-20T12:00:00Z",
   "category": "economie",
   "img": "https://picsum.photos/seed/ds24article30/800/450",
   "source_name": "Assahifa",
