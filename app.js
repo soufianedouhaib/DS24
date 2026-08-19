@@ -378,47 +378,8 @@ function renderRecent() {
   window.__rerenderPage = renderRecent;
   renderChrome("recent");
 
-  const SEVENTY_TWO_HOURS_MS = 72 * 60 * 60 * 1000;
-  const now = Date.now();
-
-  const items = ARTICLES
-    .filter(a => a.addedAt && (now - new Date(a.addedAt).getTime()) <= SEVENTY_TWO_HOURS_MS)
-    .sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt));
-
-  if (items.length === 0) {
-    document.getElementById("pageContent").innerHTML = `
-      <div class="breadcrumb"><a href="index.html">${t("home")}</a> / ${t("recent")}</div>
-      <div class="category-banner">
-        <h1>${t("recent")}</h1>
-        <span class="count">0 ${t("articles_count")}</span>
-      </div>
-      <div class="grid">
-        <div>
-          <div class="section-title"><h3>${t("recent")}</h3></div>
-          <p style="padding:30px; text-align:center; color:var(--ink-soft);">${t("no_recent")}</p>
-        </div>
-        <aside>${sidebarHTML()}</aside>
-      </div>`;
-    return;
-  }
-
-  const totalPages = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
-  const params = new URLSearchParams(location.search);
-  let page = parseInt(params.get("page"), 10) || 1;
-  page = Math.min(Math.max(page, 1), totalPages);
-
-  const pageItems = items.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
-
-  const pageLink = (n) => `recent.html?page=${n}`;
-  let paginationHTML = "";
-  for (let n = 1; n <= totalPages; n++) {
-    paginationHTML += n === page
-      ? `<span class="current">${n}</span>`
-      : `<a href="${pageLink(n)}">${n}</a>`;
-  }
-  const nextHTML = page < totalPages
-    ? `<a href="${pageLink(page + 1)}">${t("next")}</a>`
-    : `<span class="disabled">${t("next")}</span>`;
+  const MAX_RECENT = 10;
+  const items = ARTICLES.slice().sort((a, b) => b.id - a.id).slice(0, MAX_RECENT);
 
   document.getElementById("pageContent").innerHTML = `
     <div class="breadcrumb"><a href="index.html">${t("home")}</a> / ${t("recent")}</div>
@@ -429,14 +390,12 @@ function renderRecent() {
     <div class="grid">
       <div>
         <div class="section-title"><h3>${t("recent")}</h3></div>
-        <div class="article-list">${pageItems.map(a => articleCard(a)).join("")}</div>
-        <div class="pagination">
-          ${totalPages > 1 ? paginationHTML + nextHTML : ""}
-        </div>
+        <div class="article-list">${items.map(a => articleCard(a)).join("")}</div>
       </div>
       <aside>${sidebarHTML()}</aside>
     </div>`;
 }
+
 
 /* ---------- PAGE: STATIC (About / Contact / Team) ---------- */
 function renderAbout() {
