@@ -99,10 +99,12 @@ function renderChrome(activeKey) {
     });
   }
 
-  const navLinks = [`<a href="index.html" class="${activeKey==='home'?'active':''}">${t("home")}</a>`]
-    .concat(CATEGORY_ORDER.map(slug =>
-      `<a href="${slug}.html" class="${activeKey===slug?'active':''}">${catName(slug)}</a>`
-    ));
+  const navLinks = [
+    `<a href="index.html" class="${activeKey==='home'?'active':''}">${t("home")}</a>`,
+    `<a href="recent.html" class="${activeKey==='recent'?'active':''}">${t("recent")}</a>`
+  ].concat(CATEGORY_ORDER.map(slug =>
+    `<a href="${slug}.html" class="${activeKey===slug?'active':''}">${catName(slug)}</a>`
+  ));
   document.getElementById("siteNav").innerHTML = `<div class="nav-inner">${navLinks.join("")}</div>`;
 
   document.getElementById("siteTicker").innerHTML = `
@@ -362,6 +364,48 @@ function renderCategory(slug) {
     <div class="grid">
       <div>
         <div class="section-title"><h3>${t("latest_in")} ${catName(slug)}</h3></div>
+        <div class="article-list">${pageItems.map(a => articleCard(a)).join("")}</div>
+        <div class="pagination">
+          ${totalPages > 1 ? paginationHTML + nextHTML : ""}
+        </div>
+      </div>
+      <aside>${sidebarHTML()}</aside>
+    </div>`;
+}
+
+/* ---------- PAGE: RECENTLY ADDED (all categories, newest first) ---------- */
+function renderRecent() {
+  window.__rerenderPage = renderRecent;
+  renderChrome("recent");
+  const items = ARTICLES.slice().sort((a, b) => b.id - a.id);
+
+  const totalPages = Math.max(1, Math.ceil(items.length / PAGE_SIZE));
+  const params = new URLSearchParams(location.search);
+  let page = parseInt(params.get("page"), 10) || 1;
+  page = Math.min(Math.max(page, 1), totalPages);
+
+  const pageItems = items.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+
+  const pageLink = (n) => `recent.html?page=${n}`;
+  let paginationHTML = "";
+  for (let n = 1; n <= totalPages; n++) {
+    paginationHTML += n === page
+      ? `<span class="current">${n}</span>`
+      : `<a href="${pageLink(n)}">${n}</a>`;
+  }
+  const nextHTML = page < totalPages
+    ? `<a href="${pageLink(page + 1)}">${t("next")}</a>`
+    : `<span class="disabled">${t("next")}</span>`;
+
+  document.getElementById("pageContent").innerHTML = `
+    <div class="breadcrumb"><a href="index.html">${t("home")}</a> / ${t("recent")}</div>
+    <div class="category-banner">
+      <h1>${t("recent")}</h1>
+      <span class="count">${items.length} ${t("articles_count")}</span>
+    </div>
+    <div class="grid">
+      <div>
+        <div class="section-title"><h3>${t("recent")}</h3></div>
         <div class="article-list">${pageItems.map(a => articleCard(a)).join("")}</div>
         <div class="pagination">
           ${totalPages > 1 ? paginationHTML + nextHTML : ""}

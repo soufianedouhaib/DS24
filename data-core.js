@@ -55,6 +55,11 @@ const TEXT = {
     "fr": "Accueil",
     "en": "Home"
   },
+  "recent": {
+    "ar": "الأحدث",
+    "fr": "Récemment ajoutés",
+    "en": "Recently Added"
+  },
   "search_ph": {
     "ar": "ابحث في DS24...",
     "fr": "Rechercher sur DS24...",

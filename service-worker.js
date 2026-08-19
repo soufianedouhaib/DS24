@@ -1,11 +1,12 @@
 /* ============ DS24 SERVICE WORKER ============ */
 /* Bump this version string whenever site files change, so old caches get cleared */
-const CACHE_NAME = "ds24-cache-v1";
+const CACHE_NAME = "ds24-cache-v2";
 
 const APP_SHELL = [
   "./",
   "./index.html",
   "./article.html",
+  "./recent.html",
   "./politique.html",
   "./economie.html",
   "./societe.html",
