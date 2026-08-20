@@ -2793,4 +2793,685 @@ ARTICLES.push(
   "title_fr": "Belarouch réussit la visite médicale avec Reims",
   "title_en": "Belarouch passes medical tests with Reims"
 }
+,
+{
+  "id": 209,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article209/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b1%d9%88%d8%b3%d9%8a%d8%a7-%d9%84%d8%a7-%d9%85%d8%a4%d8%b4%d8%b1%d8%a7%d8%aa-%d9%84%d9%84%d8%aa%d8%b3%d9%88%d9%8a%d8%a9-%d8%a8%d8%a3%d9%88%d9%83%d8%b1%d8%a7%d9%86%d9%8a%d8%a7-1794439.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "روسيا: لا مؤشرات للتسوية بأوكرانيا",
+    "excerpt": "أكدت روسيا، وفق ما أوردته هسبريس، أنها لا ترى مؤشرات على قرب التوصل إلى تسوية للنزاع الدائر في أوكرانيا.",
+    "body": [
+      "أكدت روسيا، وفق ما أوردته هسبريس، أنها لا ترى مؤشرات على قرب التوصل إلى تسوية للنزاع الدائر في أوكرانيا."
+    ]
+  },
+  "fr": {
+    "title": "Russie : aucun signe de règlement en Ukraine",
+    "excerpt": "Selon la couverture de Hespress, la Russie affirme ne voir aucun signe rapprochant d’un règlement du conflit en Ukraine.",
+    "body": [
+      "Selon la couverture de Hespress, la Russie affirme ne voir aucun signe rapprochant d’un règlement du conflit en Ukraine."
+    ]
+  },
+  "en": {
+    "title": "Russia: No signs of a settlement in Ukraine",
+    "excerpt": "According to Hespress, Russia says it sees no indications that a settlement to the conflict in Ukraine is near.",
+    "body": [
+      "According to Hespress, Russia says it sees no indications that a settlement to the conflict in Ukraine is near."
+    ]
+  }
+},
+{
+  "id": 210,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article210/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%82%d8%b6%d9%8a%d8%a9-%d9%88%d9%81%d8%a7%d8%a9-%d9%85%d8%a7%d8%b1%d8%a7%d8%af%d9%88%d9%86%d8%a7-%d8%a7%d9%84%d8%af%d9%81%d8%a7%d8%b9-%d9%8a%d8%b4%d9%83%d9%83-%d9%81%d9%8a-%d8%aa%d9%82%d8%b1-1794448.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "قضية وفاة مارادونا .. الدفاع يشكك في تقرير طبي",
+    "excerpt": "أفادت هسبريس بأن هيئة الدفاع في قضية وفاة الأسطورة دييغو مارادونا شككت في تقرير طبي معتمد ضمن مسار التقاضي.",
+    "body": [
+      "أفادت هسبريس بأن هيئة الدفاع في قضية وفاة الأسطورة دييغو مارادونا شككت في تقرير طبي معتمد ضمن مسار التقاضي."
+    ]
+  },
+  "fr": {
+    "title": "Affaire du décès de Maradona : la défense met en doute un rapport médical",
+    "excerpt": "Hespress rapporte que la défense dans l’affaire du décès de Diego Maradona remet en cause un rapport médical versé au dossier.",
+    "body": [
+      "Hespress rapporte que la défense dans l’affaire du décès de Diego Maradona remet en cause un rapport médical versé au dossier."
+    ]
+  },
+  "en": {
+    "title": "Maradona death case: Defense questions medical report",
+    "excerpt": "Hespress reports that the defense team in the Diego Maradona death case is challenging a medical report included in the proceedings.",
+    "body": [
+      "Hespress reports that the defense team in the Diego Maradona death case is challenging a medical report included in the proceedings."
+    ]
+  }
+},
+{
+  "id": 211,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article211/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%84%d8%a7%d8%b9%d8%a8-%d8%a8%d9%80%d8%a3%d8%b1%d8%a7%d8%b6-%d8%b9%d8%a7%d8%b1%d9%8a%d8%a9-%d9%8a%d8%b3%d8%aa%d9%86%d9%81%d8%b1-%d8%a7%d9%84%d8%b3%d9%84%d8%b7%d8%a9-1794257.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "التلاعب بأراض عارية يستنفر السلطة",
+    "excerpt": "أوردت هسبريس أن شبهة التلاعب في أراضٍ عارية أسهمت في استنفار السلطات المختصة وفتح تحقيقات حول طرق استغلالها.",
+    "body": [
+      "أوردت هسبريس أن شبهة التلاعب في أراضٍ عارية أسهمت في استنفار السلطات المختصة وفتح تحقيقات حول طرق استغلالها."
+    ]
+  },
+  "fr": {
+    "title": "Des manipulations de terrains nus mobilisent les autorités",
+    "excerpt": "Selon Hespress, des soupçons de manipulations autour de terrains nus ont poussé les autorités à se mobiliser et à vérifier leurs conditions d’exploita",
+    "body": [
+      "Selon Hespress, des soupçons de manipulations autour de terrains nus ont poussé les autorités à se mobiliser et à vérifier leurs conditions d’exploitation."
+    ]
+  },
+  "en": {
+    "title": "Tampering with vacant land triggers authorities’ response",
+    "excerpt": "Hespress reports that suspected irregularities involving vacant land have prompted authorities to mobilize and review how these properties are being u",
+    "body": [
+      "Hespress reports that suspected irregularities involving vacant land have prompted authorities to mobilize and review how these properties are being used."
+    ]
+  }
+},
+{
+  "id": 212,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article212/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%88%d9%81%d8%b1%d8%a9-%d8%a7%d9%84%d9%81%d9%88%d8%a7%d9%83%d9%87-%d8%a7%d9%84%d9%85%d9%88%d8%b3%d9%85%d9%8a%d8%a9-%d8%aa%d8%ae%d9%81%d8%b6-%d8%a7%d9%84%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d9%88%d8%aa-1793885.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "وفرة الفواكه الموسمية تخفض الأسعار وتكبد التجار والفلاحين خسائر كبيرة",
+    "excerpt": "ذكرت هسبريس أن الوفرة الكبيرة في الفواكه الموسمية أدت إلى انخفاض الأسعار في الأسواق، لكنها تسببت في خسائر مالية مهمة للتجار والفلاحين.",
+    "body": [
+      "ذكرت هسبريس أن الوفرة الكبيرة في الفواكه الموسمية أدت إلى انخفاض الأسعار في الأسواق، لكنها تسببت في خسائر مالية مهمة للتجار والفلاحين."
+    ]
+  },
+  "fr": {
+    "title": "L’abondance des fruits de saison fait baisser les prix et cause de lourdes pertes aux commerçants et agriculteurs",
+    "excerpt": "Hespress indique que la forte abondance des fruits de saison a entraîné une baisse des prix, tout en générant d’importantes pertes financières pour le",
+    "body": [
+      "Hespress indique que la forte abondance des fruits de saison a entraîné une baisse des prix, tout en générant d’importantes pertes financières pour les commerçants et les agriculteurs."
+    ]
+  },
+  "en": {
+    "title": "Abundant seasonal fruits cut prices but cause heavy losses for traders and farmers",
+    "excerpt": "Hespress notes that a surge in seasonal fruit supply has pushed prices down, while inflicting significant financial losses on traders and farmers.",
+    "body": [
+      "Hespress notes that a surge in seasonal fruit supply has pushed prices down, while inflicting significant financial losses on traders and farmers."
+    ]
+  }
+},
+{
+  "id": 213,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article213/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-%d9%82%d8%b1%d8%b9%d8%a9-%d8%af%d9%88%d8%b1%d9%8a-%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d9%8a-%d8%a7%d9%84%d8%a2%d8%b3%d9%8a%d9%88%d9%8a-1794412.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "نتائج قرعة دوري التحدي الآسيوي",
+    "excerpt": "أعلنت هسبريس عن نتائج قرعة دوري التحدي الآسيوي، كاشفة عن التوزيع النهائي للأندية المشاركة في مختلف المجموعات.",
+    "body": [
+      "أعلنت هسبريس عن نتائج قرعة دوري التحدي الآسيوي، كاشفة عن التوزيع النهائي للأندية المشاركة في مختلف المجموعات."
+    ]
+  },
+  "fr": {
+    "title": "Résultats du tirage au sort de l’Asian Challenge League",
+    "excerpt": "Hespress publie les résultats du tirage au sort de la Asian Challenge League, précisant la répartition finale des clubs dans les différents groupes.",
+    "body": [
+      "Hespress publie les résultats du tirage au sort de la Asian Challenge League, précisant la répartition finale des clubs dans les différents groupes."
+    ]
+  },
+  "en": {
+    "title": "Draw results for the Asian Challenge League",
+    "excerpt": "Hespress has released the draw results for the Asian Challenge League, detailing how participating clubs have been allocated to the various groups.",
+    "body": [
+      "Hespress has released the draw results for the Asian Challenge League, detailing how participating clubs have been allocated to the various groups."
+    ]
+  }
+},
+{
+  "id": 214,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article214/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d8%ad%d9%82%d9%8a%d9%82%d8%a7%d8%aa-%d9%81%d9%8a-%d9%86%d8%b5%d8%a8-%d8%a8%d8%ad%d9%81%d9%84-%d9%88%d9%87%d9%85%d9%8a-%d8%a8%d8%b7%d9%86%d8%ac%d8%a9-1794253.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "تحقيقات في نصب بحفل وهمي بطنجة",
+    "excerpt": "أفادت هسبريس بأن المصالح المختصة فتحت تحقيقات في قضية نصب مرتبطة بتنظيم حفل وهمي بمدينة طنجة.",
+    "body": [
+      "أفادت هسبريس بأن المصالح المختصة فتحت تحقيقات في قضية نصب مرتبطة بتنظيم حفل وهمي بمدينة طنجة."
+    ]
+  },
+  "fr": {
+    "title": "Enquêtes sur une escroquerie liée à une fausse soirée à Tanger",
+    "excerpt": "Selon Hespress, les services compétents ont ouvert une enquête concernant une escroquerie liée à l’organisation supposée d’une fausse soirée à Tanger.",
+    "body": [
+      "Selon Hespress, les services compétents ont ouvert une enquête concernant une escroquerie liée à l’organisation supposée d’une fausse soirée à Tanger."
+    ]
+  },
+  "en": {
+    "title": "Probe into scam involving fake party in Tangier",
+    "excerpt": "Hespress reports that authorities have launched investigations into a scam involving the announcement of a fake party in Tangier.",
+    "body": [
+      "Hespress reports that authorities have launched investigations into a scam involving the announcement of a fake party in Tangier."
+    ]
+  }
+},
+{
+  "id": 215,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article215/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d8%b2%d9%85%d8%a9-%d8%b3%d8%a8%d8%aa%d8%a9-%d8%aa%d9%84%d9%82%d9%8a-%d8%a8%d8%aa%d8%af%d8%a7%d8%b9%d9%8a%d8%a7%d8%aa-%d8%b3%d9%84%d8%a8%d9%8a%d8%a9-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%82-1794163.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"أزمة سبتة\" تلقي بتداعيات سلبية على القطاع السياحي بمدن الشمال",
+    "excerpt": "أبرزت هسبريس أن ما يسمى بـ\"أزمة سبتة\" انعكس سلبا على النشاط السياحي بعدد من مدن الشمال المغربي، مع تراجع في الإقبال والحجوزات.",
+    "body": [
+      "أبرزت هسبريس أن ما يسمى بـ\"أزمة سبتة\" انعكس سلبا على النشاط السياحي بعدد من مدن الشمال المغربي، مع تراجع في الإقبال والحجوزات."
+    ]
+  },
+  "fr": {
+    "title": "La \"crise de Ceuta\" a des répercussions négatives sur le secteur touristique dans les villes du Nord",
+    "excerpt": "Hespress souligne que la dite \"crise de Ceuta\" a affecté négativement l’activité touristique dans plusieurs villes du Nord du Maroc, avec une baisse d",
+    "body": [
+      "Hespress souligne que la dite \"crise de Ceuta\" a affecté négativement l’activité touristique dans plusieurs villes du Nord du Maroc, avec une baisse de la fréquentation et des réservations."
+    ]
+  },
+  "en": {
+    "title": "The \"Ceuta crisis\" casts negative effects on tourism in northern cities",
+    "excerpt": "Hespress points out that the so‑called \"Ceuta crisis\" has hurt tourism activity in several northern Moroccan cities, leading to reduced visitor number",
+    "body": [
+      "Hespress points out that the so‑called \"Ceuta crisis\" has hurt tourism activity in several northern Moroccan cities, leading to reduced visitor numbers and bookings."
+    ]
+  }
+},
+{
+  "id": 216,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article216/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b9%d8%ac%d8%b2-%d8%a7%d9%84%d9%85%d9%8a%d8%b2%d8%a7%d9%86%d9%8a%d8%a9-%d9%8a%d8%aa%d8%b1%d8%a7%d8%ac%d8%b9-%d8%a5%d9%84%d9%89-50-%d9%85%d9%84%d9%8a%d8%a7%d8%b1-%d8%af%d8%b1%d9%87%d9%85-1794237.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "عجز الميزانية يتراجع إلى 50 مليار درهم",
+    "excerpt": "أشارت هسبريس إلى أن عجز الميزانية في المغرب تراجع إلى مستوى يقارب 50 مليار درهم، وفق المعطيات المالية الرسمية الأخيرة.",
+    "body": [
+      "أشارت هسبريس إلى أن عجز الميزانية في المغرب تراجع إلى مستوى يقارب 50 مليار درهم، وفق المعطيات المالية الرسمية الأخيرة."
+    ]
+  },
+  "fr": {
+    "title": "Le déficit budgétaire recule à 50 milliards de dirhams",
+    "excerpt": "Hespress indique que le déficit budgétaire du Maroc a reculé pour s’établir autour de 50 milliards de dirhams, selon les données financières récentes.",
+    "body": [
+      "Hespress indique que le déficit budgétaire du Maroc a reculé pour s’établir autour de 50 milliards de dirhams, selon les données financières récentes."
+    ]
+  },
+  "en": {
+    "title": "Budget deficit drops to 50 billion dirhams",
+    "excerpt": "Hespress reports that Morocco’s budget deficit has narrowed to around 50 billion dirhams, based on the latest official financial figures.",
+    "body": [
+      "Hespress reports that Morocco’s budget deficit has narrowed to around 50 billion dirhams, based on the latest official financial figures."
+    ]
+  }
+},
+{
+  "id": 217,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article217/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%ba%d8%a7%d8%b1%d8%a8%d8%a9-%d9%8a%d8%b3%d8%aa%d9%88%d9%81%d9%88%d9%86-%d8%b4%d8%b1%d9%88%d8%b7-%d8%a7%d9%84%d8%aa%d8%b1%d8%b4%d8%ad-%d9%84%d8%a7-%d9%85%d9%86%d8%aa%d9%85%d9%8a%d9%86-1794359.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مغاربة يستوفون شروط \"اللا منتمين\" ويراهنون على تجاوز \"تصورات خاطئة\"",
+    "excerpt": "تورد هسبريس أن عددا من المغاربة الذين يستوفون شروط الترشح كـ\"لا منتمين\" يراهنون على تصحيح ما يعتبرونه تصورات خاطئة حول العمل السياسي المستقل.",
+    "body": [
+      "تورد هسبريس أن عددا من المغاربة الذين يستوفون شروط الترشح كـ\"لا منتمين\" يراهنون على تصحيح ما يعتبرونه تصورات خاطئة حول العمل السياسي المستقل."
+    ]
+  },
+  "fr": {
+    "title": "Des Marocains remplissent les conditions des \"indépendants\" et espèrent dépasser des \"idées reçues\"",
+    "excerpt": "Selon Hespress, plusieurs Marocains remplissant les conditions de candidature en tant qu’\"indépendants\" misent sur la correction de ce qu’ils jugent ê",
+    "body": [
+      "Selon Hespress, plusieurs Marocains remplissant les conditions de candidature en tant qu’\"indépendants\" misent sur la correction de ce qu’ils jugent être des idées reçues sur l’engagement politique hors partis."
+    ]
+  },
+  "en": {
+    "title": "Moroccans meeting \"independent\" candidacy criteria aim to move beyond \"misconceptions\"",
+    "excerpt": "Hespress notes that a number of Moroccans eligible to run as \"independent\" candidates are betting on changing what they view as misconceptions about n",
+    "body": [
+      "Hespress notes that a number of Moroccans eligible to run as \"independent\" candidates are betting on changing what they view as misconceptions about non‑party political engagement."
+    ]
+  }
+},
+{
+  "id": 218,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "tech",
+  "img": "https://picsum.photos/seed/ds24article218/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%aa%d9%84%d9%81%d8%b2%d8%a9-%d9%88%d9%85%d9%83%d8%a7%d9%81%d8%ad%d8%a9-%d8%a7%d9%84%d9%82%d8%b1%d8%b5%d9%86%d8%a9-1794136.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "التلفزة ومكافحة القرصنة",
+    "excerpt": "تناولت هسبريس ملف علاقة القنوات التلفزيونية بحملات مكافحة القرصنة، في ظل انتشار المحتوى المقرصن عبر المنصات الرقمية.",
+    "body": [
+      "تناولت هسبريس ملف علاقة القنوات التلفزيونية بحملات مكافحة القرصنة، في ظل انتشار المحتوى المقرصن عبر المنصات الرقمية."
+    ]
+  },
+  "fr": {
+    "title": "Télévision et lutte contre le piratage",
+    "excerpt": "Hespress s’intéresse au lien entre les chaînes de télévision et les efforts de lutte contre le piratage, alors que les contenus illicites circulent la",
+    "body": [
+      "Hespress s’intéresse au lien entre les chaînes de télévision et les efforts de lutte contre le piratage, alors que les contenus illicites circulent largement sur les plateformes numériques."
+    ]
+  },
+  "en": {
+    "title": "Television and the fight against piracy",
+    "excerpt": "Hespress examines how TV broadcasters are involved in efforts to combat piracy, amid the wide circulation of illegal content on digital platforms.",
+    "body": [
+      "Hespress examines how TV broadcasters are involved in efforts to combat piracy, amid the wide circulation of illegal content on digital platforms."
+    ]
+  }
+},
+{
+  "id": 219,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article219/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%af%d8%b1%d8%a8-%d9%85%d8%a7%d8%b1%d8%b3%d9%8a%d9%84%d9%8a%d8%a7-%d9%8a%d8%a4%d9%83%d8%af-%d8%ac%d8%a7%d9%87%d8%b2%d9%8a%d8%a9-%d9%86%d8%a7%d9%8a%d9%81-%d8%a3%d9%83%d8%b1%d8%af-1794245.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مدرب مارسيليا يؤكد جاهزية نايف أكرد",
+    "excerpt": "ذكرت هسبريس أن مدرب نادي مارسيليا الفرنسي أكد جاهزية الدولي المغربي نايف أكرد للمشاركة مع الفريق.",
+    "body": [
+      "ذكرت هسبريس أن مدرب نادي مارسيليا الفرنسي أكد جاهزية الدولي المغربي نايف أكرد للمشاركة مع الفريق."
+    ]
+  },
+  "fr": {
+    "title": "L’entraîneur de Marseille confirme la disponibilité de Nayef Aguerd",
+    "excerpt": "Hespress rapporte que l’entraîneur de l’Olympique de Marseille a confirmé que l’international marocain Nayef Aguerd est prêt à évoluer avec l’équipe.",
+    "body": [
+      "Hespress rapporte que l’entraîneur de l’Olympique de Marseille a confirmé que l’international marocain Nayef Aguerd est prêt à évoluer avec l’équipe."
+    ]
+  },
+  "en": {
+    "title": "Marseille coach confirms Nayef Aguerd is ready",
+    "excerpt": "Hespress states that the coach of Olympique de Marseille has confirmed Moroccan international Nayef Aguerd is fit and ready to play for the team.",
+    "body": [
+      "Hespress states that the coach of Olympique de Marseille has confirmed Moroccan international Nayef Aguerd is fit and ready to play for the team."
+    ]
+  }
+},
+{
+  "id": 220,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article220/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%81%d8%a8%d8%b1%d9%83%d8%a9-%d9%81%d9%88%d8%a7%d8%aa%d9%8a%d8%b1-%d8%a8%d8%a7%d9%84%d9%85%d9%84%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b6%d8%b9-%d8%ac%d9%85%d8%a7%d8%b9%d8%a7%d8%aa-%d8%aa-1794190.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"فبركة\" فواتير بالمليارات تضع جماعات ترابية تحت مجهر مجلس الحسابات",
+    "excerpt": "أشارت هسبريس إلى أن شبهات فبركة فواتير بمبالغ ضخمة دفعت مجلس الحسابات إلى إخضاع عدد من الجماعات الترابية لمراقبة دقيقة.",
+    "body": [
+      "أشارت هسبريس إلى أن شبهات فبركة فواتير بمبالغ ضخمة دفعت مجلس الحسابات إلى إخضاع عدد من الجماعات الترابية لمراقبة دقيقة."
+    ]
+  },
+  "fr": {
+    "title": "La \"fabrication\" de factures de plusieurs milliards place des collectivités territoriales sous le regard de la Cour des comptes",
+    "excerpt": "Hespress signale que des soupçons de fabrication de factures portant sur des montants colossaux ont amené la Cour des comptes à examiner de près la ge",
+    "body": [
+      "Hespress signale que des soupçons de fabrication de factures portant sur des montants colossaux ont amené la Cour des comptes à examiner de près la gestion de plusieurs collectivités territoriales."
+    ]
+  },
+  "en": {
+    "title": "\"Fabricated\" multi‑billion invoices put local authorities under Audit Court scrutiny",
+    "excerpt": "Hespress reports that suspicions of fabricated invoices worth billions have led the Audit Court to closely scrutinize the management of several local ",
+    "body": [
+      "Hespress reports that suspicions of fabricated invoices worth billions have led the Audit Court to closely scrutinize the management of several local authorities."
+    ]
+  }
+},
+{
+  "id": 232,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article232/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b2%d9%88%d8%ac%d8%a9-%d8%b1%d9%88%d8%a8%d9%8a%d8%b1%d8%aa%d9%88-%d9%83%d8%a7%d8%b1%d9%84%d9%88%d8%b3-%d9%84%d9%85-%d9%8a%d8%b9%d8%aa%d9%86%d9%82-%d8%a7%d9%84%d8%af%d9%8a%d9%86-%d8%a7%d9%84%d8%a5-1794244.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "سهيلة الطاهري: روبيرتو كارلوس لم يعتنق الإسلام.. وهذه ذكرياته مع الرجاء",
+    "excerpt": "نشرت هسبريس تصريحات لسهيلة الطاهري توضح فيها أن اللاعب السابق روبيرتو كارلوس لم يعتنق الإسلام، متحدثة في الوقت نفسه عن ذكرياته مع نادي الرجاء.",
+    "body": [
+      "نشرت هسبريس تصريحات لسهيلة الطاهري توضح فيها أن اللاعب السابق روبيرتو كارلوس لم يعتنق الإسلام، متحدثة في الوقت نفسه عن ذكرياته مع نادي الرجاء."
+    ]
+  },
+  "fr": {
+    "title": "Souhaila Taheri : Roberto Carlos ne s’est pas converti à l’islam… et voici ses souvenirs avec le Raja",
+    "excerpt": "Hespress relaie les propos de Souhaila Taheri affirmant que l’ex‑joueur Roberto Carlos ne s’est pas converti à l’islam, tout en évoquant ses souvenirs",
+    "body": [
+      "Hespress relaie les propos de Souhaila Taheri affirmant que l’ex‑joueur Roberto Carlos ne s’est pas converti à l’islam, tout en évoquant ses souvenirs avec le Raja de Casablanca."
+    ]
+  },
+  "en": {
+    "title": "Souhaila Taheri: Roberto Carlos has not converted to Islam… and these are his memories with Raja",
+    "excerpt": "Hespress shares statements by Souhaila Taheri clarifying that former player Roberto Carlos has not converted to Islam, while recalling his memories wi",
+    "body": [
+      "Hespress shares statements by Souhaila Taheri clarifying that former player Roberto Carlos has not converted to Islam, while recalling his memories with Raja Casablanca."
+    ]
+  }
+},
+{
+  "id": 239,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article239/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b5%d9%84%d8%a7%d8%ad-%d8%a7%d9%84%d8%af%d9%8a%d9%86-%d9%8a%d8%ae%d8%b1%d8%ac-%d9%85%d9%86-%d8%ad%d8%b3%d8%a7%d8%a8%d8%a7%d8%aa-%d8%b1%d9%88%d9%85%d8%a7-1793705.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "صلاح الدين يخرج من حسابات روما",
+    "excerpt": "أفادت هسبريس بأن اللاعب صلاح الدين لم يعد ضمن حسابات نادي روما الإيطالي للموسم الكروي المقبل.",
+    "body": [
+      "أفادت هسبريس بأن اللاعب صلاح الدين لم يعد ضمن حسابات نادي روما الإيطالي للموسم الكروي المقبل."
+    ]
+  },
+  "fr": {
+    "title": "Salahdine ne figure plus dans les plans de la Roma",
+    "excerpt": "Hespress rapporte que le joueur Salahdine ne semble plus entrer dans les plans de l’AS Roma pour la prochaine saison.",
+    "body": [
+      "Hespress rapporte que le joueur Salahdine ne semble plus entrer dans les plans de l’AS Roma pour la prochaine saison."
+    ]
+  },
+  "en": {
+    "title": "Salahdine no longer in Roma’s plans",
+    "excerpt": "Hespress says that player Salahdine is no longer part of Italian club Roma’s plans for the coming season.",
+    "body": [
+      "Hespress says that player Salahdine is no longer part of Italian club Roma’s plans for the coming season."
+    ]
+  }
+},
+{
+  "id": 240,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article240/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d9%84%d9%83-%d9%8a%d8%a3%d9%85%d9%84-%d8%aa%d9%82%d9%88%d9%8a%d8%a9-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%b9-%d8%b2%d8%a7%d9%85%d8%a8%d9%8a%d8%a7-1794336.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الملك يأمل تقوية التعاون مع زامبيا",
+    "excerpt": "أوردت هسبريس أن الملك محمد السادس أعرب عن أمله في تطوير علاقات التعاون بين المغرب وزامبيا إلى مستويات أعلى.",
+    "body": [
+      "أوردت هسبريس أن الملك محمد السادس أعرب عن أمله في تطوير علاقات التعاون بين المغرب وزامبيا إلى مستويات أعلى."
+    ]
+  },
+  "fr": {
+    "title": "Le Roi exprime l’espoir de renforcer la coopération avec la Zambie",
+    "excerpt": "Hespress indique que le Roi Mohammed VI a exprimé son souhait de voir la coopération entre le Maroc et la Zambie se hisser à un niveau supérieur.",
+    "body": [
+      "Hespress indique que le Roi Mohammed VI a exprimé son souhait de voir la coopération entre le Maroc et la Zambie se hisser à un niveau supérieur."
+    ]
+  },
+  "en": {
+    "title": "The King hopes to strengthen cooperation with Zambia",
+    "excerpt": "Hespress reports that King Mohammed VI has voiced hope for advancing cooperation between Morocco and Zambia to a higher level.",
+    "body": [
+      "Hespress reports that King Mohammed VI has voiced hope for advancing cooperation between Morocco and Zambia to a higher level."
+    ]
+  }
+},
+{
+  "id": 241,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article241/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/935-%d8%b4%d8%ae%d8%b5%d8%a7-%d9%8a%d8%b3%d8%aa%d9%81%d9%8a%d8%af%d9%88%d9%86-%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d9%81%d9%88-%d8%a7%d9%84%d9%85%d9%84%d9%83%d9%8a-1794286.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "935 شخصا يستفيدون من العفو الملكي",
+    "excerpt": "ذكرت هسبريس أن 935 شخصا استفادوا من العفو الملكي بمناسبة وطنية أو دينية.",
+    "body": [
+      "ذكرت هسبريس أن 935 شخصا استفادوا من العفو الملكي بمناسبة وطنية أو دينية."
+    ]
+  },
+  "fr": {
+    "title": "935 personnes bénéficient de la grâce royale",
+    "excerpt": "Hespress rapporte que 935 personnes ont bénéficié d’une grâce royale à l’occasion d’un événement national ou religieux.",
+    "body": [
+      "Hespress rapporte que 935 personnes ont bénéficié d’une grâce royale à l’occasion d’un événement national ou religieux."
+    ]
+  },
+  "en": {
+    "title": "935 individuals benefit from Royal Pardon",
+    "excerpt": "Hespress states that 935 people have received a Royal Pardon on the occasion of a national or religious event.",
+    "body": [
+      "Hespress states that 935 people have received a Royal Pardon on the occasion of a national or religious event."
+    ]
+  }
+},
+{
+  "id": 242,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article242/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%84%d9%82%d8%ac%d8%b9-%d9%8a%d9%88%d8%b3%d8%b9-%d8%b5%d9%84%d8%a7%d8%ad%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d9%88%d9%84%d8%a7%d8%a9-%d9%88%d8%a7%d9%84%d8%b9%d9%85%d8%a7%d9%84-%d9%81%d9%8a-%d8%aa%d8%af-1794198.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "لقجع يوسع صلاحيات الولاة والعمال في تدبير اعتمادات التنمية الترابية",
+    "excerpt": "أفادت هسبريس بأن فوزي لقجع أعلن توسيع صلاحيات الولاة والعمال في ما يتعلق بتدبير اعتمادات التنمية الترابية.",
+    "body": [
+      "أفادت هسبريس بأن فوزي لقجع أعلن توسيع صلاحيات الولاة والعمال في ما يتعلق بتدبير اعتمادات التنمية الترابية."
+    ]
+  },
+  "fr": {
+    "title": "Lekjaa élargit les prérogatives des walis et gouverneurs dans la gestion des crédits de développement territorial",
+    "excerpt": "Hespress indique que Fouzi Lekjaa a annoncé l’élargissement des prérogatives des walis et gouverneurs pour la gestion des crédits dédiés au développem",
+    "body": [
+      "Hespress indique que Fouzi Lekjaa a annoncé l’élargissement des prérogatives des walis et gouverneurs pour la gestion des crédits dédiés au développement territorial."
+    ]
+  },
+  "en": {
+    "title": "Lekjaa expands powers of walis and governors over territorial development funds",
+    "excerpt": "Hespress reports that Fouzi Lekjaa has announced broader powers for walis and governors in managing funds for territorial development.",
+    "body": [
+      "Hespress reports that Fouzi Lekjaa has announced broader powers for walis and governors in managing funds for territorial development."
+    ]
+  }
+},
+{
+  "id": 245,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article245/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d8%ad%d8%af%d8%a7%d8%ab-%d8%b3%d8%a8%d8%aa%d8%a9-%d8%aa%d8%ae%d8%aa%d8%a8%d8%b1-%d9%82%d8%af%d8%b1%d8%a9-%d8%a7%d9%84%d8%a3%d8%ad%d8%b2%d8%a7%d8%a8-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-1794008.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"أحداث سبتة\" تختبر قدرة الأحزاب المغربية على تجاوز الخطابات الانتخابية",
+    "excerpt": "تناولت هسبريس تداعيات \"أحداث سبتة\" على الأحزاب المغربية، ومدى قدرتها على التعامل مع الملف بعيدا عن منطق الحملات الانتخابية.",
+    "body": [
+      "تناولت هسبريس تداعيات \"أحداث سبتة\" على الأحزاب المغربية، ومدى قدرتها على التعامل مع الملف بعيدا عن منطق الحملات الانتخابية."
+    ]
+  },
+  "fr": {
+    "title": "Les \"événements de Ceuta\" mettent à l’épreuve la capacité des partis marocains à dépasser les discours électoraux",
+    "excerpt": "Hespress analyse l’impact des \"événements de Ceuta\" sur les partis marocains et leur aptitude à aborder le dossier au‑delà des logiques purement élect",
+    "body": [
+      "Hespress analyse l’impact des \"événements de Ceuta\" sur les partis marocains et leur aptitude à aborder le dossier au‑delà des logiques purement électorales."
+    ]
+  },
+  "en": {
+    "title": "The \"Ceuta events\" test Moroccan parties’ ability to move beyond electoral rhetoric",
+    "excerpt": "Hespress discusses how the \"Ceuta events\" are challenging Moroccan political parties to handle the issue beyond election‑oriented rhetoric.",
+    "body": [
+      "Hespress discusses how the \"Ceuta events\" are challenging Moroccan political parties to handle the issue beyond election‑oriented rhetoric."
+    ]
+  }
+},
+{
+  "id": 246,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article246/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%b3%d9%86%d8%a8%d9%84%d8%a9-%d9%8a%d8%af%d8%b9%d9%88-%d8%a5%d9%84%d9%89-%d8%aa%d8%b4%d8%ae%d9%8a%d8%b5-%d8%a7%d9%84%d8%a3%d8%b9%d8%b7%d8%a7%d8%a8-1794018.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"السنبللة\" يدعو إلى تشخيص الأعطاب",
+    "excerpt": "أفادت هسبريس بأن حزبا يلقب بـ\"السنبللة\" دعا إلى تشخيص الأعطاب التي تعيق الأداء السياسي والتنمية.",
+    "body": [
+      "أفادت هسبريس بأن حزبا يلقب بـ\"السنبللة\" دعا إلى تشخيص الأعطاب التي تعيق الأداء السياسي والتنمية."
+    ]
+  },
+  "fr": {
+    "title": "Le parti de la \"gerbe de blé\" appelle à diagnostiquer les dysfonctionnements",
+    "excerpt": "Hespress rapporte qu’un parti surnommé \"la gerbe de blé\" a appelé à un diagnostic des dysfonctionnements qui freinent l’action politique et le dévelop",
+    "body": [
+      "Hespress rapporte qu’un parti surnommé \"la gerbe de blé\" a appelé à un diagnostic des dysfonctionnements qui freinent l’action politique et le développement."
+    ]
+  },
+  "en": {
+    "title": "The \"Ear of Wheat\" party calls for diagnosing malfunctions",
+    "excerpt": "Hespress notes that a party known as the \"Ear of Wheat\" has called for a diagnosis of the shortcomings hindering political performance and development",
+    "body": [
+      "Hespress notes that a party known as the \"Ear of Wheat\" has called for a diagnosis of the shortcomings hindering political performance and development."
+    ]
+  }
+},
+{
+  "id": 247,
+  "addedAt": "2026-08-20T11:05:46Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article247/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b4%d9%83%d8%a7%d9%8a%d8%a7%d8%aa-%d8%ad%d8%b2%d8%a8%d9%8a%d8%a9-%d8%aa%d8%b1%d8%b5%d8%af-%d8%a7%d8%b3%d8%aa%d9%85%d8%a7%d9%84%d8%a9-%d8%a7%d9%84%d9%86%d8%a7%d8%ae%d8%a8%d9%8a%d9%86-%d9%82%d8%a8-1793501.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "شكايات حزبية ترصد استمالة الناخبين قبل الانتخابات التشريعية المقبلة",
+    "excerpt": "ذكرت هسبريس أن عددا من الأحزاب تقدم بشكايات ترصد فيها محاولات استمالة الناخبين قبل الاستحقاقات التشريعية المقبلة.",
+    "body": [
+      "ذكرت هسبريس أن عددا من الأحزاب تقدم بشكايات ترصد فيها محاولات استمالة الناخبين قبل الاستحقاقات التشريعية المقبلة."
+    ]
+  },
+  "fr": {
+    "title": "Des plaintes partisanes dénoncent la captation des électeurs avant les prochaines législatives",
+    "excerpt": "Hespress indique que plusieurs partis ont déposé des plaintes pointant des tentatives de captation des électeurs à l’approche des prochaines législati",
+    "body": [
+      "Hespress indique que plusieurs partis ont déposé des plaintes pointant des tentatives de captation des électeurs à l’approche des prochaines législatives."
+    ]
+  },
+  "en": {
+    "title": "Party complaints denounce voter inducement ahead of upcoming legislative elections",
+    "excerpt": "Hespress reports that several political parties have filed complaints highlighting attempts to influence voters ahead of the upcoming legislative elec",
+    "body": [
+      "Hespress reports that several political parties have filed complaints highlighting attempts to influence voters ahead of the upcoming legislative elections."
+    ]
+  }
+}
 );
