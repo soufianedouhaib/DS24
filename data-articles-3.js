@@ -2632,4 +2632,165 @@ ARTICLES.push(
 }
 ,
 
+,
+{
+  "id": 184,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a3%d8%b7%d9%81%d8%a7%d9%84-%d8%a7%d9%84%d9%82%d8%af%d8%b3-%d9%8a%d8%b3%d8%aa%d9%83%d8%b4%d9%81%d9%88%d9%86-%d9%85%d8%b9%d8%a7%d9%84%d9%85-%d8%b4%d9%81%d8%b4%d8%a7%d9%88%d9%86-1794355.html",
+  "title_ar": "أطفال القدس يستكشفون شفشاون",
+  "title_fr": "Des enfants de Jérusalem découvrent Chefchaouen",
+  "title_en": "Children from Jerusalem discover Chefchaouen"
+},
+{
+  "id": 185,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ad%d9%83%d9%85%d8%a9-%d8%a7%d9%84%d8%af%d8%b3%d8%aa%d9%88%d8%b1%d9%8a%d8%a9-%d9%88%d8%a7%d9%84%d8%aa%d9%85%d8%ab%d9%8a%d9%84%d9%8a%d8%a9-%d8%a7%d9%84%d9%88%d8%b7%d9%86%d9%8a-1794087.html",
+  "title_ar": "المحكمة الدستورية والتمثيلية الوطنية .. أين تنتهي الرقابة ويبدأ الحكم؟",
+  "title_fr": "Cour constitutionnelle et représentation nationale : où s’arrête le contrôle et où commence le jugement ?",
+  "title_en": "Constitutional Court and national representation: where does oversight end and judgment begin?"
+},
+{
+  "id": 186,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-%d9%88%d8%a7%d8%b9%d8%af%d8%a9-%d9%84%d8%b9%d9%82%d8%a7%d8%b1-%d9%87%d9%86%d8%af%d9%8a-%d8%b6%d8%af-%d8%a7%d9%84%d8%b3%d8%b1%d8%b7%d8%a7%d9%86-1794307.html",
+  "title_ar": "نتائج واعدة لعقار هندي ضد السرطان",
+  "title_fr": "Résultats prometteurs pour un médicament indien contre le cancer",
+  "title_en": "Promising results for an Indian anti‑cancer drug"
+},
+{
+  "id": 187,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%ab%d9%84%d8%ac-%d8%a7%d9%84%d9%85%d8%b4%d8%b1%d9%88%d8%a8%d8%a7%d8%aa-%d9%8a%d8%ab%d9%8a%d8%b1-%d9%85%d8%ae%d8%a7%d9%88%d9%81-%d8%b5%d8%ad%d9%8a%d8%a9-%d9%88%d9%85%d9%87%d9%86%d9%8a%d9%88%d9%86-1793897.html",
+  "title_ar": "ثلج المشروبات يثير مخاوف صحية .. ومهنيون مغاربة يستبعدون التلوث",
+  "title_fr": "La glace des boissons suscite des inquiétudes sanitaires, des professionnels marocains écartent la contamination",
+  "title_en": "Ice used in drinks raises health concerns as Moroccan professionals rule out contamination"
+},
+{
+  "id": 188,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%af%d8%b1%d9%8a%d9%88%d8%b4-%d9%8a%d9%83%d8%b4%d9%81-%d9%83%d9%88%d8%a7%d9%84%d9%8a%d8%b3-%d8%a7%d9%84%d8%ae%d9%84%d8%a7%d9%81-%d8%a7%d9%84%d8%b7%d8%a8%d9%8a-1794249.html",
+  "title_ar": "الدريوش يكشف كواليس الخلاف الطبي",
+  "title_fr": "Driouch dévoile les coulisses d’un différend médical",
+  "title_en": "Driouch reveals behind‑the‑scenes details of a medical dispute"
+},
+{
+  "id": 189,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%b5%d9%8a%d9%81-%d9%85%d8%a7-%d8%a8%d8%b9%d8%af-%d8%a7%d9%84%d9%81%d9%8a%d8%b6%d8%a7%d9%86%d8%a7%d8%aa-%d8%aa%d8%ad%d8%b1%d9%83-%d8%a7%d8%b3%d8%aa%d8%a8%d8%a7%d9%82%d9%8a-%d9%8a%d8%ad%d8%a7-1794114.html",
+  "title_ar": "صيف ما بعد الفيضانات .. تحرك استباقي يحاصر البعوض بمنطقة الغرب",
+  "title_fr": "Un été post‑inondations : une action préventive pour contenir les moustiques dans la région du Gharb",
+  "title_en": "Post‑flood summer: preventive action contains mosquitoes in the Gharb region"
+},
+{
+  "id": 190,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%af%d9%8a%d9%86-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a-%d9%8a%d8%aa%d8%ac%d8%a7%d9%88%d8%b2-40-%d8%aa%d8%b1%d9%8a%d9%84%d9%8a%d9%88%d9%86-%d8%af%d9%88%d9%84%d8%a7%d8%b1-1794334.html",
+  "title_ar": "الدين الأمريكي يتجاوز 40 تريليون دولار",
+  "title_fr": "La dette américaine dépasse 40 000 milliards de dollars",
+  "title_en": "US debt surpasses 40 trillion dollars"
+},
+{
+  "id": 191,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%81%d9%88%d8%a7%d9%86%d9%8a%d8%b3-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%aa%d9%88%d8%a7%d8%b5%d9%84-%d8%a7%d9%84%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1-%d9%88%d8%a7%d9%84%d8%b3%d9%88%d9%82-%d8%aa-1794140.html",
+  "title_ar": "فوانيس المغرب تواصل الانتشار .. والسوق تتجه إلى 880 مليون دولار",
+  "title_fr": "Les lanternes marocaines poursuivent leur expansion, un marché qui tend vers 880 millions de dollars",
+  "title_en": "Moroccan lanterns continue to spread as the market heads toward 880 million dollars"
+},
+{
+  "id": 192,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d9%85%d9%88%d9%84%d9%88%d8%af-%d8%a7%d9%84%d8%b3%d8%b1%d9%8a%d8%b1%d9%8a-%d9%8a%d9%81%d8%aa%d8%ad-%d8%ae%d8%b2%d8%a7%d8%a6%d9%86-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%b5%d9%81%d9%89-1794289.html",
+  "title_ar": "مولود السريري يفتح خزائن \"المستصفى\"",
+  "title_fr": "Mouloud Sriri ouvre les coffres de \"Al‑Mustasfa\"",
+  "title_en": "Mouloud Sriri opens the vaults of \"Al‑Mustasfa\""
+},
+{
+  "id": 193,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d9%81%d9%82%d9%8a%d9%87-%d8%a7%d9%84%d8%ad%d8%b3%d9%8a%d9%86-%d9%88%d9%83%d8%a7%d9%83-%d9%82%d8%b1%d9%86-%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d9%84%d9%85-%d9%88%d8%a7%d9%84%d8%b9%d8%b7-1794183.html",
+  "title_ar": "الفقيه الحسين وكاك .. قرن من العلم والعطاء في خدمة الدين والوطن",
+  "title_fr": "Le fqih El‑Houcine Wakkak : un siècle de savoir et de don au service de la religion et de la patrie",
+  "title_en": "Scholar El‑Houcine Wakkak: a century of knowledge and service to religion and the nation"
+},
+{
+  "id": 194,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%af%d8%b1%d9%87%d9%85-%d9%8a%d8%b1%d8%aa%d9%81%d8%b9-%d8%a8%d9%800-3-%d9%85%d9%82%d8%a7%d8%a8%d9%84-%d8%a7%d9%84%d8%af%d9%88%d9%84%d8%a7%d8%b1-1794353.html",
+  "title_ar": "الدرهم يرتفع بـ0.3 % مقابل الدولار",
+  "title_fr": "Le dirham s’apprécie de 0,3 % face au dollar",
+  "title_en": "The dirham rises by 0.3% against the dollar"
+},
+{
+  "id": 195,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a3%d9%85%d9%8a%d8%b1%d9%83%d8%a7%d9%86-%d8%af%d9%83%d8%aa%d9%88%d8%b1-%d9%8a%d9%86%d9%82%d9%84-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d8%b4%d8%a7%d8%b4%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%85%d8%b1-1794340.html",
+  "title_ar": "\"أميركان دكتور\" ينقل إلى الشاشات الأمريكية أهوال الإبادة في قطاع غزة",
+  "title_fr": "\"American Doctor\" montre sur les écrans américains les horreurs du génocide à Gaza",
+  "title_en": "\"American Doctor\" brings the horrors of the Gaza genocide to US screens"
+},
+{
+  "id": 196,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%b0%d9%87%d8%a8-%d9%8a%d8%b1%d8%aa%d9%81%d8%b9-%d9%85%d8%af%d8%b9%d9%88%d9%85%d8%a7-%d8%a8%d8%aa%d8%b1%d8%a7%d8%ac%d8%b9-%d8%a7%d9%84%d8%af%d9%88%d9%84%d8%a7%d8%b1-1794248.html",
+  "title_ar": "الذهب يرتفع مدعوما بتراجع الدولار",
+  "title_fr": "L’or progresse, soutenu par le recul du dollar",
+  "title_en": "Gold climbs, supported by a weaker dollar"
+},
+{
+  "id": 197,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/54-%d9%85%d9%84%d9%8a%d8%a7%d8%b1-%d8%af%d8%b1%d9%87%d9%85-%d8%ad%d8%a7%d8%ac%d9%8a%d8%a7%d8%aa-%d8%aa%d9%85%d9%88%d9%8a%d9%84-%d8%a7%d9%84%d8%ae%d8%b2%d9%8a%d9%86%d8%a9-1794285.html",
+  "title_ar": "54 مليار درهم حاجيات تمويل الخزينة",
+  "title_fr": "54 milliards de dirhams de besoins de financement pour le Trésor",
+  "title_en": "54 billion dirhams in financing needs for the Treasury"
+},
+{
+  "id": 198,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a8%d9%88%d8%b1%d8%b5%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%b6%d8%a7%d8%a1-%d8%aa%d9%86%d9%87%d9%8a-%d8%a7%d9%84%d8%aa%d8%af%d8%a7%d9%88%d9%84%d8%a7%d8%aa-%d8%a8%d8%a7%d8%b1%d8%aa%d9%81%d8%a7%d8%b9-10-1794239.html",
+  "title_ar": "بورصة البيضاء تنهي التداولات بارتفاع",
+  "title_fr": "La Bourse de Casablanca clôture la séance en hausse",
+  "title_en": "Casablanca Stock Exchange ends trading on a positive note"
+},
+{
+  "id": 199,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%b4%d8%a8%d9%87%d8%a7%d8%aa-%d8%ba%d8%b3%d9%84-%d8%a3%d9%85%d9%88%d8%a7%d9%84-%d8%a8%d9%80%d9%83%d8%a7%d8%b2%d9%8a%d9%86%d9%88%d9%87%d8%a7%d8%aa-%d8%aa%d8%ad%d8%b1%d9%83-%d9%85%d8%b1%d8%a7-1794118.html",
+  "title_ar": "شبهات غسل أموال بـ\"كازينوهات\" تحرك مراقبي هيئة المعلومات المالية",
+  "title_fr": "Des soupçons de blanchiment d’argent dans des casinos mobilisent l’Autorité de renseignement financier",
+  "title_en": "Suspicions of money laundering in casinos prompt action from the Financial Intelligence Authority"
+},
+{
+  "id": 205,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a8%d8%b1%d8%b4%d9%84%d9%88%d9%86%d8%a9-%d9%8a%d9%87%d8%b2%d9%85-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-%d9%88%d9%8a%d8%aa%d9%88%d8%ac-%d8%a8%d9%83%d8%a3%d8%b3-%d8%ba%d8%a7%d9%85%d8%a8%d8%b1-1794349.html",
+  "title_ar": "برشلونة يهزم الأهلي ويتوج بكأس غامبر",
+  "title_fr": "Le FC Barcelone bat Al‑Ahly et remporte le Trophée Gamper",
+  "title_en": "Barcelona defeat Al‑Ahly to win the Gamper Trophy"
+},
+{
+  "id": 206,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%b2%d9%88%d8%ac%d8%a9-%d8%b1%d9%88%d8%a8%d9%8a%d8%b1%d8%aa%d9%88-%d9%83%d8%a7%d8%b1%d9%84%d9%88%d8%b3-%d9%84%d9%85-%d9%8a%d8%b9%d8%aa%d9%86%d9%82-%d8%a7%d9%84%d8%af%d9%8a%d9%86-%d8%a5-1794244.html",
+  "title_ar": "سهيلة الطاهري: روبيرتو كارلوس لم يعتنق الإسلام.. وهذه ذكرياته مع الرجاء",
+  "title_fr": "Souhaila Taheri : Roberto Carlos ne s’est pas converti à l’islam… et voici ses souvenirs avec le Raja",
+  "title_en": "Souhaila Taheri: Roberto Carlos did not convert to Islam, and these are his memories with Raja"
+},
+{
+  "id": 207,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a7%d9%84%d8%b2%d9%84%d8%b2%d9%88%d9%84%d9%8a-%d9%8a%d9%82%d8%aa%d8%b1%d8%a8-%d9%85%d9%86-%d8%aa%d8%ac%d8%a7%d9%88%d8%b2-%d8%ba%d9%8a%d8%a7%d8%a8-%d8%b7%d9%88%d9%8a%d9%84-1794266.html",
+  "title_ar": "الزلزولي يقترب من تجاوز غياب طويل",
+  "title_fr": "Abdessamad Ezzalzouli se rapproche d’un retour après une longue absence",
+  "title_en": "Abdessamad Ezzalzouli nears a comeback after a long spell out"
+},
+{
+  "id": 208,
+  "source": "Hespress",
+  "url": "https://www.hespress.com/%d8%a8%d9%84%d8%b9%d8%b1%d9%88%d8%b4-%d9%8a%d8%ac%d8%aa%d8%a7%d8%b2-%d8%a7%d9%84%d9%81%d8%ad%d9%88%d8%b5%d8%a7%d8%aa-%d8%a7%d9%84%d8%b7%d8%a8%d9%8a%d8%a9-%d9%84%d8%b1%d9%8a%d9%85%d8%b3-1794224.html",
+  "title_ar": "بلعروش يجتاز الفحوصات الطبية لريمس",
+  "title_fr": "Belarouch réussit la visite médicale avec Reims",
+  "title_en": "Belarouch passes medical tests with Reims"
+}
 );
