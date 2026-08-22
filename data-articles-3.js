@@ -3476,4 +3476,685 @@ ARTICLES.push(
 }
 ,
 
+,
+{
+  "id": 248,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article248/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%a3%d8%b1%d8%b5%d8%a7%d8%af-%d8%aa%d8%ad%d8%b0%d8%b1-%d9%85%d9%86-%d8%aa%d9%82%d9%84%d8%a8%d8%a7%d8%aa-%d8%ac%d9%88%d9%8a%d8%a9-%d8%a8%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-1795287.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الأرصاد تحذر من تقلبات جوية بالمغرب",
+    "excerpt": "حذرت مصالح الأرصاد الجوية، وفق ما نقلته صحيفة هسبريس، من تقلبات جوية مرتقبة بعدد من مناطق المملكة، داعية إلى توخي الحيطة بسبب توقع تغير مفاجئ في حالة ",
+    "body": [
+      "حذرت مصالح الأرصاد الجوية، وفق ما نقلته صحيفة هسبريس، من تقلبات جوية مرتقبة بعدد من مناطق المملكة، داعية إلى توخي الحيطة بسبب توقع تغير مفاجئ في حالة الطقس."
+    ]
+  },
+  "fr": {
+    "title": "La météo met en garde contre des perturbations météorologiques au Maroc",
+    "excerpt": "Selon Hespress, les services météorologiques marocains ont émis un avertissement concernant des perturbations attendues dans plusieurs régions du Roya",
+    "body": [
+      "Selon Hespress, les services météorologiques marocains ont émis un avertissement concernant des perturbations attendues dans plusieurs régions du Royaume, appelant à la prudence face à un changement soudain des conditions climatiques."
+    ]
+  },
+  "en": {
+    "title": "Weather service warns of weather instability in Morocco",
+    "excerpt": "According to Hespress, Morocco’s meteorological services have issued a warning about expected weather instability in several regions of the Kingdom, u",
+    "body": [
+      "According to Hespress, Morocco’s meteorological services have issued a warning about expected weather instability in several regions of the Kingdom, urging caution as conditions may change suddenly."
+    ]
+  }
+},
+{
+  "id": 249,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article249/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d9%82%d8%aa%d9%84-%d8%a8%d8%b7%d9%84-%d8%a7%d9%84%d9%85%d9%84%d8%a7%d9%83%d9%85%d8%a9-%d8%a7%d9%84%d8%b3%d8%a7%d8%a8%d9%82-%d8%b2%d9%88%d9%84%d8%a7%d9%86%d9%8a-%d8%aa%d9%8a%d8%aa%d9%8a-%d8%a8-1795282.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مقتل بطل الملاكمة السابق زولاني تيتي بالرصاص في جنوب إفريقيا",
+    "excerpt": "أفادت هسبريس بأن البطل العالمي السابق في الملاكمة زولاني تيتي قُتل بالرصاص في جنوب إفريقيا، في حادث خلف صدمة في الأوساط الرياضية الدولية.",
+    "body": [
+      "أفادت هسبريس بأن البطل العالمي السابق في الملاكمة زولاني تيتي قُتل بالرصاص في جنوب إفريقيا، في حادث خلف صدمة في الأوساط الرياضية الدولية."
+    ]
+  },
+  "fr": {
+    "title": "L’ancien champion de boxe Zolani Tete tué par balles en Afrique du Sud",
+    "excerpt": "Hespress rapporte que l’ancien champion du monde de boxe Zolani Tete a été abattu par balles en Afrique du Sud, un drame qui a provoqué une vive émoti",
+    "body": [
+      "Hespress rapporte que l’ancien champion du monde de boxe Zolani Tete a été abattu par balles en Afrique du Sud, un drame qui a provoqué une vive émotion dans le milieu sportif."
+    ]
+  },
+  "en": {
+    "title": "Former boxing champion Zolani Tete shot dead in South Africa",
+    "excerpt": "Hespress reports that former world boxing champion Zolani Tete has been shot dead in South Africa, a killing that has shocked the sports community.",
+    "body": [
+      "Hespress reports that former world boxing champion Zolani Tete has been shot dead in South Africa, a killing that has shocked the sports community."
+    ]
+  }
+},
+{
+  "id": 250,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article250/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d9%86%d8%af%d8%af-%d8%a8%d8%a7%d9%84%d8%ad%d8%b1%d8%a8-%d8%a7%d9%84%d8%a7%d9%82%d8%aa%d8%b5%d8%a7%d8%af%d9%8a%d8%a9-%d8%a7%d9%84%d8%a3%d9%85%d8%b1%d9%8a%d9%83-1795254.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "إيران تندد بالحرب الاقتصادية الأمريكية",
+    "excerpt": "ذكرت هسبريس أن إيران نددت بما وصفته بـ\"الحرب الاقتصادية الأمريكية\"، منددة بالعقوبات والضغوط التي تستهدف اقتصادها وتؤثر على أوضاع المواطنين.",
+    "body": [
+      "ذكرت هسبريس أن إيران نددت بما وصفته بـ\"الحرب الاقتصادية الأمريكية\"، منددة بالعقوبات والضغوط التي تستهدف اقتصادها وتؤثر على أوضاع المواطنين."
+    ]
+  },
+  "fr": {
+    "title": "L’Iran dénonce la guerre économique des États-Unis",
+    "excerpt": "Selon Hespress, l’Iran a dénoncé ce qu’elle qualifie de \"guerre économique américaine\", critiquant les sanctions et les pressions qu’elle estime viser",
+    "body": [
+      "Selon Hespress, l’Iran a dénoncé ce qu’elle qualifie de \"guerre économique américaine\", critiquant les sanctions et les pressions qu’elle estime viser son économie et la vie quotidienne de ses citoyens."
+    ]
+  },
+  "en": {
+    "title": "Iran denounces U.S. economic war",
+    "excerpt": "According to Hespress, Iran has condemned what it describes as a \"U.S. economic war,\" criticizing sanctions and pressure it says are targeting its eco",
+    "body": [
+      "According to Hespress, Iran has condemned what it describes as a \"U.S. economic war,\" criticizing sanctions and pressure it says are targeting its economy and affecting citizens’ daily lives."
+    ]
+  }
+},
+{
+  "id": 251,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article251/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%81%d8%b4%d9%84-%d9%85%d9%81%d8%a7%d9%88%d8%b6%d8%a7%d8%aa-%d8%a7%d9%84%d9%84%d8%ad%d8%b8%d8%a9-%d8%a7%d9%84%d8%a3%d8%ae%d9%8a%d8%b1%d8%a9-%d9%8a%d8%b4%d8%b9%d9%84-%d9%85%d9%88%d8%a7%d8%ac%d9%87-1795251.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "فشل مفاوضات اللحظة الأخيرة يشعل مواجهة تجارية بين أمريكا وكندا",
+    "excerpt": "أفادت هسبريس بأن مفاوضات في اللحظة الأخيرة بين الولايات المتحدة وكندا انتهت بالفشل، ما يهدد بإشعال مواجهة تجارية جديدة بين الجانبين.",
+    "body": [
+      "أفادت هسبريس بأن مفاوضات في اللحظة الأخيرة بين الولايات المتحدة وكندا انتهت بالفشل، ما يهدد بإشعال مواجهة تجارية جديدة بين الجانبين."
+    ]
+  },
+  "fr": {
+    "title": "L’échec de pourparlers de la dernière minute ravive une confrontation commerciale entre les États-Unis et le Canada",
+    "excerpt": "D’après Hespress, des négociations de dernière minute entre les États-Unis et le Canada ont échoué, faisant planer le risque d’une nouvelle confrontat",
+    "body": [
+      "D’après Hespress, des négociations de dernière minute entre les États-Unis et le Canada ont échoué, faisant planer le risque d’une nouvelle confrontation commerciale entre les deux pays."
+    ]
+  },
+  "en": {
+    "title": "Last-minute talks fail, stoking trade confrontation between U.S. and Canada",
+    "excerpt": "Hespress reports that last-minute negotiations between the United States and Canada have collapsed, raising the prospect of a renewed trade confrontat",
+    "body": [
+      "Hespress reports that last-minute negotiations between the United States and Canada have collapsed, raising the prospect of a renewed trade confrontation between the two neighbors."
+    ]
+  }
+},
+{
+  "id": 252,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article252/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%ba%d8%b1%d8%a7%d9%85%d8%a9-%d9%85%d8%a7%d9%84%d9%8a%d8%a9-%d8%b6%d8%af-%d9%85%d9%8a%d8%b3%d9%8a-%d8%a8%d8%b9%d8%af-%d8%b5%d9%81%d8%b9-%d9%84%d8%a7%d8%b9%d8%a8-1795263.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "غرامة مالية ضد ميسي بعد صفع لاعب",
+    "excerpt": "ذكرت هسبريس أن النجم الأرجنتيني ليونيل ميسي تعرض لعقوبة مالية عقب قيامه بصفع لاعب خلال مباراة، في خطوة تأديبية من الجهة الكروية المختصة.",
+    "body": [
+      "ذكرت هسبريس أن النجم الأرجنتيني ليونيل ميسي تعرض لعقوبة مالية عقب قيامه بصفع لاعب خلال مباراة، في خطوة تأديبية من الجهة الكروية المختصة."
+    ]
+  },
+  "fr": {
+    "title": "Amende financière infligée à Messi après une gifle à un joueur",
+    "excerpt": "Hespress indique que la star argentine Lionel Messi a écopé d’une amende financière après avoir giflé un joueur lors d’un match, une sanction décidée ",
+    "body": [
+      "Hespress indique que la star argentine Lionel Messi a écopé d’une amende financière après avoir giflé un joueur lors d’un match, une sanction décidée par l’instance footballistique compétente."
+    ]
+  },
+  "en": {
+    "title": "Financial fine imposed on Messi after slapping a player",
+    "excerpt": "According to Hespress, Argentine star Lionel Messi has been handed a financial fine after slapping another player during a match, in a disciplinary mo",
+    "body": [
+      "According to Hespress, Argentine star Lionel Messi has been handed a financial fine after slapping another player during a match, in a disciplinary move by the relevant football authority."
+    ]
+  }
+},
+{
+  "id": 253,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article253/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a8%d9%8a%d8%aa%d8%a7%d8%b3-%d9%86%d8%b1%d8%a7%d9%87%d9%86-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%a8%d8%b1%d8%a7%d9%85%d8%ac-%d9%88%d8%a7%d9%84%d9%86%d8%aa%d8%a7%d8%a6%d8%ac-1795257.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "بيطاس: نراهن على البرامج والنتائج",
+    "excerpt": "نقلت هسبريس عن مصطفى بايتاس تأكيده أن الرهان السياسي للحزب الذي ينتمي إليه يقوم على قوة البرامج والنتائج المتحققة، مع إبراز أولوية الأداء على الخطابات",
+    "body": [
+      "نقلت هسبريس عن مصطفى بايتاس تأكيده أن الرهان السياسي للحزب الذي ينتمي إليه يقوم على قوة البرامج والنتائج المتحققة، مع إبراز أولوية الأداء على الخطابات."
+    ]
+  },
+  "fr": {
+    "title": "Baitas : \"Nous misons sur les programmes et les résultats\"",
+    "excerpt": "Selon Hespress, Mustapha Baitas a souligné que le pari politique de sa formation repose sur la solidité des programmes et les résultats obtenus, metta",
+    "body": [
+      "Selon Hespress, Mustapha Baitas a souligné que le pari politique de sa formation repose sur la solidité des programmes et les résultats obtenus, mettant l’accent sur la primauté de la performance sur les discours."
+    ]
+  },
+  "en": {
+    "title": "Baitas: “We are betting on programs and results”",
+    "excerpt": "Hespress reports that Mustapha Baitas stated his party’s political bet is based on the strength of its programs and the results achieved, emphasizing ",
+    "body": [
+      "Hespress reports that Mustapha Baitas stated his party’s political bet is based on the strength of its programs and the results achieved, emphasizing performance over rhetoric."
+    ]
+  }
+},
+{
+  "id": 254,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article254/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%ba%d8%a7%d8%b1%d8%a7%d8%aa-%d9%88%d8%aa%d9%81%d8%ac%d9%8a%d8%b1%d8%a7%d8%aa-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%ac%d9%86%d9%88%d8%a8-%d9%84%d8%a8%d9%86%d8%a7%d9%86-1795258.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "غارات وتفجيرات تستهدف جنوب لبنان",
+    "excerpt": "أوردت هسبريس أن جنوب لبنان شهد غارات وتفجيرات جديدة، وسط توتر أمني متصاعد في المنطقة الحدودية.",
+    "body": [
+      "أوردت هسبريس أن جنوب لبنان شهد غارات وتفجيرات جديدة، وسط توتر أمني متصاعد في المنطقة الحدودية."
+    ]
+  },
+  "fr": {
+    "title": "Raids et explosions ciblent le sud du Liban",
+    "excerpt": "Hespress fait état de nouvelles frappes et explosions dans le sud du Liban, sur fond de montée des tensions sécuritaires dans la zone frontalière.",
+    "body": [
+      "Hespress fait état de nouvelles frappes et explosions dans le sud du Liban, sur fond de montée des tensions sécuritaires dans la zone frontalière."
+    ]
+  },
+  "en": {
+    "title": "Airstrikes and explosions hit southern Lebanon",
+    "excerpt": "Hespress reports new airstrikes and explosions in southern Lebanon amid rising security tensions along the border area.",
+    "body": [
+      "Hespress reports new airstrikes and explosions in southern Lebanon amid rising security tensions along the border area."
+    ]
+  }
+},
+{
+  "id": 255,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article255/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%82%d8%a7%d9%86%d9%88%d9%86-%d9%85%d9%87%d9%86%d8%a9-%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d9%85%d8%a7%d8%a9-%d9%8a%d9%81%d8%aa%d8%ad-%d9%85%d8%b1%d8%ad%d9%84%d8%a9-%d8%b5%d8%af%d8%a7%d9%85-%d8%ac%d8%af-1795140.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "قانون مهنة المحاماة يفتح مرحلة صدام جديدة حول استقلال الدفاع بالمغرب",
+    "excerpt": "أشارت هسبريس إلى أن قانون مهنة المحاماة بالمغرب فتح مرحلة صدام جديدة بين مختلف الفاعلين، مع تصاعد النقاش حول مدى تأثيره على استقلالية الدفاع ودور المح",
+    "body": [
+      "أشارت هسبريس إلى أن قانون مهنة المحاماة بالمغرب فتح مرحلة صدام جديدة بين مختلف الفاعلين، مع تصاعد النقاش حول مدى تأثيره على استقلالية الدفاع ودور المحامي داخل منظومة العدالة."
+    ]
+  },
+  "fr": {
+    "title": "La loi sur la profession d’avocat ouvre une nouvelle phase de confrontation autour de l’indépendance de la défense au Maroc",
+    "excerpt": "Hespress indique que la nouvelle loi encadrant la profession d’avocat au Maroc a déclenché une nouvelle phase de confrontation entre les acteurs conce",
+    "body": [
+      "Hespress indique que la nouvelle loi encadrant la profession d’avocat au Maroc a déclenché une nouvelle phase de confrontation entre les acteurs concernés, sur fond de débat autour de son impact sur l’indépendance de la défense et le rôle de l’avocat dans le système judiciaire."
+    ]
+  },
+  "en": {
+    "title": "Law governing the legal profession sparks new clash over independence of the defense in Morocco",
+    "excerpt": "According to Hespress, Morocco’s law regulating the legal profession has triggered a new phase of confrontation among stakeholders, as debate intensif",
+    "body": [
+      "According to Hespress, Morocco’s law regulating the legal profession has triggered a new phase of confrontation among stakeholders, as debate intensifies over its impact on the independence of the defense and the lawyer’s role within the justice system."
+    ]
+  }
+},
+{
+  "id": 256,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article256/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%82%d8%a7%d8%b6%d9%8a%d8%a9-%d8%aa%d8%a8%d8%b7%d9%84-%d9%82%d9%8a%d9%88%d8%af-%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d8%b9%d9%84%d9%89-%d8%aa%d8%a3%d8%b4%d9%8a%d8%b1%d8%a7%d8%aa-1795247.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "قاضية تبطل قيود ترامب على تأشيرات",
+    "excerpt": "أفادت هسبريس بأن قاضية أمريكية قررت إبطال قيود على التأشيرات تعود إلى فترة الرئيس السابق دونالد ترامب، معتبرة أن التدابير لم تعد مبررة قانونيا.",
+    "body": [
+      "أفادت هسبريس بأن قاضية أمريكية قررت إبطال قيود على التأشيرات تعود إلى فترة الرئيس السابق دونالد ترامب، معتبرة أن التدابير لم تعد مبررة قانونيا."
+    ]
+  },
+  "fr": {
+    "title": "Une juge annule des restrictions de Trump sur les visas",
+    "excerpt": "Hespress rapporte qu’une juge américaine a annulé des restrictions de visas héritées de l’ère Trump, estimant que ces mesures ne sont plus légalement ",
+    "body": [
+      "Hespress rapporte qu’une juge américaine a annulé des restrictions de visas héritées de l’ère Trump, estimant que ces mesures ne sont plus légalement justifiées."
+    ]
+  },
+  "en": {
+    "title": "Judge overturns Trump-era visa restrictions",
+    "excerpt": "Hespress reports that a U.S. judge has struck down visa restrictions dating back to former president Donald Trump’s tenure, ruling that the measures a",
+    "body": [
+      "Hespress reports that a U.S. judge has struck down visa restrictions dating back to former president Donald Trump’s tenure, ruling that the measures are no longer legally justified."
+    ]
+  }
+},
+{
+  "id": 257,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article257/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%81%d8%a7%d9%86-%d8%a8%d9%8a%d8%b1%d8%b3%d9%8a-%d9%8a%d8%a4%d8%ac%d9%84-%d8%ad%d8%b3%d9%85-%d8%a3%d9%84%d9%88%d8%a7%d9%86-%d8%a7%d9%84%d8%a7%d9%86%d8%aa%d9%85%d8%a7%d8%a1-1795179.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "فان بيرسي يؤجل حسم ألوان الانتماء",
+    "excerpt": "أشارت هسبريس إلى أن اللاعب روبن فان بيرسي فضل تأجيل الحسم في ألوان الفريق الذي سينتمي إليه في المرحلة المقبلة، مفضلا التريث قبل إعلان وجهته.",
+    "body": [
+      "أشارت هسبريس إلى أن اللاعب روبن فان بيرسي فضل تأجيل الحسم في ألوان الفريق الذي سينتمي إليه في المرحلة المقبلة، مفضلا التريث قبل إعلان وجهته."
+    ]
+  },
+  "fr": {
+    "title": "Van Persie reporte sa décision sur ses futures couleurs",
+    "excerpt": "Selon Hespress, Robin van Persie a choisi de repousser sa décision quant au club qu’il rejoindra, indiquant qu’il souhaite prendre davantage de temps ",
+    "body": [
+      "Selon Hespress, Robin van Persie a choisi de repousser sa décision quant au club qu’il rejoindra, indiquant qu’il souhaite prendre davantage de temps avant d’annoncer sa prochaine destination."
+    ]
+  },
+  "en": {
+    "title": "Van Persie postpones decision on his next club colors",
+    "excerpt": "Hespress notes that Robin van Persie has decided to delay choosing his next team, saying he wants more time before confirming his future colors.",
+    "body": [
+      "Hespress notes that Robin van Persie has decided to delay choosing his next team, saying he wants more time before confirming his future colors."
+    ]
+  }
+},
+{
+  "id": 258,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article258/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b4%d8%a8%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%a7%d8%b3%d8%aa%d8%ba%d9%84%d8%a7%d9%84-%d8%a7%d9%84%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d9%8a-%d8%aa%d8%b3%d9%82%d8%b7-%d8%a7%d9%84%d8%b4%d8%b1%d8%b7-1794675.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "شبهات الاستغلال الانتخابي تسقط الشرطة الإدارية في امتحان الصيف",
+    "excerpt": "أفادت هسبريس بأن اتهامات بالاستغلال الانتخابي رافقت تدبير بعض القرارات الإدارية خلال فترة الصيف، ما وضع أداء الشرطة الإدارية تحت مجهر الانتقاد.",
+    "body": [
+      "أفادت هسبريس بأن اتهامات بالاستغلال الانتخابي رافقت تدبير بعض القرارات الإدارية خلال فترة الصيف، ما وضع أداء الشرطة الإدارية تحت مجهر الانتقاد."
+    ]
+  },
+  "fr": {
+    "title": "Des soupçons d’exploitation électorale font trébucher la police administrative en ce début d’été",
+    "excerpt": "D’après Hespress, des accusations d’exploitation électorale ont accompagné la gestion de certaines décisions administratives durant la période estival",
+    "body": [
+      "D’après Hespress, des accusations d’exploitation électorale ont accompagné la gestion de certaines décisions administratives durant la période estivale, suscitant de vives critiques à l’égard de la police administrative."
+    ]
+  },
+  "en": {
+    "title": "Suspected electoral exploitation puts administrative police to the test this summer",
+    "excerpt": "According to Hespress, allegations of electoral exploitation have surrounded the handling of certain administrative decisions over the summer, drawing",
+    "body": [
+      "According to Hespress, allegations of electoral exploitation have surrounded the handling of certain administrative decisions over the summer, drawing criticism of the performance of the administrative police."
+    ]
+  }
+},
+{
+  "id": 259,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article259/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%ac%d8%b1%d8%a7%d8%a6%d9%85-%d9%82%d8%aa%d9%84-%d8%aa%d9%84%d8%a7%d8%ad%d9%82-%d8%a7%d9%84%d8%a8%d9%88%d9%84%d9%8a%d8%b3%d8%a7%d8%b1%d9%8a%d9%88-%d8%a8%d8%ac%d9%86%d9%8a%d9%81-1795018.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"جرائم قتل\" تلاحق البوليساريو بجنيف",
+    "excerpt": "ذكرت هسبريس أن ما وُصف بجرائم قتل منسوبة لجبهة البوليساريو طُرحت في محافل بمدينة جنيف، ما أعاد إثارة ملف الانتهاكات المنسوبة للجبهة.",
+    "body": [
+      "ذكرت هسبريس أن ما وُصف بجرائم قتل منسوبة لجبهة البوليساريو طُرحت في محافل بمدينة جنيف، ما أعاد إثارة ملف الانتهاكات المنسوبة للجبهة."
+    ]
+  },
+  "fr": {
+    "title": "Des accusations de \"crimes de meurtre\" visent le Polisario à Genève",
+    "excerpt": "Hespress rapporte que des allégations qualifiées de crimes de meurtre imputés au Polisario ont été mises en avant dans des forums à Genève, ravivant l",
+    "body": [
+      "Hespress rapporte que des allégations qualifiées de crimes de meurtre imputés au Polisario ont été mises en avant dans des forums à Genève, ravivant le débat sur les violations attribuées au mouvement."
+    ]
+  },
+  "en": {
+    "title": "Allegations of \"murder crimes\" pursue Polisario in Geneva",
+    "excerpt": "Hespress states that accusations described as murder crimes attributed to the Polisario Front have been raised in forums in Geneva, reviving discussio",
+    "body": [
+      "Hespress states that accusations described as murder crimes attributed to the Polisario Front have been raised in forums in Geneva, reviving discussion over alleged abuses linked to the group."
+    ]
+  }
+},
+{
+  "id": 260,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article260/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%af%d9%88%d9%84%d8%a7%d8%b1-%d9%8a%d8%aa%d8%b1%d8%a7%d8%ac%d8%b9-%d9%88%d8%b3%d8%b7-%d9%85%d8%ae%d8%a7%d9%88%d9%81-%d9%85%d8%a7%d9%84%d9%8a%d8%a9-1795159.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الدولار يتراجع وسط مخاوف مالية",
+    "excerpt": "أشارت هسبريس إلى تسجيل تراجع في قيمة الدولار الأمريكي في الأسواق العالمية، متزامنا مع عودة المخاوف المرتبطة بالوضع المالي والاقتصادي.",
+    "body": [
+      "أشارت هسبريس إلى تسجيل تراجع في قيمة الدولار الأمريكي في الأسواق العالمية، متزامنا مع عودة المخاوف المرتبطة بالوضع المالي والاقتصادي."
+    ]
+  },
+  "fr": {
+    "title": "Le dollar recule sur fond d’inquiétudes financières",
+    "excerpt": "Selon Hespress, le dollar américain a enregistré un recul sur les marchés internationaux, dans un contexte renouvelé d’inquiétudes financières et écon",
+    "body": [
+      "Selon Hespress, le dollar américain a enregistré un recul sur les marchés internationaux, dans un contexte renouvelé d’inquiétudes financières et économiques."
+    ]
+  },
+  "en": {
+    "title": "Dollar falls amid financial concerns",
+    "excerpt": "Hespress reports that the U.S. dollar has weakened on global markets as renewed financial and economic concerns weigh on investor sentiment.",
+    "body": [
+      "Hespress reports that the U.S. dollar has weakened on global markets as renewed financial and economic concerns weigh on investor sentiment."
+    ]
+  }
+},
+{
+  "id": 261,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article261/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%86%d9%82%d8%a7%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%8a%d8%a7%d8%af%d9%84%d8%a9-%d8%aa%d8%b9%d9%84%d9%86-%d8%aa%d8%ac%d8%a7%d9%88%d8%b2-%d9%85%d9%84%d9%81-%d9%81%d8%aa%d8%ad-%d8%a7%d9%84%d8%b1-1795088.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "نقابات الصيادلة تتجاوز ملف \"فتح الرأس مال\" وتنتظر برنامج الحكومة المقبلة",
+    "excerpt": "ذكرت هسبريس أن نقابات الصيادلة أعلنت تجاوز الخلاف حول ملف فتح رأسمال الصيدليات، مركزة النقاش على ما ستقدمه الحكومة المقبلة من برنامج للقطاع الصحي والد",
+    "body": [
+      "ذكرت هسبريس أن نقابات الصيادلة أعلنت تجاوز الخلاف حول ملف فتح رأسمال الصيدليات، مركزة النقاش على ما ستقدمه الحكومة المقبلة من برنامج للقطاع الصحي والدوائي."
+    ]
+  },
+  "fr": {
+    "title": "Les syndicats de pharmaciens tournent la page du dossier de \"l’ouverture du capital\" et attendent le programme du prochain gouvernement",
+    "excerpt": "D’après Hespress, les syndicats de pharmaciens disent avoir dépassé le différend autour de l’ouverture du capital des officines, et se disent désormai",
+    "body": [
+      "D’après Hespress, les syndicats de pharmaciens disent avoir dépassé le différend autour de l’ouverture du capital des officines, et se disent désormais en attente du programme que proposera le prochain gouvernement pour le secteur de la santé et du médicament."
+    ]
+  },
+  "en": {
+    "title": "Pharmacists’ unions move past \"capital opening\" file and await next government’s program",
+    "excerpt": "According to Hespress, pharmacists’ unions say they have moved beyond the dispute over opening pharmacy capital and are now focused on the program the",
+    "body": [
+      "According to Hespress, pharmacists’ unions say they have moved beyond the dispute over opening pharmacy capital and are now focused on the program the next government will present for the health and pharmaceutical sector."
+    ]
+  }
+},
+{
+  "id": 262,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article262/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%82%d8%b7%d8%b9%d8%a9-%d9%86%d9%82%d8%af%d9%8a%d8%a9-%d8%ae%d8%a7%d8%b5%d8%a9-%d8%a8%d8%b0%d9%83%d8%b1%d9%89-%d9%85%d9%8a%d9%84%d8%a7%d8%af-%d8%a7%d9%84%d9%85%d9%84%d9%83-1794910.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "قطعة نقدية خاصة بذكرى ميلاد الملك",
+    "excerpt": "أوردت هسبريس أن مؤسسة رسمية أصدرت قطعة نقدية تذكارية خاصة بمناسبة ذكرى ميلاد الملك، في إطار تخليد هذه المناسبة الوطنية.",
+    "body": [
+      "أوردت هسبريس أن مؤسسة رسمية أصدرت قطعة نقدية تذكارية خاصة بمناسبة ذكرى ميلاد الملك، في إطار تخليد هذه المناسبة الوطنية."
+    ]
+  },
+  "fr": {
+    "title": "Une pièce commémorative dédiée à l’anniversaire du Roi",
+    "excerpt": "Hespress indique qu’une institution officielle a émis une pièce de monnaie commémorative à l’occasion de l’anniversaire du Roi, dans le cadre de la cé",
+    "body": [
+      "Hespress indique qu’une institution officielle a émis une pièce de monnaie commémorative à l’occasion de l’anniversaire du Roi, dans le cadre de la célébration de cet événement national."
+    ]
+  },
+  "en": {
+    "title": "Commemorative coin issued for the King’s birthday",
+    "excerpt": "Hespress reports that an official institution has issued a commemorative coin marking the King’s birthday, as part of celebrations of this national oc",
+    "body": [
+      "Hespress reports that an official institution has issued a commemorative coin marking the King’s birthday, as part of celebrations of this national occasion."
+    ]
+  }
+},
+{
+  "id": 263,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article263/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b3%d8%b9%d8%b1-%d8%a7%d9%84%d8%a8%d9%8a%d8%aa%d9%83%d9%88%d9%8a%d9%86-%d9%8a%d8%aa%d8%ae%d8%b7%d9%89-77-%d8%a3%d9%84%d9%81-%d8%af%d9%88%d9%84%d8%a7%d8%b1-1794862.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "سعر البيتكوين يتخطى 77 ألف دولار",
+    "excerpt": "ذكرت هسبريس أن عملة البيتكوين المشفرة واصلت صعودها في الأسواق، لتتجاوز سقف 77 ألف دولار للوحدة، في تطور يعكس استمرار موجة الارتفاع في سوق الأصول الرقم",
+    "body": [
+      "ذكرت هسبريس أن عملة البيتكوين المشفرة واصلت صعودها في الأسواق، لتتجاوز سقف 77 ألف دولار للوحدة، في تطور يعكس استمرار موجة الارتفاع في سوق الأصول الرقمية."
+    ]
+  },
+  "fr": {
+    "title": "Le bitcoin dépasse les 77 000 dollars",
+    "excerpt": "Selon Hespress, la cryptomonnaie bitcoin a poursuivi sa hausse sur les marchés en franchissant le seuil de 77 000 dollars l’unité, illustrant la pours",
+    "body": [
+      "Selon Hespress, la cryptomonnaie bitcoin a poursuivi sa hausse sur les marchés en franchissant le seuil de 77 000 dollars l’unité, illustrant la poursuite de la tendance haussière sur le marché des actifs numériques."
+    ]
+  },
+  "en": {
+    "title": "Bitcoin price surpasses 77,000 dollars",
+    "excerpt": "Hespress reports that the cryptocurrency bitcoin has continued climbing, breaking above 77,000 dollars per coin, reflecting an ongoing rally in digita",
+    "body": [
+      "Hespress reports that the cryptocurrency bitcoin has continued climbing, breaking above 77,000 dollars per coin, reflecting an ongoing rally in digital asset markets."
+    ]
+  }
+},
+{
+  "id": 264,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article264/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d8%b5%d9%86%d9%8a%d9%81-%d8%b9%d8%a7%d9%84%d9%85%d9%8a-%d9%8a%d8%b1%d8%b5%d8%af-%d9%82%d9%88%d8%a9-%d8%a7%d9%84%d8%b4%d8%b1%d9%83%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d8%ba%d9%8a%d8%b1%d8%a9-%d9%88-1794634.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "تصنيف عالمي يرصد قوة الشركات الصغيرة والمتوسطة في المغرب",
+    "excerpt": "أفادت هسبريس بأن تصنيفا عالميا حديثا رصد مكانة الشركات الصغيرة والمتوسطة المغربية، مبرزا دورها المتنامي في النسيج الاقتصادي الوطني.",
+    "body": [
+      "أفادت هسبريس بأن تصنيفا عالميا حديثا رصد مكانة الشركات الصغيرة والمتوسطة المغربية، مبرزا دورها المتنامي في النسيج الاقتصادي الوطني."
+    ]
+  },
+  "fr": {
+    "title": "Un classement mondial met en lumière la solidité des PME au Maroc",
+    "excerpt": "Hespress signale qu’un récent classement international a mis en avant la position des petites et moyennes entreprises marocaines, soulignant leur rôle",
+    "body": [
+      "Hespress signale qu’un récent classement international a mis en avant la position des petites et moyennes entreprises marocaines, soulignant leur rôle croissant dans le tissu économique national."
+    ]
+  },
+  "en": {
+    "title": "Global ranking highlights the strength of SMEs in Morocco",
+    "excerpt": "According to Hespress, a recent global ranking has underlined the position of Moroccan small and medium-sized enterprises and their growing role in th",
+    "body": [
+      "According to Hespress, a recent global ranking has underlined the position of Moroccan small and medium-sized enterprises and their growing role in the national economy."
+    ]
+  }
+},
+{
+  "id": 265,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article265/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d8%b6%d8%b7%d8%b1%d8%a7%d8%a8-%d8%b3%d9%88%d9%82-%d8%a7%d9%84%d8%a3%d8%b3%d9%85%d8%af%d8%a9-%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85%d9%8a-%d9%8a%d8%b2%d9%8a%d8%af-%d8%a7%d9%84%d8%a7%d8%b9%d8%aa-1794213.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "اضطراب سوق الأسمدة العالمي يزيد الاعتماد الأوروبي على المغرب",
+    "excerpt": "أشارت هسبريس إلى أن الاضطرابات التي يشهدها سوق الأسمدة العالمي أدت إلى تنامي اعتماد دول أوروبية على المغرب كمزود رئيسي بالأسمدة والمواد المرتبطة بها.",
+    "body": [
+      "أشارت هسبريس إلى أن الاضطرابات التي يشهدها سوق الأسمدة العالمي أدت إلى تنامي اعتماد دول أوروبية على المغرب كمزود رئيسي بالأسمدة والمواد المرتبطة بها."
+    ]
+  },
+  "fr": {
+    "title": "La perturbation du marché mondial des engrais renforce la dépendance européenne vis-à-vis du Maroc",
+    "excerpt": "Selon Hespress, les perturbations observées sur le marché mondial des engrais ont conduit plusieurs pays européens à renforcer leur dépendance envers ",
+    "body": [
+      "Selon Hespress, les perturbations observées sur le marché mondial des engrais ont conduit plusieurs pays européens à renforcer leur dépendance envers le Maroc en tant que fournisseur majeur d’engrais et de produits dérivés."
+    ]
+  },
+  "en": {
+    "title": "Global fertilizer market turmoil boosts Europe’s reliance on Morocco",
+    "excerpt": "Hespress notes that turmoil in the global fertilizer market has pushed several European countries to increasingly rely on Morocco as a key supplier of",
+    "body": [
+      "Hespress notes that turmoil in the global fertilizer market has pushed several European countries to increasingly rely on Morocco as a key supplier of fertilizers and related products."
+    ]
+  }
+},
+{
+  "id": 272,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article272/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%ba%d9%88%d8%a7%d8%b5%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%81%d8%b1%d8%a7%d8%a1-%d8%aa%d8%aa%d8%b4%d8%a8%d8%ab-%d8%a8%d8%a3%d8%ae%d9%88%d9%85%d8%a7%d8%b4-1795096.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"الغواصات الصفراء\" تتشبث بأخوماش",
+    "excerpt": "ذكرت هسبريس أن نادي \"الغواصات الصفراء\" فياريال يتمسك بخدمات اللاعب أخوماش، في وقت تتردد أنباء عن اهتمام أندية أخرى بضمه.",
+    "body": [
+      "ذكرت هسبريس أن نادي \"الغواصات الصفراء\" فياريال يتمسك بخدمات اللاعب أخوماش، في وقت تتردد أنباء عن اهتمام أندية أخرى بضمه."
+    ]
+  },
+  "fr": {
+    "title": "Les \"sous-marins jaunes\" tiennent à Akhomach",
+    "excerpt": "Hespress rapporte que le club des \"sous-marins jaunes\", Villarreal, souhaite conserver le joueur Akhomach, alors que des rumeurs évoquent l’intérêt d’",
+    "body": [
+      "Hespress rapporte que le club des \"sous-marins jaunes\", Villarreal, souhaite conserver le joueur Akhomach, alors que des rumeurs évoquent l’intérêt d’autres équipes pour son recrutement."
+    ]
+  },
+  "en": {
+    "title": "The \"yellow submarines\" cling to Akhomach",
+    "excerpt": "Hespress states that Villarreal, known as the \"yellow submarines,\" is keen to keep player Akhomach amid reports that other clubs are interested in sig",
+    "body": [
+      "Hespress states that Villarreal, known as the \"yellow submarines,\" is keen to keep player Akhomach amid reports that other clubs are interested in signing him."
+    ]
+  }
+},
+{
+  "id": 273,
+  "addedAt": "2026-08-22T11:05:11Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article273/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%af%d8%b1%d8%a8-%d8%a7%d9%84%d8%b1%d9%8a%d9%83%d8%a8%d9%8a-%d9%8a%d8%b4%d9%8a%d8%af-%d8%a8%d8%b1%d8%a4%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d9%84%d9%83-1795187.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مدرب \"الريكبي\" يشيد برؤية الملك",
+    "excerpt": "أفادت هسبريس بأن مدربا في رياضة الريكبي أشاد بالرؤية الملكية تجاه تطوير الرياضة، مؤكدا أن التوجهات الرسمية توفر دعما مهما لهذا الصنف الرياضي.",
+    "body": [
+      "أفادت هسبريس بأن مدربا في رياضة الريكبي أشاد بالرؤية الملكية تجاه تطوير الرياضة، مؤكدا أن التوجهات الرسمية توفر دعما مهما لهذا الصنف الرياضي."
+    ]
+  },
+  "fr": {
+    "title": "L’entraîneur de rugby salue la vision du Roi",
+    "excerpt": "Selon Hespress, un entraîneur de rugby a salué la vision royale en matière de développement sportif, soulignant que les orientations officielles offre",
+    "body": [
+      "Selon Hespress, un entraîneur de rugby a salué la vision royale en matière de développement sportif, soulignant que les orientations officielles offrent un appui important à cette discipline."
+    ]
+  },
+  "en": {
+    "title": "Rugby coach praises the King’s vision",
+    "excerpt": "Hespress reports that a rugby coach has praised the King’s vision for sports development, noting that official guidance provides strong support for th",
+    "body": [
+      "Hespress reports that a rugby coach has praised the King’s vision for sports development, noting that official guidance provides strong support for the discipline."
+    ]
+  }
+}
 );
