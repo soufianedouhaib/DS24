@@ -4157,4 +4157,685 @@ ARTICLES.push(
     ]
   }
 }
+,
+{
+  "id": 274,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article274/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d8%aa%d8%af%d8%b9%d9%85-%d9%85%d8%b0%d9%83%d8%b1%d8%a9-%d8%a7%d9%84%d8%aa%d9%81%d8%a7%d9%87%d9%85-%d9%85%d8%b9-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-1795714.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "إيران تدعم \"مذكرة التفاهم مع أمريكا\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "L’Iran soutient le \"mémorandum d’entente avec les États-Unis\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Iran backs \"memorandum of understanding with the United States\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 275,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article275/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d8%b3%d9%87%d9%85-%d8%b9%d9%84%d9%8a-%d8%a8%d8%a7%d8%a8%d8%a7-%d8%aa%d8%b9%d8%aa%d8%b2%d9%85-%d8%ac%d9%85%d8%b9-10-%d9%85%d9%84%d9%8a%d8%a7%d8%b1%d8%a7%d8%aa-%d8%af%d9%88%d9%84%d8%a7%d8%b1-1795687.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "أسهم \"علي بابا\" تعتزم جمع 10 مليارات دولار",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le groupe Alibaba envisage de lever 10 milliards de dollars",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Alibaba shares plan to raise 10 billion dollars",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 276,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article276/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%b7%d9%8a%d8%b9-%d9%8a%d8%b3%d8%aa%d8%a8%d8%af%d9%84-%d8%a2%d8%b3%d9%81%d9%8a-%d8%a8%d8%a7%d9%84%d9%86%d9%87%d8%b6%d8%a9-%d8%a7%d9%84%d8%a8%d8%b1%d9%83%d8%a7%d9%86%d9%8a%d8%a9-1795706.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "المطيع يستبدل آسفي بالنهضة البركانية",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Al-Moutiï quitte Safi pour rejoindre la Renaissance de Berkane",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Al-Moutiï leaves Safi to join Renaissance Berkane",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 277,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article277/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a5%d9%82%d8%a8%d8%a7%d9%84-%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a7-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d9%85%d8%b4%d8%aa%d8%b1%d9%8a%d8%a7%d8%aa-%d9%85%d9%86-%d8%b2%d9%8a%d8%aa-%d8%a7%d9%84%d8%b2-1795346.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "إقبال إسبانيا على المشتريات من زيت الزيتون المغربي يرتفع 90 مرة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "L’appétit de l’Espagne pour l’huile d’olive marocaine bondit de 90 fois",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Spain’s purchases of Moroccan olive oil jump 90-fold",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 278,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article278/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a8%d9%88%d8%aa%d9%8a%d9%86-%d9%8a%d8%b4%d9%8a%d8%af-%d8%a8%d8%a8%d8%b3%d8%a7%d9%84%d8%a9-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d8%aa%d9%84%d9%8a%d9%86-%d8%a7%d9%84%d8%b4%d9%8a%d8%b4%d8%a7%d9%86%d9%8a-1795680.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "بوتين يشيد ببسالة المقاتلين الشيشانيين",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Poutine salue la bravoure des combattants tchétchènes",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Putin praises bravery of Chechen fighters",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 279,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article279/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%b3%d9%84%d8%b7%d8%a7%d8%aa-%d8%a7%d9%84%d9%84%d8%a8%d9%86%d8%a7%d9%86%d9%8a%d8%a9-%d8%aa%d9%84%d9%82%d9%8a-%d8%a7%d9%84%d9%82%d8%a8%d8%b6-%d8%b9%d9%84%d9%89-%d8%b5%d8%a7%d9%86%d8%b9-1795700.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "السلطات اللبنانية تلقي القبض على صانع محتوى",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Les autorités libanaises arrêtent un créateur de contenu",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Lebanese authorities arrest content creator",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 280,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article280/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%b7%d8%a7%d9%84%d8%a8-%d8%a8%d8%ae%d8%b7-%d9%83%d9%84%d9%8a%d8%b1%d9%85%d9%88%d9%86-%d9%81%d9%8a%d8%b1%d8%a7%d9%86-%d9%88%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-1795381.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مطالب بخط \"كليرمون فيران\" والمغرب",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Des appels pour une ligne entre Clermont-Ferrand et le Maroc",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Calls for a transport line between Clermont-Ferrand and Morocco",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 281,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article281/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%ac%d9%85%d8%b9%d9%8a%d8%a7%d8%aa-%d8%aa%d8%b7%d8%a7%d9%84%d8%a8-%d8%a8%d9%86%d8%b5%d9%88%d8%b5-%d9%88%d8%a7%d8%b6%d8%ad%d8%a9-%d9%84%d8%aa%d9%86%d8%b8%d9%8a%d9%85-%d8%a5%d8%b7%d8%b9%d8%a7%d9%85-1794834.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "جمعيات تطالب بنصوص واضحة لتنظيم إطعام الحيوانات الضالة بالمغرب",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Des associations réclament un cadre clair pour le nourrissage des animaux errants au Maroc",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Associations seek clear rules on feeding stray animals in Morocco",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 282,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article282/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%83%d9%86%d8%af%d8%a7-%d8%aa%d8%b1%d9%8a%d8%af-%d9%85%d8%b2%d8%a7%d9%8a%d8%a7-%d9%88%d9%84%d8%a7%d9%8a%d8%a9-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d9%8a%d8%a9-1795672.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "ترامب: كندا تريد مزايا ولاية أمريكية",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Trump affirme que le Canada veut les avantages d’un État américain",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Trump says Canada wants the benefits of a U.S. state",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 283,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article283/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a5%d8%b9%d8%a7%d8%af%d8%a9-%d8%aa%d9%86%d8%b8%d9%8a%d9%85-%d8%aa%d8%ba%d9%84%d9%82-%d8%a7%d9%84%d8%b3%d9%81%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b4%d9%8a%d9%84%d9%8a%d8%a9-%d9%81%d9%8a-%d8%a5-1795676.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"إعادة تنظيم\" تغلق السفارة الشيلية في إيران",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Une \"réorganisation\" entraîne la fermeture de l’ambassade du Chili en Iran",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "\"Restructuring\" leads to closure of Chilean embassy in Iran",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 284,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article284/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a8%d9%88%d9%81%d8%a7%d9%84-%d9%8a%d9%82%d8%aa%d8%b1%d8%a8-%d9%85%d9%86-%d8%a7%d9%84%d8%b9%d9%88%d8%af%d8%a9-%d8%a5%d9%84%d9%89-%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a7-1795446.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "بوفال يقترب من العودة إلى إسبانيا",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Boufal se rapproche d’un retour en Espagne",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Boufal nears return to Spain",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 285,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article285/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%ac%d9%85%d8%a7%d8%b1%d9%83-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-%d8%aa%d9%8f%d8%ad%d8%a7%d8%b5%d8%b1-%d9%85%d8%b3%d8%aa%d9%88%d8%af%d8%b9%d8%a7%d8%aa-%d9%88%d8%aa%d9%81-1795344.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الجمارك تُحاصر مستودعات وتفك خيوط تهريب أثواب تركية وصينية",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La douane marocaine démantèle des entrepôts de contrebande de tissus turcs et chinois",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Moroccan customs bust warehouses smuggling Turkish and Chinese fabrics",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 286,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article286/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d9%88%d8%b1%d9%88%d8%a8%d8%a7-%d8%aa%d8%b6%d8%ba%d8%b7-%d9%84%d8%b6%d8%b1%d9%8a%d8%a8%d8%a9-%d8%a3%d8%b1%d8%a8%d8%a7%d8%ad-%d8%a7%d9%84%d9%86%d9%81%d8%b7-1795626.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "أوروبا تضغط لضريبة أرباح النفط",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "L’Europe pousse pour une taxe sur les bénéfices pétroliers",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Europe pushes for tax on oil profits",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 287,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article287/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d9%86%d8%aa%d9%82%d9%84-%d9%85%d9%86-%d8%aa%d8%af%d8%a8%d9%8a%d8%b1-%d8%a7%d9%84%d9%83%d9%88%d8%a7%d8%b1%d8%ab-%d8%a5%d9%84%d9%89-%d8%a7%d8%b3%d8%aa%d8%a8-1795305.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "المغرب ينتقل من تدبير الكوارث إلى استباق المخاطر بمئات المشاريع الضخمة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le Maroc passe de la gestion des catastrophes à l’anticipation des risques à travers des centaines de grands projets",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Morocco shifts from disaster management to risk prevention through hundreds of major projects",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 288,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article288/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%81%d8%a7%d8%b5%d9%8a%d9%84-%d8%b5%d9%81%d9%82%d8%a7%d8%aa-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d9%84%d8%b5%d9%8a%d8%a7%d9%86%d8%a9-%d8%a7%d9%84%d9%85%d8%b7%d8%a7%d8%b1%d8%a7%d8%aa-1795389.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "تفاصيل صفقات جديدة لصيانة المطارات",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Détails de nouveaux marchés pour la maintenance des aéroports",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Details of new airport maintenance contracts",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 289,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article289/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%b3%d8%a7%d8%b1-%d8%a7%d9%84%d9%82%d8%b7%d8%a7%d8%b1-%d9%81%d8%a7%d8%a6%d9%82-%d8%a7%d9%84%d8%b3%d8%b1%d8%b9%d8%a9-%d9%8a%d8%ad%d8%b1%d9%83-%d8%a3%d8%b4%d8%ba%d8%a7%d9%84-%d9%86%d9%82%d9%84-1795314.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مسار القطار فائق السرعة يحرك أشغال نقل شبكات المياه بمراكش",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le tracé du TGV déclenche des travaux de déplacement des réseaux d’eau à Marrakech",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "High-speed rail route prompts relocation of water networks in Marrakech",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 296,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article296/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%af%d8%a7%d8%b1%d9%8a-%d9%88%d8%b3%d9%84%d9%8a%d9%85-%d9%8a%d8%b9%d9%88%d8%af%d8%a7%d9%86-%d9%84%d8%aa%d8%af%d8%a7%d8%b1%d9%8a%d8%a8-%d8%a7%d9%84%d8%a3%d9%87%d9%84%d9%8a-1795479.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "داري وسليم يعودان لتداريب الأهلي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Dari et Slim reprennent les entraînements avec Al Ahly",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Dari and Slim return to Al Ahly training",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 297,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article297/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d9%85%d9%84-%d8%aa%d9%8a%d8%b2%d9%86%d9%8a%d8%aa-%d9%8a%d8%b9%d9%84%d9%86-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%82%d8%af-%d9%85%d8%b9-%d8%ac%d8%b1%d8%a8%d8%a7%d9%88%d9%8a-1795618.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "أمل تزنيت يعلن التعاقد مع جرباوي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Amal Tiznit annonce la signature de Jerbaoui",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Amal Tiznit signs Jerbaoui",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 298,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article298/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d8%a7%d9%84%d9%85%d9%84%d9%83%d9%8a-%d9%8a%d8%b1%d8%af-%d8%b9%d9%84%d9%89-%d8%a3%d9%86%d8%a8%d8%a7%d8%a1-%d8%aa%d9%88%d9%82%d9%8a%d9%81-%d9%85%d8%b4%d8%ac%d8%b9%d9%8a-1795622.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الجيش الملكي يوضح بشأن توقيف مشجعين ويحذر من \"التجييش والاحتقان\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "L’AS FAR clarifie l’affaire de l’interpellation de supporters et met en garde contre la \"surenchère et la tension\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "AS FAR clarifies fan arrests and warns against \"mobilization and tension\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 299,
+  "addedAt": "2026-08-23T11:04:08Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article299/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a5%d8%b5%d8%a7%d8%a8%d8%a9-%d9%85%d9%82%d9%84%d9%82%d8%a9-%d9%84%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a-%d8%b4%d8%a7%d8%af%d9%8a-%d8%b1%d9%8a%d8%a7%d8%b6-1795511.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "إصابة مقلقة للمغربي شادي رياض",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Blessure inquiétante pour le Marocain Chadi Riad",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Concerning injury for Moroccan player Chadi Riad",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+}
 );
