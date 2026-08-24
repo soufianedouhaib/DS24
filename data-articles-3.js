@@ -1385,12 +1385,11 @@ ARTICLES.push(
   "en": { "title": "Raja Club Athletic picks webook.com as official ticketing partner", "excerpt": "A new agreement aims to make it easier for fans to buy match tickets.",
     "body": ["Raja Club Athletic announced it has chosen the webook.com platform as the official partner for managing ticket sales for its matches.", "The partnership aims to make it easier for fans to access tickets through a modern, secure digital platform."] }
 }
-,
-
+}
 ,
 {
   "id": 114,
-   "source": "Hespress"
+  "source": "Hespress",
   "url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d9%84%d9%83-%d9%8a%d8%ab%d9%85%d9%86-%d9%86%d9%85%d9%88%d8%b0%d8%ac-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%b9-%d8%a7%d9%84%d8%ba%d8%a7%d8%a8%d9%88%d9%86-1793261.html",
   "ar": {
     "title": "الملك يثمن نموذج التعاون مع الغابون",
