@@ -4837,4 +4837,73 @@ ARTICLES.push(
     ]
   }
 }
+,
+{
+  "id": 300,
+  "addedAt": "2026-08-24T11:00:43Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article300/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%88%d9%82%d8%b9%d8%a7%d8%aa-%d8%b7%d9%82%d8%b3-%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%a7%d8%ab%d9%86%d9%8a%d9%86-%d8%a8%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-74-1795970.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "توقعات طقس اليوم الاثنين بالمغرب",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Prévisions météo de ce lundi au Maroc",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Weather forecast for Monday in Morocco",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 301,
+  "addedAt": "2026-08-24T11:00:43Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article301/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%88%d9%82%d8%b9%d8%a7%d8%aa-%d8%b7%d9%82%d8%b3-%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%a3%d8%ad%d8%af-%d8%a8%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-74-1795477.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "توقعات طقس اليوم الأحد بالمغرب",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Prévisions météo de ce dimanche au Maroc",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Weather forecast for Sunday in Morocco",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+}
 );
