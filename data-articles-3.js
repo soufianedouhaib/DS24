@@ -5587,4 +5587,685 @@ ARTICLES.push(
     ]
   }
 }
+,
+{
+  "id": 322,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article322/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/28-%d9%82%d8%aa%d9%8a%d9%84%d8%a7-%d9%81%d9%8a-%d8%ad%d9%88%d8%a7%d8%af%d8%ab-%d8%a7%d9%84%d8%b3%d9%8a%d8%b1-%d8%ae%d9%84%d8%a7%d9%84-%d8%a3%d8%b3%d8%a8%d9%88%d8%b9-2-1796698.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "28 قتيلا في حوادث السير خلال أسبوع",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "28 morts dans des accidents de la route en une semaine",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "28 killed in road accidents in one week",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 323,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article323/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/5-%d8%a2%d9%84%d8%a7%d9%81-%d9%8a%d9%88%d8%b1%d9%88-%d9%84%d9%84%d8%a8%d9%82%d8%b1%d8%a9-%d8%a7%d9%84%d9%88%d8%a7%d8%ad%d8%af%d8%a9-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d9%82%d9%8a%d8%a7%d8%b3%d9%8a-1796394.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "5 آلاف يورو للبقرة الواحدة.. أسعار قياسية تربك منتجي الحليب بالمغرب",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "5 000 euros par vache : des prix record déstabilisent les producteurs de lait au Maroc",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "5,000 euros per cow: record prices unsettle milk producers in Morocco",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 324,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article324/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d8%aa%d8%b1%d9%81%d8%b6-%d8%b6%d8%ba%d9%88%d8%b7-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%b9%d9%84%d9%89-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-1796650.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الصين ترفض ضغوط أمريكا على إيران",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La Chine rejette les pressions américaines sur l’Iran",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "China rejects US pressure on Iran",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 343,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article343/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d8%b2%d9%85%d8%a9-%d8%a7%d9%84%d8%b9%d9%85%d8%a7%d9%84-%d9%81%d9%8a-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%aa%d8%b6%d8%ba%d8%b7-%d8%b9%d9%84%d9%89-%d8%a3%d9%86%d8%b4%d8%b7%d8%a9-%d8%a7-1796365.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"أزمة العمال\" في المغرب تضغط على أنشطة العقار والفلاحة و\"الكابلاج\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La \"crise de la main‑d’œuvre\" au Maroc pèse sur l’immobilier, l’agriculture et le câblage",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "\"Labor crisis\" in Morocco weighs on real estate, agriculture and cabling industries",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 344,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article344/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%82%d8%b1%d8%b9%d8%a9-%d8%a7%d9%84%d8%a8%d8%b7%d9%88%d9%84%d8%a9-%d8%aa%d8%b1%d9%81%d8%b9-%d8%b3%d8%aa%d8%a7%d8%b1-%d8%a7%d9%84%d8%aa%d8%ad%d8%af%d9%8a%d8%a7%d8%aa-1796335.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"قرعة البطولة\" ترفع ستار التحديات",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le tirage au sort du championnat lève le rideau sur les défis à venir",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "League draw raises the curtain on upcoming challenges",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 345,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article345/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%82%d8%aa%d8%b1%d8%a7%d8%a8-%d8%b4%d9%87%d8%b1-%d8%a3%d9%83%d8%aa%d9%88%d8%a8%d8%b1-%d9%8a%d8%af%d8%ae%d9%84-%d9%82%d8%b6%d9%8a%d8%a9-%d8%a7%d9%84%d8%b5%d8%ad%d8%b1%d8%a7%d8%a1-%d8%a7%d9%84-1796435.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "اقتراب شهر أكتوبر يدخل قضية الصحراء المغربية مرحلة دبلوماسية جديدة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "L’approche du mois d’octobre fait entrer la question du Sahara marocain dans une nouvelle phase diplomatique",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Approach of October ushers Western Sahara issue into a new diplomatic phase",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 346,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article346/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a8%d9%88%d8%b1%d9%8a%d9%84-%d9%8a%d8%af%d8%a7%d9%81%d8%b9-%d8%b9%d9%86-%d8%a7%d9%84%d8%aa%d8%b9%d8%a7%d9%88%d9%86-%d9%85%d8%b9-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-1796396.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "بوريل يدافع عن التعاون مع المغرب",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Borrell défend la coopération avec le Maroc",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Borrell defends cooperation with Morocco",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 347,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article347/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d9%84%d9%83-%d9%85%d8%ad%d9%85%d8%af-%d8%a7%d9%84%d8%b3%d8%a7%d8%af%d8%b3-%d9%8a%d8%b5%d8%af%d8%b1-%d8%b9%d9%81%d9%88-%d8%a7%d9%84%d9%85%d9%88%d9%84%d8%af-1796570.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الملك محمد السادس يصدر \"عفو المولد\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le roi Mohammed VI accorde une \"grâce du Mawlid\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "King Mohammed VI grants a \"Mawlid pardon\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 348,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article348/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%81%d9%8a-%d8%ad%d8%b6%d8%b1%d8%a9-%d8%a7%d9%84%d9%85%d9%84%d9%83-%d8%a7%d9%84%d9%85%d9%88%d9%84%d8%af-%d8%a7%d9%84%d9%86%d8%a8%d9%88%d9%8a-%d9%8a%d8%b9%d9%8a%d8%af-%d8%b3%d8%a8%d8%aa%d8%a9-1796565.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "في حضرة الملك .. المولد النبوي يعيد سبتة إلى واجهة \"الذاكرة الدينية\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "En présence du roi, le Mawlid remet Ceuta au premier plan de la \"mémoire religieuse\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "In the presence of the King, Mawlid brings Ceuta back to the forefront of \"religious memory\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 349,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article349/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%88%d9%82%d8%b9%d8%a7%d8%aa-%d8%b7%d9%82%d8%b3-%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%ab%d9%84%d8%a7%d8%ab%d8%a7%d8%a1-%d8%a8%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-98-1796488.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "توقعات طقس اليوم الثلاثاء بالمغرب",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Prévisions météorologiques pour ce mardi au Maroc",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Weather forecast for this Tuesday in Morocco",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 350,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "sante",
+  "img": "https://picsum.photos/seed/ds24article350/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%b5%d8%ad%d8%a9-%d8%aa%d8%ae%d9%8a%d8%b1-%d9%85%d8%b5%d8%ad%d8%aa%d9%8a%d9%86-%d8%ae%d8%a7%d8%b5%d8%aa%d9%8a%d9%86-%d8%a8%d9%8a%d9%86-%d8%aa%d9%86%d9%81-1796546.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "وزارة الصحة تخير مصحتين خاصتين بين تنفيذ توصيات أو إنهاء الخدمات",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le ministère de la Santé somme deux cliniques privées d’appliquer des recommandations ou de mettre fin à leurs prestations",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Health Ministry gives two private clinics a choice between complying with recommendations or ending services",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 351,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article351/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b3%d8%a8%d8%aa%d8%a9-%d9%88%d8%b9%d9%82%d8%af%d8%a9-%d8%a7%d9%84%d9%82%d8%a7%d8%b5%d8%b1%d9%8a%d9%86-%d8%a3%d8%b9%d8%af%d8%a7%d8%af-%d9%85%d8%aa%d8%b6%d8%a7%d8%b1%d8%a8%d8%a9-%d9%81%d9%8a-1796456.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "سبتة و\"عقدة القاصرين\" .. أعداد متضاربة في حصيلة إسبانية غير محسومة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Ceuta et la \"question des mineurs\" : des chiffres contradictoires dans un bilan espagnol incertain",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Ceuta and the \"minor issue\": conflicting figures in an unsettled Spanish tally",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 352,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article352/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%b1%d8%a7%d9%83%d8%b4-%d8%aa%d9%88%d8%b3%d9%91%d8%b9-%d9%82%d8%a7%d8%b9%d8%af%d8%a9-%d9%85%d8%b4%d8%aa%d8%b1%d9%8a-%d8%a7%d9%84%d8%b9%d9%82%d8%a7%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d9%81%d8%a7-1796221.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مراكش توسّع قاعدة مشتري العقارات الفاخرة وسط طلب دولي متزايد",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Marrakech élargit sa base d’acheteurs de biens immobiliers de luxe sur fond de demande internationale croissante",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Marrakech expands base of luxury‑property buyers amid rising international demand",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 353,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article353/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d9%84%d9%83-%d9%8a%d8%aa%d8%b1%d8%a3%d8%b3-%d8%a5%d8%ad%d9%8a%d8%a7%d8%a1-%d8%b0%d9%83%d8%b1%d9%89-%d8%a7%d9%84%d9%85%d9%88%d9%84%d8%af-%d8%a7%d9%84%d9%86%d8%a8%d9%88%d9%8a-1796211.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الملك يترأس إحياء ذكرى المولد النبوي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le roi préside la cérémonie de commémoration du Mawlid",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "The King presides over Mawlid commemoration ceremony",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 354,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article354/800/450",
+  "source_name": "Akhbarona",
+  "source_url": "https://www.akhbarona.com/culture/431317.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "هل وقعت \"فناير\" فعلا في فخ مؤامرة جزائرية؟.. \"مروكية\" تفجر غضبا شديدا وسط مطالب بالحذف والاعتذار",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le groupe Fnaïr est‑il réellement tombé dans le piège d’un complot algérien ? Le titre \"Marokiya\" provoque une vive colère et des appels au retrait et aux excuses",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Did Fnaïr really fall into an Algerian plot? The song \"Marokiya\" sparks outrage and calls for removal and apology",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 355,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article355/800/450",
+  "source_name": "Akhbarona",
+  "source_url": "https://www.akhbarona.com/health/431318.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "دراسة: فيتامين B6 قد يساعد في تخفيف أعراض الاكتئاب خلال شهر",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Étude : la vitamine B6 pourrait aider à atténuer les symptômes de la dépression en un mois",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Study: vitamin B6 may help ease depression symptoms within a month",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 356,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article356/800/450",
+  "source_name": "Akhbarona",
+  "source_url": "https://www.akhbarona.com/economy/431319.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "المغرب يستأنف استيراد القمح اللين ابتداء من منتصف شتنبر",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le Maroc reprend l’importation de blé tendre à partir de la mi‑septembre",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Morocco to resume soft‑wheat imports from mid‑September",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 357,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article357/800/450",
+  "source_name": "Akhbarona",
+  "source_url": "https://www.akhbarona.com/society/431320.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "سقوط مقصورة \"أرجوحة معلقة\" بطنجة يخلف إصابات متفاوتة ويثير الهلع",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La chute d’une nacelle d’\"œuf suspendu\" à Tanger fait plusieurs blessés et provoque la panique",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Fall of a \"suspended swing\" cabin in Tangier leaves injuries and sparks panic",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 358,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article358/800/450",
+  "source_name": "Akhbarona",
+  "source_url": "https://www.akhbarona.com/videos/431321.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "في أول ردّ لها.. الشابة وفاء عتيد تكشف لـ\"أخبارنا\" ظروف هجرتها صوب سبتة وترد على المغاربة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Dans sa première réaction, la jeune Wafaa Atid explique à \"Akhbarona\" les circonstances de sa migration vers Ceuta et répond aux Marocains",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "In her first response, young Wafaa Atid tells \"Akhbarona\" about the circumstances of her migration to Ceuta and responds to Moroccans",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 359,
+  "addedAt": "2026-08-25T12:06:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article359/800/450",
+  "source_name": "Akhbarona",
+  "source_url": "https://www.akhbarona.com/society/431322.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "تسمم أسرة من 6 أفراد يجر مطعما مشهورا للإغلاق وسط تطوان",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "L’intoxication d’une famille de six personnes entraîne la fermeture d’un restaurant réputé au centre de Tétouan",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Food poisoning of a six‑member family leads to closure of a well‑known restaurant in downtown Tetouan",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+}
 );
