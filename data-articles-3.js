@@ -4906,4 +4906,685 @@ ARTICLES.push(
     ]
   }
 }
+,
+{
+  "id": 302,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article302/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%b5%d9%8a%d9%86-%d8%aa%d8%b1%d9%81%d8%b6-%d8%b6%d8%ba%d9%88%d8%b7-%d8%a3%d9%85%d8%b1%d9%8a%d9%83%d8%a7-%d8%b9%d9%84%d9%89-%d8%A5%d9%8a%d8%b1%d8%a7%d9%86-1796650.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الصين ترفض ضغوط أمريكا على إيران",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La Chine rejette les pressions américaines sur l’Iran",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "China rejects U.S. pressure on Iran",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 303,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article303/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d8%b2%d9%85%d8%a9-%d8%b3%d8%a8%d8%aa%d8%a9-%d8%aa%d8%af%d9%81%d8%b9-%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a7-%d8%a5%d9%84%d9%89-%d8%aa%d9%81%d8%b9%d9%8a%d9%84-%d9%88%d8%b6%d8%b9%d9%8a%d8%a9-1796686.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "أزمة سبتة تدفع إسبانيا إلى تفعيل \"وضعية ذات أهمية للأمن القومي\" لأول مرة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La crise de Sebta pousse l’Espagne à activer pour la première fois un \"statut d’importance pour la sécurité nationale\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Sebta crisis pushes Spain to activate a ‘national security importance status’ for the first time",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 304,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article304/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%86%d8%ac%d9%88%d9%85-%d9%83%d8%b1%d8%a9-%d8%a7%d9%84%d9%82%d8%af%d9%85-%d9%8a%d9%86%d8%aa%d9%81%d8%b6%d9%88%d9%86-%d8%b6%d8%af-%d8%a5%d9%86%d9%81%d8%a7%d9%86%d8%aa%d9%8a%d9%86%d9%88-1796648.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "نجوم كرة القدم ينتفضون ضد إنفانتينو",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Des stars du football se soulèvent contre Infantino",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Football stars rise up against Infantino",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 305,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article305/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%b3%d8%b9%d8%af%d9%8a-%d9%8a%d9%86%d8%aa%d9%82%d8%af-%d8%a7%d9%84%d9%85%d8%b4%d9%87%d8%af-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a-1796687.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "السعدي ينتقد المشهد السياسي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Saâdi critique la scène politique",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Saâdi criticizes the political landscape",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 306,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article306/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%86%d9%81%d8%b7-%d9%8a%d8%aa%d8%b1%d8%a7%d8%ac%d8%b9-%d9%88%d8%b3%d8%b7-%d8%aa%d8%b1%d9%82%d8%a8-%d8%b9%d9%82%d9%88%d8%a8%d8%a7%d8%aa-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-1796647.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "النفط يتراجع وسط ترقب عقوبات إيران",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le pétrole recule sur fond d’attente de sanctions contre l’Iran",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Oil prices fall amid anticipation of Iran sanctions",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 307,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article307/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-2026-%d9%85%d9%82%d8%b9%d8%af%d8%a7%d9%86-%d9%8a%d8%b4%d8%b9%d9%84%d8%a7%d9%86-%d8%a7%d9%84%d8%aa%d9%86%d8%a7%d9%81%d8%b3-%d8%a8%d9%8a%d9%86-%d9%85-1796478.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "انتخابات 2026 .. مقعدان يشعلان التنافس بين مرشحي سيدي إفني",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Élections 2026 : deux sièges attisent la concurrence entre les candidats de Sidi Ifni",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Elections 2026: two seats ignite competition among candidates in Sidi Ifni",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 308,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "sante",
+  "img": "https://picsum.photos/seed/ds24article308/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d9%81%d8%a7%d8%ac%d8%a3%d8%a9-%d9%81%d9%8a-%d9%82%d8%b6%d9%8a%d8%a9-%d9%88%d9%81%d8%a7%d8%a9-%d9%85%d8%a7%d8%b1%d8%a7%d8%af%d9%88%d9%86%d8%a7-%d9%81%d8%ad%d9%88%d8%b5-%d8%b7%d8%a8%d9%8a%d8%a9-1796657.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مفاجأة في قضية وفاة مارادونا.. فحوص طبية منسوبة إليه تعود لوالده",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Rebondissement dans l’affaire du décès de Maradona : des examens médicaux qui lui étaient attribués appartiendraient à son père",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Twist in Maradona death case: medical tests attributed to him reportedly belonged to his father",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 309,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article309/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d9%8a%d8%b1%d8%b5%d8%af-%d8%aa%d8%b9%d8%ab%d8%b1-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d8%a9-%d8%a7%d9%84%d9%85%d8%af%d8%b1%d8%b3%d9%8a%d8%a9-1796374.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "تقرير يرصد تعثر الرياضة المدرسية",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Un rapport relève les difficultés du sport scolaire",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Report highlights setbacks in school sports",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 310,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article310/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a5%d8%ab%d9%8a%d9%88%d8%a8%d9%8a%d8%a7-%d8%aa%d8%aa%d8%b1%d8%b4%d8%ad-%d9%84%d8%a7%d8%b3%d8%aa%d8%b6%d8%a7%d9%81%d8%a9-%d9%83%d8%a7%d9%86-2028-1796660.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "إثيوبيا تترشح لاستضافة \"كان 2028\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "L’Éthiopie se porte candidate à l’organisation de la CAN 2028",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Ethiopia bids to host AFCON 2028",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 311,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article311/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%b0%d9%87%d8%a8-%d9%82%d8%b1%d8%a8-%d8%a3%d8%b9%d9%84%d9%89-%d9%85%d8%b3%d8%aa%d9%88%d9%89-%d9%81%d9%8a-3-%d8%a3%d8%b4%d9%87%d8%b1-1796643.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الذهب قرب أعلى مستوى في 3 أشهر",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "L’or proche de son plus haut niveau en trois mois",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Gold nears three‑month high",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 312,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article312/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a5%d9%81%d8%b1%d8%a7%d8%ac-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%b9%d9%86-%d8%af%d8%b9%d9%85-%d8%a7%d8%b3%d8%aa%d9%8a%d8%b1%d8%a7%d8%af-%d8%a7%d9%84%d9%82%d9%85%d8%ad-%d8%a7%d9%84%d9%84%d9%8a-1796413.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "إفراج المغرب عن دعم استيراد القمح اللين يعد الفاعلين الأوروبيين بانتعاشة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La levée par le Maroc du soutien à l’importation de blé tendre promet un regain d’activité pour les opérateurs européens",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Morocco’s release of support for soft wheat imports promises a boost for European operators",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 313,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article313/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%af%d8%b1%d8%a7%d8%b3%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d8%aa%d9%83%d8%b4%d9%81-%d8%aa%d8%a3%d8%ab%d9%8a%d8%b1-%d8%aa%d9%8a%d9%83-%d8%aa%d9%88%d9%83-%d8%b9%d9%84%d9%89-%d8%b4%d9%87%d9%8a-1796655.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "دراسة جديدة تكشف تأثير \"تيك توك\" على شهية المراهقين",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Une nouvelle étude révèle l’impact de TikTok sur l’appétit des adolescents",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "New study reveals TikTok’s impact on teenagers’ appetite",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 314,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article314/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a8%d9%86%d8%ba%d9%84%d8%a7%d8%af%d9%8a%d8%b4-%d8%aa%d8%b9%d9%88%d9%84-%d8%b9%d9%84%d9%89-%d8%a3%d8%b3%d9%85%d8%af%d8%a9-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-1796415.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "بنغلاديش تعول على أسمدة المغرب",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le Bangladesh mise sur les engrais marocains",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Bangladesh counts on Moroccan fertilizers",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 315,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article315/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d9%86-%d8%b3%d9%88%d8%b3-%d8%a5%d9%84%d9%89-%d9%84%d9%86%d8%af%d9%86-%d9%88%d8%a3%d9%88%d8%b3%d9%84%d9%88-%d8%a7%d9%84%d8%aa%d9%88%d8%aa-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a-%d8%b9-1796515.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "من سوس إلى لندن وأوسلو .. التوت المغربي على موائد المستهلك الأوروبي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "De Souss à Londres et Oslo : la myrtille marocaine s’invite sur les tables des consommateurs européens",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "From Souss to London and Oslo: Moroccan berries reach European consumers’ tables",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 316,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article316/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b7%d9%81%d8%b1%d8%a9-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%aa%d8%b6%d8%b1%d8%a8-%d8%b3%d9%88%d9%82-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d9%88%d8%af%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d9%84%d9%88%d8%ac-1796307.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"طفرة أسعار\" تضرب سوق المستودعات اللوجستية قرب مدينة الدار البيضاء",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Une \"envolée des prix\" frappe le marché des entrepôts logistiques près de Casablanca",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "‘Price surge’ hits the logistics warehouse market near Casablanca",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 317,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article317/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d8%ad%d9%88%d9%8a%d9%84-%d9%85%d9%86%d8%a7%d8%b2%d9%84-%d8%a5%d9%84%d9%89-%d9%88%d8%b1%d8%b4%d8%a7%d8%aa-%d9%8a%d8%ab%d9%8a%d8%b1-%d8%a7%d9%84%d9%82%d9%84%d9%82-1796425.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "تحويل منازل إلى ورشات يثير القلق",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La transformation de maisons en ateliers suscite l’inquiétude",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Conversion of homes into workshops raises concern",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 318,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article318/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d9%87%d9%86%d9%8a%d9%88%d9%86-%d9%8a%d8%a8%d8%b1%d8%b1%d9%88%d9%86-%d8%a7%d9%84%d8%b2%d9%8a%d8%a7%d8%af%d8%a9-%d9%81%d9%8a-%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%a7%d9%84%d8%a8%d9%8a%d8%b6-%d8%a8-1796192.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مهنيون يبررون الزيادة في أسعار البيض بالمولد النبوي والدخول المدرسي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Des professionnels justifient la hausse des prix des œufs par le Mawlid et la rentrée scolaire",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Professionals justify egg price hikes by Mawlid and back‑to‑school demand",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 319,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article319/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%b6%d8%b1%d8%a7%d8%a6%d8%a8-%d8%aa%d8%b5%d8%af%d8%b1-%d8%af%d9%84%d9%8a%d9%84-%d8%a7%d9%84%d9%85%d9%82%d8%a7%d9%88%d9%84-%d8%a7%d9%84%d8%b0%d8%a7%d8%aa%d9%8a-1796462.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الضرائب تصدر دليل المقاول الذاتي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "L’administration fiscale publie un guide pour l’auto‑entrepreneur",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Tax authority issues guide for self‑entrepreneurs",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 320,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article320/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d8%b9%d8%b7%d8%a7%d8%a8-%d8%aa%d8%b7%d8%a7%d9%84-3-%d9%85%d9%84%d8%a7%d9%8a%d9%8a%d9%86-%d8%b3%d9%8a%d8%a7%d8%b1%d8%a9-%d8%aa%d9%8a%d8%b3%d9%84%d8%a7-1796401.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "أعطاب تطال 3 ملايين سيارة \"تيسلا\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Des défaillances touchent trois millions de voitures Tesla",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Faults affect three million Tesla vehicles",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 321,
+  "addedAt": "2026-08-25T11:29:11Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article321/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d9%86%d8%b4%d8%a2%d8%aa-%d8%b3%d9%83%d9%83%d9%8a%d8%a9-%d9%88%d9%85%d8%a7%d8%a6%d9%8a%d8%a9-%d8%a8%d9%82%d9%8a%d9%85%d8%a9-180-%d9%85%d9%84%d9%8a%d9%88%d9%86-%d8%af%d8%b1%d9%87%d9%85-%d9%82-1796267.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "منشآت سكية ومائية بقيمة 180 مليون درهم قرب مطار محمد الخامس",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Des installations ferroviaires et hydrauliques de 180 millions de dirhams près de l’aéroport Mohammed V",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Rail and water infrastructure worth 180 million dirhams near Mohammed V Airport",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+}
 );
