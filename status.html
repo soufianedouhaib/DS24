@@ -42,6 +42,14 @@
   }
   .trigger-card h3 { font-family: 'Poppins', sans-serif; font-size: 17px; margin-bottom: 4px; color: var(--ink); }
   .trigger-card p.sub { font-size: 13px; color: var(--ink-soft); margin-bottom: 16px; }
+  .token-field { max-width: 420px; margin: 0 auto 16px; text-align: left; }
+  .token-field label { display: block; font-size: 12.5px; font-weight: 600; color: var(--ink); margin-bottom: 5px; }
+  .token-field label .req { font-weight: 400; color: var(--ink-soft); font-size: 11.5px; }
+  .token-field input {
+    width: 100%; padding: 9px 12px; border: 1px solid var(--line); border-radius: 8px;
+    font-size: 13.5px; font-family: 'IBM Plex Sans', monospace; background: var(--paper); color: var(--ink);
+  }
+  .token-field input:focus { outline: 2px solid var(--green-bright); outline-offset: 1px; }
   .trigger-btn {
     padding: 12px 32px; font-size: 15px; font-weight: 700; font-family: 'Poppins', sans-serif;
     background: var(--green-deep); color: #fff; border: none; border-radius: 10px;
@@ -130,6 +138,10 @@
   <div class="trigger-card">
     <h3>Run an update manually</h3>
     <p class="sub">Trigger the workflow right now instead of waiting for the daily schedule.</p>
+    <div class="token-field">
+      <label for="tokenInput">GitHub Token <span class="req">(required, not stored)</span></label>
+      <input type="password" id="tokenInput" placeholder="Paste your GitHub token here for this run only" autocomplete="off">
+    </div>
     <button id="triggerBtn" class="trigger-btn">&#9654; Run Update Now</button>
     <div id="triggerMsg" class="trigger-msg"></div>
   </div>
@@ -175,6 +187,15 @@ const WORKER_URL = "https://ds24-trigger.soufiane-douhaib.workers.dev";
 document.getElementById("triggerBtn").addEventListener("click", async function () {
   const btn = this;
   const msgEl = document.getElementById("triggerMsg");
+  const tokenInput = document.getElementById("tokenInput");
+  const token = tokenInput.value.trim();
+
+  if (!token) {
+    msgEl.className = "trigger-msg error";
+    msgEl.textContent = "Please paste a GitHub token before running.";
+    tokenInput.focus();
+    return;
+  }
 
   btn.disabled = true;
   btn.textContent = "Running...";
@@ -182,15 +203,21 @@ document.getElementById("triggerBtn").addEventListener("click", async function (
   msgEl.textContent = "Sending trigger request, please wait...";
 
   try {
-    const resp = await fetch(WORKER_URL, { method: "POST" });
+    const resp = await fetch(WORKER_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ github_token: token }),
+    });
     const data = await resp.json();
 
     if (resp.ok && data.success) {
       msgEl.className = "trigger-msg success";
       msgEl.textContent = "Workflow triggered successfully. It may take a few minutes for results to appear here and on the site.";
+      tokenInput.value = ""; // clear it immediately after use — never left sitting in the field
     } else {
       msgEl.className = "trigger-msg error";
-      msgEl.textContent = "Something went wrong: " + (data.error || "Unknown error");
+      msgEl.textContent = "Something went wrong: " + (data.error || "Unknown error") +
+        (data.details ? " — " + JSON.stringify(data.details) : "");
     }
   } catch (err) {
     msgEl.className = "trigger-msg error";
