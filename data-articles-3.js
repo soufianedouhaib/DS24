@@ -6270,4 +6270,685 @@ ARTICLES.push(
 }
 ,
 
+,
+{
+  "id": 360,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article360/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ac%d9%84%d8%b3-%d8%a7%d9%84%d9%88%d8%b7%d9%86%d9%8a-%d9%84%d9%84%d8%b7%d8%a7%d8%a6%d9%81%d8%a9-%d8%a7%d9%84%d9%8a%d9%87%d9%88-1796847.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "انتخابات المجلس الوطني للطائفة اليهودية تنتظر الحسم في وزارة الداخلية",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Les élections du Conseil national de la communauté juive en attente de validation à l’Intérieur",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Elections of the National Council of the Jewish Community await Interior Ministry decision",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 361,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article361/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%b4%d9%85%d8%b9%d8%a9-%d8%aa%d8%b7%d9%88%d9%8a-%d9%86%d9%82%d8%a7%d8%b4-%d8%aa%d8%b2%d9%83%d9%8a%d8%a9-%d9%85%d9%86%d9%8a%d8%a8-1796930.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"الشمعة\" تطوي نقاش \"تزكية منيب\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le PJD met fin au débat sur le soutien à Nabila Mounib",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "PJD’s ‘candle’ symbol closes debate over endorsing Mounib",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 362,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article362/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d9%84%d9%83-%d9%85%d8%ad%d9%85%d8%af-%d8%a7%d9%84%d8%b3%d8%a7%d8%af%d8%b3-%d9%88%d8%b3%d8%a8%d8%aa%d8%a9-%d8%a7%d9%84%d9%85%d8%ad%d8%aa%d9%84%d8%a9-%d9%88%d8%b6%d9%88%d8%ad-1796886.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الملك محمد السادس وسبتة المحتلة .. وضوح لا يحتاج \"الرسائل المشفرة\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le roi Mohammed VI et Ceuta occupée : une position claire sans messages codés",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "King Mohammed VI and occupied Ceuta: clarity that needs no ‘coded messages’",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 363,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article363/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%86%d8%a7%d8%af%d9%8a-%d8%a7%d9%84%d9%86%d9%87%d8%b6%d8%a9-%d8%a7%d9%84%d8%a8%d8%b1%d9%83%d8%a7%d9%86%d9%8a%d8%a9-%d9%8a%d8%b3%d8%aa%d8%b9%d9%8a%d8%b1-%d8%a7%d9%84%d8%b3%d8%a7%d9%87%d9%84-1796966.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "نادي النهضة البركانية يستعير الساحل",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La Renaissance de Berkane enrôle Sahel en prêt",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "RS Berkane sign Sahel on loan",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 364,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article364/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d9%82%d8%b1%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%af%d8%a9-%d8%aa%d8%ab%d9%8a%d8%b1-%d8%a7%d9%84%d9%82%d9%84%d9%82-%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%83%d8%aa%d8%a8%d9%8a-1796380.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"مقررات الرياضة\" تثير القلق بين الكتبيين .. والوزارة تؤكد انتظام التموين",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Les manuels d’éducation physique inquiètent les libraires, le ministère rassure sur l’approvisionnement",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "‘Sports textbooks’ worry booksellers as ministry insists supply remains regular",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 365,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article365/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%81%d8%b1%d8%b5-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%aa%d8%ba%d8%b1%d9%8a-%d8%b4%d8%b1%d9%83%d8%a7%d8%aa-%d8%aa%d8%b1%d9%83%d9%8a%d8%a9-1796206.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "فرص المغرب تغري شركات تركية",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Les opportunités du Maroc attirent des entreprises turques",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Morocco’s opportunities entice Turkish companies",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 366,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article366/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d8%ad%d8%af%d8%a7%d8%ab-%d8%b3%d8%a8%d8%aa%d8%a9-%d8%a7%d9%84%d9%85%d8%ad%d8%aa%d9%84%d8%a9-%d8%aa%d8%b9%d9%8a%d8%af-%d8%aa%d8%b4%d9%83%d9%8a%d9%84-%d8%ae%d8%b7%d8%a7%d8%a8-%d8%a3%d8%ad%d8%b2-1796816.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "أحداث سبتة المحتلة تعيد تشكيل خطاب أحزاب إسبانية بخصوص المغرب",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Les événements de Ceuta occupée reconfigurent le discours de partis espagnols sur le Maroc",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Events in occupied Ceuta reshape Spanish parties’ discourse on Morocco",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 367,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article367/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d9%85%d9%84-%d8%aa%d9%8a%d8%b2%d9%86%d9%8a%d8%aa-%d9%8a%d8%aa%d8%b9%d8%a7%d9%82%d8%af-%d9%85%d8%b9-%d8%a7%d9%84%d9%85%d8%af%d8%a7%d9%81%d8%b9-%d8%a3%d8%b5%d9%88%d8%a7%d8%a8-1796969.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "أمل تيزنيت يتعاقد مع المدافع أصواب",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Amal Tiznit recrute le défenseur Assouab",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Amal Tiznit sign defender Assouab",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 368,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article368/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%81%d8%a7%d8%ad-%d9%83%d8%a7%d9%84%d8%a7-%d9%8a%d9%81%d8%aa%d8%aa%d8%ad-%d9%85%d9%88%d8%b3%d9%85-%d8%a7%d9%84%d8%ac%d9%86%d9%8a-%d9%88%d9%81%d8%b1%d8%a9-%d9%88%d8%a3%d8%b3%d8%b9%d8%a7-1795310.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "تفاح \"كالا\" يفتتح موسم الجني .. وفرة وأسعار منخفضة وخصاص في العمال",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La pomme \"Kala\" ouvre la saison de récolte : abondance, prix bas et manque de main-d’œuvre",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "‘Kala’ apples launch harvest season amid abundance, low prices and labor shortage",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 369,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article369/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%ad%d8%b8%d8%b1-%d8%ac%d9%85%d8%b9-%d9%88%d8%aa%d8%b3%d9%88%d9%8a%d9%82-%d8%b5%d8%af%d9%81%d9%8a%d8%a7%d8%aa-%d9%85%d8%b3%d9%85%d9%88%d9%85%d8%a9-1797036.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "حظر جمع وتسويق \"صدفيات مسمومة\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Interdiction de la collecte et de la commercialisation de coquillages contaminés",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Ban on collecting and marketing ‘contaminated shellfish’",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 370,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article370/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%a7%d8%b0%d8%a7-%d8%aa%d9%81%d8%b1%d8%b6-%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a7-%d8%b9%d9%84%d9%89-%d8%b9%d9%88%d8%af%d8%a9-%d8%a7%d9%84%d9%82%d8%a7%d8%b5%d8%b1%d9%8a%d9%86-%d8%ba%d9%8a-1796667.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "ماذا تفرض إسبانيا على عودة القاصرين غير المصحوبين من سبتة المحتلة؟",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Quelles conditions l’Espagne impose-t-elle au retour des mineurs non accompagnés depuis Ceuta occupée ?",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "What conditions does Spain set for returning unaccompanied minors from occupied Ceuta?",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 371,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article371/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b2%d9%83%d8%b1%d9%8a-%d9%8a%d9%84%d8%aa%d8%ad%d9%82-%d8%a8%d9%86%d8%a7%d8%af%d9%8a-%d8%b3%d8%a8%d9%88%d8%b1%d8%aa%d9%8a%d9%86%d8%ba-%d9%84%d8%b4%d8%a8%d9%88%d9%86%d8%a9-1797074.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "زكري يلتحق بنادي سبورتينغ لشبونة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Zekri rejoint le Sporting Lisbonne",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Zekri joins Sporting Lisbon",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 372,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article372/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b3%d9%8a%d9%84%d8%aa%d8%a7-%d9%8a%d8%ad%d8%b3%d9%85-%d8%b5%d9%81%d9%82%d8%a9-%d8%b5%d9%87%d9%8a%d8%a8-%d8%a7%d9%84%d8%af%d8%b1%d9%8a%d9%88%d8%b4-1797097.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"سيلتا\" يحسم صفقة صهيب الدريوش",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le Celta finalise le transfert de Sohaib Drioûch",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Celta Vigo complete signing of Sohaib Driouch",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 373,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article373/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%84%d8%a8%d8%a4%d8%a7%d8%aa-u17-%d9%8a%d9%86%d8%aa%d8%b5%d8%b1%d9%86-%d8%b9%d9%84%d9%89-%d9%83%d9%88%d8%b3%d9%88%d9%81%d9%88-1797065.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"لبؤات U17\" ينتصرن على كوسوفو",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Les Lionnes U17 s’imposent face au Kosovo",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Morocco’s U17 Lionesses defeat Kosovo",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 374,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article374/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%81%d9%88%d8%aa%d8%b3%d8%a7%d9%84-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d8%ac%d8%af%d8%af-%d9%87%d8%b2%d9%85-%d8%a7%d9%84%d8%b3%d8%b9%d9%88%d8%af%d9%8a%d8%a9-1797042.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"فوتسال المغرب\" يجدد هزم السعودية",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La sélection marocaine de futsal bat à nouveau l’Arabie saoudite",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Morocco futsal team defeat Saudi Arabia once again",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 375,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article375/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a-%d8%a8%d9%86-%d8%b4%d8%b1%d9%82%d9%8a-%d9%8a%d8%aa%d9%84%d9%82%d9%89-%d8%ba%d8%b1%d8%a7%d9%85%d8%a9-%d9%85%d8%a7%d9%84%d9%8a%d8%a9-1796916.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "المغربي بن شرقي يتلقى غرامة مالية",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le Marocain Bencherki écope d’une amende financière",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Moroccan player Bencherki hit with financial fine",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 376,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article376/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d9%86%d8%aa%d8%ae%d8%a8-%d8%a7%d9%84%d8%b4%d8%a7%d8%b7%d8%a6%d9%8a%d8%a9-%d9%8a%d8%b7%d8%a7%d8%b1%d8%af-%d8%a8%d8%b7%d8%a7%d9%82%d8%a9-%d8%a7%d9%84%d9%85%d9%88%d9%86%d8%af%d9%8a%d8%a7%d9%84-1796922.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "منتخب الشاطئية يطارد بطاقة المونديال",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La sélection marocaine de beach soccer en quête d’un billet pour le Mondial",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Morocco beach soccer team chase World Cup qualification",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 377,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article377/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d9%88%d8%b9%d8%af-%d9%88%d9%85%d9%83%d8%a7%d9%86-%d9%82%d8%b1%d8%b9%d8%a9-%d9%85%d9%88%d9%86%d8%af%d9%8a%d8%a7%d9%84-%d8%a7%d9%84%d8%b3%d9%8a%d8%af%d8%a7%d8%aa-1796893.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "موعد ومكان قرعة \"مونديال السيدات\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Date et lieu du tirage au sort de la Coupe du monde féminine",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Date and venue announced for Women’s World Cup draw",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 378,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article378/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d9%86%d8%af%d9%8a%d8%a9-%d8%aa%d8%aa%d9%86%d8%a7%d9%81%d8%b3-%d8%b9%d9%84%d9%89-%d8%b6%d9%85-%d9%81%d8%b1%d8%ac%d9%8a-%d9%83%d8%b1%d9%85%d9%88%d9%86-1796844.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "أندية تتنافس على ضم فرجي كرمون",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Plusieurs clubs en concurrence pour recruter Farji Karmoun",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Clubs vie for the signing of Farji Karmoun",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 379,
+  "addedAt": "2026-08-26T05:09:57Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article379/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d8%ac%d8%b1%d8%a7%d9%8a-%d9%8a%d9%88%d8%a7%d8%b5%d9%84-%d8%ad%d8%b5%d8%af-%d8%a7%d9%84%d8%ac%d9%88%d8%a7%d8%a6%d8%b2-%d9%81%d9%8a-%d8%a7%d9%84%d9%87%d9%86%d8%af-1796822.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "أجراي يواصل حصد الجوائز في الهند",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Ajray continue de récolter les distinctions en Inde",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Ajray keeps winning awards in India",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+}
 );
