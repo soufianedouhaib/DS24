@@ -101,54 +101,8 @@
   .step-chip.failed { background: rgba(220,60,60,0.14); color: #C0392B; }
   .progress-elapsed { margin-top: 10px; font-size: 12px; color: var(--ink-soft); }
 
-  .summary-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 30px; }
-  .summary-card {
-    background: var(--card-bg); border: 1px solid var(--line); border-radius: 14px;
-    padding: 20px 16px; text-align: center; box-shadow: var(--shadow);
-    border-top: 3px solid var(--gold);
-  }
-  .summary-card .icon { font-size: 24px; margin-bottom: 6px; }
-  .summary-card .num { font-family: 'Poppins', sans-serif; font-size: 26px; font-weight: 800; color: var(--green-deep); }
-  .summary-card .label { font-size: 12.5px; color: var(--ink-soft); margin-top: 4px; text-transform: uppercase; letter-spacing: 0.03em; }
-
-  .section-label {
-    font-family: 'Poppins', sans-serif; font-size: 15px; font-weight: 700;
-    color: var(--green-deep); margin: 30px 0 14px; display: flex; align-items: center; gap: 8px;
-  }
-
-  .run-card {
-    background: var(--card-bg); border: 1px solid var(--line); border-radius: 14px;
-    padding: 20px 22px; margin-bottom: 14px; box-shadow: var(--shadow);
-    border-left: 4px solid var(--line);
-    transition: box-shadow 0.2s;
-  }
-  .run-card:hover { box-shadow: 0 4px 20px rgba(11,92,59,0.12); }
-  .run-card.success { border-left-color: var(--green-bright); }
-  .run-card.failed { border-left-color: #C0392B; }
-  .run-card.rejected { border-left-color: var(--gold); }
-
-  .run-card-top { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
-  .run-badge { font-size: 12px; font-weight: 700; padding: 5px 14px; border-radius: 20px; letter-spacing: 0.02em; }
-  .run-badge.success { background: rgba(30,158,99,0.15); color: var(--green-mid); }
-  .run-badge.failed { background: rgba(220,60,60,0.12); color: #C0392B; }
-  .run-badge.rejected { background: rgba(201,163,78,0.18); color: #8a6a1f; }
-  .run-time { font-size: 13px; color: var(--ink-soft); }
-
-  .run-stats { display: flex; gap: 22px; flex-wrap: wrap; font-size: 13.5px; margin-bottom: 10px; }
-  .run-stats .stat-item { display: flex; align-items: center; gap: 6px; }
-  .run-stats .stat-item .stat-icon { opacity: 0.7; }
-  .run-stats span b { color: var(--ink); font-weight: 700; }
-
-  .run-titles { font-size: 13px; color: var(--ink-soft); line-height: 1.7; background: var(--paper); border-radius: 8px; padding: 10px 14px; margin-top: 6px; }
-  .run-titles strong { color: var(--ink); }
-  .run-titles ul { margin: 6px 0 0; padding-inline-start: 18px; }
-
-  .empty-state { text-align: center; padding: 60px 20px; color: var(--ink-soft); }
-  .empty-state .icon { font-size: 40px; margin-bottom: 10px; opacity: 0.5; }
-  .loading-state { text-align: center; padding: 40px; color: var(--ink-soft); }
-
   .feature-strip {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 28px 0;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 28px 0 0;
   }
   .feature-item {
     background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 16px;
@@ -204,11 +158,6 @@
     </div>
   </div>
 
-  <div id="summarySection"></div>
-
-  <div class="section-label">📋 Run History</div>
-  <div id="runsSection" class="loading-state">Loading run history...</div>
-
 </div>
 
 <script>
@@ -225,8 +174,7 @@ const POLL_INTERVAL_MS = 5000;
 const POLL_MAX_TRIES = 180;
 const TERMINAL_STATES = ["COMPLETED", "FAILED", "CANCELLED", "TIMED_OUT"];
 
-// Escape anything that comes from the API or the run log before it goes
-// into innerHTML — node names and article titles are untrusted input.
+// Node names come back from the Opus API — escape before touching innerHTML.
 function esc(value) {
   return String(value == null ? "" : value)
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
@@ -368,18 +316,6 @@ document.getElementById("triggerBtn").addEventListener("click", async function (
 
     if (result.status === "COMPLETED") {
       msgEl.className = "trigger-msg success";
-      msgEl.textContent = "Run completed. Waiting for GitHub Pages to publish...";
-      // The commit lands immediately, but Pages needs to rebuild and the CDN
-      // needs to catch up before run-log.json serves the new entry.
-      const before = document.querySelectorAll("#runsSection .run-card").length;
-      for (let attempt = 0; attempt < 10; attempt++) {
-        await new Promise(function (r) { setTimeout(r, 15000); });
-        await loadRunHistory();
-        if (document.querySelectorAll("#runsSection .run-card").length > before) break;
-        msgEl.textContent = "Run completed. Waiting for GitHub Pages to publish... (" +
-          ((attempt + 1) * 15) + "s)";
-      }
-      msgEl.className = "trigger-msg success";
       msgEl.textContent = "Run completed successfully.";
     } else if (result.unreachable) {
       msgEl.className = "trigger-msg error";
@@ -401,77 +337,6 @@ document.getElementById("triggerBtn").addEventListener("click", async function (
     btn.textContent = "Run Update Now";
   }
 });
-
-/* ------------------------------------------------------------------ */
-/*  Run history                                                        */
-/* ------------------------------------------------------------------ */
-
-async function loadRunHistory() {
-  const runsSection = document.getElementById("runsSection");
-  const summarySection = document.getElementById("summarySection");
-
-  let runs = [];
-  try {
-    const r = await fetch("run-log.json?t=" + Date.now());
-    if (r.ok) runs = await r.json();
-  } catch (err) {
-    runs = [];
-  }
-
-  if (!Array.isArray(runs) || runs.length === 0) {
-    summarySection.innerHTML = "";
-    runsSection.className = "";
-    runsSection.innerHTML = '<div class="empty-state"><div class="icon">&#128339;</div>No workflow runs recorded yet.<br>Click "Run Update Now" above to try it, or wait for the daily schedule.</div>';
-    return;
-  }
-
-  const sorted = runs.slice().sort(function (a, b) {
-    return new Date(b.timestamp) - new Date(a.timestamp);
-  });
-  const totalRuns = sorted.length;
-  const totalArticles = sorted.reduce(function (sum, r) { return sum + (r.articles_added || 0); }, 0);
-  const successCount = sorted.filter(function (r) { return r.status === "success"; }).length;
-  const lastRun = sorted[0];
-
-  summarySection.innerHTML =
-    '<div class="summary-cards">' +
-      '<div class="summary-card"><div class="icon">&#128260;</div><div class="num">' + totalRuns + '</div><div class="label">Total Runs</div></div>' +
-      '<div class="summary-card"><div class="icon">&#128240;</div><div class="num">' + totalArticles + '</div><div class="label">Articles Added</div></div>' +
-      '<div class="summary-card"><div class="icon">&#9989;</div><div class="num">' + successCount + '/' + totalRuns + '</div><div class="label">Success Rate</div></div>' +
-      '<div class="summary-card"><div class="icon">&#128339;</div><div class="num" style="font-size:16px;">' +
-        (lastRun ? new Date(lastRun.timestamp).toLocaleDateString("en-US", { month: "short", day: "numeric" }) : "-") +
-      '</div><div class="label">Last Run</div></div>' +
-    '</div>';
-
-  const statusLabel = { success: "Success", failed: "Failed", rejected: "Rejected" };
-
-  runsSection.className = "";
-  runsSection.innerHTML = sorted.map(function (run) {
-    const dt = new Date(run.timestamp);
-    const dateStr = isNaN(dt) ? "—" : dt.toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" });
-    const badgeClass = run.status === "success" ? "success" : (run.status === "rejected" ? "rejected" : "failed");
-    const titlesList = (run.titles_ar || []).slice(0, 8).map(function (t) {
-      return "<li>" + esc(t) + "</li>";
-    }).join("");
-    return '' +
-      '<div class="run-card ' + badgeClass + '">' +
-        '<div class="run-card-top">' +
-          '<span class="run-badge ' + badgeClass + '">' + esc(statusLabel[run.status] || run.status) + '</span>' +
-          '<span class="run-time">' + dateStr + '</span>' +
-        '</div>' +
-        '<div class="run-stats">' +
-          '<span class="stat-item"><span class="stat-icon">&#128240;</span>Articles: <b>' + (run.articles_added != null ? run.articles_added : 0) + '</b></span>' +
-          '<span class="stat-item"><span class="stat-icon">&#127760;</span>Sources: <b>' + (esc((run.sources || []).join(", ")) || "—") + '</b></span>' +
-          '<span class="stat-item"><span class="stat-icon">&#9201;&#65039;</span>Duration: <b>' + (run.duration_seconds ? run.duration_seconds + "s" : "—") + '</b></span>' +
-          '<span class="stat-item"><span class="stat-icon">#</span>IDs: <b>' + (run.article_ids ? esc(run.article_ids.join(", ")) : "—") + '</b></span>' +
-        '</div>' +
-        (titlesList ? '<div class="run-titles"><strong>Titles added:</strong><ul>' + titlesList + '</ul></div>' : "") +
-        (run.notes ? '<div class="run-titles"><strong>Note:</strong> ' + esc(run.notes) + '</div>' : "") +
-      '</div>';
-  }).join("");
-}
-
-loadRunHistory();
 </script>
 </body>
 </html>
