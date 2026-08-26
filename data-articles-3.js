@@ -6951,4 +6951,685 @@ ARTICLES.push(
     ]
   }
 }
+,
+{
+  "id": 400,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article400/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%af%d8%b1%d8%a8-%d8%a7%d9%84%d8%a7%d8%aa%d8%ad%d8%a7%d8%af-%d9%8a%d8%b1%d8%af-%d8%b9%d9%84%d9%89-%d9%85%d9%86%d8%aa%d9%82%d8%af%d9%8a-%d8%a7%d9%84%d9%86%d8%b5%d9%8a%d8%b1%d9%8a-1796735.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مدرب الاتحاد يرد على منتقدي النصيري",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "L’entraîneur d’Al Ittihad répond aux critiques visant En-Nesyri",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Al Ittihad coach responds to criticism of En-Nesyri",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 401,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article401/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%af%d8%b1%d8%a7%d8%b3%d8%a9-%d8%a5%d9%81%d8%b1%d9%8a%d9%82%d9%8a%d8%a9-%d8%aa%d8%b9%d9%8a%d8%af-%d8%a7%d9%84%d8%b1%d8%a8%d8%b7-%d8%a7%d9%84%d8%b3%d9%83%d9%83%d9%8a-%d8%a8%d9%8a%d9%86-%d8%a7%d9%84-1796788.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "دراسة إفريقية تعيد الربط السككي بين المغرب والجزائر وتونس إلى الواجهة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Une étude africaine remet sur la table le projet de liaison ferroviaire Maroc–Algérie–Tunisie",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "African study revives rail link project between Morocco, Algeria and Tunisia",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 402,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article402/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%ad%d8%b3%d9%8a%d9%86%d9%8a-%d8%a3%d8%ae%d8%b7%d8%a7%d8%a1-%d9%88%d8%a7%d8%b4%d9%86%d8%b7%d9%86-%d8%aa%d8%b9%d8%ac%d9%84-%d8%a8%d8%aa%d8%b1%d8%a7%d8%ac%d8%b9-%d8%a7%d9%84%d8%ba%d8%b1-1796227.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الحسيني: أخطاء واشنطن تعجل بتراجع الغرب وصعود قوى دولية جديدة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "El Husseini : les erreurs de Washington accélèrent le déclin de l’Occident et la montée de nouvelles puissances",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "El Husseini: Washington’s mistakes hasten the West’s decline and the rise of new powers",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 403,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article403/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b4%d9%88%d9%83%d9%8a-%d9%8a%d8%b9%d9%84%d9%82-%d8%b9%d9%84%d9%89-%d8%aa%d8%b3%d8%b1%d9%8a%d8%a8-%d8%b5%d9%88%d8%aa%d9%8a-%d8%a7%d9%84%d9%85%d9%83%d8%aa%d8%a8-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b3-1797032.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "رئيس \"الأحرار\" يرد على التسريب الصوتي المنسوب إلى الطالببي العلمي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le chef du RNI réagit à l’enregistrement audio attribué à Talbi Alami",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "RNI leader responds to leaked audio attributed to Talbi Alami",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 404,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article404/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d9%82%d8%b1%d8%a8-%d9%85%d9%86-%d8%a7%d9%84%d8%b3%d8%b9%d8%af%d9%8a-%d9%8a%d8%b1%d8%af-%d8%b9%d9%84%d9%89-%d8%b4%d8%a8%d8%a7%d8%b9%d8%aa%d9%88-1796962.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مقرب من السعدي يرد على شباعتو",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Un proche d’Essaadi répond à Chbaiatou",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Associate of Essaadi responds to Chbaiatou",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 405,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article405/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b4%d8%a8%d8%a7%d8%b9%d8%aa%d9%88-%d9%8a%d9%83%d8%b4%d9%81-%d8%a3%d8%b3%d8%a8%d8%a7%d8%a8-%d9%85%d8%ba%d8%a7%d8%af%d8%b1%d8%a9-%d8%a7%d9%84%d8%a3%d8%ad%d8%b1%d8%a7%d8%b1-1796953.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "شباعتو يكشف أسباب مغادرة الأحرار",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Chbaiatou dévoile les raisons de son départ du RNI",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Chbaiatou reveals why he left the RNI",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 406,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article406/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-2026-%d8%ae%d8%b1%d9%8a%d8%b7%d8%a9-%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a%d8%a9-%d9%85%d8%aa%d8%ad%d8%b1%d9%83%d8%a9-%d8%aa%d8%b1%d8%b3%d9%85-%d8%af-1796861.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "انتخابات 2026.. خريطة سياسية \"متحركة\" ترسم دائرة عين الشق بالبيضاء",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Élections 2026 : une carte politique mouvante dans la circonscription d’Aïn Chock à Casablanca",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Elections 2026: a shifting political map in Casablanca’s Aïn Chock district",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 407,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article407/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%ad%d8%b2%d8%a8-%d8%a7%d9%84%d8%a3%d8%ad%d8%b1%d8%a7%d8%b1-%d9%8a%d8%b1%d9%81%d8%b6-%d8%a7%d8%b3%d8%aa%d9%85%d8%a7%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%a8%d8%a7%d9%85-1796924.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "حزب \"الأحرار\" يصعّد ضد \"الأصالة والمعاصرة\" بسبب استمالة المنتخبين",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le RNI hausse le ton contre le PAM à propos de la captation d’élus",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "RNI steps up criticism of PAM over courting elected officials",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 408,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article408/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d8%ad%d8%af%d8%a7%d8%ab-%d8%b3%d8%a8%d8%aa%d8%a9-%d8%aa%d8%af%d9%81%d8%b9-%d8%a7%d9%84%d8%ad%d9%83%d9%88%d9%85%d8%a9-%d8%a7%d9%84%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a9-%d8%a5%d9%84-1796866.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"أحداث سبتة\" تدفع الحكومة الإسبانية إلى تعديل قوانين الهجرة واللجوء",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Les \"événements de Ceuta\" poussent le gouvernement espagnol à réviser ses lois sur l’immigration et l’asile",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "“Ceuta events” push Spanish government to amend immigration and asylum laws",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 409,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article409/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%af%d9%8a%d9%83-%d9%8a%d8%b5%d9%8a%d8%ad-%d9%88%d8%a7%d9%84%d8%af%d9%84%d9%81%d9%8a%d9%86-%d9%8a%d8%b3%d8%a8%d8%ad-%d9%88%d8%a7%d9%84%d8%b5%d9%86%d8%a8%d9%88%d8%b1-%d9%8a-1796800.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"الديك يصيح\" و\"الدلفين يسبح\" و\"الصنبور\" يفتح باب التحالف السياسي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Entre coq, dauphin et robinet : des symboles qui ouvrent la voie à une alliance politique",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "From rooster to dolphin to tap: party symbols open the door to a political alliance",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 410,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article410/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-2026-17-%d9%84%d8%a7%d8%a6%d8%ad%d8%a9-%d8%aa%d8%af%d8%ae%d9%84-%d9%85%d8%b9%d8%b1%d9%83%d8%a9-%d8%b5%d8%b9%d8%a8%d8%a9-%d8%a7%d9%84%d8%aa%d9%86-1796616.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "انتخابات 2026 .. 17 لائحة تدخل معركة \"صعبة التنبؤ\" بدائرة المحمدية",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Élections 2026 : 17 listes dans une bataille imprévisible à Mohammedia",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Elections 2026: 17 lists in a hard‑to‑predict battle in Mohammedia",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 411,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article411/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d8%b3%d8%a7%d9%86%d8%af-%d9%85%d9%88%d8%b1%d9%8a%d8%aa%d8%a7%d9%86%d9%8a%d8%a7-%d8%a8%d9%81%d8%b1%d9%82-%d9%81%d9%86%d9%8a%d8%a9-%d9%88%d8%aa%d8%ac%d9%87-1796663.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "المغرب يساند موريتانيا بفرق فنية وتجهيزات لتجاوز أزمة كهرباء نواكشوط",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le Maroc soutient la Mauritanie avec des équipes techniques et des équipements pour surmonter la crise électrique à Nouakchott",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Morocco supports Mauritania with technical teams and equipment to ease Nouakchott power crisis",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 412,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article412/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%83%d9%8a%d9%81-%d8%b3%d8%a7%d9%87%d9%85%d8%aa-%d8%b3%d8%a8%d8%aa%d8%a9-%d9%81%d9%8a-%d8%a5%d8%b1%d8%b3%d8%a7%d8%a1-%d9%85%d8%ad%d8%a8%d8%a9-%d8%a7%d9%84%d8%b1%d8%b3%d9%88%d9%84-%ef%b7%ba-%d8%b6-1796531.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "كيف ساهمت سبتة في إرساء محبة الرسول ﷺ ضمن الذاكرة المغربية؟",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Comment Ceuta a contribué à ancrer l’amour du Prophète dans la mémoire marocaine ?",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "How did Ceuta help root love of the Prophet in Moroccan memory?",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 413,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article413/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%88%d8%b2%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a3%d9%88%d9%82%d8%a7%d9%81-%d8%aa%d8%b9%d9%84%d9%86-%d8%a3%d8%b3%d9%85%d8%a7%d8%a1-%d9%85%d8%aa%d9%88%d8%ac%d9%8a%d9%86-1796620.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "وزارة الأوقاف تعلن أسماء متوجين",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le ministère des Habous annonce les noms de lauréats",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Ministry of Islamic Affairs announces names of prize winners",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 414,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article414/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%ad%d9%85%d9%84%d8%a9-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d9%84%d8%a5%d9%82%d8%a7%d9%85%d8%a9-%d9%85%d8%b1%d8%a7%d8%ad%d9%8a%d8%b6-%d8%b9%d9%85%d9%88%d9%85%d9%8a%d8%a9-1795850.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "حملة جديدة لإقامة مراحيض عمومية",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Nouvelle campagne pour installer des toilettes publiques",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "New campaign launched to install public toilets",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 415,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article415/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b4%d9%83%d8%a7%d9%88%d9%89-%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-%d9%85%d9%86-%d8%a7%d9%84%d8%aa%d8%a3%d8%b4%d9%8a%d8%b1%d8%a9-%d8%a7%d9%84%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a9-%d8%aa%d8%b9-1795877.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "شكاوى مغربية من التأشيرة الإسبانية تعيد تداعيات أزمة سبتة إلى الواجهة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Les plaintes de Marocains sur les visas espagnols ravivent les séquelles de la crise de Ceuta",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Moroccan complaints over Spanish visas revive fallout from Ceuta crisis",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 416,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article416/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%ab%d9%84%d8%a7%d8%ab%d8%a9-%d9%85%d9%86%d8%a7%d8%b5%d8%a8-%d8%ac%d8%af%d9%8a%d8%af%d8%a9-%d8%aa%d8%b9%d8%b2%d8%b2-%d9%88%d9%83%d8%a7%d9%84%d8%a9-%d8%a7%d9%84%d8%af%d9%85-1795872.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "ثلاثة مناصب جديدة تعزز \"وكالة الدم\"",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Trois nouveaux postes pour renforcer l’Agence du sang",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Three new positions created to strengthen the Blood Agency",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 417,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article417/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b7%d9%84%d8%a8%d8%a9-%d9%88%d8%a3%d8%ac%d8%b1%d8%a7%d8%a1-%d9%8a%d8%ad%d8%aa%d8%ac%d9%88%d9%86-%d8%a3%d9%85%d8%a7%d9%85-%d8%a7%d9%84%d8%a8%d8%b1%d9%84%d9%85%d8%a7%d9%86-%d8%b6%d8%af-%d8%b1%d8%b3-1795796.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "طلبة وأجراء يحتجون أمام البرلمان ضد رسوم \"التوقيت الميسر\" بالجامعات",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Étudiants et salariés protestent devant le Parlement contre les frais du \"temps aménagé\" à l’université",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Students and workers protest outside Parliament against “flexible schedule” fees at universities",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 418,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article418/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%b4%d8%b1%d9%82%d8%a7%d9%88%d9%8a-%d9%8a%d8%ab%d9%85%d9%86-%d9%85%d8%ae%d9%8a%d9%85-%d8%b7%d9%81%d9%88%d9%84%d8%a9-%d8%a7%d9%84%d9%82%d8%af%d8%b3-1795837.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الشرقاوي يثمن مخيم طفولة القدس",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Echarkaoui salue le camp de l’enfance de Jérusalem",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Echarkaoui praises the Jerusalem Childhood Camp",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 419,
+  "addedAt": "2026-08-26T05:18:34Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article419/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d8%b7%d9%81%d8%a7%d9%84-%d9%85%d9%82%d8%af%d8%b3%d9%8a%d9%88%d9%86-%d9%81%d9%8a-%d8%b6%d9%8a%d8%a7%d9%81%d8%a9-%d9%84%d9%84%d8%a7-%d9%85%d8%b1%d9%8a%d9%85-1795772.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "أطفال مقدسيون في ضيافة للا مريم",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Des enfants de Jérusalem accueillis par Lalla Meriem",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Jerusalem children hosted by Princess Lalla Meriem",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+}
 );
