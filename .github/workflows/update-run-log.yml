@@ -1,0 +1,78 @@
+name: Update Run Log
+
+on:
+  workflow_dispatch:
+    inputs:
+      status:
+        description: "success, failed, or rejected"
+        required: true
+        default: "success"
+      articles_added:
+        required: false
+        default: "0"
+      sources:
+        description: "JSON array, e.g. [\"hespress\",\"le360\"]"
+        required: false
+        default: "[]"
+      duration_seconds:
+        required: false
+        default: "0"
+      titles_ar:
+        description: "JSON array of Arabic titles added"
+        required: false
+        default: "[]"
+      notes:
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  update-log:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Append run entry to run-log.json
+        run: |
+          python3 - <<'PYEOF'
+          import json, os
+          from datetime import datetime, timezone
+
+          path = "run-log.json"
+          try:
+              with open(path) as f:
+                  log = json.load(f)
+          except (FileNotFoundError, json.JSONDecodeError):
+              log = []
+
+          entry = {
+              "timestamp": datetime.now(timezone.utc).isoformat(),
+              "status": os.environ["STATUS"],
+              "articles_added": int(os.environ["ARTICLES_ADDED"] or 0),
+              "sources": json.loads(os.environ["SOURCES"] or "[]"),
+              "duration_seconds": int(os.environ["DURATION_SECONDS"] or 0),
+              "titles_ar": json.loads(os.environ["TITLES_AR"] or "[]"),
+              "notes": os.environ.get("NOTES", ""),
+          }
+          log.insert(0, entry)
+
+          with open(path, "w") as f:
+              json.dump(log, f, ensure_ascii=False, indent=2)
+          PYEOF
+        env:
+          STATUS: ${{ inputs.status }}
+          ARTICLES_ADDED: ${{ inputs.articles_added }}
+          SOURCES: ${{ inputs.sources }}
+          DURATION_SECONDS: ${{ inputs.duration_seconds }}
+          TITLES_AR: ${{ inputs.titles_ar }}
+          NOTES: ${{ inputs.notes }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add run-log.json
+          git diff --staged --quiet || git commit -m "Update run-log.json [automated]"
+          git push
