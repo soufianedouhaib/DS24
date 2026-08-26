@@ -7632,4 +7632,685 @@ ARTICLES.push(
     ]
   }
 }
+,
+{
+  "id": 420,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article420/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d9%85%d9%8a%d9%84%d8%a7%d9%86-%d9%8a%d8%ac%d8%af%d8%af-%d8%a7%d9%84%d8%a7%d9%87%d8%aa%d9%85%d8%a7%d9%85-%d8%a8%d9%85%d8%b2%d8%b1%d8%a7%d9%88%d9%8a-1796830.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "تقرير: ميلان يجدد الاهتمام بمزراوي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Rapport: l’AC Milan renouvelle son intérêt pour Mazraoui",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Report: AC Milan renews interest in Mazraoui",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 432,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article432/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d9%81%d8%aa%d8%ad-%d8%b5%d9%86%d8%af%d9%88%d9%82-%d8%af%d8%b9%d9%85-%d8%a7%d9%84%d8%a7%d8%a8%d8%aa%d9%83%d8%a7%d8%b1-%d8%a3%d9%85%d8%a7%d9%85-%d9%85%d8%ac-1796706.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الحكومة المغربية تفتح صندوق دعم الابتكار أمام صناعة الألعاب الإلكترونية",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le gouvernement marocain ouvre le fonds d’appui à l’innovation à l’industrie du jeu vidéo",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Moroccan government opens innovation support fund to video game industry",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 433,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article433/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b7%d8%a7%d9%82%d8%a9-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d8%aa%d8%ad%d8%aa-%d8%a7%d9%84%d8%b6%d8%ba%d8%b7-%d8%aa%d8%b1%d8%a7%d8%ac%d8%b9-%d8%b1%d9%82%d9%85-%d8%a7%d9%84-1796724.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "طاقة المغرب تحت الضغط.. تراجع رقم المعاملات وانخفاض جاهزية الوحدات",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "L’énergie au Maroc sous pression: recul du chiffre d’affaires et baisse de la disponibilité des unités",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Morocco’s energy sector under pressure as revenues fall and unit availability drops",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 443,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article443/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%84%d8%a8%d8%a4%d8%a7%d8%aated-u17-%d9%8a%d9%86%d8%aa%d8%b5%d8%b1%d9%86-%d8%b9%d9%84%d9%89-%d9%83%d9%88%d8%b3%d9%88%d9%81%d9%88-1797065.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "لبؤات أقل من 17 سنة ينتصرن على كوسوفو",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Les Lionnes U17 s’imposent face au Kosovo",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Morocco’s U17 Lionesses defeat Kosovo",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 459,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article459/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aات-2026-17-%d9%84%d8%a7%d8%a6%d8%ad%d8%a9-%d8%aa%d8%af%d8%ae%d9%84-%d9%85%d8%b9%d8%b1%d9%83%d8%a9-%d8%b5%d8%b9%d8%a8%d8%a9-%d8%a7%d9%84%d8%aa%d9%86-1796616.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "انتخابات 2026 .. 17 لائحة تدخل معركة صعبة التنبؤ بدائرة المحمدية",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Élections 2026: 17 listes engagées dans une bataille imprévisible à la circonscription de Mohammedia",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "2026 elections: 17 lists enter hard-to-predict race in Mohammedia district",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 469,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article469/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b3%d8%aa%d9%88%d8%b1%d9%88%d8%a8%d9%88%d9%83%d8%b3-%d8%aa%d9%87%d8%af%d8%af-%d8%a7%d9%84%d8%b3%d9%84%d8%a7%d9%85%d8%a9-%d8%a7%d9%84%d8%b7%d8%b1%d9%82%d9%8a%d8%a9-1795463.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "ستورو بوكس تهدد السلامة الطرقية",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Les boîtes StoroBox menacent la sécurité routière",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "StoroBox devices pose risk to road safety",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 470,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article470/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%87%d8%a8%d8%a9-%d9%85%d9%84%d9%83%d9%8a%d8%a9-%d8%aa%d9%82%d8%b5%d8%af-%d8%b3%d9%8a%d8%af%d9%8a-%d8%a3%d8%ad%d9%85%d8%af-%d8%a3%d9%88%d9%85%d9%88%d8%b3%d9%89-1796940.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "هبة ملكية تقصد سيدي أحمد أو موسى",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Un don royal destiné à Sidi Ahmed Oumoussa",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Royal donation sent to Sidi Ahmed Oumoussa",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 471,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article471/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d9%81%d8%b1%d8%ba%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%8a%d8%af-%d8%a8%d8%a7%d9%84%d8%b9%d9%8a%d9%88%d9%86-%d8%aa%d8%b1%d8%aa%d9%81%d8%b9-%d8%a8%d9%80-56-1796665.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مفرغات الصيد بالعيون ترتفع بـ56 بالمائة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Les débarquements de pêche à Laâyoune augmentent de 56 %",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Fish landings in Laâyoune rise by 56 percent",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 477,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article477/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d8%a8%d8%b1%d9%8a%d8%b7%d8%a7%d9%86%d9%8a-%d9%8a%d8%b3%d8%aa%d8%b9%d8%b1%d8%b6-%d9%85%d8%a4%d9%87%d9%84%d8%a7%d8%aa-%d8%aa%d8%b7%d9%88%d8%a7%d9%86-1795373.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "تقرير بريطاني يستعرض مؤهلات تطوان",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Un rapport britannique met en avant les atouts de Tétouan",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "UK report highlights Tétouan’s strengths",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 479,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article479/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%88%d8%b2%d9%8a%d8%b1%d8%a9-%d8%a7%d9%84%d8%b5%d8%ad%d8%a9-%d8%a7%d9%84%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a9-%d8%aa%d8%b1%d9%81%d8%b6-%d8%a7%d9%84%d8%b9%d8%b2%d9%84-%d8%a7%d9%84%d8%b5%d8%ad-1795861.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "وزيرة الصحة الإسبانية ترفض العزل الصحي في سبتة بسبب الأمراض المعدية",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La ministre espagnole de la Santé refuse la mise en quarantaine sanitaire à Ceuta pour cause de maladies infectieuses",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Spanish health minister rejects quarantine in Ceuta over infectious diseases",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 480,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article480/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a8%d8%a7%d8%b2%d9%8a-%d9%8a%d8%b9%d8%b1%d8%a8-%d9%83%d8%aa%d8%a7%d8%a8%d8%a7%d8%aa-%d8%b9%d9%86-%d8%ad%d9%8a%d8%a7%d8%a9-%d8%a7%d9%84%d9%86%d8%a8%d9%8a-1796627.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "بازي يعرب كتابات عن حياة النبي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Bazi traduit en arabe des ouvrages sur la vie du Prophète",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Bazi translates works on the Prophet’s life into Arabic",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 481,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article481/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%83%d8%aa%d8%a7%d8%a8-%d9%8a%d9%88%d8%ab%d9%82-%d9%85%d8%af%d8%b1%d8%b3%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%b6%d8%a7%d8%a1-%d9%84%d9%84%d9%81%d9%86%d9%88%d9%86-1795921.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "إصدار يوثق مدرسة البيضاء للفنون",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Une nouvelle publication documente l’École de Casablanca des arts",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "New publication documents Casablanca School of Arts",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 482,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article482/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%b4%d9%87%d8%af-%d8%a7%d9%84%d8%a3%d9%83%d8%a7%d8%af%d9%8a%d9%85%d9%8a-%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8%d9%8a-%d9%8a%d9%88%d8%af%d8%b9-%d8%a7%d9%84%d8%a3%d9%86%d8%ab%d8%b1-1795832.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "المشهد الأكاديمي المغربي يودع الأنثروبولوجي عبد الرحمن لخصاصي",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La scène académique marocaine fait ses adieux à l’anthropologue Abdelrahman Lakhsassi",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Moroccan academic community bids farewell to anthropologist Abdelrahman Lakhsassi",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 483,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "culture",
+  "img": "https://picsum.photos/seed/ds24article483/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ae%d8%b1%d8%ac-%d8%a7%d9%84%d8%b1%d8%a7%d8%ad%d9%84-%d9%85%d8%b5%d8%b7%d9%81%d9%89-%d8%a7%d9%84%d8%af%d8%b1%d9%82%d8%a7%d9%88%d9%8a-%d8%a7%d9%84%d8%b3%d9%8a%d9%86%d9%85%d8%a7-1795569.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "المخرج الراحل مصطفى الدر قاوي.. السينما تمشي في شوارع البيضاء",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le réalisateur défunt Mostafa Derkaoui, ou lorsque le cinéma marche dans les rues de Casablanca",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Late director Mostafa Derkaoui: when cinema walked the streets of Casablanca",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 484,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article484/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d9%87%d8%b1%d8%ac%d8%a7%d9%86-%d8%a7%d9%84%d9%82%d9%84%d8%b9%d8%a9-%d9%8a%d9%83%d8%b3%d8%b1-%d8%ad%d9%88%d8%a7%d8%ac%d8%b2-%d8%a7%d9%84%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-1795441.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مهرجان القلعة يكسر حواجز الأسعار",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Le festival de Kalaa brise les barrières des prix",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Kalaat festival breaks price barriers",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 485,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article485/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%82%d9%86%d8%a7%d8%b9-%d9%88%d8%a7%d9%84%d8%b0%d8%a7%d9%83%d8%b1%d8%a9-%d9%88%d8%a7%d9%84%d9%88%d8%ad%d8%af%d8%a9-%d8%a7%d9%84%d9%88%d8%ac%d9%87-%d8%a7%d9%84%d8%a5%d9%86%d8%b3%d8%a7-1795195.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "القناع والذاكرة والوحدة.. الوجه الإنساني الخفي لسبايدرمان الجديد",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Masque, mémoire et solitude: le visage humain caché du nouveau Spider-Man",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Mask, memory and loneliness: the hidden human face of the new Spider-Man",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 486,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article486/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a8%d8%b6%d8%b9%d8%a9-%d9%85%d8%b4%d9%8a%d9%91%d8%b9%d9%8a%d9%86-%d9%81%d9%8a-%d9%88%d8%af%d8%a7%d8%b9-%d8%a7%d9%84%d8%b3%d8%b1%d8%ba%d9%8a%d9%86%d9%8a-%d8%ac%d9%86%d8%a7%d8%b2%d8%a9-%d8%b1-1794993.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "بضعة مشيّعين في وداع السرغيني.. جنازة رائد الشعر تسائل الاعتراف",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Quelques personnes seulement aux funérailles de Sarghini: l’enterrement d’un pionnier de la poésie interroge la reconnaissance",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Only a few mourners at Sarghini’s funeral: farewell to a poetry pioneer raises questions about recognition",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 487,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article487/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b1%d8%ad%d9%8a%d9%84-%d8%a7%d9%84%d8%af%d8%b1%d9%82%d8%a7%d9%88%d9%8a-%d9%85%d8%ae%d8%b1%d8%ac-%d8%a3%d8%ad%d8%af%d8%a7%d8%ab-%d8%a8%d9%84%d8%a7-%d8%af%d9%84%d8%a7%d9%84%d8%a9-1794897.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "رحيل الدر قاوي.. مخرج أحداث بلا دلالة",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "La disparition de Derkaoui, réalisateur d’«Événements sans signification»",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Derkaoui passes away, director of “Events Without Meaning”",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 488,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article488/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a3%d9%86%d9%8a%d8%b3%d8%a9-%d8%a8%d9%88%d9%83%d9%84%d8%a7%d8%b7%d8%a9-%d8%aa%d9%82%d8%b1%d8%b6-%d8%ac%d9%86%d8%a7%d8%af%d9%84-%d8%a7%d9%84%d8%a7%d8%b4%d8%aa%d9%87%d8%a7%d8%a1-1794730.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "أنيسة بوكلاتة تقرض جنادل الاشتهاء",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Anissa Bouklata signe le recueil «Genadel al-Ishtihâ»",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Anissa Bouklata publishes poetry collection “Genadel al-Ishtihâ”",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 489,
+  "addedAt": "2026-08-26T05:36:42Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article489/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%84%d8%b9%d8%a8-%d9%85%d8%ba%d8%b1%d8%a8%d9%8a%d8%a9-%d8%aa%d8%ae%d9%84%d9%82-%d8%a7%d9%84%d8%a8%d8%af%d9%8a%d9%84-%d8%a7%d9%84%d9%85%d9%85%d8%aa%d8%b9-%d9%88%d8%aa%d9%84%d8%a8%d9%8a-%d8%ad-1794365.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "لعب مغربية تخلق البديل الممتع وتلبي حاجة الأطفال إلى الانتماء والتعلم",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "Des jeux marocains offrent une alternative ludique répondant au besoin d’appartenance et d’apprentissage des enfants",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "Moroccan games provide enjoyable alternative that meets children’s need for belonging and learning",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+}
 );
