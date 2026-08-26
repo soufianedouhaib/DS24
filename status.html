@@ -160,11 +160,6 @@
 </head>
 <body>
 
-<div class="util-bar" id="utilBar"></div>
-<header class="main" id="siteHeader"></header>
-<nav class="main-nav" id="siteNav"></nav>
-<div class="ticker" id="siteTicker"></div>
-
 <div class="hero-band">
   <img src="logo-horizontal-reveal.gif" alt="DS24" class="brand-logo">
   <h1><span class="live-dot"></span>Automation Status</h1>
@@ -216,17 +211,10 @@
 
 </div>
 
-<footer id="siteFooter"></footer>
-
-<script src="data-core.js"></script>
-<script src="data-articles-1.js"></script>
-<script src="data-articles-2.js"></script>
-<script src="data-articles-3.js"></script>
-<script src="app.js"></script>
 <script>
-renderChrome("status");
-// This is an internal status page — keep it English/LTR regardless of
-// whatever language the visitor last selected on the main site.
+// Standalone internal status page: no site header, nav, ticker or footer,
+// and no article data files — none of it is used here. Always English/LTR
+// regardless of what language the visitor last chose on the main site.
 document.documentElement.lang = "en";
 document.documentElement.dir = "ltr";
 
@@ -380,8 +368,18 @@ document.getElementById("triggerBtn").addEventListener("click", async function (
 
     if (result.status === "COMPLETED") {
       msgEl.className = "trigger-msg success";
-      msgEl.textContent = "Run completed. Refreshing run history...";
-      await loadRunHistory();
+      msgEl.textContent = "Run completed. Waiting for GitHub Pages to publish...";
+      // The commit lands immediately, but Pages needs to rebuild and the CDN
+      // needs to catch up before run-log.json serves the new entry.
+      const before = document.querySelectorAll("#runsSection .run-card").length;
+      for (let attempt = 0; attempt < 10; attempt++) {
+        await new Promise(function (r) { setTimeout(r, 15000); });
+        await loadRunHistory();
+        if (document.querySelectorAll("#runsSection .run-card").length > before) break;
+        msgEl.textContent = "Run completed. Waiting for GitHub Pages to publish... (" +
+          ((attempt + 1) * 15) + "s)";
+      }
+      msgEl.className = "trigger-msg success";
       msgEl.textContent = "Run completed successfully.";
     } else if (result.unreachable) {
       msgEl.className = "trigger-msg error";
