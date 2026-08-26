@@ -63,6 +63,44 @@
   .trigger-msg.error { color: #C0392B; }
   .trigger-msg.pending { color: var(--ink-soft); }
 
+  /* ---- live run progress ---- */
+  .progress-box {
+    max-width: 520px; margin: 18px auto 0; text-align: left;
+    background: var(--paper); border: 1px solid var(--line);
+    border-radius: 12px; padding: 16px 18px;
+  }
+  .progress-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    gap: 12px; margin-bottom: 10px;
+  }
+  .progress-node {
+    font-size: 13.5px; font-weight: 600; color: var(--ink);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .progress-count { font-size: 12.5px; color: var(--ink-soft); flex-shrink: 0; font-variant-numeric: tabular-nums; }
+  .progress-track {
+    height: 8px; border-radius: 99px; background: rgba(11,92,59,0.10); overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%; width: 0%; border-radius: 99px;
+    background: linear-gradient(90deg, var(--green-mid), var(--green-bright));
+    transition: width 0.5s ease;
+  }
+  .progress-fill.failed { background: #C0392B; }
+  .progress-steps {
+    margin-top: 12px; display: flex; flex-wrap: wrap; gap: 6px;
+  }
+  .step-chip {
+    font-size: 11.5px; padding: 3px 9px; border-radius: 20px;
+    background: rgba(30,158,99,0.13); color: var(--green-mid); font-weight: 500;
+  }
+  .step-chip.running {
+    background: rgba(201,163,78,0.22); color: #8a6a1f;
+    animation: pulse-dot 1.6s infinite;
+  }
+  .step-chip.failed { background: rgba(220,60,60,0.14); color: #C0392B; }
+  .progress-elapsed { margin-top: 10px; font-size: 12px; color: var(--ink-soft); }
+
   .summary-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 30px; }
   .summary-card {
     background: var(--card-bg); border: 1px solid var(--line); border-radius: 14px;
@@ -144,6 +182,16 @@
     </div>
     <button id="triggerBtn" class="trigger-btn">&#9654; Run Update Now</button>
     <div id="triggerMsg" class="trigger-msg"></div>
+
+    <div id="progressBox" class="progress-box" hidden>
+      <div class="progress-head">
+        <span class="progress-node" id="progressNode">Starting run...</span>
+        <span class="progress-count" id="progressCount"></span>
+      </div>
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+      <div class="progress-steps" id="progressSteps"></div>
+      <div class="progress-elapsed" id="progressElapsed"></div>
+    </div>
   </div>
 
   <div class="feature-strip">
@@ -184,6 +232,105 @@ document.documentElement.dir = "ltr";
 
 const WORKER_URL = "https://ds24-trigger.soufiane-douhaib.workers.dev";
 
+// Poll settings: check every 5s, give up after ~15 minutes.
+const POLL_INTERVAL_MS = 5000;
+const POLL_MAX_TRIES = 180;
+const TERMINAL_STATES = ["COMPLETED", "FAILED", "CANCELLED", "TIMED_OUT"];
+
+// Escape anything that comes from the API or the run log before it goes
+// into innerHTML — node names and article titles are untrusted input.
+function esc(value) {
+  return String(value == null ? "" : value)
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+}
+
+/* ------------------------------------------------------------------ */
+/*  Live progress                                                      */
+/* ------------------------------------------------------------------ */
+
+const progressBox = document.getElementById("progressBox");
+const progressNode = document.getElementById("progressNode");
+const progressCount = document.getElementById("progressCount");
+const progressFill = document.getElementById("progressFill");
+const progressSteps = document.getElementById("progressSteps");
+const progressElapsed = document.getElementById("progressElapsed");
+
+function resetProgress() {
+  progressBox.hidden = false;
+  progressNode.textContent = "Starting run...";
+  progressCount.textContent = "";
+  progressFill.style.width = "0%";
+  progressFill.classList.remove("failed");
+  progressSteps.innerHTML = "";
+  progressElapsed.textContent = "";
+}
+
+function renderProgress(p, startedAt) {
+  const done = p.executedNodeCount || 0;
+  const total = p.totalNodeCount || 0;
+  const pct = total ? Math.round((done / total) * 100) : 0;
+
+  progressFill.style.width = pct + "%";
+  progressCount.textContent = total ? done + " / " + total + " steps" : p.status;
+
+  if (p.runningNode) {
+    progressNode.textContent = p.runningNode;
+  } else if (p.status === "PENDING") {
+    progressNode.textContent = "Queued...";
+  } else if (p.status === "COMPLETED") {
+    progressNode.textContent = "All steps complete";
+  } else if (p.status !== "IN_PROGRESS") {
+    progressNode.textContent = p.status;
+  }
+
+  const failed = p.failedNodes || [];
+  if (failed.length) progressFill.classList.add("failed");
+
+  const chips = [];
+  (p.executedNodes || []).forEach(function (name) {
+    const cls = failed.indexOf(name) !== -1 ? "step-chip failed" : "step-chip";
+    chips.push('<span class="' + cls + '">' + esc(name) + "</span>");
+  });
+  if (p.runningNode) {
+    chips.push('<span class="step-chip running">' + esc(p.runningNode) + "</span>");
+  }
+  progressSteps.innerHTML = chips.join("");
+
+  const secs = Math.round((Date.now() - startedAt) / 1000);
+  const mins = Math.floor(secs / 60);
+  progressElapsed.textContent =
+    "Elapsed: " + (mins ? mins + "m " + (secs % 60) + "s" : secs + "s");
+}
+
+async function trackCase(caseId) {
+  const startedAt = Date.now();
+  let consecutiveErrors = 0;
+
+  for (let i = 0; i < POLL_MAX_TRIES; i++) {
+    await new Promise(function (r) { setTimeout(r, POLL_INTERVAL_MS); });
+    try {
+      const res = await fetch(
+        WORKER_URL + "/progress?caseId=" + encodeURIComponent(caseId)
+      );
+      const p = await res.json();
+      consecutiveErrors = 0;
+      renderProgress(p, startedAt);
+      if (TERMINAL_STATES.indexOf(p.status) !== -1) return p;
+    } catch (err) {
+      // A transient blip is fine; only bail if the service stays unreachable.
+      if (++consecutiveErrors >= 6) {
+        return { status: "UNKNOWN", unreachable: true };
+      }
+    }
+  }
+  return { status: "TIMED_OUT", pollLimitReached: true };
+}
+
+/* ------------------------------------------------------------------ */
+/*  Trigger button                                                     */
+/* ------------------------------------------------------------------ */
+
 document.getElementById("triggerBtn").addEventListener("click", async function () {
   const btn = this;
   const msgEl = document.getElementById("triggerMsg");
@@ -201,6 +348,7 @@ document.getElementById("triggerBtn").addEventListener("click", async function (
   btn.textContent = "Running...";
   msgEl.className = "trigger-msg pending";
   msgEl.textContent = "Sending trigger request, please wait...";
+  progressBox.hidden = true;
 
   try {
     const resp = await fetch(WORKER_URL, {
@@ -210,14 +358,42 @@ document.getElementById("triggerBtn").addEventListener("click", async function (
     });
     const data = await resp.json();
 
-    if (resp.ok && data.success) {
-      msgEl.className = "trigger-msg success";
-      msgEl.textContent = "Workflow triggered successfully. It may take a few minutes for results to appear here and on the site.";
-      tokenInput.value = ""; // clear it immediately after use — never left sitting in the field
-    } else {
+    if (!resp.ok || !data.success) {
       msgEl.className = "trigger-msg error";
       msgEl.textContent = "Something went wrong: " + (data.error || "Unknown error") +
         (data.details ? " — " + JSON.stringify(data.details) : "");
+      return;
+    }
+
+    tokenInput.value = ""; // clear it immediately after use — never left sitting in the field
+    msgEl.className = "trigger-msg pending";
+    msgEl.textContent = "Workflow started. Tracking progress below...";
+
+    if (!data.caseId) {
+      msgEl.className = "trigger-msg success";
+      msgEl.textContent = "Workflow triggered successfully, but no case ID was returned — progress can't be tracked.";
+      return;
+    }
+
+    resetProgress();
+    const result = await trackCase(data.caseId);
+
+    if (result.status === "COMPLETED") {
+      msgEl.className = "trigger-msg success";
+      msgEl.textContent = "Run completed. Refreshing run history...";
+      await loadRunHistory();
+      msgEl.textContent = "Run completed successfully.";
+    } else if (result.unreachable) {
+      msgEl.className = "trigger-msg error";
+      msgEl.textContent = "Lost contact with the progress service. The run may still be going — reload in a few minutes.";
+    } else if (result.pollLimitReached) {
+      msgEl.className = "trigger-msg error";
+      msgEl.textContent = "Still running after 15 minutes. It hasn't failed — reload the page later to see the result.";
+    } else {
+      msgEl.className = "trigger-msg error";
+      const failed = (result.failedNodes || []).join(", ");
+      msgEl.textContent = "Run ended with status " + result.status +
+        (failed ? " — failed at: " + failed : "");
     }
   } catch (err) {
     msgEl.className = "trigger-msg error";
@@ -228,57 +404,76 @@ document.getElementById("triggerBtn").addEventListener("click", async function (
   }
 });
 
-fetch("run-log.json?t=" + Date.now())
-  .then(r => r.ok ? r.json() : [])
-  .catch(() => [])
-  .then(runs => {
-    const runsSection = document.getElementById("runsSection");
-    const summarySection = document.getElementById("summarySection");
+/* ------------------------------------------------------------------ */
+/*  Run history                                                        */
+/* ------------------------------------------------------------------ */
 
-    if (!Array.isArray(runs) || runs.length === 0) {
-      summarySection.innerHTML = "";
-      runsSection.innerHTML = `<div class="empty-state"><div class="icon">&#128339;</div>No workflow runs recorded yet.<br>Click "Run Update Now" above to try it, or wait for the daily schedule.</div>`;
-      return;
-    }
+async function loadRunHistory() {
+  const runsSection = document.getElementById("runsSection");
+  const summarySection = document.getElementById("summarySection");
 
-    const sorted = runs.slice().sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
-    const totalRuns = sorted.length;
-    const totalArticles = sorted.reduce((sum, r) => sum + (r.articles_added || 0), 0);
-    const successCount = sorted.filter(r => r.status === "success").length;
-    const lastRun = sorted[0];
+  let runs = [];
+  try {
+    const r = await fetch("run-log.json?t=" + Date.now());
+    if (r.ok) runs = await r.json();
+  } catch (err) {
+    runs = [];
+  }
 
-    summarySection.innerHTML = `
-      <div class="summary-cards">
-        <div class="summary-card"><div class="icon">&#128260;</div><div class="num">${totalRuns}</div><div class="label">Total Runs</div></div>
-        <div class="summary-card"><div class="icon">&#128240;</div><div class="num">${totalArticles}</div><div class="label">Articles Added</div></div>
-        <div class="summary-card"><div class="icon">&#9989;</div><div class="num">${successCount}/${totalRuns}</div><div class="label">Success Rate</div></div>
-        <div class="summary-card"><div class="icon">&#128339;</div><div class="num" style="font-size:16px;">${lastRun ? new Date(lastRun.timestamp).toLocaleDateString("en-US", { month: "short", day: "numeric" }) : "-"}</div><div class="label">Last Run</div></div>
-      </div>`;
+  if (!Array.isArray(runs) || runs.length === 0) {
+    summarySection.innerHTML = "";
+    runsSection.className = "";
+    runsSection.innerHTML = '<div class="empty-state"><div class="icon">&#128339;</div>No workflow runs recorded yet.<br>Click "Run Update Now" above to try it, or wait for the daily schedule.</div>';
+    return;
+  }
 
-    const statusLabel = { success: "Success", failed: "Failed", rejected: "Rejected" };
-
-    runsSection.innerHTML = sorted.map(run => {
-      const dt = new Date(run.timestamp);
-      const dateStr = dt.toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" });
-      const badgeClass = run.status === "success" ? "success" : (run.status === "rejected" ? "rejected" : "failed");
-      const titlesList = (run.titles_ar || []).slice(0, 8).map(t => `<li>${t}</li>`).join("");
-      return `
-        <div class="run-card ${badgeClass}">
-          <div class="run-card-top">
-            <span class="run-badge ${badgeClass}">${statusLabel[run.status] || run.status}</span>
-            <span class="run-time">${dateStr}</span>
-          </div>
-          <div class="run-stats">
-            <span class="stat-item"><span class="stat-icon">&#128240;</span>Articles: <b>${run.articles_added ?? 0}</b></span>
-            <span class="stat-item"><span class="stat-icon">&#127760;</span>Sources: <b>${(run.sources || []).join(", ") || "—"}</b></span>
-            <span class="stat-item"><span class="stat-icon">&#9201;&#65039;</span>Duration: <b>${run.duration_seconds ? run.duration_seconds + "s" : "—"}</b></span>
-            <span class="stat-item"><span class="stat-icon">#</span>IDs: <b>${run.article_ids ? run.article_ids.join(", ") : "—"}</b></span>
-          </div>
-          ${titlesList ? `<div class="run-titles"><strong>Titles added:</strong><ul>${titlesList}</ul></div>` : ""}
-          ${run.notes ? `<div class="run-titles"><strong>Note:</strong> ${run.notes}</div>` : ""}
-        </div>`;
-    }).join("");
+  const sorted = runs.slice().sort(function (a, b) {
+    return new Date(b.timestamp) - new Date(a.timestamp);
   });
+  const totalRuns = sorted.length;
+  const totalArticles = sorted.reduce(function (sum, r) { return sum + (r.articles_added || 0); }, 0);
+  const successCount = sorted.filter(function (r) { return r.status === "success"; }).length;
+  const lastRun = sorted[0];
+
+  summarySection.innerHTML =
+    '<div class="summary-cards">' +
+      '<div class="summary-card"><div class="icon">&#128260;</div><div class="num">' + totalRuns + '</div><div class="label">Total Runs</div></div>' +
+      '<div class="summary-card"><div class="icon">&#128240;</div><div class="num">' + totalArticles + '</div><div class="label">Articles Added</div></div>' +
+      '<div class="summary-card"><div class="icon">&#9989;</div><div class="num">' + successCount + '/' + totalRuns + '</div><div class="label">Success Rate</div></div>' +
+      '<div class="summary-card"><div class="icon">&#128339;</div><div class="num" style="font-size:16px;">' +
+        (lastRun ? new Date(lastRun.timestamp).toLocaleDateString("en-US", { month: "short", day: "numeric" }) : "-") +
+      '</div><div class="label">Last Run</div></div>' +
+    '</div>';
+
+  const statusLabel = { success: "Success", failed: "Failed", rejected: "Rejected" };
+
+  runsSection.className = "";
+  runsSection.innerHTML = sorted.map(function (run) {
+    const dt = new Date(run.timestamp);
+    const dateStr = isNaN(dt) ? "—" : dt.toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" });
+    const badgeClass = run.status === "success" ? "success" : (run.status === "rejected" ? "rejected" : "failed");
+    const titlesList = (run.titles_ar || []).slice(0, 8).map(function (t) {
+      return "<li>" + esc(t) + "</li>";
+    }).join("");
+    return '' +
+      '<div class="run-card ' + badgeClass + '">' +
+        '<div class="run-card-top">' +
+          '<span class="run-badge ' + badgeClass + '">' + esc(statusLabel[run.status] || run.status) + '</span>' +
+          '<span class="run-time">' + dateStr + '</span>' +
+        '</div>' +
+        '<div class="run-stats">' +
+          '<span class="stat-item"><span class="stat-icon">&#128240;</span>Articles: <b>' + (run.articles_added != null ? run.articles_added : 0) + '</b></span>' +
+          '<span class="stat-item"><span class="stat-icon">&#127760;</span>Sources: <b>' + (esc((run.sources || []).join(", ")) || "—") + '</b></span>' +
+          '<span class="stat-item"><span class="stat-icon">&#9201;&#65039;</span>Duration: <b>' + (run.duration_seconds ? run.duration_seconds + "s" : "—") + '</b></span>' +
+          '<span class="stat-item"><span class="stat-icon">#</span>IDs: <b>' + (run.article_ids ? esc(run.article_ids.join(", ")) : "—") + '</b></span>' +
+        '</div>' +
+        (titlesList ? '<div class="run-titles"><strong>Titles added:</strong><ul>' + titlesList + '</ul></div>' : "") +
+        (run.notes ? '<div class="run-titles"><strong>Note:</strong> ' + esc(run.notes) + '</div>' : "") +
+      '</div>';
+  }).join("");
+}
+
+loadRunHistory();
 </script>
 </body>
 </html>
