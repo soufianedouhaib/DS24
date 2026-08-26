@@ -8315,4 +8315,379 @@ ARTICLES.push(
 }
 ,
 
+,
+{
+  "id": 490,
+  "addedAt": "2026-08-26T09:15:27Z",
+  "category": "regions",
+  "img": "https://picsum.photos/seed/ds24article490/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%ad%d9%81%d8%b1-%d8%aa%d8%ba%d8%b2%d9%88-%d8%b4%d9%88%d8%a7%d8%b1%d8%b9-%d9%85%d8%af%d9%8a%d9%86%d8%a9-%d8%b3%d9%84%d8%a7-1797112.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "حفر تغزو شوارع مدينة سلا",
+    "excerpt": "نشر موقع هسبريس مادة خبرية بعنوان \"حفر تغزو شوارع مدينة سلا\" ترصد الوضع الحالي لشوارع المدينة وما تعانيه من انتشار الحفر وتأثير ذلك على التنقل اليومي ",
+    "body": [
+      "نشر موقع هسبريس مادة خبرية بعنوان \"حفر تغزو شوارع مدينة سلا\" ترصد الوضع الحالي لشوارع المدينة وما تعانيه من انتشار الحفر وتأثير ذلك على التنقل اليومي للسكان."
+    ]
+  },
+  "fr": {
+    "title": "Des nids-de-poule envahissent les rues de Salé",
+    "excerpt": "Le site Hespress a publié un article intitulé \"Des nids-de-poule envahissent les rues de Salé\" qui décrit l’état des voies de la ville et l’impact de ",
+    "body": [
+      "Le site Hespress a publié un article intitulé \"Des nids-de-poule envahissent les rues de Salé\" qui décrit l’état des voies de la ville et l’impact de ces dégradations sur les déplacements des habitants."
+    ]
+  },
+  "en": {
+    "title": "Potholes spread across the streets of Salé",
+    "excerpt": "Hespress published a report titled \"Potholes spread across the streets of Salé\" highlighting the condition of the city’s roads and how widespread poth",
+    "body": [
+      "Hespress published a report titled \"Potholes spread across the streets of Salé\" highlighting the condition of the city’s roads and how widespread potholes are affecting daily mobility."
+    ]
+  }
+},
+{
+  "id": 491,
+  "addedAt": "2026-08-26T09:15:27Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article491/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-2026-%d9%83%d9%8a%d9%81-%d8%aa%d8%ba%d9%8a%d8%b1%d8%aa-%d8%a7%d9%84%d8%ae%d8%b1%d9%8a%d8%b7%d8%a9-%d8%b9%d9%84%d9%89-%d9%85%d8%b3%d8%aa%d9%88%d9%89-1796713.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "انتخابات 2026 .. كيف تغيرت الخريطة على مستوى \"مراكش المدينة\"؟",
+    "excerpt": "يتناول تقرير هسبريس المعنون \"انتخابات 2026 .. كيف تغيرت الخريطة على مستوى مراكش المدينة؟\" تحولات الخريطة السياسية بالمدينة استعدادا للاستحقاقات التشري",
+    "body": [
+      "يتناول تقرير هسبريس المعنون \"انتخابات 2026 .. كيف تغيرت الخريطة على مستوى مراكش المدينة؟\" تحولات الخريطة السياسية بالمدينة استعدادا للاستحقاقات التشريعية لسنة 2026."
+    ]
+  },
+  "fr": {
+    "title": "Élections 2026 : comment la carte politique a changé à Marrakech-ville ?",
+    "excerpt": "Dans un article intitulé \"Élections 2026 : comment la carte politique a changé à Marrakech-ville ?\", Hespress passe en revue les évolutions de la cart",
+    "body": [
+      "Dans un article intitulé \"Élections 2026 : comment la carte politique a changé à Marrakech-ville ?\", Hespress passe en revue les évolutions de la carte politique locale à l’approche du scrutin de 2026."
+    ]
+  },
+  "en": {
+    "title": "Elections 2026: How has the political map changed in Marrakech city?",
+    "excerpt": "In its article titled \"Elections 2026: How has the political map changed in Marrakech city?\", Hespress reviews shifts in the local political landscape",
+    "body": [
+      "In its article titled \"Elections 2026: How has the political map changed in Marrakech city?\", Hespress reviews shifts in the local political landscape ahead of the 2026 elections."
+    ]
+  }
+},
+{
+  "id": 492,
+  "addedAt": "2026-08-26T09:15:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article492/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%ac%d8%af%d9%8a%d8%af-%d8%b1%d8%b3%d9%88%d9%85-%d8%a7%d9%84%d8%aa%d9%88%d9%82%d9%8a%d8%aa-%d8%a7%d9%84%d8%ac%d8%a7%d9%85%d8%b9%d9%8a-%d8%a7%d9%84%d9%85%d9%8a%d8%b3%d8%b1-1796911.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "جديد رسوم \"التوقيت الجامعي الميسر\"",
+    "excerpt": "يقدم تقرير هسبريس الموسوم \"جديد رسوم التوقيت الجامعي الميسر\" معطيات محدثة حول الرسوم المرتبطة بهذا النظام وآخر المستجدات المتعلقة بتطبيقه في الجامعات.",
+    "body": [
+      "يقدم تقرير هسبريس الموسوم \"جديد رسوم التوقيت الجامعي الميسر\" معطيات محدثة حول الرسوم المرتبطة بهذا النظام وآخر المستجدات المتعلقة بتطبيقه في الجامعات."
+    ]
+  },
+  "fr": {
+    "title": "Nouveautés concernant les frais du \"temps universitaire facilité\"",
+    "excerpt": "Sous le titre \"Nouveautés concernant les frais du temps universitaire facilité\", Hespress présente les informations actualisées sur les frais liés à c",
+    "body": [
+      "Sous le titre \"Nouveautés concernant les frais du temps universitaire facilité\", Hespress présente les informations actualisées sur les frais liés à ce dispositif et son application dans les universités."
+    ]
+  },
+  "en": {
+    "title": "New details on \"facilitated university schedule\" fees",
+    "excerpt": "Hespress, in an article titled \"New details on ‘facilitated university schedule’ fees\", outlines updated information on the fees associated with this ",
+    "body": [
+      "Hespress, in an article titled \"New details on ‘facilitated university schedule’ fees\", outlines updated information on the fees associated with this system and how it is being implemented at universities."
+    ]
+  }
+},
+{
+  "id": 493,
+  "addedAt": "2026-08-26T09:15:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article493/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b7%d9%87%d8%b1%d8%a7%d9%86-%d8%aa%d8%b4%d8%aa%d8%b1%d8%b7-%d8%a5%d9%86%d9%87%d8%a7%d8%a1-%d8%a7%d9%84%d8%ad%d8%b1%d8%a8-%d9%84%d9%81%d8%aa%d8%ad-%d9%87%d8%b1%d9%85%d8%b2-1797104.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "طهران تشترط إنهاء الحرب لفتح هرمز",
+    "excerpt": "يتطرق مقال هسبريس المعنون \"طهران تشترط إنهاء الحرب لفتح هرمز\" إلى الموقف الإيراني الأخير بخصوص مضيق هرمز وربطه بإنهاء الحرب الدائرة.",
+    "body": [
+      "يتطرق مقال هسبريس المعنون \"طهران تشترط إنهاء الحرب لفتح هرمز\" إلى الموقف الإيراني الأخير بخصوص مضيق هرمز وربطه بإنهاء الحرب الدائرة."
+    ]
+  },
+  "fr": {
+    "title": "Téhéran conditionne la réouverture d’Ormuz à la fin de la guerre",
+    "excerpt": "L’article de Hespress intitulé \"Téhéran conditionne la réouverture d’Ormuz à la fin de la guerre\" revient sur la position récente de l’Iran au sujet d",
+    "body": [
+      "L’article de Hespress intitulé \"Téhéran conditionne la réouverture d’Ormuz à la fin de la guerre\" revient sur la position récente de l’Iran au sujet du détroit d’Ormuz et son lien avec la fin du conflit en cours."
+    ]
+  },
+  "en": {
+    "title": "Tehran ties reopening of Hormuz to end of the war",
+    "excerpt": "Hespress, in a piece titled \"Tehran ties reopening of Hormuz to end of the war\", reports on Iran’s latest stance concerning the Strait of Hormuz and i",
+    "body": [
+      "Hespress, in a piece titled \"Tehran ties reopening of Hormuz to end of the war\", reports on Iran’s latest stance concerning the Strait of Hormuz and its connection to ending the ongoing conflict."
+    ]
+  }
+},
+{
+  "id": 494,
+  "addedAt": "2026-08-26T09:15:27Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article494/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%b7%d9%84%d8%a8-%d8%a5%d9%84%d8%ba%d8%a7%d8%a1-%d8%aa%d8%b3%d9%82%d9%8a%d9%81-%d8%a7%d9%84%d8%b3%d9%86-%d9%81%d9%8a-%d9%85%d8%a8%d8%a7%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b9-1796889.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مطلب إلغاء \"تسقيف السن\" في مباريات التعليم ينتظر الحكومة المقبلة",
+    "excerpt": "يرصد تقرير هسبريس بعنوان \"مطلب إلغاء تسقيف السن في مباريات التعليم ينتظر الحكومة المقبلة\" الجدل القائم حول شرط السن في التوظيف بقطاع التعليم وترقّب ما",
+    "body": [
+      "يرصد تقرير هسبريس بعنوان \"مطلب إلغاء تسقيف السن في مباريات التعليم ينتظر الحكومة المقبلة\" الجدل القائم حول شرط السن في التوظيف بقطاع التعليم وترقّب ما ستقرره الحكومة المقبلة."
+    ]
+  },
+  "fr": {
+    "title": "La demande de suppression du plafond d’âge aux concours de l’enseignement en attente du prochain gouvernement",
+    "excerpt": "Sous le titre \"La demande de suppression du plafond d’âge aux concours de l’enseignement en attente du prochain gouvernement\", Hespress revient sur le",
+    "body": [
+      "Sous le titre \"La demande de suppression du plafond d’âge aux concours de l’enseignement en attente du prochain gouvernement\", Hespress revient sur le débat autour du critère d’âge dans le recrutement et les attentes vis-à-vis du prochain exécutif."
+    ]
+  },
+  "en": {
+    "title": "Call to scrap age limit in teaching recruitment exams awaits next government",
+    "excerpt": "In an article titled \"Call to scrap age limit in teaching recruitment exams awaits next government\", Hespress reviews the ongoing debate over age limi",
+    "body": [
+      "In an article titled \"Call to scrap age limit in teaching recruitment exams awaits next government\", Hespress reviews the ongoing debate over age limits in education hiring and what may be decided by the next government."
+    ]
+  }
+},
+{
+  "id": 495,
+  "addedAt": "2026-08-26T09:15:27Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article495/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%ba%d8%b1%d9%82-%d9%81%d9%8a-%d8%a7%d9%84%d9%88%d8%b9%d9%88%d8%af-1796771.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الغرق في الوعود",
+    "excerpt": "في مقال رأي بعنوان \"الغرق في الوعود\"، تتناول هسبريس موضوع الإكثار من الوعود السياسية وتأثيرها على ثقة المواطنين في الفاعلين العموميين.",
+    "body": [
+      "في مقال رأي بعنوان \"الغرق في الوعود\"، تتناول هسبريس موضوع الإكثار من الوعود السياسية وتأثيرها على ثقة المواطنين في الفاعلين العموميين."
+    ]
+  },
+  "fr": {
+    "title": "Se noyer dans les promesses",
+    "excerpt": "Dans sa chronique \"Se noyer dans les promesses\", Hespress aborde la prolifération des promesses politiques et son impact sur la confiance des citoyens",
+    "body": [
+      "Dans sa chronique \"Se noyer dans les promesses\", Hespress aborde la prolifération des promesses politiques et son impact sur la confiance des citoyens envers les acteurs publics."
+    ]
+  },
+  "en": {
+    "title": "Drowning in promises",
+    "excerpt": "In an opinion piece titled \"Drowning in promises\", Hespress discusses the abundance of political promises and how this affects public trust in officia",
+    "body": [
+      "In an opinion piece titled \"Drowning in promises\", Hespress discusses the abundance of political promises and how this affects public trust in officials."
+    ]
+  }
+},
+{
+  "id": 496,
+  "addedAt": "2026-08-26T09:15:27Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article496/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%b3%d8%b9%d9%8a%d8%af%d9%8a-%d9%8a%d8%aa%d9%81%d8%a7%d9%88%d8%b6-%d9%85%d8%b9-%d9%85%d9%88%d9%84%d9%88%d8%af%d9%8a%d8%a9-%d9%88%d8%ac%d8%af%d8%a9-1796988.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "السعيدي يتفاوض مع مولودية وجدة",
+    "excerpt": "أفادت هسبريس في خبر بعنوان \"السعيدي يتفاوض مع مولودية وجدة\" بوجود مفاوضات بين اللاعب السعيدي ونادي مولودية وجدة حول احتمال انتقال كروي.",
+    "body": [
+      "أفادت هسبريس في خبر بعنوان \"السعيدي يتفاوض مع مولودية وجدة\" بوجود مفاوضات بين اللاعب السعيدي ونادي مولودية وجدة حول احتمال انتقال كروي."
+    ]
+  },
+  "fr": {
+    "title": "Essaïdi en négociations avec le Mouloudia d’Oujda",
+    "excerpt": "Dans une brève intitulée \"Essaïdi en négociations avec le Mouloudia d’Oujda\", Hespress évoque des discussions entre le joueur Essaïdi et le club oujdi",
+    "body": [
+      "Dans une brève intitulée \"Essaïdi en négociations avec le Mouloudia d’Oujda\", Hespress évoque des discussions entre le joueur Essaïdi et le club oujdi en vue d’un possible transfert."
+    ]
+  },
+  "en": {
+    "title": "Essaidi in talks with Mouloudia Oujda",
+    "excerpt": "In a news brief titled \"Essaidi in talks with Mouloudia Oujda\", Hespress reports on negotiations between player Essaidi and the Oujda club over a pote",
+    "body": [
+      "In a news brief titled \"Essaidi in talks with Mouloudia Oujda\", Hespress reports on negotiations between player Essaidi and the Oujda club over a potential move."
+    ]
+  }
+},
+{
+  "id": 497,
+  "addedAt": "2026-08-26T09:15:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article497/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b4%d8%af-%d9%88%d8%ac%d8%b0%d8%a8-%d8%ad%d9%88%d9%84-%d8%a7%d9%84%d9%82%d8%a7%d8%b5%d8%b1%d9%8a%d9%86-%d8%a8%d8%b3%d8%a8%d8%aa%d8%a9-%d8%a7%d9%84%d9%85%d8%ad%d8%aa%d9%84%d8%a9-%d8%a7%d9%84-1796703.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "شد وجذب حول القاصرين بسبتة المحتلة .. \"الإرجاع الفردي\" مفتاح العودة",
+    "excerpt": "يواكب تقرير هسبريس بعنوان \"شد وجذب حول القاصرين بسبتة المحتلة .. الإرجاع الفردي مفتاح العودة\" النقاش الدائر حول وضع القاصرين المغاربة في سبتة وآلية إع",
+    "body": [
+      "يواكب تقرير هسبريس بعنوان \"شد وجذب حول القاصرين بسبتة المحتلة .. الإرجاع الفردي مفتاح العودة\" النقاش الدائر حول وضع القاصرين المغاربة في سبتة وآلية إعادتهم."
+    ]
+  },
+  "fr": {
+    "title": "Tensions autour des mineurs à Ceuta occupée : le \"retour individuel\" comme clé du rapatriement",
+    "excerpt": "L’article de Hespress \"Tensions autour des mineurs à Ceuta occupée : le retour individuel comme clé du rapatriement\" revient sur le débat concernant l",
+    "body": [
+      "L’article de Hespress \"Tensions autour des mineurs à Ceuta occupée : le retour individuel comme clé du rapatriement\" revient sur le débat concernant les mineurs marocains à Ceuta et les modalités de leur retour."
+    ]
+  },
+  "en": {
+    "title": "Back-and-forth over minors in occupied Ceuta: \"individual return\" seen as key to repatriation",
+    "excerpt": "Hespress, in an article titled \"Back-and-forth over minors in occupied Ceuta: ‘individual return’ seen as key to repatriation\", follows the debate on ",
+    "body": [
+      "Hespress, in an article titled \"Back-and-forth over minors in occupied Ceuta: ‘individual return’ seen as key to repatriation\", follows the debate on Moroccan minors in Ceuta and mechanisms for sending them back."
+    ]
+  }
+},
+{
+  "id": 498,
+  "addedAt": "2026-08-26T09:15:27Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article498/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%88%d9%82%d8%b9%d8%a7%d8%aa-%d8%b7%d9%82%d8%b3-%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%a3%d8%b1%d8%a8%d8%b9%d8%a7%d8%a1-%d8%a8%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-95-1796909.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "توقعات طقس اليوم الأربعاء بالمغرب",
+    "excerpt": "تنشر هسبريس ضمن خبر بعنوان \"توقعات طقس اليوم الأربعاء بالمغرب\" معطيات حول الحالة الجوية المتوقعة في مختلف مناطق المملكة خلال هذا اليوم.",
+    "body": [
+      "تنشر هسبريس ضمن خبر بعنوان \"توقعات طقس اليوم الأربعاء بالمغرب\" معطيات حول الحالة الجوية المتوقعة في مختلف مناطق المملكة خلال هذا اليوم."
+    ]
+  },
+  "fr": {
+    "title": "Prévisions météorologiques de ce mercredi au Maroc",
+    "excerpt": "Dans la dépêche \"Prévisions météorologiques de ce mercredi au Maroc\", Hespress présente les conditions météo attendues dans plusieurs régions du Royau",
+    "body": [
+      "Dans la dépêche \"Prévisions météorologiques de ce mercredi au Maroc\", Hespress présente les conditions météo attendues dans plusieurs régions du Royaume pour la journée."
+    ]
+  },
+  "en": {
+    "title": "Weather forecast for this Wednesday in Morocco",
+    "excerpt": "In a brief titled \"Weather forecast for this Wednesday in Morocco\", Hespress details the expected weather conditions across various regions of the Kin",
+    "body": [
+      "In a brief titled \"Weather forecast for this Wednesday in Morocco\", Hespress details the expected weather conditions across various regions of the Kingdom for the day."
+    ]
+  }
+},
+{
+  "id": 499,
+  "addedAt": "2026-08-26T09:15:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article499/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d9%85%d8%b4%d8%a7%d8%b1%d9%8a%d8%b9-%d8%a7%d9%84%d8%aa%d9%8a%d8%aa%d8%a7%d9%86%d9%8a%d9%88%d9%85-%d9%88%d8%a7%d9%84%d8%a5%d9%86%d8%aa%d9%8a%d9%85%d9%88%d9%86-%d8%aa-1796920.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "تقرير: مشاريع التيتانيوم والإنتمون ترسم الآفاق الجديدة للتعدين في المملكة",
+    "excerpt": "يشير تقرير لهسبريس بعنوان \"مشاريع التيتانيوم والإنتمون ترسم الآفاق الجديدة للتعدين في المملكة\" إلى الدور الذي يمكن أن تلعبه هذه المشاريع في تطوير القط",
+    "body": [
+      "يشير تقرير لهسبريس بعنوان \"مشاريع التيتانيوم والإنتمون ترسم الآفاق الجديدة للتعدين في المملكة\" إلى الدور الذي يمكن أن تلعبه هذه المشاريع في تطوير القطاع المنجمي بالمغرب."
+    ]
+  },
+  "fr": {
+    "title": "Rapport : les projets de titane et d’antimoine dessinent de nouveaux horizons pour l’industrie minière au Maroc",
+    "excerpt": "Dans son article \"Les projets de titane et d’antimoine dessinent de nouveaux horizons pour l’industrie minière au Maroc\", Hespress met en avant le pot",
+    "body": [
+      "Dans son article \"Les projets de titane et d’antimoine dessinent de nouveaux horizons pour l’industrie minière au Maroc\", Hespress met en avant le potentiel de ces investissements pour le secteur minier national."
+    ]
+  },
+  "en": {
+    "title": "Report: Titanium and antimony projects chart new horizons for mining in Morocco",
+    "excerpt": "In its piece titled \"Titanium and antimony projects chart new horizons for mining in Morocco\", Hespress highlights the potential role of these initiat",
+    "body": [
+      "In its piece titled \"Titanium and antimony projects chart new horizons for mining in Morocco\", Hespress highlights the potential role of these initiatives in the development of the country’s mining sector."
+    ]
+  }
+},
+{
+  "id": 502,
+  "addedAt": "2026-08-26T09:15:27Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article502/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d9%82%d8%b1%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d8%a9-%d8%aa%d8%ab%d9%8a%d8%b1-%d8%a7%d9%84%d9%82%d9%84%d9%82-%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%83%d8%aa%d8%a8%d9%8a-1796380.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"مقررات الرياضة\" تثير القلق بين الكتبيين .. والوزارة تؤكد انتظام التموين",
+    "excerpt": "يعرض تقرير هسبريس بعنوان \"مقررات الرياضة تثير القلق بين الكتبيين .. والوزارة تؤكد انتظام التموين\" مواقف مهنيي الكتاب حول توفر هذه المقررات ورد الوزارة",
+    "body": [
+      "يعرض تقرير هسبريس بعنوان \"مقررات الرياضة تثير القلق بين الكتبيين .. والوزارة تؤكد انتظام التموين\" مواقف مهنيي الكتاب حول توفر هذه المقررات ورد الوزارة الوصية."
+    ]
+  },
+  "fr": {
+    "title": "Les \"manuels d’éducation physique\" inquiètent les libraires, le ministère rassure sur l’approvisionnement",
+    "excerpt": "Dans l’article \"Les manuels d’éducation physique inquiètent les libraires, le ministère rassure sur l’approvisionnement\", Hespress relaie les préoccup",
+    "body": [
+      "Dans l’article \"Les manuels d’éducation physique inquiètent les libraires, le ministère rassure sur l’approvisionnement\", Hespress relaie les préoccupations des professionnels du livre et توضيحات الوزارة."
+    ]
+  },
+  "en": {
+    "title": "New \"PE textbooks\" worry booksellers as ministry insists supply is regular",
+    "excerpt": "Hespress, in its report \"New ‘PE textbooks’ worry booksellers as ministry insists supply is regular\", presents the concerns of book professionals alon",
+    "body": [
+      "Hespress, in its report \"New ‘PE textbooks’ worry booksellers as ministry insists supply is regular\", presents the concerns of book professionals alongside the ministry’s clarifications."
+    ]
+  }
+}
 );
