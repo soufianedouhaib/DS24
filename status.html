@@ -87,9 +87,7 @@
     transition: width 0.5s ease;
   }
   .progress-fill.failed { background: #C0392B; }
-  .progress-steps {
-    margin-top: 12px; display: flex; flex-wrap: wrap; gap: 6px;
-  }
+  .progress-steps { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 6px; }
   .step-chip {
     font-size: 11.5px; padding: 3px 9px; border-radius: 20px;
     background: rgba(30,158,99,0.13); color: var(--green-mid); font-weight: 500;
@@ -100,6 +98,36 @@
   }
   .step-chip.failed { background: rgba(220,60,60,0.14); color: #C0392B; }
   .progress-elapsed { margin-top: 10px; font-size: 12px; color: var(--ink-soft); }
+
+  /* ---- workflow output ---- */
+  .results-card {
+    background: var(--card-bg); border: 1px solid var(--line); border-radius: 16px;
+    padding: 22px 24px; box-shadow: var(--shadow); margin-bottom: 28px;
+    border-top: 3px solid var(--green-bright); text-align: left;
+  }
+  .results-card h3 {
+    font-family: 'Poppins', sans-serif; font-size: 16px; color: var(--green-deep);
+    margin: 0 0 4px; display: flex; align-items: center; gap: 8px;
+  }
+  .results-meta { font-size: 12.5px; color: var(--ink-soft); margin-bottom: 6px; }
+  .result-item { border-top: 1px solid var(--line); padding: 14px 0 2px; }
+  .result-item:first-of-type { border-top: none; }
+  .result-head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
+  .result-name { font-size: 13.5px; font-weight: 600; color: var(--ink); }
+  .result-type {
+    font-size: 10.5px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+    background: rgba(11,92,59,0.09); color: var(--green-mid); padding: 2px 7px; border-radius: 20px;
+  }
+  .result-value { font-size: 13.5px; color: var(--ink); line-height: 1.65; word-break: break-word; }
+  .result-value a { color: var(--green-mid); text-decoration: underline; }
+  .result-value pre {
+    background: var(--paper); border: 1px solid var(--line); border-radius: 8px;
+    padding: 10px 12px; margin: 0; font-size: 12.5px; line-height: 1.55;
+    max-height: 320px; overflow: auto; white-space: pre-wrap; word-break: break-word;
+  }
+  .result-value ul { margin: 0; padding-inline-start: 18px; }
+  .result-empty { color: var(--ink-soft); }
+  .results-none { font-size: 13.5px; color: var(--ink-soft); }
 
   .feature-strip {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 28px 0 0;
@@ -143,6 +171,12 @@
     </div>
   </div>
 
+  <div id="resultsCard" class="results-card" hidden>
+    <h3>&#9989; Workflow Output</h3>
+    <div class="results-meta" id="resultsMeta"></div>
+    <div id="resultsList"></div>
+  </div>
+
   <div class="feature-strip">
     <div class="feature-item">
       <span class="fi-icon">🛰️</span>
@@ -174,7 +208,15 @@ const POLL_INTERVAL_MS = 5000;
 const POLL_MAX_TRIES = 180;
 const TERMINAL_STATES = ["COMPLETED", "FAILED", "CANCELLED", "TIMED_OUT"];
 
-// Node names come back from the Opus API — escape before touching innerHTML.
+// Results can lag a moment behind COMPLETED.
+const RESULTS_MAX_TRIES = 8;
+const RESULTS_RETRY_MS = 3000;
+
+function sleep(ms) {
+  return new Promise(function (r) { setTimeout(r, ms); });
+}
+
+// Everything below comes back from the Opus API — escape before innerHTML.
 function esc(value) {
   return String(value == null ? "" : value)
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
@@ -244,7 +286,7 @@ async function trackCase(caseId) {
   let consecutiveErrors = 0;
 
   for (let i = 0; i < POLL_MAX_TRIES; i++) {
-    await new Promise(function (r) { setTimeout(r, POLL_INTERVAL_MS); });
+    await sleep(POLL_INTERVAL_MS);
     try {
       const res = await fetch(
         WORKER_URL + "/progress?caseId=" + encodeURIComponent(caseId)
@@ -261,6 +303,122 @@ async function trackCase(caseId) {
     }
   }
   return { status: "TIMED_OUT", pollLimitReached: true };
+}
+
+/* ------------------------------------------------------------------ */
+/*  Workflow output                                                    */
+/* ------------------------------------------------------------------ */
+
+const resultsCard = document.getElementById("resultsCard");
+const resultsMeta = document.getElementById("resultsMeta");
+const resultsList = document.getElementById("resultsList");
+
+function hideResults() {
+  resultsCard.hidden = true;
+  resultsList.innerHTML = "";
+  resultsMeta.textContent = "";
+}
+
+function isUrl(s) {
+  return typeof s === "string" && /^https?:\/\/\S+$/i.test(s.trim());
+}
+
+function linkTo(u) {
+  return '<a href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">' +
+    esc(u) + "</a>";
+}
+
+function formatValue(value, type) {
+  if (value === null || value === undefined || value === "") {
+    return '<span class="result-empty">—</span>';
+  }
+  if (type === "array_files" && Array.isArray(value)) {
+    return "<ul>" + value.map(function (v) {
+      return "<li>" + (isUrl(v) ? linkTo(v) : esc(v)) + "</li>";
+    }).join("") + "</ul>";
+  }
+  if (type === "file" || isUrl(value)) {
+    return linkTo(value);
+  }
+  if (Array.isArray(value)) {
+    const simple = value.every(function (v) {
+      return v === null || ["string", "number", "boolean"].indexOf(typeof v) !== -1;
+    });
+    if (simple) {
+      return "<ul>" + value.map(function (v) {
+        return "<li>" + (isUrl(v) ? linkTo(v) : esc(v)) + "</li>";
+      }).join("") + "</ul>";
+    }
+    return "<pre>" + esc(JSON.stringify(value, null, 2)) + "</pre>";
+  }
+  if (typeof value === "object") {
+    return "<pre>" + esc(JSON.stringify(value, null, 2)) + "</pre>";
+  }
+  if (typeof value === "boolean") {
+    return value ? "Yes" : "No";
+  }
+  const s = String(value);
+  // Pretty-print JSON that arrived as a string (our run-log node returns this).
+  if (/^\s*[[{]/.test(s)) {
+    try {
+      return "<pre>" + esc(JSON.stringify(JSON.parse(s), null, 2)) + "</pre>";
+    } catch (e) { /* not JSON after all — fall through */ }
+  }
+  if (s.length > 160 || s.indexOf("\n") !== -1) {
+    return "<pre>" + esc(s) + "</pre>";
+  }
+  return esc(s);
+}
+
+function renderResults(results, caseId) {
+  const entries = Object.keys(results || {});
+  resultsCard.hidden = false;
+  resultsMeta.textContent = "Case " + caseId;
+
+  if (!entries.length) {
+    resultsList.innerHTML =
+      '<div class="results-none">The run finished successfully, but the workflow returned no output variables.</div>';
+    return;
+  }
+
+  resultsList.innerHTML = entries.map(function (key) {
+    const raw = results[key];
+    const item = (raw && typeof raw === "object" && !Array.isArray(raw) && "value" in raw)
+      ? raw
+      : { value: raw, type: "" };
+    const name = item.displayName || key;
+    return '<div class="result-item">' +
+        '<div class="result-head">' +
+          '<span class="result-name">' + esc(name) + "</span>" +
+          (item.type ? '<span class="result-type">' + esc(item.type) + "</span>" : "") +
+        "</div>" +
+        '<div class="result-value">' + formatValue(item.value, item.type) + "</div>" +
+      "</div>";
+  }).join("");
+}
+
+async function loadResults(caseId) {
+  for (let i = 0; i < RESULTS_MAX_TRIES; i++) {
+    try {
+      const res = await fetch(
+        WORKER_URL + "/results?caseId=" + encodeURIComponent(caseId)
+      );
+      if (res.status === 202) {          // finished, outputs not published yet
+        await sleep(RESULTS_RETRY_MS);
+        continue;
+      }
+      const data = await res.json();
+      if (data && data.results) {
+        renderResults(data.results, caseId);
+        return true;
+      }
+      if (data && data.error) return false;
+    } catch (err) {
+      // transient — try again
+    }
+    await sleep(RESULTS_RETRY_MS);
+  }
+  return false;
 }
 
 /* ------------------------------------------------------------------ */
@@ -285,6 +443,7 @@ document.getElementById("triggerBtn").addEventListener("click", async function (
   msgEl.className = "trigger-msg pending";
   msgEl.textContent = "Sending trigger request, please wait...";
   progressBox.hidden = true;
+  hideResults();
 
   try {
     const resp = await fetch(WORKER_URL, {
@@ -316,7 +475,11 @@ document.getElementById("triggerBtn").addEventListener("click", async function (
 
     if (result.status === "COMPLETED") {
       msgEl.className = "trigger-msg success";
-      msgEl.textContent = "Run completed successfully.";
+      msgEl.textContent = "Run completed. Loading output...";
+      const ok = await loadResults(data.caseId);
+      msgEl.textContent = ok
+        ? "Run completed successfully."
+        : "Run completed successfully, but the output could not be loaded.";
     } else if (result.unreachable) {
       msgEl.className = "trigger-msg error";
       msgEl.textContent = "Lost contact with the progress service. The run may still be going — reload in a few minutes.";
