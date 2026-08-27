@@ -10163,4 +10163,73 @@ ARTICLES.push(
 
 ,
 
+,
+{
+  "id": 572,
+  "addedAt": "2026-08-27T08:58:48Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article572/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%ad%d8%a7%d9%83%d9%85%d8%a9-%d8%a7%d9%84%d8%b9%d9%82%d9%84-%d8%a7%d9%84%d9%85%d8%af%d8%a8%d8%b1-%d9%84%d9%87%d8%ac%d9%85%d8%a7%d8%aa-11-%d8%b4%d8%aa%d9%86%d8%a8%d8%b1-1797628.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 573,
+  "addedAt": "2026-08-27T08:58:48Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article573/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%ba%d9%84%d8%a7%d8%a1-%d8%a7%d9%84%d8%b3%d9%83%d9%86-%d8%a8%d8%a3%d9%83%d8%a7%d8%af%d9%8a%d8%b1-1797635.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+}
 );
