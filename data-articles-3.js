@@ -9371,4 +9371,685 @@ ARTICLES.push(
     ]
   }
 }
+,
+{
+  "id": 546,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article546/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%a7%d8%b7-%d9%8a%d8%aa%d9%88%d8%ae%d9%89-%d8%a5%d8%a8%d8%b1%d8%a7%d9%85-%d8%b5%d9%81%d9%82%d8%a9-%d9%81%d8%ac%d8%b1-1797001.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"الماط\" يتوخى إبرام \"صفقة فجر\"",
+    "excerpt": "يشير الخبر إلى سعي نادي المغرب التطواني لإبرام صفقة انتقال وصفها بـ\"صفقة فجر\" لتدعيم تركيبته البشرية.",
+    "body": [
+      "يشير الخبر إلى سعي نادي المغرب التطواني لإبرام صفقة انتقال وصفها بـ\"صفقة فجر\" لتدعيم تركيبته البشرية."
+    ]
+  },
+  "fr": {
+    "title": "Le MAT vise la conclusion d’un \"transfert de l’aube\"",
+    "excerpt": "L’article fait état de la volonté du Moghreb de Tétouan de conclure un transfert qualifié de \"transfert de l’aube\" pour renforcer son effectif.",
+    "body": [
+      "L’article fait état de la volonté du Moghreb de Tétouan de conclure un transfert qualifié de \"transfert de l’aube\" pour renforcer son effectif."
+    ]
+  },
+  "en": {
+    "title": "MAT eyeing a ‘dawn deal’ signing",
+    "excerpt": "The report says Moroccan club Moghreb Tétouan is working on a transfer described as a ‘dawn deal’ to strengthen its squad.",
+    "body": [
+      "The report says Moroccan club Moghreb Tétouan is working on a transfer described as a ‘dawn deal’ to strengthen its squad."
+    ]
+  }
+},
+{
+  "id": 547,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article547/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d9%84%d8%a7%d9%83%d9%85%d9%88%d9%86-%d8%a7%d9%84%d9%85%d8%ba%d8%a7%d8%b1%d8%a8%d8%a9-%d9%8a%d8%ac%d8%aa%d9%87%d8%af%d9%88%d9%86-%d9%81%d9%8a-%d8%a5%d9%8a%d8%b7%d8%a7%d9%84%d9%8a-1797446.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الملاكمون المغاربة يجتهدون في إيطاليا",
+    "excerpt": "يرصد الخبر مشاركة ملاكمين مغاربة في منافسات بإيطاليا وما تبذله العناصر الوطنية من مجهود خلال هذه التظاهرة.",
+    "body": [
+      "يرصد الخبر مشاركة ملاكمين مغاربة في منافسات بإيطاليا وما تبذله العناصر الوطنية من مجهود خلال هذه التظاهرة."
+    ]
+  },
+  "fr": {
+    "title": "Les boxeurs marocains se démènent en Italie",
+    "excerpt": "L’article couvre la participation de boxeurs marocains à des compétitions en Italie et les efforts fournis par les représentants nationaux lors de cet",
+    "body": [
+      "L’article couvre la participation de boxeurs marocains à des compétitions en Italie et les efforts fournis par les représentants nationaux lors de cet événement."
+    ]
+  },
+  "en": {
+    "title": "Moroccan boxers strive in Italy",
+    "excerpt": "The piece reports on Moroccan boxers taking part in competitions in Italy and the efforts displayed by the national fighters in this event.",
+    "body": [
+      "The piece reports on Moroccan boxers taking part in competitions in Italy and the efforts displayed by the national fighters in this event."
+    ]
+  }
+},
+{
+  "id": 548,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article548/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d9%88%d9%84%d9%88%d8%af%d9%8a%d8%a9-%d8%aa%d8%aa%d8%b9%d8%a7%d9%82%d8%af-%d9%85%d8%b9-%d8%a7%d9%84%d9%85%d8%af%d8%b1%d8%a8-%d8%a7%d9%84%d8%b3%d8%b9%d9%8a%d8%af%d9%8a-1797418.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "المولودية تتعاقد مع المدرب السعيدي",
+    "excerpt": "يعلن الخبر عن تعاقد نادي المولودية مع المدرب السعيدي لقيادة الفريق تقنياً خلال المرحلة المقبلة.",
+    "body": [
+      "يعلن الخبر عن تعاقد نادي المولودية مع المدرب السعيدي لقيادة الفريق تقنياً خلال المرحلة المقبلة."
+    ]
+  },
+  "fr": {
+    "title": "Le Mouloudia engage l’entraîneur Essaidy",
+    "excerpt": "L’article annonce la signature de l’entraîneur Essaidy par le club du Mouloudia pour diriger l’équipe sur le plan technique.",
+    "body": [
+      "L’article annonce la signature de l’entraîneur Essaidy par le club du Mouloudia pour diriger l’équipe sur le plan technique."
+    ]
+  },
+  "en": {
+    "title": "Mouloudia signs coach Essaidy",
+    "excerpt": "The report states that Mouloudia club has appointed coach Essaidy to take charge of the team’s technical leadership in the coming period.",
+    "body": [
+      "The report states that Mouloudia club has appointed coach Essaidy to take charge of the team’s technical leadership in the coming period."
+    ]
+  }
+},
+{
+  "id": 549,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article549/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%b5%d8%ad%d8%a7%d9%81%d8%a9-%d8%a7%d9%84%d8%a8%d8%b1%d9%8a%d8%b7%d8%a7%d9%86%d9%8a%d8%a9-%d8%aa%d8%b4%d9%8a%d8%af-%d8%a8%d9%82%d8%af%d9%88%d9%85-%d8%a8%d9%88%d8%b9%d8%af%d9%8a-1797308.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الصحافة البريطانية تشيد بقدوم بوعدي",
+    "excerpt": "ينقل الخبر إشادة الصحافة البريطانية بانتقال اللاعب المغربي أيوب بوعدي إلى الدوري الإنجليزي وما يمثله من إضافة.",
+    "body": [
+      "ينقل الخبر إشادة الصحافة البريطانية بانتقال اللاعب المغربي أيوب بوعدي إلى الدوري الإنجليزي وما يمثله من إضافة."
+    ]
+  },
+  "fr": {
+    "title": "La presse britannique salue l’arrivée de Bouaddi",
+    "excerpt": "L’article rapporte les éloges de la presse britannique à propos de l’arrivée du joueur marocain Ayoub Bouaddi en championnat anglais et de l’apport at",
+    "body": [
+      "L’article rapporte les éloges de la presse britannique à propos de l’arrivée du joueur marocain Ayoub Bouaddi en championnat anglais et de l’apport attendu."
+    ]
+  },
+  "en": {
+    "title": "British press praises Bouaddi’s arrival",
+    "excerpt": "The piece notes that the British media have praised Moroccan player Ayoub Bouaddi’s move to the English league and the boost it could bring.",
+    "body": [
+      "The piece notes that the British media have praised Moroccan player Ayoub Bouaddi’s move to the English league and the boost it could bring."
+    ]
+  }
+},
+{
+  "id": 550,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article550/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%ad%d9%85%d8%a7%d8%b3-%d9%8a%d8%b9%d8%aa%d8%b1%d9%8a-%d8%a7%d9%84%d8%af%d8%b1%d9%8a%d9%88%d8%b4-%d9%81%d9%8a-%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a7-1797185.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الحماس يعتري الدريوش في إسبانيا",
+    "excerpt": "يركز الخبر على الأجواء الحماسية التي يعيشها اللاعب أو الشخص الدريوش في سياق تجربته الرياضية بإسبانيا.",
+    "body": [
+      "يركز الخبر على الأجواء الحماسية التي يعيشها اللاعب أو الشخص الدريوش في سياق تجربته الرياضية بإسبانيا."
+    ]
+  },
+  "fr": {
+    "title": "L’enthousiasme gagne Driouch en Espagne",
+    "excerpt": "L’article met en avant l’ambiance d’enthousiasme qui entoure Driouch dans le cadre de son expérience sportive en Espagne.",
+    "body": [
+      "L’article met en avant l’ambiance d’enthousiasme qui entoure Driouch dans le cadre de son expérience sportive en Espagne."
+    ]
+  },
+  "en": {
+    "title": "Enthusiasm sweeps Driouch in Spain",
+    "excerpt": "The report highlights the enthusiastic atmosphere surrounding Driouch during his sporting experience in Spain.",
+    "body": [
+      "The report highlights the enthusiastic atmosphere surrounding Driouch during his sporting experience in Spain."
+    ]
+  }
+},
+{
+  "id": 551,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article551/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%86%d8%aa%d9%82%d8%a7%d9%84-%d8%a3%d9%8a%d9%88%d8%a8-%d8%a8%d9%88%d8%b9%d8%af%d9%8a-%d9%8a%d8%ad%d8%b7%d9%85-%d8%b1%d9%82%d9%85%d8%a7%d9%8b-%d9%82%d9%8a%d8%a7%d8%b3%d9%8a%d8%a7%d9%8b-1797188.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "انتقال أيوب بوعدي يحطم رقماً قياسياً",
+    "excerpt": "يفيد الخبر بأن انتقال اللاعب المغربي أيوب بوعدي حقق رقماً قياسياً جديداً في سياق الصفقات الكروية المرتبطة به.",
+    "body": [
+      "يفيد الخبر بأن انتقال اللاعب المغربي أيوب بوعدي حقق رقماً قياسياً جديداً في سياق الصفقات الكروية المرتبطة به."
+    ]
+  },
+  "fr": {
+    "title": "Le transfert d’Ayoub Bouaddi bat un record",
+    "excerpt": "L’article indique que le transfert du joueur marocain Ayoub Bouaddi a établi un nouveau record dans le cadre des opérations de recrutement le concerna",
+    "body": [
+      "L’article indique que le transfert du joueur marocain Ayoub Bouaddi a établi un nouveau record dans le cadre des opérations de recrutement le concernant."
+    ]
+  },
+  "en": {
+    "title": "Ayoub Bouaddi’s transfer breaks a record",
+    "excerpt": "The piece reports that Moroccan player Ayoub Bouaddi’s move has set a new record in the context of his transfer dealings.",
+    "body": [
+      "The piece reports that Moroccan player Ayoub Bouaddi’s move has set a new record in the context of his transfer dealings."
+    ]
+  }
+},
+{
+  "id": 552,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "sport",
+  "img": "https://picsum.photos/seed/ds24article552/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b1%d8%b3%d9%85%d9%8a%d8%a7-%d8%a8%d9%88%d8%b9%d8%af%d9%8a-%d8%a8%d9%82%d9%85%d9%8a%d8%b5-%d9%85%d8%a7%d9%86%d8%b4%d8%b3%d8%aa%d8%b1-%d8%b3%d9%8a%d8%aa%d9%8a-1797127.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "رسميًا .. بوعدي بقميص مانشستر سيتي",
+    "excerpt": "يؤكد الخبر انتقال أيوب بوعدي بشكل رسمي إلى نادي مانشستر سيتي وارتداءه قميص الفريق الإنجليزي.",
+    "body": [
+      "يؤكد الخبر انتقال أيوب بوعدي بشكل رسمي إلى نادي مانشستر سيتي وارتداءه قميص الفريق الإنجليزي."
+    ]
+  },
+  "fr": {
+    "title": "Officiel : Bouaddi sous le maillot de Manchester City",
+    "excerpt": "L’article confirme le transfert officiel d’Ayoub Bouaddi à Manchester City et son arrivée sous les couleurs du club anglais.",
+    "body": [
+      "L’article confirme le transfert officiel d’Ayoub Bouaddi à Manchester City et son arrivée sous les couleurs du club anglais."
+    ]
+  },
+  "en": {
+    "title": "Official: Bouaddi in Manchester City shirt",
+    "excerpt": "The report confirms Ayoub Bouaddi’s official move to Manchester City and his arrival in the English club’s colors.",
+    "body": [
+      "The report confirms Ayoub Bouaddi’s official move to Manchester City and his arrival in the English club’s colors."
+    ]
+  }
+},
+{
+  "id": 555,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article555/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%b5%d8%b7%d9%81%d9%89-%d8%a7%d9%84%d8%ae%d9%84%d9%81%d9%8a-%d9%8a%d8%af%d8%b9%d9%88-%d8%a5%d9%84%d9%89-%d9%85%d8%b1%d8%b3%d9%88%d9%85-%d8%a8%d9%82%d8%a7%d9%86%d9%88%d9%86-%d9%84%d8%a5-1797440.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "مصطفى الخلفي يدعو إلى \"مرسوم بقانون\" لإنصاف المحاماة وإنهاء الاحتقان",
+    "excerpt": "ينقل الخبر دعوة مصطفى الخلفي لاعتماد مرسوم بقانون من أجل الاستجابة لمطالب مهنة المحاماة والمساهمة في إنهاء حالة الاحتقان الحالية.",
+    "body": [
+      "ينقل الخبر دعوة مصطفى الخلفي لاعتماد مرسوم بقانون من أجل الاستجابة لمطالب مهنة المحاماة والمساهمة في إنهاء حالة الاحتقان الحالية."
+    ]
+  },
+  "fr": {
+    "title": "Mustapha El Khalfi appelle à un \"décret-loi\" pour rendre justice à l’avocature et mettre fin à la tension",
+    "excerpt": "L’article rapporte l’appel de Mustapha El Khalfi à l’adoption d’un décret-loi afin de répondre aux revendications de la profession d’avocat et d’apais",
+    "body": [
+      "L’article rapporte l’appel de Mustapha El Khalfi à l’adoption d’un décret-loi afin de répondre aux revendications de la profession d’avocat et d’apaiser les tensions."
+    ]
+  },
+  "en": {
+    "title": "Mustapha El Khalfi calls for a ‘decree-law’ to uphold the legal profession and end tensions",
+    "excerpt": "The piece notes Mustapha El Khalfi’s call for a decree-law to address the demands of the legal profession and help end the current state of tension.",
+    "body": [
+      "The piece notes Mustapha El Khalfi’s call for a decree-law to address the demands of the legal profession and help end the current state of tension."
+    ]
+  }
+},
+{
+  "id": 556,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article556/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a8%d9%86%d8%b9%d8%a8%d8%af-%d8%a7%d9%84%d9%84%d9%87-%d9%8a%d8%b3%d8%aa%d8%ad%d8%b6%d8%b1-%d8%b3%d9%86%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%b1%d8%b5%d8%a7%d8%b5-%d9%88%d9%8a%d8%ac%d8%af%d8%af-1797502.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "بنعبد الله يستحضر \"سنوات الرصاص\" ويجدد التمسك بإرث علي يعته",
+    "excerpt": "يتناول الخبر استحضار نبيل بنعبد الله لمرحلة \"سنوات الرصاص\" في المغرب وتشديده على التشبث بإرث الزعيم الراحل علي يعته.",
+    "body": [
+      "يتناول الخبر استحضار نبيل بنعبد الله لمرحلة \"سنوات الرصاص\" في المغرب وتشديده على التشبث بإرث الزعيم الراحل علي يعته."
+    ]
+  },
+  "fr": {
+    "title": "Benabdellah évoque les \"années de plomb\" et réaffirme son attachement à l’héritage d’Ali Yata",
+    "excerpt": "L’article relate l’évocation par Nabil Benabdellah des \"années de plomb\" au Maroc et sa réaffirmation de l’attachement à l’héritage du défunt dirigean",
+    "body": [
+      "L’article relate l’évocation par Nabil Benabdellah des \"années de plomb\" au Maroc et sa réaffirmation de l’attachement à l’héritage du défunt dirigeant Ali Yata."
+    ]
+  },
+  "en": {
+    "title": "Benabdellah recalls the ‘years of lead’ and reaffirms commitment to Ali Yata’s legacy",
+    "excerpt": "The piece reports that Nabil Benabdellah recalled Morocco’s ‘years of lead’ and reiterated his commitment to the legacy of the late leader Ali Yata.",
+    "body": [
+      "The piece reports that Nabil Benabdellah recalled Morocco’s ‘years of lead’ and reiterated his commitment to the legacy of the late leader Ali Yata."
+    ]
+  }
+},
+{
+  "id": 557,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article557/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-2026-%d8%b5%d8%b1%d8%a7%d8%b9-%d8%ad%d8%b2%d8%a8%d9%8a-%d9%85%d8%ad%d8%aa%d8%af%d9%85-%d8%b9%d9%84%d9%89-%d8%b3%d8%aa%d8%a9-%d9%85%d9%82%d8%a7%d8%b9-1797251.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "انتخابات 2026 .. صراع حزبي محتدم على ستة مقاعد في دائرة مكناس",
+    "excerpt": "يحلل الخبر ملامح التنافس الحزبي المرتقب في انتخابات 2026 بدائرة مكناس، حيث تتبارى القوى السياسية على ستة مقاعد برلمانية.",
+    "body": [
+      "يحلل الخبر ملامح التنافس الحزبي المرتقب في انتخابات 2026 بدائرة مكناس، حيث تتبارى القوى السياسية على ستة مقاعد برلمانية."
+    ]
+  },
+  "fr": {
+    "title": "Législatives 2026 : forte rivalité partisane pour six sièges dans la circonscription de Meknès",
+    "excerpt": "L’article examine les contours de la compétition partisane attendue aux législatives de 2026 dans la circonscription de Meknès, où six sièges sont en ",
+    "body": [
+      "L’article examine les contours de la compétition partisane attendue aux législatives de 2026 dans la circonscription de Meknès, où six sièges sont en jeu."
+    ]
+  },
+  "en": {
+    "title": "2026 elections: heated party rivalry for six seats in the Meknes constituency",
+    "excerpt": "The piece looks at the expected party competition in the 2026 elections in the Meknes constituency, where six parliamentary seats are at stake.",
+    "body": [
+      "The piece looks at the expected party competition in the 2026 elections in the Meknes constituency, where six parliamentary seats are at stake."
+    ]
+  }
+},
+{
+  "id": 558,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article558/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%ae%d9%84%d9%81%d9%8a-%d9%81%d9%8a-%d8%ac%d9%84%d8%b3%d8%a9-%d8%b9%d9%85%d9%84-%d8%aa%d9%82%d9%8a%d9%8a%d9%85-%d9%84%d9%84%d9%88%d8%b6%d8%b9%d9%8a%d8%a9-%d9%88%d8%b1%d9%87%d8%a7-1797399.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "الخلفي في \"جلسة عمل\" .. تقييم للوضعية ورهان على عودة العدالة والتنمية",
+    "excerpt": "يتطرق الخبر إلى جلسة عمل شارك فيها مصطفى الخلفي لتقييم وضعية حزب العدالة والتنمية والرهان على استعادة حضوره السياسي.",
+    "body": [
+      "يتطرق الخبر إلى جلسة عمل شارك فيها مصطفى الخلفي لتقييم وضعية حزب العدالة والتنمية والرهان على استعادة حضوره السياسي."
+    ]
+  },
+  "fr": {
+    "title": "El Khalfi en \"séance de travail\" : évaluer la situation et miser sur le retour du PJD",
+    "excerpt": "L’article revient sur une séance de travail à laquelle a pris part Mustapha El Khalfi, consacrée à l’évaluation de la situation du PJD et à l’hypothès",
+    "body": [
+      "L’article revient sur une séance de travail à laquelle a pris part Mustapha El Khalfi, consacrée à l’évaluation de la situation du PJD et à l’hypothèse de son retour sur le devant de la scène."
+    ]
+  },
+  "en": {
+    "title": "El Khalfi in a ‘working session’: assessing the situation and betting on the return of the PJD",
+    "excerpt": "The piece reports on a working session attended by Mustapha El Khalfi to assess the state of the Justice and Development Party and prospects for its p",
+    "body": [
+      "The piece reports on a working session attended by Mustapha El Khalfi to assess the state of the Justice and Development Party and prospects for its political comeback."
+    ]
+  }
+},
+{
+  "id": 559,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article559/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-2026-%d8%aa%d8%ad%d9%88%d9%84%d8%a7%d8%aa-2016-%d9%882021-%d8%aa%d8%ac%d8%af%d8%af-%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d9%85%d9%86%d8%a7-1797031.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "انتخابات 2026 .. \"تحولات 2016 و2021\" تجدد قواعد المنافسة بكلميم",
+    "excerpt": "يرصد الخبر تأثير نتائج استحقاقات 2016 و2021 على خريطة التنافس الحزبي المنتظر في انتخابات 2026 بدائرة كلميم.",
+    "body": [
+      "يرصد الخبر تأثير نتائج استحقاقات 2016 و2021 على خريطة التنافس الحزبي المنتظر في انتخابات 2026 بدائرة كلميم."
+    ]
+  },
+  "fr": {
+    "title": "Législatives 2026 : les \"mutations de 2016 et 2021\" redéfinissent les règles de la compétition à Guelmim",
+    "excerpt": "L’article analyse comment les résultats de 2016 et 2021 influent sur la configuration de la compétition partisane en vue des législatives de 2026 à Gu",
+    "body": [
+      "L’article analyse comment les résultats de 2016 et 2021 influent sur la configuration de la compétition partisane en vue des législatives de 2026 à Guelmim."
+    ]
+  },
+  "en": {
+    "title": "2026 elections: ‘changes of 2016 and 2021’ reset the rules of competition in Guelmim",
+    "excerpt": "The piece examines how the outcomes of the 2016 and 2021 elections are reshaping party competition ahead of the 2026 polls in the Guelmim district.",
+    "body": [
+      "The piece examines how the outcomes of the 2016 and 2021 elections are reshaping party competition ahead of the 2026 polls in the Guelmim district."
+    ]
+  }
+},
+{
+  "id": 560,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article560/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%a8%d8%a7%d9%85-%d9%8a%d8%b1%d8%af-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%a3%d8%ad%d8%b1%d8%a7%d8%b1-%d8%a7%d9%84%d8%a7%d9%86%d8%aa%d9%82%d8%a7%d9%84-%d8%a7%d9%84%d8%ad%d8%b2%d8%a8-1797191.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "\"البام\" يرد على \"الأحرار\": الانتقال الحزبي حق مكفول.. والاتهامات مرفوضة",
+    "excerpt": "ينقل الخبر رد حزب الأصالة والمعاصرة على مواقف حزب التجمع الوطني للأحرار، مؤكداً أن الانتقال الحزبي حق مكفول ورافضاً الاتهامات الموجهة إليه.",
+    "body": [
+      "ينقل الخبر رد حزب الأصالة والمعاصرة على مواقف حزب التجمع الوطني للأحرار، مؤكداً أن الانتقال الحزبي حق مكفول ورافضاً الاتهامات الموجهة إليه."
+    ]
+  },
+  "fr": {
+    "title": "Le PAM répond au RNI : le changement de parti est un droit garanti et les accusations sont rejetées",
+    "excerpt": "L’article rapporte la réaction du PAM aux prises de position du RNI, en affirmant que le transhumance politique est un droit garanti et en rejetant le",
+    "body": [
+      "L’article rapporte la réaction du PAM aux prises de position du RNI, en affirmant que le transhumance politique est un droit garanti et en rejetant les accusations portées contre lui."
+    ]
+  },
+  "en": {
+    "title": "PAM responds to RNI: party switching is a guaranteed right and accusations are rejected",
+    "excerpt": "The piece covers the Authenticity and Modernity Party’s response to the National Rally of Independents, asserting that party switching is a guaranteed",
+    "body": [
+      "The piece covers the Authenticity and Modernity Party’s response to the National Rally of Independents, asserting that party switching is a guaranteed right and rejecting the accusations made against it."
+    ]
+  }
+},
+{
+  "id": 561,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article561/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-2026-%d9%83%d9%8a%d9%81-%d8%aa%d8%a8%d8%af%d9%88-%d8%ae%d8%b1%d9%8a%d8%b7%d8%a9-%d8%a7%d9%84%d8%aa%d9%86%d8%a7%d9%81%d8%b3-%d9%81%d9%8a-%d8%af%d8%a7-1797268.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "انتخابات 2026.. كيف تبدو خريطة التنافس في دائرة أكادير إداوتنان؟",
+    "excerpt": "يحلل الخبر معطيات التنافس الحزبي المرتقب في انتخابات 2026 بدائرة أكادير إداوتنان وتركيبة الفاعلين السياسيين فيها.",
+    "body": [
+      "يحلل الخبر معطيات التنافس الحزبي المرتقب في انتخابات 2026 بدائرة أكادير إداوتنان وتركيبة الفاعلين السياسيين فيها."
+    ]
+  },
+  "fr": {
+    "title": "Législatives 2026 : à quoi ressemble la carte de la compétition dans la circonscription Agadir Ida-Outanane ?",
+    "excerpt": "L’article dresse un état des lieux de la compétition partisane prévue aux législatives de 2026 dans la circonscription d’Agadir Ida-Outanane et des fo",
+    "body": [
+      "L’article dresse un état des lieux de la compétition partisane prévue aux législatives de 2026 dans la circonscription d’Agadir Ida-Outanane et des forces en présence."
+    ]
+  },
+  "en": {
+    "title": "2026 elections: what does the competition map look like in Agadir Ida-Outanane?",
+    "excerpt": "The piece outlines the expected party competition in the 2026 elections in the Agadir Ida-Outanane constituency and the main political actors involved",
+    "body": [
+      "The piece outlines the expected party competition in the 2026 elections in the Agadir Ida-Outanane constituency and the main political actors involved."
+    ]
+  }
+},
+{
+  "id": 562,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article562/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-2026-%d8%af%d8%a7%d8%a6%d8%b1%d8%a9-%d9%88%d8%b2%d8%a7%d9%86-%d8%aa%d8%aa%d8%a3%d8%b1%d8%ac%d8%ad-%d8%a8%d9%8a%d9%86-%d9%85%d8%b3%d8%a7%d8%b9%d9%8a-1796936.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "انتخابات 2026.. دائرة وزان تتأرجح بين مساعي التأكيد وطموحات التجديد",
+    "excerpt": "يتناول الخبر مشهد التنافس الانتخابي المرتقب في دائرة وزان سنة 2026 بين فاعلين يسعون إلى تأكيد حضورهم وآخرين يطمحون إلى تجديد الخريطة السياسية.",
+    "body": [
+      "يتناول الخبر مشهد التنافس الانتخابي المرتقب في دائرة وزان سنة 2026 بين فاعلين يسعون إلى تأكيد حضورهم وآخرين يطمحون إلى تجديد الخريطة السياسية."
+    ]
+  },
+  "fr": {
+    "title": "Législatives 2026 : la circonscription de Ouezzane entre volonté de confirmation et ambitions de renouveau",
+    "excerpt": "L’article décrit la scène compétitive attendue en 2026 dans la circonscription de Ouezzane, partagée entre acteurs voulant consolider leurs positions ",
+    "body": [
+      "L’article décrit la scène compétitive attendue en 2026 dans la circonscription de Ouezzane, partagée entre acteurs voulant consolider leurs positions et d’autres visant le renouveau politique."
+    ]
+  },
+  "en": {
+    "title": "2026 elections: Ouezzane constituency between efforts to confirm and ambitions for renewal",
+    "excerpt": "The piece describes the expected 2026 electoral contest in the Ouezzane constituency, where some actors seek to confirm their standing while others ai",
+    "body": [
+      "The piece describes the expected 2026 electoral contest in the Ouezzane constituency, where some actors seek to confirm their standing while others aim to reshape the local political map."
+    ]
+  }
+},
+{
+  "id": 563,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article563/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%b9%d8%ab%d9%85%d8%a7%d9%86-%d9%88%d9%85%d9%86%d8%a7%d9%84-%d8%a8%d8%a7%d8%af%d9%84-%d9%8a%d8%a8%d8%b1%d8%b1%d8%a7%d9%86-%d8%a7%d9%84%d8%a7%d9%86%d8%b6%d9%85%d8%a7%d9%85-%d9%84%d9%80%d8%a7%d9%84-1797166.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "عثمان ومنال بادِل يبرران الانضمام لـ\"البام\"",
+    "excerpt": "يستعرض الخبر تصريحات عثمان ومنال بادِل لتبرير اختيارهما الالتحاق بحزب الأصالة والمعاصرة ومسوغات هذا الانتقال السياسي.",
+    "body": [
+      "يستعرض الخبر تصريحات عثمان ومنال بادِل لتبرير اختيارهما الالتحاق بحزب الأصالة والمعاصرة ومسوغات هذا الانتقال السياسي."
+    ]
+  },
+  "fr": {
+    "title": "Othmane et Manal Baddel justifient leur ralliement au PAM",
+    "excerpt": "L’article rapporte les déclarations d’Othmane et Manal Baddel qui expliquent les raisons de leur adhésion au Parti de l’authenticité et de la modernit",
+    "body": [
+      "L’article rapporte les déclarations d’Othmane et Manal Baddel qui expliquent les raisons de leur adhésion au Parti de l’authenticité et de la modernité."
+    ]
+  },
+  "en": {
+    "title": "Othmane and Manal Baddel explain their decision to join PAM",
+    "excerpt": "The piece relays statements by Othmane and Manal Baddel explaining why they chose to join the Authenticity and Modernity Party and how they justify th",
+    "body": [
+      "The piece relays statements by Othmane and Manal Baddel explaining why they chose to join the Authenticity and Modernity Party and how they justify this political move."
+    ]
+  }
+},
+{
+  "id": 564,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "economie",
+  "img": "https://picsum.photos/seed/ds24article564/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%81%d8%a7%d8%b5%d9%8a%d9%84-%d9%85%d8%b1%d8%b3%d9%88%d9%85-%d8%a5%d8%b9%d9%84%d8%a7%d9%86-%d8%a5%d8%b3%d8%a8%d8%a7%d9%86%d9%8a%d8%a7-%d8%b3%d8%a8%d8%aa%d8%a9-%d8%a7%d9%84%d9%85%d8%ad%d8%aa-1797133.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "تفاصيل مرسوم إعلان إسبانيا سبتة المحتلة \"ذات أهمية للأمن القومي\"",
+    "excerpt": "يفصل الخبر في مضامين مرسوم إسباني يعتبر سبتة المحتلة منطقة ذات أهمية للأمن القومي، وما يثيره ذلك من نقاش سياسي وإعلامي.",
+    "body": [
+      "يفصل الخبر في مضامين مرسوم إسباني يعتبر سبتة المحتلة منطقة ذات أهمية للأمن القومي، وما يثيره ذلك من نقاش سياسي وإعلامي."
+    ]
+  },
+  "fr": {
+    "title": "Les détails du décret espagnol qualifiant Sebta occupée de \"zone d’importance pour la sécurité nationale\"",
+    "excerpt": "L’article présente les principales dispositions d’un décret espagnol classant Sebta occupée comme zone d’importance pour la sécurité nationale et le d",
+    "body": [
+      "L’article présente les principales dispositions d’un décret espagnol classant Sebta occupée comme zone d’importance pour la sécurité nationale et le débat politique qui en découle."
+    ]
+  },
+  "en": {
+    "title": "Details of Spain’s decree declaring occupied Ceuta ‘of importance to national security’",
+    "excerpt": "The piece outlines the main points of a Spanish decree that labels occupied Ceuta as an area of importance to national security and the debate this ha",
+    "body": [
+      "The piece outlines the main points of a Spanish decree that labels occupied Ceuta as an area of importance to national security and the debate this has sparked."
+    ]
+  }
+},
+{
+  "id": 565,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "politique",
+  "img": "https://picsum.photos/seed/ds24article565/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8%d8%a7%d8%aa-2026-%d8%a7%d9%84%d8%aa%d8%b1%d8%ad%d8%a7%d9%84-%d8%a7%d9%84%d8%b3%d9%8a%d8%a7%d8%b3%d9%8a-%d9%8a%d9%82%d9%84%d8%a8-%d9%85%d9%88%d8%a7%d8%b2-1796855.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "انتخابات 2026.. \"الترحال السياسي\" يقلب موازين المنافسة في دائرة العرائش",
+    "excerpt": "يركز الخبر على تأثير انتقال المنتخبين بين الأحزاب على توازنات التنافس الانتخابي المرتقب في دائرة العرائش سنة 2026.",
+    "body": [
+      "يركز الخبر على تأثير انتقال المنتخبين بين الأحزاب على توازنات التنافس الانتخابي المرتقب في دائرة العرائش سنة 2026."
+    ]
+  },
+  "fr": {
+    "title": "Législatives 2026 : la \"transhumance politique\" rebat les cartes dans la circonscription de Larache",
+    "excerpt": "L’article met en lumière l’impact des changements d’étiquette partisane des élus sur l’équilibre de la compétition à Larache en vue des législatives 2",
+    "body": [
+      "L’article met en lumière l’impact des changements d’étiquette partisane des élus sur l’équilibre de la compétition à Larache en vue des législatives 2026."
+    ]
+  },
+  "en": {
+    "title": "2026 elections: ‘political nomadism’ reshapes competition in the Larache constituency",
+    "excerpt": "The piece highlights how elected officials switching parties are altering the balance of electoral competition in the Larache constituency ahead of th",
+    "body": [
+      "The piece highlights how elected officials switching parties are altering the balance of electoral competition in the Larache constituency ahead of the 2026 vote."
+    ]
+  }
+},
+{
+  "id": 567,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article567/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d9%88%d8%b2%d8%b9-%d8%ad%d9%82%d8%a7%d8%a6%d8%a8-%d9%85%d8%af%d8%b1%d8%b3%d9%8a%d8%a9-%d8%a8%d8%a7%d9%84%d9%82%d8%af%d8%b3-1797341.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "المغرب يوزع حقائب مدرسية بالقدس",
+    "excerpt": "يبرز الخبر مبادرة مغربية لتوزيع حقائب مدرسية على تلاميذ في القدس، في إطار دعم الجانب التعليمي والاجتماعي.",
+    "body": [
+      "يبرز الخبر مبادرة مغربية لتوزيع حقائب مدرسية على تلاميذ في القدس، في إطار دعم الجانب التعليمي والاجتماعي."
+    ]
+  },
+  "fr": {
+    "title": "Le Maroc distribue des cartables scolaires à Al-Qods",
+    "excerpt": "L’article met en avant une initiative marocaine de distribution de cartables scolaires à des élèves à Al-Qods, dans une démarche de soutien éducatif e",
+    "body": [
+      "L’article met en avant une initiative marocaine de distribution de cartables scolaires à des élèves à Al-Qods, dans une démarche de soutien éducatif et social."
+    ]
+  },
+  "en": {
+    "title": "Morocco distributes schoolbags in Jerusalem",
+    "excerpt": "The piece highlights a Moroccan initiative to hand out schoolbags to pupils in Jerusalem as part of educational and social support efforts.",
+    "body": [
+      "The piece highlights a Moroccan initiative to hand out schoolbags to pupils in Jerusalem as part of educational and social support efforts."
+    ]
+  }
+},
+{
+  "id": 568,
+  "addedAt": "2026-08-27T05:49:23Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article568/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%82%d8%b1%d9%8a%d8%b1-%d9%8a%d9%81%d8%ad%d8%b5-%d8%a7%d9%84%d8%ad%d8%b1%d9%8a%d8%a9-%d8%a7%d9%84%d8%af%d9%8a%d9%86%d9%8a%d8%a9-%d8%a8%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-1797119.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "تقرير يفحص \"الحرية الدينية\" بالمغرب",
+    "excerpt": "يستعرض الخبر تقريراً يسلط الضوء على وضع الحرية الدينية في المغرب ويحلل بعض مؤشراتها وتحدياتها.",
+    "body": [
+      "يستعرض الخبر تقريراً يسلط الضوء على وضع الحرية الدينية في المغرب ويحلل بعض مؤشراتها وتحدياتها."
+    ]
+  },
+  "fr": {
+    "title": "Un rapport examine la \"liberté religieuse\" au Maroc",
+    "excerpt": "L’article présente un rapport qui se penche sur l’état de la liberté religieuse au Maroc et en analyse certains indicateurs et défis.",
+    "body": [
+      "L’article présente un rapport qui se penche sur l’état de la liberté religieuse au Maroc et en analyse certains indicateurs et défis."
+    ]
+  },
+  "en": {
+    "title": "Report examines ‘religious freedom’ in Morocco",
+    "excerpt": "The piece discusses a report that sheds light on the state of religious freedom in Morocco, reviewing key indicators and challenges.",
+    "body": [
+      "The piece discusses a report that sheds light on the state of religious freedom in Morocco, reviewing key indicators and challenges."
+    ]
+  }
+}
 );
