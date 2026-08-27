@@ -10052,4 +10052,107 @@ ARTICLES.push(
     ]
   }
 }
+,
+{
+  "id": 569,
+  "addedAt": "2026-08-27T07:23:16Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article569/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d9%85%d8%b4%d8%b1%d9%88%d8%b9-%d8%a8%d9%82%d9%8a%d9%85%d8%a9-60-%d9%85%d9%84%d9%8a%d9%88%d9%86-%d9%8a%d9%88%d8%b1%d9%88-%d9%84%d8%b4%d8%b1%d8%a7%d8%a1-%d8%a7%d9%84%d9%82%d8%b1%d9%88%d8%b6-%d8%a7-1797158.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 570,
+  "addedAt": "2026-08-27T07:23:16Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article570/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%aa%d9%88%d9%82%d8%b9%d8%a7%d8%aa-%d8%b7%d9%82%d8%b3-%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%ae%d9%85%d9%8a%d8%b3-%d8%a8%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-92-1797438.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+},
+{
+  "id": 571,
+  "addedAt": "2026-08-27T07:23:16Z",
+  "category": "societe",
+  "img": "https://picsum.photos/seed/ds24article571/800/450",
+  "source_name": "Hespress",
+  "source_url": "https://www.hespress.com/%d8%a7%d9%84%d8%ae%d9%84%d9%81%d9%8a-%d9%8a%d8%b1%d8%b5%d8%af-%d8%b3%d8%b1%d8%b9%d8%aa%d9%8a%d9%86-%d9%81%d9%8a-%d8%a7%d9%84%d9%85%d8%af%d8%b1%d8%b3%d8%a9-%d9%88%d9%8a%d8%ad%d8%b0%d8%b1-%d9%85-1797486.html",
+  "time": {
+    "ar": "منذ يوم",
+    "fr": "il y a un jour",
+    "en": "a day ago"
+  },
+  "ar": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "fr": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  },
+  "en": {
+    "title": "",
+    "excerpt": "",
+    "body": [
+      ""
+    ]
+  }
+}
 );
